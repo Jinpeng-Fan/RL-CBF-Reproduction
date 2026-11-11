@@ -4,7 +4,7 @@
 
 包含倒立摆（`pendulum/`）与车辆跟随（`car/`）两个算例。复现报告见 `report/main.pdf`（正文）和 `report/supplement.pdf`（参考文献与附录）。
 
-## 答辩演示：双击即可启动（Windows）
+## 快速开始：双击启动（Windows）
 
 | 双击文件 | 执行内容 |
 |---|---|
@@ -15,7 +15,7 @@
 
 操作步骤：双击对应文件 → 等待初始化 → 浏览器自动打开 **Scalars** 页面。在左侧筛选 `seed1`、`seed2`、`seed3` 或 `TRPO-CBF` 等算法名称。历史面板首次加载需要等待，曲线齐全后即可演示。
 
-- **首次准备**：需要可从 PATH 找到的 Python 3.9+（本机已验证 Python 3.13）。启动器会在 `E:/RL-CBF-Data/viewer/` 建立独立看板环境并安装 TensorBoard 2.21.0，首次安装需要联网；安装完成后可以离线使用。答辩前请各双击一次完成准备。
+- **首次准备**：需要可从 PATH 找到的 Python 3.9+（本机已验证 Python 3.13）。启动器会在 `E:/RL-CBF-Data/viewer/` 建立独立看板环境并安装 TensorBoard 2.21.0，首次安装需要联网；安装完成后可以离线使用。首次使用前请分别双击一次，完成环境准备。
 - **训练环境**：仍使用 Python 3.7.9 / TensorFlow 1.15。启动器自动查找仓库内 `.venv-train/Scripts/python.exe`，以及本机仓库旁的 `../.runtime/python37_cpu/python.exe`，并检查依赖。其他电脑需先准备 `requirements.txt` 所述训练环境，将解释器路径填入 `demo_config.json` 的 `training.python`，也可通过 `RLCBF_TRAIN_PY` 环境变量指定。训练环境不包含在仓库中。
 - **输出与端口**：每次训练自动创建新目录，位于 `E:/RL-CBF-Data/<仓库标识>/runs/<时间戳>/`，窗口会显示具体路径。面板从原始 `episodes.csv` 生成精简事件文件，放在 `sessions/<本次启动>/curves/`，兼容中文仓库路径。倒立摆历史面板默认端口 6007，车辆历史面板 6009，车辆实时面板 6008；端口被占用时自动选择空闲端口，以窗口显示的地址为准。
 - **E 盘存储约定**：`demo_config.json` 的 `storage_root` 默认是 `E:/RL-CBF-Data`，可改为 E 盘上的其他英文绝对路径，也可用 `RLCBF_DATA_ROOT` 环境变量覆盖。启动器拒绝 C 盘输出目录；看板环境、安装临时文件、pip 缓存、TensorBoard 服务信息与 Matplotlib 缓存也写在此 E 盘目录中，不修改系统全局 TEMP 设置。C 盘旧版入口产生的本次训练记录已迁到 E 盘相同仓库标识目录，记录内的旧命令路径作为历史信息保留。
@@ -78,7 +78,6 @@ RL-CBF-Reproduction/
 ├── view_pendulum.bat / view_car.bat  分别打开单个历史面板
 ├── demo_config.json             演示算法、种子、步数、历史实验组与端口
 ├── scripts/                     一键启动器与独立看板环境管理
-├── PPT/                         正式演示 PDF、LaTeX 源码与配套图表
 ├── tensorboard/                  主结果与作者源码重跑的 TensorBoard 日志（两个算例共 48 个运行）
 ├── report/                       复现报告 PDF、LaTeX 源码、图表与绘图脚本
 │   └── figures/                  make_pendulum_figs.py, extract_original.py, make_car_figs.py,
@@ -128,14 +127,14 @@ RL-CBF-Reproduction/
 
 ## 查看训练曲线（TensorBoard）
 
-Windows 答辩展示直接双击 `view_tensorboard.bat`，使用步骤见开头。下面是手动查看方式，应在独立 Python 3.9+ 看板环境中执行（无需 TensorFlow）：
+在 Windows 上查看训练曲线，可直接双击 `view_tensorboard.bat`，使用步骤见开头。下面是手动查看方式，应在独立 Python 3.9+ 看板环境中执行（无需 TensorFlow）：
 
 ```bash
 python -m pip install tensorboard==2.21.0
 python -m tensorboard.main --logdir tensorboard --host 127.0.0.1 --port 6007 --load_fast false
 ```
 
-浏览器打开 <http://127.0.0.1:6007>。该手动命令用于检查原始完整日志，会混合全部 48 个运行及所有指标。答辩请使用上方一键入口：两个独立精简面板各 12 组主结果。以下标签说明仅针对原始完整日志。
+浏览器打开 <http://127.0.0.1:6007>。该手动命令用于检查原始完整日志，会混合全部 48 个运行及所有指标。查看主实验结果时，建议使用上方一键入口：两个独立精简面板各 12 组主结果。以下标签说明仅针对原始完整日志。
 
 - 包含 `final_600ep`（修改后代码）和 `author_code_default`（作者源码）两组；`checkpoint_rerun_seed1` 只用于报告图 2，不放入 TensorBoard。运行名称格式为 `<结果组>/seed<k>/<算法>`，可在左侧按正则筛选，例如 `final_600ep.*CBF` 只看修改后的两种 CBF 版本。
 - 标量包括：`return/episode_return`、`return/episode_return_ma10`、`safety/max_abs_angle_rad`、`safety/unsafe_episode`、`safety/unsafe_episodes_cum`、`cbf/correction_rms`、`cbf/max_slack`。横轴为训练 episode。

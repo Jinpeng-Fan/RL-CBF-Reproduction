@@ -34,3 +34,6 @@ PPT/*.snm
 PPT/*.toc
 PPT/*.out
 PPT/*.vrb
+
+# Presentation materials are kept outside the public repository
+/PPT/
