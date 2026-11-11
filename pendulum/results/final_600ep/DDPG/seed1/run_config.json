@@ -1,0 +1,36 @@
+{
+  "algorithm": "DDPG",
+  "seed": 1,
+  "episodes": 2000,
+  "argv": [
+    "E:\\OneDrive - \u5357\u65b9\u79d1\u6280\u5927\u5b66\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-Revised\\pendulum\\runs_v2\\full_20261106_2023\\DDPG-e5\\seed1\\source\\ddpg.py",
+    "--max-episodes",
+    "2000",
+    "--random-seed",
+    "1",
+    "--max-episode-len",
+    "200",
+    "--episodes-per-iteration",
+    "5",
+    "--gamma",
+    "0.99",
+    "--noise-sigma",
+    "1.0",
+    "--summary-dir",
+    "E:\\OneDrive - \u5357\u65b9\u79d1\u6280\u5927\u5b66\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-Revised\\pendulum\\runs_v2\\full_20261106_2023\\DDPG-e5\\seed1\\tf_summary",
+    "--minibatch-size",
+    "256",
+    "--critic-lr",
+    "0.0005",
+    "--actor-lr",
+    "0.0001",
+    "--buffer-size",
+    "100000"
+  ],
+  "source_sha256": {
+    "ddpg.py": "76f2afe4e5968186c6da1603a116dc9f55127d66934e5f90cddb3bc518cb76d0",
+    "fair_environment.py": "bcc9ee7d0b8afeab46a20484381e7df50dc4b36c3942a5d0e1f607ac5834908d",
+    "obs_norm.py": "f8be7094a184c9d965dd8fa6dfcb909432aeda8d34675aef4e87267847204b80",
+    "replay_buffer.py": "42497f4b003d4ba8f1cf4622977c899711a74bfd49b2f004d407f762abea9761"
+  }
+}

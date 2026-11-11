@@ -1,0 +1,1218 @@
+curses is not supported on this machine (please install/reinstall curses for an optimal experience)
+{'actor_lr': '0.0001',
+ 'buffer_size': '100000',
+ 'critic_lr': '0.0005',
+ 'env': 'Pendulum-v0',
+ 'episodes_per_iteration': 5,
+ 'gamma': '0.99',
+ 'max_episode_len': '200',
+ 'max_episodes': '600',
+ 'minibatch_size': '256',
+ 'monitor_dir': './results2/gym_ddpg',
+ 'noise_sigma': 1.0,
+ 'random_seed': '1',
+ 'render_env': False,
+ 'summary_dir': 'E:\\OneDrive - '
+                '南方科技大学\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-Revised\\pendulum\\runs_ckpt\\DDPG\\seed1\\tf_summary',
+ 'tau': 0.001,
+ 'use_gym_monitor': False}
+| Reward: -1051 | Episode: 0 | Qmax: 0.0000
+LIVE {"episode": 1, "reward": -1051.4485593207476, "max_angle": 3.1236809398774503}
+| Reward: -21236 | Episode: 1 | Qmax: -0.1890
+LIVE {"episode": 2, "reward": -21236.103216032756, "max_angle": 3.118987522905582}
+| Reward: -1171 | Episode: 2 | Qmax: -0.0045
+LIVE {"episode": 3, "reward": -1171.4829465912596, "max_angle": 3.1321079744431257}
+| Reward: -1372 | Episode: 3 | Qmax: -0.1592
+LIVE {"episode": 4, "reward": -1372.4321411797673, "max_angle": 3.1415252221950394}
+| Reward: -850 | Episode: 4 | Qmax: -0.5387
+LIVE {"episode": 5, "reward": -850.8565980799485, "max_angle": 3.1181198580143743}
+| Reward: -2282 | Episode: 5 | Qmax: 0.1820
+LIVE {"episode": 6, "reward": -2282.056748756038, "max_angle": 3.138045402838435}
+| Reward: -31249 | Episode: 6 | Qmax: -0.7909
+LIVE {"episode": 7, "reward": -31249.06447082037, "max_angle": 3.1287981269045657}
+| Reward: -3411 | Episode: 7 | Qmax: 2.4045
+LIVE {"episode": 8, "reward": -3411.6065276807044, "max_angle": 3.111589854606553}
+| Reward: -705 | Episode: 8 | Qmax: 0.1553
+LIVE {"episode": 9, "reward": -705.5403792223192, "max_angle": 2.937636205304419}
+| Reward: -273 | Episode: 9 | Qmax: 0.1485
+LIVE {"episode": 10, "reward": -273.9602820793509, "max_angle": 1.595118156188112}
+| Reward: -74 | Episode: 10 | Qmax: 0.7240
+LIVE {"episode": 11, "reward": -74.5525327886509, "max_angle": 1.1259716509627808}
+| Reward: -13 | Episode: 11 | Qmax: 1.0711
+LIVE {"episode": 12, "reward": -13.880983263524454, "max_angle": 0.8537052998883357}
+| Reward: -10 | Episode: 12 | Qmax: 1.1483
+LIVE {"episode": 13, "reward": -10.687370654804752, "max_angle": 0.6380010777654876}
+| Reward: -24 | Episode: 13 | Qmax: 0.9578
+LIVE {"episode": 14, "reward": -24.36818236796028, "max_angle": 0.9234994365771778}
+| Reward: -23 | Episode: 14 | Qmax: 0.6726
+LIVE {"episode": 15, "reward": -23.00803602258312, "max_angle": 0.5254303663537893}
+| Reward: -10 | Episode: 15 | Qmax: -0.0143
+LIVE {"episode": 16, "reward": -10.667122811926486, "max_angle": 0.3664630819220908}
+| Reward: -16 | Episode: 16 | Qmax: -0.3229
+LIVE {"episode": 17, "reward": -16.789069638351535, "max_angle": 0.44567409788747137}
+| Reward: -23 | Episode: 17 | Qmax: -0.7140
+LIVE {"episode": 18, "reward": -23.553697118921885, "max_angle": 0.6654762414084712}
+| Reward: -24 | Episode: 18 | Qmax: -1.0056
+LIVE {"episode": 19, "reward": -24.514207404845592, "max_angle": 0.5968223932613178}
+| Reward: -69 | Episode: 19 | Qmax: -1.1384
+LIVE {"episode": 20, "reward": -69.04181100592551, "max_angle": 0.7822264251214863}
+| Reward: -41 | Episode: 20 | Qmax: -1.2068
+LIVE {"episode": 21, "reward": -41.072555849900695, "max_angle": 0.7000263040891705}
+| Reward: -155 | Episode: 21 | Qmax: -1.3640
+LIVE {"episode": 22, "reward": -155.72121764762468, "max_angle": 1.1217566816896982}
+| Reward: -138 | Episode: 22 | Qmax: -1.2380
+LIVE {"episode": 23, "reward": -138.45929340611397, "max_angle": 1.0540135302891283}
+| Reward: -162 | Episode: 23 | Qmax: -1.0547
+LIVE {"episode": 24, "reward": -162.0608391600358, "max_angle": 1.076827063826765}
+| Reward: -219 | Episode: 24 | Qmax: -0.9651
+LIVE {"episode": 25, "reward": -219.20884534417183, "max_angle": 1.041264642729668}
+| Reward: -250 | Episode: 25 | Qmax: -0.5409
+LIVE {"episode": 26, "reward": -250.3665417392985, "max_angle": 1.1370272700522317}
+| Reward: -210 | Episode: 26 | Qmax: -0.7720
+LIVE {"episode": 27, "reward": -210.5884396144069, "max_angle": 1.0764437846233585}
+| Reward: -29 | Episode: 27 | Qmax: -0.8843
+LIVE {"episode": 28, "reward": -29.329874344498066, "max_angle": 0.507583645518105}
+| Reward: -255 | Episode: 28 | Qmax: -1.0655
+LIVE {"episode": 29, "reward": -255.44316405180606, "max_angle": 1.1050445923598347}
+| Reward: -252 | Episode: 29 | Qmax: -1.2348
+LIVE {"episode": 30, "reward": -252.8846160982715, "max_angle": 1.1315098031234936}
+| Reward: -179 | Episode: 30 | Qmax: -0.8445
+LIVE {"episode": 31, "reward": -179.44615743677542, "max_angle": 1.0328132582434781}
+| Reward: -73 | Episode: 31 | Qmax: -1.1030
+LIVE {"episode": 32, "reward": -73.4445403673655, "max_angle": 0.8526656593604964}
+| Reward: -118 | Episode: 32 | Qmax: -1.2868
+LIVE {"episode": 33, "reward": -118.22656062162055, "max_angle": 0.8835541925893747}
+| Reward: -117 | Episode: 33 | Qmax: -1.4909
+LIVE {"episode": 34, "reward": -117.15485283398598, "max_angle": 0.9236013307559011}
+| Reward: -64 | Episode: 34 | Qmax: -1.5301
+LIVE {"episode": 35, "reward": -64.04398779912731, "max_angle": 0.7497321152651971}
+| Reward: -75 | Episode: 35 | Qmax: -1.1150
+LIVE {"episode": 36, "reward": -75.08290175568636, "max_angle": 0.8152977265709653}
+| Reward: -53 | Episode: 36 | Qmax: -1.0673
+LIVE {"episode": 37, "reward": -53.867119011623274, "max_angle": 0.7256864794560445}
+| Reward: -64 | Episode: 37 | Qmax: -0.9349
+LIVE {"episode": 38, "reward": -64.48318467334883, "max_angle": 0.9311208417893075}
+| Reward: -62 | Episode: 38 | Qmax: -0.7626
+LIVE {"episode": 39, "reward": -62.303635472022194, "max_angle": 0.7738086705107186}
+| Reward: -31 | Episode: 39 | Qmax: -0.6627
+LIVE {"episode": 40, "reward": -31.80505609385934, "max_angle": 0.6076683850697877}
+| Reward: -75 | Episode: 40 | Qmax: -0.0720
+LIVE {"episode": 41, "reward": -75.01987312869325, "max_angle": 0.8489453695126716}
+| Reward: -60 | Episode: 41 | Qmax: 0.0835
+LIVE {"episode": 42, "reward": -60.48702282418978, "max_angle": 0.9314966649824894}
+| Reward: -49 | Episode: 42 | Qmax: 0.2781
+LIVE {"episode": 43, "reward": -49.09393529744924, "max_angle": 0.6446211008655014}
+| Reward: -52 | Episode: 43 | Qmax: 0.4650
+LIVE {"episode": 44, "reward": -52.67774486346956, "max_angle": 0.7224931353460907}
+| Reward: -52 | Episode: 44 | Qmax: 0.4717
+LIVE {"episode": 45, "reward": -52.66108132980001, "max_angle": 0.9539192785310764}
+| Reward: -36 | Episode: 45 | Qmax: 1.1616
+LIVE {"episode": 46, "reward": -36.13053227382219, "max_angle": 0.5521131096669518}
+| Reward: -48 | Episode: 46 | Qmax: 1.3653
+LIVE {"episode": 47, "reward": -48.25391049960592, "max_angle": 0.7298265619239841}
+| Reward: -33 | Episode: 47 | Qmax: 1.4451
+LIVE {"episode": 48, "reward": -33.067615366167495, "max_angle": 0.5197340457698242}
+| Reward: -54 | Episode: 48 | Qmax: 1.6308
+LIVE {"episode": 49, "reward": -54.47478614980073, "max_angle": 0.6571842637348256}
+| Reward: -61 | Episode: 49 | Qmax: 1.8112
+LIVE {"episode": 50, "reward": -61.85450345935942, "max_angle": 0.8585721716439649}
+| Reward: -57 | Episode: 50 | Qmax: 2.4864
+LIVE {"episode": 51, "reward": -57.86890623268743, "max_angle": 0.7724430390091074}
+| Reward: -39 | Episode: 51 | Qmax: 2.6486
+LIVE {"episode": 52, "reward": -39.64626970796503, "max_angle": 0.7949574593877178}
+| Reward: -60 | Episode: 52 | Qmax: 2.7954
+LIVE {"episode": 53, "reward": -60.7451056170464, "max_angle": 0.6692371558694867}
+| Reward: -36 | Episode: 53 | Qmax: 2.9459
+LIVE {"episode": 54, "reward": -36.99502473353397, "max_angle": 0.570104554916083}
+| Reward: -42 | Episode: 54 | Qmax: 3.0938
+LIVE {"episode": 55, "reward": -42.7761687869303, "max_angle": 0.688215867717706}
+| Reward: -31 | Episode: 55 | Qmax: 3.4712
+LIVE {"episode": 56, "reward": -31.542862291522177, "max_angle": 0.7328014272245813}
+| Reward: -77 | Episode: 56 | Qmax: 3.5897
+LIVE {"episode": 57, "reward": -77.02552111138758, "max_angle": 0.8181990029291004}
+| Reward: -77 | Episode: 57 | Qmax: 3.7583
+LIVE {"episode": 58, "reward": -77.53117696649427, "max_angle": 0.6530731375887612}
+| Reward: -71 | Episode: 58 | Qmax: 3.8767
+LIVE {"episode": 59, "reward": -71.0174882534552, "max_angle": 0.9069061451954905}
+| Reward: -79 | Episode: 59 | Qmax: 3.9069
+LIVE {"episode": 60, "reward": -79.82498131467774, "max_angle": 0.6851436241156854}
+| Reward: -148 | Episode: 60 | Qmax: 3.7248
+LIVE {"episode": 61, "reward": -148.37989263008285, "max_angle": 0.9825507321361793}
+| Reward: -87 | Episode: 61 | Qmax: 3.8728
+LIVE {"episode": 62, "reward": -87.0977236925983, "max_angle": 0.8134092897950893}
+| Reward: -91 | Episode: 62 | Qmax: 4.0116
+LIVE {"episode": 63, "reward": -91.97151797433128, "max_angle": 1.011495667781374}
+| Reward: -29 | Episode: 63 | Qmax: 4.0868
+LIVE {"episode": 64, "reward": -29.15465589293929, "max_angle": 0.564491545437459}
+| Reward: -162 | Episode: 64 | Qmax: 4.2186
+LIVE {"episode": 65, "reward": -162.35965316871372, "max_angle": 1.006643636848145}
+| Reward: -96 | Episode: 65 | Qmax: 4.0976
+LIVE {"episode": 66, "reward": -96.7237471145971, "max_angle": 0.753518147837214}
+| Reward: -29 | Episode: 66 | Qmax: 4.1822
+LIVE {"episode": 67, "reward": -29.719882440216505, "max_angle": 0.49311567369585285}
+| Reward: -73 | Episode: 67 | Qmax: 4.2322
+LIVE {"episode": 68, "reward": -73.15155968750533, "max_angle": 1.039651902595653}
+| Reward: -140 | Episode: 68 | Qmax: 4.3112
+LIVE {"episode": 69, "reward": -140.2592080279618, "max_angle": 1.0525538923063285}
+| Reward: -171 | Episode: 69 | Qmax: 4.4269
+LIVE {"episode": 70, "reward": -171.68134692426446, "max_angle": 1.0696795312375735}
+| Reward: -189 | Episode: 70 | Qmax: 4.4842
+LIVE {"episode": 71, "reward": -189.18047085718064, "max_angle": 1.049339780426381}
+| Reward: -205 | Episode: 71 | Qmax: 4.5702
+LIVE {"episode": 72, "reward": -205.34488740545333, "max_angle": 1.0658165075853858}
+| Reward: -202 | Episode: 72 | Qmax: 4.6556
+LIVE {"episode": 73, "reward": -202.02011776534755, "max_angle": 1.0562127933343601}
+| Reward: -131 | Episode: 73 | Qmax: 4.6859
+LIVE {"episode": 74, "reward": -131.60169941096098, "max_angle": 0.8394221685105884}
+| Reward: -183 | Episode: 74 | Qmax: 4.7719
+LIVE {"episode": 75, "reward": -183.58875325398137, "max_angle": 1.0528522189796121}
+| Reward: -155 | Episode: 75 | Qmax: 4.3009
+LIVE {"episode": 76, "reward": -155.16826311060206, "max_angle": 0.984518451489965}
+| Reward: -130 | Episode: 76 | Qmax: 4.4024
+LIVE {"episode": 77, "reward": -130.6888573649992, "max_angle": 0.8579479133895407}
+| Reward: -138 | Episode: 77 | Qmax: 4.4823
+LIVE {"episode": 78, "reward": -138.76224718974728, "max_angle": 0.872926899288423}
+| Reward: -211 | Episode: 78 | Qmax: 4.4583
+LIVE {"episode": 79, "reward": -211.65162933996797, "max_angle": 1.067136770708092}
+| Reward: -139 | Episode: 79 | Qmax: 4.5156
+LIVE {"episode": 80, "reward": -139.92105115061963, "max_angle": 0.9554241645145312}
+| Reward: -206 | Episode: 80 | Qmax: 3.3325
+LIVE {"episode": 81, "reward": -206.15789789560625, "max_angle": 1.0851000953016827}
+| Reward: -174 | Episode: 81 | Qmax: 3.2826
+LIVE {"episode": 82, "reward": -174.22480277047063, "max_angle": 0.9981361736320365}
+| Reward: -162 | Episode: 82 | Qmax: 3.4662
+LIVE {"episode": 83, "reward": -162.54317943892144, "max_angle": 0.9738775444561254}
+| Reward: -203 | Episode: 83 | Qmax: 3.4349
+LIVE {"episode": 84, "reward": -203.19730734677623, "max_angle": 1.0703632736552708}
+| Reward: -201 | Episode: 84 | Qmax: 3.5651
+LIVE {"episode": 85, "reward": -201.25307320567848, "max_angle": 1.0742352556254393}
+| Reward: -191 | Episode: 85 | Qmax: 2.8988
+LIVE {"episode": 86, "reward": -191.0902727315626, "max_angle": 1.0435723690961682}
+| Reward: -183 | Episode: 86 | Qmax: 2.8832
+LIVE {"episode": 87, "reward": -183.50461951474563, "max_angle": 1.0242496552177176}
+| Reward: -194 | Episode: 87 | Qmax: 2.9658
+LIVE {"episode": 88, "reward": -194.42057735418675, "max_angle": 1.0551118052667838}
+| Reward: -183 | Episode: 88 | Qmax: 2.7813
+LIVE {"episode": 89, "reward": -183.89879325277988, "max_angle": 1.0096202315156007}
+| Reward: -194 | Episode: 89 | Qmax: 3.3068
+LIVE {"episode": 90, "reward": -194.07588034393396, "max_angle": 1.0368609796120951}
+| Reward: -187 | Episode: 90 | Qmax: 3.6894
+LIVE {"episode": 91, "reward": -187.85721951248837, "max_angle": 1.0739103934602268}
+| Reward: -36 | Episode: 91 | Qmax: 3.9984
+LIVE {"episode": 92, "reward": -36.3926872786786, "max_angle": 0.5832811044627126}
+| Reward: -151 | Episode: 92 | Qmax: 3.4972
+LIVE {"episode": 93, "reward": -151.13294137015504, "max_angle": 0.9743699080600559}
+| Reward: -194 | Episode: 93 | Qmax: 3.1791
+LIVE {"episode": 94, "reward": -194.31507569329509, "max_angle": 1.0383278091869137}
+| Reward: -171 | Episode: 94 | Qmax: 3.5693
+LIVE {"episode": 95, "reward": -171.20070655406775, "max_angle": 0.9728355571713095}
+| Reward: -175 | Episode: 95 | Qmax: 3.1099
+LIVE {"episode": 96, "reward": -175.64369455208148, "max_angle": 0.9966227642053584}
+| Reward: -34 | Episode: 96 | Qmax: 3.4644
+LIVE {"episode": 97, "reward": -34.135737832542276, "max_angle": 0.5054588823164934}
+| Reward: -147 | Episode: 97 | Qmax: 3.0807
+LIVE {"episode": 98, "reward": -147.78442959494564, "max_angle": 0.9470499482572337}
+| Reward: -162 | Episode: 98 | Qmax: 3.8219
+LIVE {"episode": 99, "reward": -162.0453350465566, "max_angle": 0.9905366137216527}
+| Reward: -38 | Episode: 99 | Qmax: 3.2627
+LIVE {"episode": 100, "reward": -38.24414304360462, "max_angle": 0.5684299396812896}
+| Reward: -149 | Episode: 100 | Qmax: 4.3482
+LIVE {"episode": 101, "reward": -149.17044227976396, "max_angle": 1.0158670068314377}
+| Reward: -151 | Episode: 101 | Qmax: 4.2093
+LIVE {"episode": 102, "reward": -151.73655300700176, "max_angle": 0.9768498983396169}
+| Reward: -39 | Episode: 102 | Qmax: 4.1197
+LIVE {"episode": 103, "reward": -39.612895157102386, "max_angle": 0.5173902838213589}
+| Reward: -156 | Episode: 103 | Qmax: 4.6295
+LIVE {"episode": 104, "reward": -156.40375612513148, "max_angle": 1.051814888832648}
+| Reward: -192 | Episode: 104 | Qmax: 4.4907
+LIVE {"episode": 105, "reward": -192.08628538334486, "max_angle": 1.0486562646923532}
+| Reward: -163 | Episode: 105 | Qmax: 5.7724
+LIVE {"episode": 106, "reward": -163.4062785626559, "max_angle": 1.0194706949972325}
+| Reward: -274 | Episode: 106 | Qmax: 5.9880
+LIVE {"episode": 107, "reward": -274.89154425456326, "max_angle": 1.2222641686090816}
+| Reward: -195 | Episode: 107 | Qmax: 5.7736
+LIVE {"episode": 108, "reward": -195.51543928807752, "max_angle": 1.0572255876173897}
+| Reward: -287 | Episode: 108 | Qmax: 6.1105
+LIVE {"episode": 109, "reward": -287.36739892093857, "max_angle": 1.2189319135115342}
+| Reward: -20 | Episode: 109 | Qmax: 5.7661
+LIVE {"episode": 110, "reward": -20.46477255681646, "max_angle": 0.47907379702548164}
+| Reward: -18 | Episode: 110 | Qmax: 5.5715
+LIVE {"episode": 111, "reward": -18.15058268814883, "max_angle": 0.4710515839455451}
+| Reward: -282 | Episode: 111 | Qmax: 5.9467
+LIVE {"episode": 112, "reward": -282.1066752520737, "max_angle": 1.2291226172024812}
+| Reward: -202 | Episode: 112 | Qmax: 5.7902
+LIVE {"episode": 113, "reward": -202.5791053784111, "max_angle": 1.062161753774199}
+| Reward: -33 | Episode: 113 | Qmax: 6.2941
+LIVE {"episode": 114, "reward": -33.32274780908575, "max_angle": 0.4776675663461145}
+| Reward: -192 | Episode: 114 | Qmax: 5.6931
+LIVE {"episode": 115, "reward": -192.18751723976771, "max_angle": 1.0243091956639525}
+| Reward: -191 | Episode: 115 | Qmax: 6.8003
+LIVE {"episode": 116, "reward": -191.16164182333048, "max_angle": 1.0222308063156675}
+| Reward: -6 | Episode: 116 | Qmax: 6.8592
+LIVE {"episode": 117, "reward": -6.393126478450359, "max_angle": 0.2677573311262194}
+| Reward: -23 | Episode: 117 | Qmax: 6.3371
+LIVE {"episode": 118, "reward": -23.577869628368653, "max_angle": 0.4102743095650259}
+| Reward: -188 | Episode: 118 | Qmax: 6.7462
+LIVE {"episode": 119, "reward": -188.49387258325558, "max_angle": 1.089944374076804}
+| Reward: -189 | Episode: 119 | Qmax: 6.5567
+LIVE {"episode": 120, "reward": -189.17007253998804, "max_angle": 1.1033983654046906}
+| Reward: -181 | Episode: 120 | Qmax: 7.1146
+LIVE {"episode": 121, "reward": -181.05988585811338, "max_angle": 1.0701419748354877}
+| Reward: -15 | Episode: 121 | Qmax: 7.4299
+LIVE {"episode": 122, "reward": -15.1100795332118, "max_angle": 0.3849771782149922}
+| Reward: -10 | Episode: 122 | Qmax: 8.1513
+LIVE {"episode": 123, "reward": -10.059339153554781, "max_angle": 0.4671011564815119}
+| Reward: -175 | Episode: 123 | Qmax: 7.1040
+LIVE {"episode": 124, "reward": -175.1238018420728, "max_angle": 0.9982791916825998}
+| Reward: -286 | Episode: 124 | Qmax: 7.4969
+LIVE {"episode": 125, "reward": -286.9540676245634, "max_angle": 1.2332148611660794}
+| Reward: -181 | Episode: 125 | Qmax: 7.8081
+LIVE {"episode": 126, "reward": -181.98419723255526, "max_angle": 1.0120328278167676}
+| Reward: -22 | Episode: 126 | Qmax: 8.1644
+LIVE {"episode": 127, "reward": -22.28487451878694, "max_angle": 0.46685314834798347}
+| Reward: -158 | Episode: 127 | Qmax: 8.2627
+LIVE {"episode": 128, "reward": -158.94201805284783, "max_angle": 1.0321816443860903}
+| Reward: -156 | Episode: 128 | Qmax: 8.2919
+LIVE {"episode": 129, "reward": -156.1566336351723, "max_angle": 0.9606339521768719}
+| Reward: -18 | Episode: 129 | Qmax: 8.4475
+LIVE {"episode": 130, "reward": -18.975120086099547, "max_angle": 0.39976381182599163}
+| Reward: -20 | Episode: 130 | Qmax: 8.3426
+LIVE {"episode": 131, "reward": -20.496528357698487, "max_angle": 0.5575976169851362}
+| Reward: -26 | Episode: 131 | Qmax: 8.7920
+LIVE {"episode": 132, "reward": -26.529666624098024, "max_angle": 0.3785944992133263}
+| Reward: -31 | Episode: 132 | Qmax: 8.7928
+LIVE {"episode": 133, "reward": -31.60017507117238, "max_angle": 1.0356204349205462}
+| Reward: -22 | Episode: 133 | Qmax: 9.3203
+LIVE {"episode": 134, "reward": -22.013837050940047, "max_angle": 0.4592156121681074}
+| Reward: -552 | Episode: 134 | Qmax: 9.0974
+LIVE {"episode": 135, "reward": -552.951315456926, "max_angle": 1.846122004581675}
+| Reward: -219 | Episode: 135 | Qmax: 9.1127
+LIVE {"episode": 136, "reward": -219.33584099317997, "max_angle": 1.8795225638272854}
+| Reward: -76 | Episode: 136 | Qmax: 10.0275
+LIVE {"episode": 137, "reward": -76.61001249681392, "max_angle": 0.9065974785204989}
+| Reward: -142 | Episode: 137 | Qmax: 10.6803
+LIVE {"episode": 138, "reward": -142.11287716756942, "max_angle": 0.9317052908270481}
+| Reward: -38 | Episode: 138 | Qmax: 10.6777
+LIVE {"episode": 139, "reward": -38.56423319805388, "max_angle": 0.5527076910509916}
+| Reward: -134 | Episode: 139 | Qmax: 10.2808
+LIVE {"episode": 140, "reward": -134.72923392854406, "max_angle": 0.9373747115237954}
+| Reward: -29 | Episode: 140 | Qmax: 12.0135
+LIVE {"episode": 141, "reward": -29.578053401404258, "max_angle": 0.4360120605244739}
+| Reward: -544 | Episode: 141 | Qmax: 11.1182
+LIVE {"episode": 142, "reward": -544.3751702653556, "max_angle": 1.889438010304286}
+| Reward: -134 | Episode: 142 | Qmax: 11.4625
+LIVE {"episode": 143, "reward": -134.9233362930283, "max_angle": 1.5692269173481033}
+| Reward: -40 | Episode: 143 | Qmax: 10.2407
+LIVE {"episode": 144, "reward": -40.928728067687814, "max_angle": 0.45975308745701976}
+| Reward: -67 | Episode: 144 | Qmax: 10.2256
+LIVE {"episode": 145, "reward": -67.46318855061658, "max_angle": 0.7595577290387759}
+| Reward: -36 | Episode: 145 | Qmax: 11.5944
+LIVE {"episode": 146, "reward": -36.13870803908155, "max_angle": 0.540139936991863}
+| Reward: -114 | Episode: 146 | Qmax: 11.8736
+LIVE {"episode": 147, "reward": -114.82869442893892, "max_angle": 0.8536614854745762}
+| Reward: -127 | Episode: 147 | Qmax: 11.3427
+LIVE {"episode": 148, "reward": -127.4868313093422, "max_angle": 0.9188842421152599}
+| Reward: -119 | Episode: 148 | Qmax: 12.8856
+LIVE {"episode": 149, "reward": -119.14794522042274, "max_angle": 0.9213120527537582}
+| Reward: -25 | Episode: 149 | Qmax: 14.6624
+LIVE {"episode": 150, "reward": -25.29978865583846, "max_angle": 0.43293161664236823}
+| Reward: -297 | Episode: 150 | Qmax: 15.3217
+LIVE {"episode": 151, "reward": -297.04001812045544, "max_angle": 1.5407789760394874}
+| Reward: -325 | Episode: 151 | Qmax: 15.0625
+LIVE {"episode": 152, "reward": -325.2007638998654, "max_angle": 1.5268608829789228}
+| Reward: -218 | Episode: 152 | Qmax: 14.6710
+LIVE {"episode": 153, "reward": -218.71656788046062, "max_angle": 1.4300994134898457}
+| Reward: -133 | Episode: 153 | Qmax: 14.6576
+LIVE {"episode": 154, "reward": -133.79524409459523, "max_angle": 0.979867949531828}
+| Reward: -132 | Episode: 154 | Qmax: 16.2843
+LIVE {"episode": 155, "reward": -132.75682659951684, "max_angle": 0.9649228704185063}
+| Reward: -166 | Episode: 155 | Qmax: 16.4405
+LIVE {"episode": 156, "reward": -166.00881121288907, "max_angle": 1.073187101963985}
+| Reward: -310 | Episode: 156 | Qmax: 17.2307
+LIVE {"episode": 157, "reward": -310.0754281448927, "max_angle": 1.5502692733961998}
+| Reward: -289 | Episode: 157 | Qmax: 19.1764
+LIVE {"episode": 158, "reward": -289.59251265235844, "max_angle": 1.5037040888577478}
+| Reward: -441 | Episode: 158 | Qmax: 17.8713
+LIVE {"episode": 159, "reward": -441.46682992466555, "max_angle": 1.571599969552416}
+| Reward: -451 | Episode: 159 | Qmax: 19.1728
+LIVE {"episode": 160, "reward": -451.17107622524475, "max_angle": 1.586753141205316}
+| Reward: -271 | Episode: 160 | Qmax: 18.7689
+LIVE {"episode": 161, "reward": -271.2616388480501, "max_angle": 1.6132833665028208}
+| Reward: -160 | Episode: 161 | Qmax: 22.5802
+LIVE {"episode": 162, "reward": -160.3312044527832, "max_angle": 1.044625400188272}
+| Reward: -288 | Episode: 162 | Qmax: 19.8766
+LIVE {"episode": 163, "reward": -288.4337562673077, "max_angle": 1.6033544222302523}
+| Reward: -180 | Episode: 163 | Qmax: 19.3535
+LIVE {"episode": 164, "reward": -180.60102856887423, "max_angle": 1.0919819421540116}
+| Reward: -248 | Episode: 164 | Qmax: 23.6602
+LIVE {"episode": 165, "reward": -248.51745330796774, "max_angle": 1.430222736631877}
+| Reward: -179 | Episode: 165 | Qmax: 23.2597
+LIVE {"episode": 166, "reward": -179.2004011720332, "max_angle": 1.0126153733480818}
+| Reward: -180 | Episode: 166 | Qmax: 22.6578
+LIVE {"episode": 167, "reward": -180.6849758588143, "max_angle": 1.0089977840372086}
+| Reward: -205 | Episode: 167 | Qmax: 25.4257
+LIVE {"episode": 168, "reward": -205.17977479752068, "max_angle": 1.1888700975651583}
+| Reward: -211 | Episode: 168 | Qmax: 20.8919
+LIVE {"episode": 169, "reward": -211.3789095678052, "max_angle": 1.1596798592298048}
+| Reward: -177 | Episode: 169 | Qmax: 25.2353
+LIVE {"episode": 170, "reward": -177.48368477293064, "max_angle": 1.0191212238615797}
+| Reward: -179 | Episode: 170 | Qmax: 23.9139
+LIVE {"episode": 171, "reward": -179.9981457885382, "max_angle": 1.0207443664362812}
+| Reward: -174 | Episode: 171 | Qmax: 23.1054
+LIVE {"episode": 172, "reward": -174.35948405383988, "max_angle": 1.0053869216704747}
+| Reward: -192 | Episode: 172 | Qmax: 23.7863
+LIVE {"episode": 173, "reward": -192.20235954346134, "max_angle": 1.1365232814478525}
+| Reward: -187 | Episode: 173 | Qmax: 26.6024
+LIVE {"episode": 174, "reward": -187.79547924113982, "max_angle": 1.1357656807412055}
+| Reward: -311 | Episode: 174 | Qmax: 27.6691
+LIVE {"episode": 175, "reward": -311.42411608558837, "max_angle": 1.6128762990317134}
+| Reward: -570 | Episode: 175 | Qmax: 27.7730
+LIVE {"episode": 176, "reward": -570.8816126170179, "max_angle": 1.7733677424036929}
+| Reward: -252 | Episode: 176 | Qmax: 27.4636
+LIVE {"episode": 177, "reward": -252.1444724053575, "max_angle": 1.6073582529566075}
+| Reward: -190 | Episode: 177 | Qmax: 29.6738
+LIVE {"episode": 178, "reward": -190.08749676084827, "max_angle": 1.098346722021622}
+| Reward: -184 | Episode: 178 | Qmax: 28.7601
+LIVE {"episode": 179, "reward": -184.36053644945275, "max_angle": 1.0787735750294176}
+| Reward: -182 | Episode: 179 | Qmax: 30.9464
+LIVE {"episode": 180, "reward": -182.45515273930135, "max_angle": 1.1105334964095799}
+| Reward: -221 | Episode: 180 | Qmax: 34.2950
+LIVE {"episode": 181, "reward": -221.02316314081955, "max_angle": 1.4797314954958318}
+| Reward: -168 | Episode: 181 | Qmax: 32.0295
+LIVE {"episode": 182, "reward": -168.3640351015133, "max_angle": 1.111903198514536}
+| Reward: -168 | Episode: 182 | Qmax: 33.9419
+LIVE {"episode": 183, "reward": -168.07254016725287, "max_angle": 1.1232717158229308}
+| Reward: -168 | Episode: 183 | Qmax: 33.4397
+LIVE {"episode": 184, "reward": -168.87071595274023, "max_angle": 1.1253517313694124}
+| Reward: -163 | Episode: 184 | Qmax: 31.2290
+LIVE {"episode": 185, "reward": -163.30113024785277, "max_angle": 1.159349851781829}
+| Reward: -160 | Episode: 185 | Qmax: 33.0239
+LIVE {"episode": 186, "reward": -160.0854675535066, "max_angle": 1.1742026484845502}
+| Reward: -157 | Episode: 186 | Qmax: 30.0842
+LIVE {"episode": 187, "reward": -157.73843813008344, "max_angle": 1.1272804834527277}
+| Reward: -168 | Episode: 187 | Qmax: 31.4090
+LIVE {"episode": 188, "reward": -168.98904606497234, "max_angle": 1.1781551794114766}
+| Reward: -166 | Episode: 188 | Qmax: 32.0529
+LIVE {"episode": 189, "reward": -166.21250893770807, "max_angle": 1.1819822128576125}
+| Reward: -159 | Episode: 189 | Qmax: 32.5002
+LIVE {"episode": 190, "reward": -159.7758441904912, "max_angle": 1.1303252818149878}
+| Reward: -156 | Episode: 190 | Qmax: 35.1949
+LIVE {"episode": 191, "reward": -156.2061188306914, "max_angle": 1.1756784688703692}
+| Reward: -156 | Episode: 191 | Qmax: 34.9333
+LIVE {"episode": 192, "reward": -156.79782734165582, "max_angle": 1.1434226497444013}
+| Reward: -162 | Episode: 192 | Qmax: 35.1159
+LIVE {"episode": 193, "reward": -162.43869466148638, "max_angle": 1.170728101264711}
+| Reward: -177 | Episode: 193 | Qmax: 35.1596
+LIVE {"episode": 194, "reward": -177.99754109001705, "max_angle": 1.2078602207624116}
+| Reward: -156 | Episode: 194 | Qmax: 33.4351
+LIVE {"episode": 195, "reward": -156.57234262267198, "max_angle": 0.9570655869093718}
+| Reward: -149 | Episode: 195 | Qmax: 34.6070
+LIVE {"episode": 196, "reward": -149.38663467245073, "max_angle": 1.0297475003394783}
+| Reward: -167 | Episode: 196 | Qmax: 37.6139
+LIVE {"episode": 197, "reward": -167.76874648223352, "max_angle": 1.2375389195862012}
+| Reward: -149 | Episode: 197 | Qmax: 34.3457
+LIVE {"episode": 198, "reward": -149.17524396272196, "max_angle": 1.1898714367950742}
+| Reward: -156 | Episode: 198 | Qmax: 36.1014
+LIVE {"episode": 199, "reward": -156.3611854842555, "max_angle": 1.22819338074943}
+| Reward: -166 | Episode: 199 | Qmax: 34.2101
+LIVE {"episode": 200, "reward": -166.9741894670506, "max_angle": 1.2280875303177727}
+| Reward: -139 | Episode: 200 | Qmax: 35.0695
+LIVE {"episode": 201, "reward": -139.05703099959246, "max_angle": 1.0150100286761612}
+| Reward: -139 | Episode: 201 | Qmax: 33.7128
+LIVE {"episode": 202, "reward": -139.02261516087486, "max_angle": 0.9762483981788626}
+| Reward: -147 | Episode: 202 | Qmax: 36.3214
+LIVE {"episode": 203, "reward": -147.07962736347926, "max_angle": 1.0929741010921403}
+| Reward: -138 | Episode: 203 | Qmax: 34.6799
+LIVE {"episode": 204, "reward": -138.4854810611107, "max_angle": 0.9416455121978026}
+| Reward: -156 | Episode: 204 | Qmax: 37.5622
+LIVE {"episode": 205, "reward": -156.7167799370742, "max_angle": 1.1943089970101097}
+| Reward: -130 | Episode: 205 | Qmax: 38.1279
+LIVE {"episode": 206, "reward": -130.9125931585034, "max_angle": 0.9302060183088571}
+| Reward: -149 | Episode: 206 | Qmax: 36.0330
+LIVE {"episode": 207, "reward": -149.33015465821282, "max_angle": 1.2191666862221697}
+| Reward: -136 | Episode: 207 | Qmax: 35.3610
+LIVE {"episode": 208, "reward": -136.5970218405956, "max_angle": 0.9197252490447424}
+| Reward: -138 | Episode: 208 | Qmax: 37.2869
+LIVE {"episode": 209, "reward": -138.87131185498393, "max_angle": 1.1887262339829663}
+| Reward: -141 | Episode: 209 | Qmax: 38.9251
+LIVE {"episode": 210, "reward": -141.0157442480969, "max_angle": 1.227315679491939}
+| Reward: -114 | Episode: 210 | Qmax: 37.8031
+LIVE {"episode": 211, "reward": -114.84000816178659, "max_angle": 0.8532372622712252}
+| Reward: -104 | Episode: 211 | Qmax: 38.3267
+LIVE {"episode": 212, "reward": -104.03198570871447, "max_angle": 0.8254976329483242}
+| Reward: -146 | Episode: 212 | Qmax: 36.1703
+LIVE {"episode": 213, "reward": -146.71908235947686, "max_angle": 1.2448126300129712}
+| Reward: -138 | Episode: 213 | Qmax: 38.2213
+LIVE {"episode": 214, "reward": -138.2706447739377, "max_angle": 1.209184243223148}
+| Reward: -133 | Episode: 214 | Qmax: 38.2896
+LIVE {"episode": 215, "reward": -133.34153534653765, "max_angle": 0.9012515396831685}
+| Reward: -137 | Episode: 215 | Qmax: 37.7815
+LIVE {"episode": 216, "reward": -137.44969855107544, "max_angle": 1.2373359251386145}
+| Reward: -113 | Episode: 216 | Qmax: 37.6824
+LIVE {"episode": 217, "reward": -113.19883466520547, "max_angle": 0.8328830876398462}
+| Reward: -130 | Episode: 217 | Qmax: 37.4380
+LIVE {"episode": 218, "reward": -130.00350186561144, "max_angle": 1.2811026907223169}
+| Reward: -127 | Episode: 218 | Qmax: 38.2610
+LIVE {"episode": 219, "reward": -127.1666125833811, "max_angle": 1.2579520190446938}
+| Reward: -115 | Episode: 219 | Qmax: 38.5182
+LIVE {"episode": 220, "reward": -115.91837505438458, "max_angle": 0.9414982863205655}
+| Reward: -134 | Episode: 220 | Qmax: 38.2438
+LIVE {"episode": 221, "reward": -134.49833237390948, "max_angle": 1.2708237691396336}
+| Reward: -140 | Episode: 221 | Qmax: 38.2004
+LIVE {"episode": 222, "reward": -140.27812502349553, "max_angle": 1.3490423184369371}
+| Reward: -136 | Episode: 222 | Qmax: 38.8092
+LIVE {"episode": 223, "reward": -136.32382804918595, "max_angle": 1.2901071269888338}
+| Reward: -112 | Episode: 223 | Qmax: 38.5062
+LIVE {"episode": 224, "reward": -112.799483371915, "max_angle": 0.9769158259723132}
+| Reward: -90 | Episode: 224 | Qmax: 40.4956
+LIVE {"episode": 225, "reward": -90.9867947930787, "max_angle": 0.769427996292162}
+| Reward: -140 | Episode: 225 | Qmax: 38.7528
+LIVE {"episode": 226, "reward": -140.51410981105093, "max_angle": 1.3026746934596252}
+| Reward: -117 | Episode: 226 | Qmax: 40.4205
+LIVE {"episode": 227, "reward": -117.23425619633096, "max_angle": 1.1628636262217233}
+| Reward: -101 | Episode: 227 | Qmax: 40.4474
+LIVE {"episode": 228, "reward": -101.70486708978821, "max_angle": 0.8766780440142725}
+| Reward: -99 | Episode: 228 | Qmax: 41.7498
+LIVE {"episode": 229, "reward": -99.82493828265392, "max_angle": 0.9577237417384463}
+| Reward: -129 | Episode: 229 | Qmax: 40.6162
+LIVE {"episode": 230, "reward": -129.8190709242221, "max_angle": 1.3098300158182645}
+| Reward: -121 | Episode: 230 | Qmax: 40.9838
+LIVE {"episode": 231, "reward": -121.05010484639189, "max_angle": 1.3010685149838463}
+| Reward: -88 | Episode: 231 | Qmax: 39.2416
+LIVE {"episode": 232, "reward": -88.04663469421429, "max_angle": 0.8875440996744008}
+| Reward: -101 | Episode: 232 | Qmax: 39.9337
+LIVE {"episode": 233, "reward": -101.86944003366202, "max_angle": 1.0538286823314527}
+| Reward: -132 | Episode: 233 | Qmax: 40.4478
+LIVE {"episode": 234, "reward": -132.38942505140392, "max_angle": 1.3566363801201367}
+| Reward: -107 | Episode: 234 | Qmax: 40.4806
+LIVE {"episode": 235, "reward": -107.78715646707316, "max_angle": 1.3013973363740978}
+| Reward: -118 | Episode: 235 | Qmax: 41.6759
+LIVE {"episode": 236, "reward": -118.64621327892486, "max_angle": 1.398322663082941}
+| Reward: -85 | Episode: 236 | Qmax: 43.3421
+LIVE {"episode": 237, "reward": -85.21779909960783, "max_angle": 0.7719176357513587}
+| Reward: -101 | Episode: 237 | Qmax: 44.3064
+LIVE {"episode": 238, "reward": -101.69317366752095, "max_angle": 1.2662243162198197}
+| Reward: -93 | Episode: 238 | Qmax: 44.0443
+LIVE {"episode": 239, "reward": -93.59532941882613, "max_angle": 0.8205673393795296}
+| Reward: -115 | Episode: 239 | Qmax: 43.8378
+LIVE {"episode": 240, "reward": -115.93695840496777, "max_angle": 1.3205830607892017}
+| Reward: -111 | Episode: 240 | Qmax: 45.3024
+LIVE {"episode": 241, "reward": -111.30218847081466, "max_angle": 1.316252205089463}
+| Reward: -116 | Episode: 241 | Qmax: 44.9203
+LIVE {"episode": 242, "reward": -116.89433564695616, "max_angle": 1.340142880742464}
+| Reward: -99 | Episode: 242 | Qmax: 46.6260
+LIVE {"episode": 243, "reward": -99.53531560707405, "max_angle": 0.8529307022709418}
+| Reward: -121 | Episode: 243 | Qmax: 44.8943
+LIVE {"episode": 244, "reward": -121.86044753751943, "max_angle": 1.3611107476635111}
+| Reward: -141 | Episode: 244 | Qmax: 45.5822
+LIVE {"episode": 245, "reward": -141.83550313480825, "max_angle": 1.4084152319504737}
+| Reward: -98 | Episode: 245 | Qmax: 46.3210
+LIVE {"episode": 246, "reward": -98.30372730979786, "max_angle": 0.763529041645656}
+| Reward: -103 | Episode: 246 | Qmax: 48.7384
+LIVE {"episode": 247, "reward": -103.90538742870962, "max_angle": 0.9991218102800546}
+| Reward: -119 | Episode: 247 | Qmax: 47.4132
+LIVE {"episode": 248, "reward": -119.14900722811913, "max_angle": 1.326854317584393}
+| Reward: -103 | Episode: 248 | Qmax: 47.2792
+LIVE {"episode": 249, "reward": -103.2477535797675, "max_angle": 1.0474310115381944}
+| Reward: -109 | Episode: 249 | Qmax: 47.1906
+LIVE {"episode": 250, "reward": -109.60359588231661, "max_angle": 1.04966935177437}
+| Reward: -131 | Episode: 250 | Qmax: 49.7258
+LIVE {"episode": 251, "reward": -131.8938481251244, "max_angle": 1.3435571239156625}
+| Reward: -101 | Episode: 251 | Qmax: 49.4001
+LIVE {"episode": 252, "reward": -101.77942433607228, "max_angle": 0.7810097392173854}
+| Reward: -133 | Episode: 252 | Qmax: 49.5977
+LIVE {"episode": 253, "reward": -133.34177515462602, "max_angle": 1.3247745760488734}
+| Reward: -110 | Episode: 253 | Qmax: 51.4100
+LIVE {"episode": 254, "reward": -110.20160335192904, "max_angle": 0.7790918202376808}
+| Reward: -157 | Episode: 254 | Qmax: 51.4795
+LIVE {"episode": 255, "reward": -157.446961384622, "max_angle": 1.3925029282412096}
+| Reward: -161 | Episode: 255 | Qmax: 49.8586
+LIVE {"episode": 256, "reward": -161.69363874620848, "max_angle": 1.3960028284188577}
+| Reward: -154 | Episode: 256 | Qmax: 49.8752
+LIVE {"episode": 257, "reward": -154.98204049243904, "max_angle": 1.3469861968650183}
+| Reward: -147 | Episode: 257 | Qmax: 52.3443
+LIVE {"episode": 258, "reward": -147.30456569233706, "max_angle": 1.4264820373521856}
+| Reward: -115 | Episode: 258 | Qmax: 51.4174
+LIVE {"episode": 259, "reward": -115.09907177009896, "max_angle": 0.8874849319303278}
+| Reward: -142 | Episode: 259 | Qmax: 51.5952
+LIVE {"episode": 260, "reward": -142.64921152491456, "max_angle": 1.3923408956999728}
+| Reward: -145 | Episode: 260 | Qmax: 53.8897
+LIVE {"episode": 261, "reward": -145.54513255807996, "max_angle": 1.3509888013458242}
+| Reward: -256 | Episode: 261 | Qmax: 53.5196
+LIVE {"episode": 262, "reward": -256.0148442525335, "max_angle": 1.4277470467245212}
+| Reward: -116 | Episode: 262 | Qmax: 55.9235
+LIVE {"episode": 263, "reward": -116.17677804962493, "max_angle": 0.9263031223226958}
+| Reward: -231 | Episode: 263 | Qmax: 55.9383
+LIVE {"episode": 264, "reward": -231.12130694530796, "max_angle": 1.5442627184428663}
+| Reward: -190 | Episode: 264 | Qmax: 55.3945
+LIVE {"episode": 265, "reward": -190.53329578432974, "max_angle": 1.4492191496414308}
+| Reward: -115 | Episode: 265 | Qmax: 56.5727
+LIVE {"episode": 266, "reward": -115.71470772788466, "max_angle": 0.9649775560679238}
+| Reward: -275 | Episode: 266 | Qmax: 58.0845
+LIVE {"episode": 267, "reward": -275.06567832480806, "max_angle": 1.4137147436499617}
+| Reward: -285 | Episode: 267 | Qmax: 59.9763
+LIVE {"episode": 268, "reward": -285.74449965678735, "max_angle": 1.453035986544585}
+| Reward: -115 | Episode: 268 | Qmax: 57.7028
+LIVE {"episode": 269, "reward": -115.4444640855347, "max_angle": 0.8719470486035926}
+| Reward: -123 | Episode: 269 | Qmax: 56.9589
+LIVE {"episode": 270, "reward": -123.33898295027907, "max_angle": 1.029241306706591}
+| Reward: -288 | Episode: 270 | Qmax: 59.5683
+LIVE {"episode": 271, "reward": -288.5187231132917, "max_angle": 1.443009100558156}
+| Reward: -307 | Episode: 271 | Qmax: 59.6803
+LIVE {"episode": 272, "reward": -307.3249745616466, "max_angle": 1.5404742188332523}
+| Reward: -219 | Episode: 272 | Qmax: 59.6794
+LIVE {"episode": 273, "reward": -219.17900920570813, "max_angle": 1.46037223429726}
+| Reward: -112 | Episode: 273 | Qmax: 57.3732
+LIVE {"episode": 274, "reward": -112.37807134343682, "max_angle": 1.0842866807974965}
+| Reward: -275 | Episode: 274 | Qmax: 58.1706
+LIVE {"episode": 275, "reward": -275.87690567131597, "max_angle": 1.4857318244238347}
+| Reward: -94 | Episode: 275 | Qmax: 59.2271
+LIVE {"episode": 276, "reward": -94.41726517588508, "max_angle": 0.9176536982406427}
+| Reward: -205 | Episode: 276 | Qmax: 58.0105
+LIVE {"episode": 277, "reward": -205.96870438578736, "max_angle": 1.5132978470872733}
+| Reward: -78 | Episode: 277 | Qmax: 58.7881
+LIVE {"episode": 278, "reward": -78.40798917491182, "max_angle": 0.904800656020929}
+| Reward: -155 | Episode: 278 | Qmax: 60.7730
+LIVE {"episode": 279, "reward": -155.73993398883763, "max_angle": 1.4995686675609967}
+| Reward: -124 | Episode: 279 | Qmax: 60.0405
+LIVE {"episode": 280, "reward": -124.46467680363487, "max_angle": 1.5273013168395706}
+| Reward: -231 | Episode: 280 | Qmax: 60.5386
+LIVE {"episode": 281, "reward": -231.44599291702534, "max_angle": 1.4894656610500192}
+| Reward: -84 | Episode: 281 | Qmax: 62.4742
+LIVE {"episode": 282, "reward": -84.97810243105285, "max_angle": 1.077407630313856}
+| Reward: -85 | Episode: 282 | Qmax: 59.0167
+LIVE {"episode": 283, "reward": -85.82162816541526, "max_angle": 0.9316832582716427}
+| Reward: -120 | Episode: 283 | Qmax: 62.2746
+LIVE {"episode": 284, "reward": -120.2137701128927, "max_angle": 1.2574567275644335}
+| Reward: -81 | Episode: 284 | Qmax: 59.1297
+LIVE {"episode": 285, "reward": -81.99893546009962, "max_angle": 0.9244485813900368}
+| Reward: -56 | Episode: 285 | Qmax: 62.0299
+LIVE {"episode": 286, "reward": -56.25476627372174, "max_angle": 0.9177466138308639}
+| Reward: -146 | Episode: 286 | Qmax: 60.0538
+LIVE {"episode": 287, "reward": -146.09080614153382, "max_angle": 1.376797037201332}
+| Reward: -262 | Episode: 287 | Qmax: 60.9439
+LIVE {"episode": 288, "reward": -262.0166329406834, "max_angle": 1.2601114703199672}
+| Reward: -133 | Episode: 288 | Qmax: 61.6515
+LIVE {"episode": 289, "reward": -133.89561926126436, "max_angle": 1.3604462793460697}
+| Reward: -249 | Episode: 289 | Qmax: 63.2537
+LIVE {"episode": 290, "reward": -249.31246794631258, "max_angle": 1.4636686769826177}
+| Reward: -121 | Episode: 290 | Qmax: 61.1002
+LIVE {"episode": 291, "reward": -121.84478578079398, "max_angle": 1.3274957870340558}
+| Reward: -171 | Episode: 291 | Qmax: 61.3268
+LIVE {"episode": 292, "reward": -171.02967446495092, "max_angle": 1.61798702533057}
+| Reward: -94 | Episode: 292 | Qmax: 59.3378
+LIVE {"episode": 293, "reward": -94.28800531250195, "max_angle": 0.8942193180542135}
+| Reward: -288 | Episode: 293 | Qmax: 62.5020
+LIVE {"episode": 294, "reward": -288.1817406672441, "max_angle": 1.378067729461268}
+| Reward: -289 | Episode: 294 | Qmax: 59.6923
+LIVE {"episode": 295, "reward": -289.7402627306484, "max_angle": 1.3378591224770626}
+| Reward: -69 | Episode: 295 | Qmax: 61.1773
+LIVE {"episode": 296, "reward": -69.30984702951662, "max_angle": 0.8777326013411408}
+| Reward: -55 | Episode: 296 | Qmax: 62.9404
+LIVE {"episode": 297, "reward": -55.12267573499814, "max_angle": 0.7954021946912246}
+| Reward: -75 | Episode: 297 | Qmax: 63.3398
+LIVE {"episode": 298, "reward": -75.53143278896842, "max_angle": 0.8180271811553557}
+| Reward: -105 | Episode: 298 | Qmax: 61.6355
+LIVE {"episode": 299, "reward": -105.66790909152216, "max_angle": 0.9847284864303795}
+| Reward: -80 | Episode: 299 | Qmax: 63.5679
+LIVE {"episode": 300, "reward": -80.23803894078345, "max_angle": 0.8630848790671475}
+| Reward: -85 | Episode: 300 | Qmax: 63.3483
+LIVE {"episode": 301, "reward": -85.30667142452698, "max_angle": 0.8982860363892728}
+| Reward: -82 | Episode: 301 | Qmax: 65.8427
+LIVE {"episode": 302, "reward": -82.4085862275807, "max_angle": 0.912173176617312}
+| Reward: -259 | Episode: 302 | Qmax: 65.2022
+LIVE {"episode": 303, "reward": -259.5840628165208, "max_angle": 1.7158626031409412}
+| Reward: -95 | Episode: 303 | Qmax: 66.9662
+LIVE {"episode": 304, "reward": -95.02584149247492, "max_angle": 1.0245149879116917}
+| Reward: -329 | Episode: 304 | Qmax: 63.5903
+LIVE {"episode": 305, "reward": -329.2467671430276, "max_angle": 1.37131597787604}
+| Reward: -338 | Episode: 305 | Qmax: 69.1157
+LIVE {"episode": 306, "reward": -338.4304605692766, "max_angle": 1.4150410288769868}
+| Reward: -356 | Episode: 306 | Qmax: 69.2776
+LIVE {"episode": 307, "reward": -356.42627802806555, "max_angle": 1.7128261569441203}
+| Reward: -109 | Episode: 307 | Qmax: 73.2269
+LIVE {"episode": 308, "reward": -109.89175388590952, "max_angle": 1.3798058401384572}
+| Reward: -197 | Episode: 308 | Qmax: 68.9802
+LIVE {"episode": 309, "reward": -197.7215695158613, "max_angle": 1.399499132107837}
+| Reward: -1377 | Episode: 309 | Qmax: 68.4373
+LIVE {"episode": 310, "reward": -1377.245103205955, "max_angle": 3.0183293022547133}
+| Reward: -280 | Episode: 310 | Qmax: 75.4504
+LIVE {"episode": 311, "reward": -280.3199792588251, "max_angle": 1.79624639467527}
+| Reward: -364 | Episode: 311 | Qmax: 73.5172
+LIVE {"episode": 312, "reward": -364.1262969940344, "max_angle": 1.837724686388927}
+| Reward: -305 | Episode: 312 | Qmax: 75.4437
+LIVE {"episode": 313, "reward": -305.18962989439126, "max_angle": 1.842619599495146}
+| Reward: -336 | Episode: 313 | Qmax: 69.2873
+LIVE {"episode": 314, "reward": -336.6993273610086, "max_angle": 1.473753126256567}
+| Reward: -367 | Episode: 314 | Qmax: 70.6076
+LIVE {"episode": 315, "reward": -367.4648120258511, "max_angle": 1.4448734402923054}
+| Reward: -373 | Episode: 315 | Qmax: 74.3920
+LIVE {"episode": 316, "reward": -373.8968143095467, "max_angle": 1.490497344233915}
+| Reward: -412 | Episode: 316 | Qmax: 70.8853
+LIVE {"episode": 317, "reward": -412.82453966239115, "max_angle": 1.5881731653742341}
+| Reward: -421 | Episode: 317 | Qmax: 71.5175
+LIVE {"episode": 318, "reward": -421.05459124729003, "max_angle": 1.5442120008950788}
+| Reward: -561 | Episode: 318 | Qmax: 70.4569
+LIVE {"episode": 319, "reward": -561.396966051385, "max_angle": 1.8947196987058947}
+| Reward: -429 | Episode: 319 | Qmax: 73.5756
+LIVE {"episode": 320, "reward": -429.63687132588603, "max_angle": 1.567173865938063}
+| Reward: -487 | Episode: 320 | Qmax: 74.9275
+LIVE {"episode": 321, "reward": -487.75528544782804, "max_angle": 1.807393526802498}
+| Reward: -506 | Episode: 321 | Qmax: 78.0302
+LIVE {"episode": 322, "reward": -506.13758355622883, "max_angle": 1.8381819990873138}
+| Reward: -510 | Episode: 322 | Qmax: 74.1062
+LIVE {"episode": 323, "reward": -510.03934188110816, "max_angle": 1.6833024853180234}
+| Reward: -518 | Episode: 323 | Qmax: 74.1940
+LIVE {"episode": 324, "reward": -518.568877673163, "max_angle": 1.7243714218415565}
+| Reward: -546 | Episode: 324 | Qmax: 76.8999
+LIVE {"episode": 325, "reward": -546.0968847233837, "max_angle": 2.0170657744841303}
+| Reward: -633 | Episode: 325 | Qmax: 79.3076
+LIVE {"episode": 326, "reward": -633.8828330315397, "max_angle": 1.9969590528377577}
+| Reward: -640 | Episode: 326 | Qmax: 77.5218
+LIVE {"episode": 327, "reward": -640.6170662241441, "max_angle": 1.9323395023624501}
+| Reward: -623 | Episode: 327 | Qmax: 77.7655
+LIVE {"episode": 328, "reward": -623.02970963036, "max_angle": 1.9380570621353754}
+| Reward: -626 | Episode: 328 | Qmax: 78.6582
+LIVE {"episode": 329, "reward": -626.2488675561905, "max_angle": 2.0388465548857413}
+| Reward: -594 | Episode: 329 | Qmax: 78.3353
+LIVE {"episode": 330, "reward": -594.6619384642257, "max_angle": 1.9763829972614881}
+| Reward: -700 | Episode: 330 | Qmax: 79.3640
+LIVE {"episode": 331, "reward": -700.9235641323748, "max_angle": 2.1340564744576884}
+| Reward: -687 | Episode: 331 | Qmax: 80.6835
+LIVE {"episode": 332, "reward": -687.097396260406, "max_angle": 2.2069590435765054}
+| Reward: -707 | Episode: 332 | Qmax: 81.3109
+LIVE {"episode": 333, "reward": -707.7155973802581, "max_angle": 2.1345186618198504}
+| Reward: -657 | Episode: 333 | Qmax: 84.8536
+LIVE {"episode": 334, "reward": -657.7429038311793, "max_angle": 2.2889414188608947}
+| Reward: -642 | Episode: 334 | Qmax: 82.1016
+LIVE {"episode": 335, "reward": -642.2607910817129, "max_angle": 2.3424379352082996}
+| Reward: -649 | Episode: 335 | Qmax: 88.1582
+LIVE {"episode": 336, "reward": -649.6402958576211, "max_angle": 2.1651410670812425}
+| Reward: -661 | Episode: 336 | Qmax: 92.4767
+LIVE {"episode": 337, "reward": -661.2130609502024, "max_angle": 2.5971051350737735}
+| Reward: -669 | Episode: 337 | Qmax: 88.1984
+LIVE {"episode": 338, "reward": -669.7399875825678, "max_angle": 2.801521019421547}
+| Reward: -644 | Episode: 338 | Qmax: 90.1490
+LIVE {"episode": 339, "reward": -644.330655711332, "max_angle": 2.7973864562451802}
+| Reward: -591 | Episode: 339 | Qmax: 87.0071
+LIVE {"episode": 340, "reward": -591.834328718137, "max_angle": 2.5645090875301815}
+| Reward: -622 | Episode: 340 | Qmax: 93.0951
+LIVE {"episode": 341, "reward": -622.8151995704317, "max_angle": 2.7389364616039478}
+| Reward: -534 | Episode: 341 | Qmax: 89.2989
+LIVE {"episode": 342, "reward": -534.4550951313089, "max_angle": 2.14497629082509}
+| Reward: -506 | Episode: 342 | Qmax: 96.7753
+LIVE {"episode": 343, "reward": -506.29578033809497, "max_angle": 2.132522432456882}
+| Reward: -521 | Episode: 343 | Qmax: 95.9249
+LIVE {"episode": 344, "reward": -521.1364125865385, "max_angle": 2.435979802076152}
+| Reward: -479 | Episode: 344 | Qmax: 99.1007
+LIVE {"episode": 345, "reward": -479.9987534781717, "max_angle": 1.9260010720956204}
+| Reward: -500 | Episode: 345 | Qmax: 103.2796
+LIVE {"episode": 346, "reward": -500.0211272273459, "max_angle": 2.4570418720759464}
+| Reward: -428 | Episode: 346 | Qmax: 99.7275
+LIVE {"episode": 347, "reward": -428.4781568240212, "max_angle": 1.5833947801452604}
+| Reward: -434 | Episode: 347 | Qmax: 103.2810
+LIVE {"episode": 348, "reward": -434.68472271199226, "max_angle": 2.506411059816579}
+| Reward: -442 | Episode: 348 | Qmax: 102.7277
+LIVE {"episode": 349, "reward": -442.90235183964387, "max_angle": 3.1390405186804538}
+| Reward: -485 | Episode: 349 | Qmax: 109.3234
+LIVE {"episode": 350, "reward": -485.33033361981535, "max_angle": 3.10829091207556}
+| Reward: -445 | Episode: 350 | Qmax: 116.7269
+LIVE {"episode": 351, "reward": -445.7963187736823, "max_angle": 3.1025207440994005}
+| Reward: -613 | Episode: 351 | Qmax: 114.3603
+LIVE {"episode": 352, "reward": -613.8893668866729, "max_angle": 3.1246911179201824}
+| Reward: -300 | Episode: 352 | Qmax: 116.0150
+LIVE {"episode": 353, "reward": -300.4041771899252, "max_angle": 1.4567120730599021}
+| Reward: -587 | Episode: 353 | Qmax: 124.5189
+LIVE {"episode": 354, "reward": -587.7516614028192, "max_angle": 3.1410125114773217}
+| Reward: -285 | Episode: 354 | Qmax: 122.4044
+LIVE {"episode": 355, "reward": -285.53633052232806, "max_angle": 3.1184520199251797}
+| Reward: -189 | Episode: 355 | Qmax: 135.6223
+LIVE {"episode": 356, "reward": -189.5043897057546, "max_angle": 1.07272712221151}
+| Reward: -221 | Episode: 356 | Qmax: 128.4770
+LIVE {"episode": 357, "reward": -221.55237820609673, "max_angle": 1.6805867085373745}
+| Reward: -311 | Episode: 357 | Qmax: 137.7492
+LIVE {"episode": 358, "reward": -311.993338669725, "max_angle": 3.091922665740039}
+| Reward: -212 | Episode: 358 | Qmax: 140.9288
+LIVE {"episode": 359, "reward": -212.3607353567517, "max_angle": 1.0743600998494014}
+| Reward: -204 | Episode: 359 | Qmax: 139.6747
+LIVE {"episode": 360, "reward": -204.56504954737414, "max_angle": 1.1298955642540038}
+| Reward: -1216 | Episode: 360 | Qmax: 154.2345
+LIVE {"episode": 361, "reward": -1216.6135146053853, "max_angle": 3.1302986510019717}
+| Reward: -1106 | Episode: 361 | Qmax: 157.6530
+LIVE {"episode": 362, "reward": -1106.1769746214127, "max_angle": 3.0812991207049243}
+| Reward: -1288 | Episode: 362 | Qmax: 167.1340
+LIVE {"episode": 363, "reward": -1288.2172424710445, "max_angle": 3.126183410535014}
+| Reward: -1471 | Episode: 363 | Qmax: 175.6347
+LIVE {"episode": 364, "reward": -1471.3360572395022, "max_angle": 3.0825857519743227}
+| Reward: -1711 | Episode: 364 | Qmax: 179.6394
+LIVE {"episode": 365, "reward": -1711.3837222897623, "max_angle": 3.129360995267311}
+| Reward: -1268 | Episode: 365 | Qmax: 187.6034
+LIVE {"episode": 366, "reward": -1268.2434189321884, "max_angle": 3.122265761369595}
+| Reward: -1747 | Episode: 366 | Qmax: 188.2841
+LIVE {"episode": 367, "reward": -1747.518106581484, "max_angle": 3.1208668472491063}
+| Reward: -1927 | Episode: 367 | Qmax: 187.2618
+LIVE {"episode": 368, "reward": -1927.4355825338264, "max_angle": 3.1268112556967353}
+| Reward: -2042 | Episode: 368 | Qmax: 191.6498
+LIVE {"episode": 369, "reward": -2042.2026837640547, "max_angle": 3.134419688756202}
+| Reward: -1999 | Episode: 369 | Qmax: 193.6809
+LIVE {"episode": 370, "reward": -1999.7819923524905, "max_angle": 3.1391859613401603}
+| Reward: -1861 | Episode: 370 | Qmax: 193.2664
+LIVE {"episode": 371, "reward": -1861.27326957479, "max_angle": 3.114349739243172}
+| Reward: -1782 | Episode: 371 | Qmax: 195.5040
+LIVE {"episode": 372, "reward": -1782.2275785605143, "max_angle": 3.135781006826457}
+| Reward: -1765 | Episode: 372 | Qmax: 195.0893
+LIVE {"episode": 373, "reward": -1765.3165161083148, "max_angle": 3.0995842659053165}
+| Reward: -1662 | Episode: 373 | Qmax: 190.4196
+LIVE {"episode": 374, "reward": -1662.4697847920852, "max_angle": 3.1353000700329576}
+| Reward: -1571 | Episode: 374 | Qmax: 193.3563
+LIVE {"episode": 375, "reward": -1571.5254183466195, "max_angle": 3.138905294241421}
+| Reward: -1554 | Episode: 375 | Qmax: 189.3500
+LIVE {"episode": 376, "reward": -1554.313859397072, "max_angle": 3.127333236122342}
+| Reward: -1471 | Episode: 376 | Qmax: 189.1141
+LIVE {"episode": 377, "reward": -1471.8558256665024, "max_angle": 3.136619596447579}
+| Reward: -1384 | Episode: 377 | Qmax: 188.8709
+LIVE {"episode": 378, "reward": -1384.1586299033381, "max_angle": 3.140496764620518}
+| Reward: -985 | Episode: 378 | Qmax: 186.7342
+LIVE {"episode": 379, "reward": -985.7377538835165, "max_angle": 3.0939582121773297}
+| Reward: -675 | Episode: 379 | Qmax: 185.8805
+LIVE {"episode": 380, "reward": -675.686012687964, "max_angle": 2.967148707905442}
+| Reward: -575 | Episode: 380 | Qmax: 185.2179
+LIVE {"episode": 381, "reward": -575.2459881530888, "max_angle": 1.794843005654762}
+| Reward: -503 | Episode: 381 | Qmax: 184.0886
+LIVE {"episode": 382, "reward": -503.3642975789487, "max_angle": 1.666360037833839}
+| Reward: -452 | Episode: 382 | Qmax: 184.1253
+LIVE {"episode": 383, "reward": -452.9645933185857, "max_angle": 1.5602493289871715}
+| Reward: -432 | Episode: 383 | Qmax: 183.0099
+LIVE {"episode": 384, "reward": -432.97624989285333, "max_angle": 1.5309960376244904}
+| Reward: -413 | Episode: 384 | Qmax: 181.6788
+LIVE {"episode": 385, "reward": -413.92629633930414, "max_angle": 1.4845291716272393}
+| Reward: -426 | Episode: 385 | Qmax: 184.5476
+LIVE {"episode": 386, "reward": -426.43359332451496, "max_angle": 1.5037139085697862}
+| Reward: -413 | Episode: 386 | Qmax: 185.5080
+LIVE {"episode": 387, "reward": -413.445192810732, "max_angle": 1.4987818536083983}
+| Reward: -398 | Episode: 387 | Qmax: 186.0344
+LIVE {"episode": 388, "reward": -398.78906733006966, "max_angle": 1.481105589261763}
+| Reward: -426 | Episode: 388 | Qmax: 187.3890
+LIVE {"episode": 389, "reward": -426.4030911890793, "max_angle": 1.5264809513994388}
+| Reward: -466 | Episode: 389 | Qmax: 187.0308
+LIVE {"episode": 390, "reward": -466.27533666196456, "max_angle": 1.5973332324153573}
+| Reward: -522 | Episode: 390 | Qmax: 187.5465
+LIVE {"episode": 391, "reward": -522.8422378949574, "max_angle": 1.6973459496166046}
+| Reward: -561 | Episode: 391 | Qmax: 189.1284
+LIVE {"episode": 392, "reward": -561.2797323121662, "max_angle": 1.7487975178949289}
+| Reward: -562 | Episode: 392 | Qmax: 189.7903
+LIVE {"episode": 393, "reward": -562.7645022796078, "max_angle": 1.7820950315448152}
+| Reward: -610 | Episode: 393 | Qmax: 191.2970
+LIVE {"episode": 394, "reward": -610.6760700526432, "max_angle": 1.8617384871316836}
+| Reward: -658 | Episode: 394 | Qmax: 190.6949
+LIVE {"episode": 395, "reward": -658.1816976184584, "max_angle": 2.060163346238799}
+| Reward: -756 | Episode: 395 | Qmax: 193.0258
+LIVE {"episode": 396, "reward": -756.9837500474862, "max_angle": 3.125077291469279}
+| Reward: -762 | Episode: 396 | Qmax: 191.0222
+LIVE {"episode": 397, "reward": -762.844523273946, "max_angle": 3.0921076213266723}
+| Reward: -779 | Episode: 397 | Qmax: 191.8948
+LIVE {"episode": 398, "reward": -779.593855160652, "max_angle": 3.1171855943009605}
+| Reward: -690 | Episode: 398 | Qmax: 193.3430
+LIVE {"episode": 399, "reward": -690.4578546945378, "max_angle": 2.2423935167120947}
+| Reward: -797 | Episode: 399 | Qmax: 192.9784
+LIVE {"episode": 400, "reward": -797.4818157141474, "max_angle": 3.097898315961636}
+| Reward: -724 | Episode: 400 | Qmax: 195.3832
+LIVE {"episode": 401, "reward": -724.4283716064982, "max_angle": 3.098853981732257}
+| Reward: -652 | Episode: 401 | Qmax: 195.8804
+LIVE {"episode": 402, "reward": -652.3555442036286, "max_angle": 3.122040129355026}
+| Reward: -657 | Episode: 402 | Qmax: 194.7236
+LIVE {"episode": 403, "reward": -657.4526986795469, "max_angle": 3.125126340087908}
+| Reward: -693 | Episode: 403 | Qmax: 195.0438
+LIVE {"episode": 404, "reward": -693.3764066343766, "max_angle": 3.076935735032825}
+| Reward: -342 | Episode: 404 | Qmax: 194.6366
+LIVE {"episode": 405, "reward": -342.0169036596582, "max_angle": 1.42484167190662}
+| Reward: -640 | Episode: 405 | Qmax: 194.2570
+LIVE {"episode": 406, "reward": -640.8256214484187, "max_angle": 3.126086796608526}
+| Reward: -322 | Episode: 406 | Qmax: 196.1823
+LIVE {"episode": 407, "reward": -322.0267016752999, "max_angle": 1.4000075643810361}
+| Reward: -475 | Episode: 407 | Qmax: 193.3730
+LIVE {"episode": 408, "reward": -475.31254538920564, "max_angle": 1.978335560488426}
+| Reward: -507 | Episode: 408 | Qmax: 193.5790
+LIVE {"episode": 409, "reward": -507.75448179506975, "max_angle": 3.13301688132959}
+| Reward: -330 | Episode: 409 | Qmax: 193.1248
+LIVE {"episode": 410, "reward": -330.09820024602396, "max_angle": 1.4358557155993557}
+| Reward: -293 | Episode: 410 | Qmax: 194.4238
+LIVE {"episode": 411, "reward": -293.4431342352851, "max_angle": 1.4172540865751027}
+| Reward: -368 | Episode: 411 | Qmax: 192.8742
+LIVE {"episode": 412, "reward": -368.0930859108083, "max_angle": 1.4561639276804377}
+| Reward: -356 | Episode: 412 | Qmax: 193.3714
+LIVE {"episode": 413, "reward": -356.95080213730864, "max_angle": 1.429882624144214}
+| Reward: -282 | Episode: 413 | Qmax: 191.3487
+LIVE {"episode": 414, "reward": -282.5255316825575, "max_angle": 1.443700137810739}
+| Reward: -384 | Episode: 414 | Qmax: 191.1889
+LIVE {"episode": 415, "reward": -384.55728920007857, "max_angle": 1.4610040226696248}
+| Reward: -35 | Episode: 415 | Qmax: 192.2687
+LIVE {"episode": 416, "reward": -35.881727438470975, "max_angle": 0.4895342204171526}
+| Reward: -47 | Episode: 416 | Qmax: 190.6183
+LIVE {"episode": 417, "reward": -47.81757904585981, "max_angle": 0.7186252668961033}
+| Reward: -53 | Episode: 417 | Qmax: 189.5997
+LIVE {"episode": 418, "reward": -53.11381482221947, "max_angle": 0.7893871433164197}
+| Reward: -48 | Episode: 418 | Qmax: 188.4533
+LIVE {"episode": 419, "reward": -48.30070197166441, "max_angle": 0.5763279113717474}
+| Reward: -59 | Episode: 419 | Qmax: 188.9657
+LIVE {"episode": 420, "reward": -59.169101403231345, "max_angle": 0.6030375279961593}
+| Reward: -60 | Episode: 420 | Qmax: 187.5441
+LIVE {"episode": 421, "reward": -60.02671836445092, "max_angle": 0.6420957922963941}
+| Reward: -61 | Episode: 421 | Qmax: 187.2058
+LIVE {"episode": 422, "reward": -61.49055201808326, "max_angle": 0.6840009095449677}
+| Reward: -67 | Episode: 422 | Qmax: 185.4011
+LIVE {"episode": 423, "reward": -67.71385036153904, "max_angle": 0.6126544599200078}
+| Reward: -68 | Episode: 423 | Qmax: 185.0021
+LIVE {"episode": 424, "reward": -68.1963036426907, "max_angle": 0.6274260641118413}
+| Reward: -75 | Episode: 424 | Qmax: 184.6672
+LIVE {"episode": 425, "reward": -75.5702934643221, "max_angle": 0.850667788112244}
+| Reward: -64 | Episode: 425 | Qmax: 183.7922
+LIVE {"episode": 426, "reward": -64.37799409380884, "max_angle": 0.6122483013307516}
+| Reward: -67 | Episode: 426 | Qmax: 182.2114
+LIVE {"episode": 427, "reward": -67.34271178266987, "max_angle": 0.6150935378045675}
+| Reward: -74 | Episode: 427 | Qmax: 180.3954
+LIVE {"episode": 428, "reward": -74.37424813583125, "max_angle": 0.9154093991080436}
+| Reward: -66 | Episode: 428 | Qmax: 179.9024
+LIVE {"episode": 429, "reward": -66.30835275629148, "max_angle": 0.6536530179048883}
+| Reward: -64 | Episode: 429 | Qmax: 179.6074
+LIVE {"episode": 430, "reward": -64.23277350240788, "max_angle": 0.8293289903867007}
+| Reward: -65 | Episode: 430 | Qmax: 177.8279
+LIVE {"episode": 431, "reward": -65.0008123378374, "max_angle": 0.6364967237058945}
+| Reward: -69 | Episode: 431 | Qmax: 176.6594
+LIVE {"episode": 432, "reward": -69.09656527637698, "max_angle": 0.6720692794324153}
+| Reward: -73 | Episode: 432 | Qmax: 175.9232
+LIVE {"episode": 433, "reward": -73.10587550304794, "max_angle": 0.7582361865182408}
+| Reward: -69 | Episode: 433 | Qmax: 175.6019
+LIVE {"episode": 434, "reward": -69.3271395180082, "max_angle": 0.7709438761287688}
+| Reward: -66 | Episode: 434 | Qmax: 175.1207
+LIVE {"episode": 435, "reward": -66.30977084775563, "max_angle": 0.6257569543880224}
+| Reward: -69 | Episode: 435 | Qmax: 174.1507
+LIVE {"episode": 436, "reward": -69.648924314218, "max_angle": 0.6375263883925617}
+| Reward: -74 | Episode: 436 | Qmax: 174.2958
+LIVE {"episode": 437, "reward": -74.27460232018815, "max_angle": 0.642541142510915}
+| Reward: -82 | Episode: 437 | Qmax: 173.6479
+LIVE {"episode": 438, "reward": -82.87856938851593, "max_angle": 0.9414586210318797}
+| Reward: -63 | Episode: 438 | Qmax: 173.2464
+LIVE {"episode": 439, "reward": -63.116440871236314, "max_angle": 0.6819620632567728}
+| Reward: -75 | Episode: 439 | Qmax: 173.1253
+LIVE {"episode": 440, "reward": -75.02924767274959, "max_angle": 0.7113184333812894}
+| Reward: -76 | Episode: 440 | Qmax: 172.5045
+LIVE {"episode": 441, "reward": -76.67324272441056, "max_angle": 0.8504433896682153}
+| Reward: -80 | Episode: 441 | Qmax: 171.8378
+LIVE {"episode": 442, "reward": -80.42127866006588, "max_angle": 0.8480034846209651}
+| Reward: -81 | Episode: 442 | Qmax: 172.1034
+LIVE {"episode": 443, "reward": -81.06164362999502, "max_angle": 0.848705432081324}
+| Reward: -99 | Episode: 443 | Qmax: 171.7722
+LIVE {"episode": 444, "reward": -99.52536948901998, "max_angle": 1.0767227823506065}
+| Reward: -80 | Episode: 444 | Qmax: 171.4634
+LIVE {"episode": 445, "reward": -80.66378142940863, "max_angle": 0.793995603966458}
+| Reward: -74 | Episode: 445 | Qmax: 170.7400
+LIVE {"episode": 446, "reward": -74.15296975596817, "max_angle": 0.6878690608014204}
+| Reward: -99 | Episode: 446 | Qmax: 170.0996
+LIVE {"episode": 447, "reward": -99.10937897819154, "max_angle": 1.204959820894774}
+| Reward: -65 | Episode: 447 | Qmax: 170.0491
+LIVE {"episode": 448, "reward": -65.19558699944744, "max_angle": 0.6730612499554562}
+| Reward: -97 | Episode: 448 | Qmax: 169.3552
+LIVE {"episode": 449, "reward": -97.8754623021515, "max_angle": 1.2401389795880684}
+| Reward: -48 | Episode: 449 | Qmax: 168.8538
+LIVE {"episode": 450, "reward": -48.02307062009098, "max_angle": 0.5689217107239942}
+| Reward: -64 | Episode: 450 | Qmax: 168.1306
+LIVE {"episode": 451, "reward": -64.18433769116155, "max_angle": 1.0656164266733053}
+| Reward: -44 | Episode: 451 | Qmax: 167.7542
+LIVE {"episode": 452, "reward": -44.63478583439387, "max_angle": 0.7666168557475443}
+| Reward: -74 | Episode: 452 | Qmax: 167.2165
+LIVE {"episode": 453, "reward": -74.23679141181375, "max_angle": 1.3248421555699563}
+| Reward: -81 | Episode: 453 | Qmax: 166.4899
+LIVE {"episode": 454, "reward": -81.71645319864331, "max_angle": 1.2886156476082682}
+| Reward: -26 | Episode: 454 | Qmax: 165.9123
+LIVE {"episode": 455, "reward": -26.648123247301715, "max_angle": 0.4343699184394531}
+| Reward: -88 | Episode: 455 | Qmax: 165.0906
+LIVE {"episode": 456, "reward": -88.83364446725356, "max_angle": 1.54639439811575}
+| Reward: -77 | Episode: 456 | Qmax: 164.6125
+LIVE {"episode": 457, "reward": -77.01643605656768, "max_angle": 1.5009141622677673}
+| Reward: -28 | Episode: 457 | Qmax: 163.9846
+LIVE {"episode": 458, "reward": -28.641194706476305, "max_angle": 0.4949993477661849}
+| Reward: -68 | Episode: 458 | Qmax: 163.3295
+LIVE {"episode": 459, "reward": -68.12928820452682, "max_angle": 1.3593679059210848}
+| Reward: -66 | Episode: 459 | Qmax: 162.7836
+LIVE {"episode": 460, "reward": -66.29128361508077, "max_angle": 1.3814990679626267}
+| Reward: -22 | Episode: 460 | Qmax: 162.1523
+LIVE {"episode": 461, "reward": -22.89599162819845, "max_angle": 0.4685564698687252}
+| Reward: -82 | Episode: 461 | Qmax: 161.4510
+LIVE {"episode": 462, "reward": -82.12795371318848, "max_angle": 1.4521731372191047}
+| Reward: -26 | Episode: 462 | Qmax: 161.2276
+LIVE {"episode": 463, "reward": -26.617269822446655, "max_angle": 0.8169081810290347}
+| Reward: -29 | Episode: 463 | Qmax: 160.7128
+LIVE {"episode": 464, "reward": -29.535399190511576, "max_angle": 0.7731382951213178}
+| Reward: -21 | Episode: 464 | Qmax: 160.7669
+LIVE {"episode": 465, "reward": -21.011971369574912, "max_angle": 0.6481203682126925}
+| Reward: -117 | Episode: 465 | Qmax: 161.1239
+LIVE {"episode": 466, "reward": -117.75039125784572, "max_angle": 1.45099507397128}
+| Reward: -33 | Episode: 466 | Qmax: 161.5322
+LIVE {"episode": 467, "reward": -33.93658438127748, "max_angle": 0.7927672440124454}
+| Reward: -233 | Episode: 467 | Qmax: 162.2310
+LIVE {"episode": 468, "reward": -233.71780389865955, "max_angle": 1.8039117831516975}
+| Reward: -34 | Episode: 468 | Qmax: 162.9553
+LIVE {"episode": 469, "reward": -34.12264988266568, "max_angle": 0.8669065972855727}
+| Reward: -218 | Episode: 469 | Qmax: 163.1456
+LIVE {"episode": 470, "reward": -218.9162171887854, "max_angle": 1.179023964711814}
+| Reward: -185 | Episode: 470 | Qmax: 163.8856
+LIVE {"episode": 471, "reward": -185.22963377588158, "max_angle": 1.4452641415603078}
+| Reward: -178 | Episode: 471 | Qmax: 165.4347
+LIVE {"episode": 472, "reward": -178.89649719653298, "max_angle": 1.4789271505110566}
+| Reward: -178 | Episode: 472 | Qmax: 166.7749
+LIVE {"episode": 473, "reward": -178.1025371594649, "max_angle": 1.3399117557641629}
+| Reward: -216 | Episode: 473 | Qmax: 166.7110
+LIVE {"episode": 474, "reward": -216.71402455636425, "max_angle": 1.419255235372044}
+| Reward: -137 | Episode: 474 | Qmax: 168.3942
+LIVE {"episode": 475, "reward": -137.03938605255453, "max_angle": 1.2769081954947488}
+| Reward: -245 | Episode: 475 | Qmax: 169.2265
+LIVE {"episode": 476, "reward": -245.4647855454983, "max_angle": 1.450536339046284}
+| Reward: -268 | Episode: 476 | Qmax: 169.5149
+LIVE {"episode": 477, "reward": -268.82618237084364, "max_angle": 1.5018355354180029}
+| Reward: -353 | Episode: 477 | Qmax: 170.6959
+LIVE {"episode": 478, "reward": -353.7342826174592, "max_angle": 1.5062491675436749}
+| Reward: -223 | Episode: 478 | Qmax: 171.0548
+LIVE {"episode": 479, "reward": -223.84294314888893, "max_angle": 1.5614403905190124}
+| Reward: -300 | Episode: 479 | Qmax: 171.9888
+LIVE {"episode": 480, "reward": -300.1504852550854, "max_angle": 1.422518382853211}
+| Reward: -348 | Episode: 480 | Qmax: 172.2727
+LIVE {"episode": 481, "reward": -348.6344232402839, "max_angle": 1.5302762299343924}
+| Reward: -337 | Episode: 481 | Qmax: 173.0768
+LIVE {"episode": 482, "reward": -337.36233669103285, "max_angle": 1.4898550562692126}
+| Reward: -266 | Episode: 482 | Qmax: 173.6077
+LIVE {"episode": 483, "reward": -266.1200372574221, "max_angle": 1.5930596315925998}
+| Reward: -201 | Episode: 483 | Qmax: 173.1575
+LIVE {"episode": 484, "reward": -201.47016663438032, "max_angle": 1.5004336948413364}
+| Reward: -386 | Episode: 484 | Qmax: 173.8616
+LIVE {"episode": 485, "reward": -386.5197622522013, "max_angle": 1.5335392930002367}
+| Reward: -358 | Episode: 485 | Qmax: 174.0399
+LIVE {"episode": 486, "reward": -358.247859169064, "max_angle": 1.5792804442985717}
+| Reward: -353 | Episode: 486 | Qmax: 174.1640
+LIVE {"episode": 487, "reward": -353.67509651022596, "max_angle": 1.6004054006298953}
+| Reward: -275 | Episode: 487 | Qmax: 173.4793
+LIVE {"episode": 488, "reward": -275.45399804921504, "max_angle": 1.5232387802310294}
+| Reward: -252 | Episode: 488 | Qmax: 172.8219
+LIVE {"episode": 489, "reward": -252.8632851840519, "max_angle": 1.5184195540125835}
+| Reward: -423 | Episode: 489 | Qmax: 172.5838
+LIVE {"episode": 490, "reward": -423.6795338833032, "max_angle": 1.5967461643843355}
+| Reward: -368 | Episode: 490 | Qmax: 172.6252
+LIVE {"episode": 491, "reward": -368.2911397625417, "max_angle": 1.5859159375785217}
+| Reward: -380 | Episode: 491 | Qmax: 171.9045
+LIVE {"episode": 492, "reward": -380.1095259392603, "max_angle": 1.586631571743004}
+| Reward: -416 | Episode: 492 | Qmax: 171.9025
+LIVE {"episode": 493, "reward": -416.6553690504383, "max_angle": 1.616066953303537}
+| Reward: -309 | Episode: 493 | Qmax: 171.2867
+LIVE {"episode": 494, "reward": -309.2292859061077, "max_angle": 1.319867565598196}
+| Reward: -318 | Episode: 494 | Qmax: 170.2444
+LIVE {"episode": 495, "reward": -318.4089084661881, "max_angle": 1.3194976572583481}
+| Reward: -460 | Episode: 495 | Qmax: 169.9216
+LIVE {"episode": 496, "reward": -460.5431513767491, "max_angle": 1.6563660601079684}
+| Reward: -346 | Episode: 496 | Qmax: 169.4637
+LIVE {"episode": 497, "reward": -346.1954632215506, "max_angle": 1.3700752098754467}
+| Reward: -456 | Episode: 497 | Qmax: 168.6845
+LIVE {"episode": 498, "reward": -456.3068044350889, "max_angle": 1.6760837884485544}
+| Reward: -577 | Episode: 498 | Qmax: 168.3856
+LIVE {"episode": 499, "reward": -577.4640378912862, "max_angle": 1.9166432484935414}
+| Reward: -500 | Episode: 499 | Qmax: 167.7005
+LIVE {"episode": 500, "reward": -500.800864833349, "max_angle": 1.6997496579918134}
+| Reward: -460 | Episode: 500 | Qmax: 168.1402
+LIVE {"episode": 501, "reward": -460.1629642819348, "max_angle": 1.6101821463273456}
+| Reward: -453 | Episode: 501 | Qmax: 167.8761
+LIVE {"episode": 502, "reward": -453.37797556962687, "max_angle": 1.5702141505400977}
+| Reward: -348 | Episode: 502 | Qmax: 167.6597
+LIVE {"episode": 503, "reward": -348.0530453324323, "max_angle": 1.3595493709559603}
+| Reward: -340 | Episode: 503 | Qmax: 167.4258
+LIVE {"episode": 504, "reward": -340.76339159834765, "max_angle": 1.3340063056882194}
+| Reward: -472 | Episode: 504 | Qmax: 167.3339
+LIVE {"episode": 505, "reward": -472.66674619782896, "max_angle": 1.5792863002250184}
+| Reward: -332 | Episode: 505 | Qmax: 166.6851
+LIVE {"episode": 506, "reward": -332.3683953284458, "max_angle": 1.3777322714701046}
+| Reward: -333 | Episode: 506 | Qmax: 166.2535
+LIVE {"episode": 507, "reward": -333.8099577087561, "max_angle": 1.361572174822075}
+| Reward: -455 | Episode: 507 | Qmax: 166.0575
+LIVE {"episode": 508, "reward": -455.9950237913716, "max_angle": 1.6162198660904208}
+| Reward: -343 | Episode: 508 | Qmax: 166.0952
+LIVE {"episode": 509, "reward": -343.94914523789805, "max_angle": 1.3825824242134463}
+| Reward: -439 | Episode: 509 | Qmax: 165.5820
+LIVE {"episode": 510, "reward": -439.8609984138485, "max_angle": 1.5363874714626324}
+| Reward: -340 | Episode: 510 | Qmax: 165.2341
+LIVE {"episode": 511, "reward": -340.2155662539095, "max_angle": 1.3595874467595308}
+| Reward: -337 | Episode: 511 | Qmax: 164.9803
+LIVE {"episode": 512, "reward": -337.0433662004099, "max_angle": 1.347182793535616}
+| Reward: -318 | Episode: 512 | Qmax: 164.7665
+LIVE {"episode": 513, "reward": -318.10567051397226, "max_angle": 1.3122412307482194}
+| Reward: -318 | Episode: 513 | Qmax: 164.3112
+LIVE {"episode": 514, "reward": -318.8310755651254, "max_angle": 1.292876645947444}
+| Reward: -393 | Episode: 514 | Qmax: 164.0708
+LIVE {"episode": 515, "reward": -393.74720632542966, "max_angle": 1.489504805595704}
+| Reward: -301 | Episode: 515 | Qmax: 163.5960
+LIVE {"episode": 516, "reward": -301.303749766208, "max_angle": 1.2561380427363724}
+| Reward: -289 | Episode: 516 | Qmax: 162.8321
+LIVE {"episode": 517, "reward": -289.2222975346373, "max_angle": 1.2300861923842177}
+| Reward: -282 | Episode: 517 | Qmax: 163.0373
+LIVE {"episode": 518, "reward": -282.70228152195665, "max_angle": 1.1947273393851077}
+| Reward: -269 | Episode: 518 | Qmax: 162.7768
+LIVE {"episode": 519, "reward": -269.3986723202588, "max_angle": 1.1977487045871902}
+| Reward: -264 | Episode: 519 | Qmax: 162.3072
+LIVE {"episode": 520, "reward": -264.4645722976395, "max_angle": 1.1862497613179033}
+| Reward: -251 | Episode: 520 | Qmax: 161.7423
+LIVE {"episode": 521, "reward": -251.6339297368548, "max_angle": 1.1614209248945981}
+| Reward: -237 | Episode: 521 | Qmax: 161.0772
+LIVE {"episode": 522, "reward": -237.97689026222912, "max_angle": 1.1035973435626871}
+| Reward: -231 | Episode: 522 | Qmax: 161.2158
+LIVE {"episode": 523, "reward": -231.3981327056351, "max_angle": 1.0980061694747676}
+| Reward: -223 | Episode: 523 | Qmax: 160.7802
+LIVE {"episode": 524, "reward": -223.80888606566242, "max_angle": 1.1356966435373639}
+| Reward: -220 | Episode: 524 | Qmax: 160.4603
+LIVE {"episode": 525, "reward": -220.84403981245782, "max_angle": 1.1035462921377484}
+| Reward: -214 | Episode: 525 | Qmax: 159.7135
+LIVE {"episode": 526, "reward": -214.79493442342255, "max_angle": 1.1159284607267543}
+| Reward: -212 | Episode: 526 | Qmax: 159.3543
+LIVE {"episode": 527, "reward": -212.5098647012159, "max_angle": 1.1314692160966584}
+| Reward: -220 | Episode: 527 | Qmax: 159.2264
+LIVE {"episode": 528, "reward": -220.30760863034112, "max_angle": 1.128568031259019}
+| Reward: -202 | Episode: 528 | Qmax: 159.2244
+LIVE {"episode": 529, "reward": -202.57760136491686, "max_angle": 1.087487386636118}
+| Reward: -204 | Episode: 529 | Qmax: 158.8566
+LIVE {"episode": 530, "reward": -204.27773116843744, "max_angle": 1.143803199704709}
+| Reward: -205 | Episode: 530 | Qmax: 158.4792
+LIVE {"episode": 531, "reward": -205.29522258070094, "max_angle": 1.1247809472053867}
+| Reward: -203 | Episode: 531 | Qmax: 158.5971
+LIVE {"episode": 532, "reward": -203.33657212303504, "max_angle": 1.1312219407834068}
+| Reward: -196 | Episode: 532 | Qmax: 158.6916
+LIVE {"episode": 533, "reward": -196.62340373637718, "max_angle": 1.1366426393764926}
+| Reward: -201 | Episode: 533 | Qmax: 158.6529
+LIVE {"episode": 534, "reward": -201.34178401901474, "max_angle": 1.141229292072407}
+| Reward: -190 | Episode: 534 | Qmax: 158.8439
+LIVE {"episode": 535, "reward": -190.54752161683822, "max_angle": 1.1455842648644152}
+| Reward: -188 | Episode: 535 | Qmax: 159.6040
+LIVE {"episode": 536, "reward": -188.80706291398386, "max_angle": 1.1091320174088244}
+| Reward: -191 | Episode: 536 | Qmax: 159.6865
+LIVE {"episode": 537, "reward": -191.92342274618053, "max_angle": 1.1478154940326863}
+| Reward: -184 | Episode: 537 | Qmax: 159.9307
+LIVE {"episode": 538, "reward": -184.36335391569568, "max_angle": 1.1669105284899128}
+| Reward: -181 | Episode: 538 | Qmax: 160.6245
+LIVE {"episode": 539, "reward": -181.19424900717564, "max_angle": 1.1381505266022995}
+| Reward: -182 | Episode: 539 | Qmax: 160.7844
+LIVE {"episode": 540, "reward": -182.6121815953199, "max_angle": 1.106763000709312}
+| Reward: -180 | Episode: 540 | Qmax: 161.4273
+LIVE {"episode": 541, "reward": -180.4698584571358, "max_angle": 1.1346127629302514}
+| Reward: -178 | Episode: 541 | Qmax: 161.8287
+LIVE {"episode": 542, "reward": -178.1189752006255, "max_angle": 1.1141345971402123}
+| Reward: -173 | Episode: 542 | Qmax: 162.0032
+LIVE {"episode": 543, "reward": -173.82933002822256, "max_angle": 1.1056324239994288}
+| Reward: -157 | Episode: 543 | Qmax: 162.3099
+LIVE {"episode": 544, "reward": -157.24419773087976, "max_angle": 1.1034877078762453}
+| Reward: -127 | Episode: 544 | Qmax: 162.5322
+LIVE {"episode": 545, "reward": -127.87917838195911, "max_angle": 1.0937107242751734}
+| Reward: -90 | Episode: 545 | Qmax: 162.9249
+LIVE {"episode": 546, "reward": -90.95336228211869, "max_angle": 1.0233744539452883}
+| Reward: -133 | Episode: 546 | Qmax: 163.1201
+LIVE {"episode": 547, "reward": -133.15654428553842, "max_angle": 1.0863468239544622}
+| Reward: -154 | Episode: 547 | Qmax: 162.9573
+LIVE {"episode": 548, "reward": -154.26373323088416, "max_angle": 1.1059314992678246}
+| Reward: -169 | Episode: 548 | Qmax: 162.9245
+LIVE {"episode": 549, "reward": -169.75624754603552, "max_angle": 1.0839909444914335}
+| Reward: -177 | Episode: 549 | Qmax: 162.6910
+LIVE {"episode": 550, "reward": -177.1081957536353, "max_angle": 1.0961142685529546}
+| Reward: -175 | Episode: 550 | Qmax: 162.5585
+LIVE {"episode": 551, "reward": -175.46299466456483, "max_angle": 1.079649961087202}
+| Reward: -177 | Episode: 551 | Qmax: 162.2883
+LIVE {"episode": 552, "reward": -177.0630764661551, "max_angle": 1.048007331592089}
+| Reward: -183 | Episode: 552 | Qmax: 161.8667
+LIVE {"episode": 553, "reward": -183.9433906049239, "max_angle": 1.0583850181642867}
+| Reward: -187 | Episode: 553 | Qmax: 161.6012
+LIVE {"episode": 554, "reward": -187.01514775549592, "max_angle": 1.0779201300310715}
+| Reward: -168 | Episode: 554 | Qmax: 161.2074
+LIVE {"episode": 555, "reward": -168.69346581969853, "max_angle": 1.0498510650100656}
+| Reward: -157 | Episode: 555 | Qmax: 160.9034
+LIVE {"episode": 556, "reward": -157.42840409883783, "max_angle": 1.0279225584374598}
+| Reward: -151 | Episode: 556 | Qmax: 160.5497
+LIVE {"episode": 557, "reward": -151.56792118185783, "max_angle": 1.038833878774691}
+| Reward: -176 | Episode: 557 | Qmax: 160.1226
+LIVE {"episode": 558, "reward": -176.2296547575251, "max_angle": 1.0007801712784072}
+| Reward: -173 | Episode: 558 | Qmax: 159.8348
+LIVE {"episode": 559, "reward": -173.52642625540722, "max_angle": 0.9919407893032663}
+| Reward: -20 | Episode: 559 | Qmax: 159.6111
+LIVE {"episode": 560, "reward": -20.3711495072887, "max_angle": 0.9111020111029946}
+| Reward: -13 | Episode: 560 | Qmax: 159.2783
+LIVE {"episode": 561, "reward": -13.990510811967273, "max_angle": 0.35810628238827436}
+| Reward: -124 | Episode: 561 | Qmax: 159.0050
+LIVE {"episode": 562, "reward": -124.51453566953421, "max_angle": 0.9788038707748401}
+| Reward: -21 | Episode: 562 | Qmax: 158.6855
+LIVE {"episode": 563, "reward": -21.343532881694447, "max_angle": 0.7262207066607858}
+| Reward: -19 | Episode: 563 | Qmax: 158.4771
+LIVE {"episode": 564, "reward": -19.0274070031198, "max_angle": 0.6743899708579666}
+| Reward: -16 | Episode: 564 | Qmax: 158.1742
+LIVE {"episode": 565, "reward": -16.97465141068001, "max_angle": 0.594617345017252}
+| Reward: -20 | Episode: 565 | Qmax: 157.8760
+LIVE {"episode": 566, "reward": -20.039884548317715, "max_angle": 0.6563337684207364}
+| Reward: -18 | Episode: 566 | Qmax: 157.5935
+LIVE {"episode": 567, "reward": -18.40586809103739, "max_angle": 0.78709222547152}
+| Reward: -14 | Episode: 567 | Qmax: 157.3477
+LIVE {"episode": 568, "reward": -14.418097303126451, "max_angle": 0.3137419495876026}
+| Reward: -23 | Episode: 568 | Qmax: 157.0887
+LIVE {"episode": 569, "reward": -23.64465494222244, "max_angle": 0.5682645699038995}
+| Reward: -16 | Episode: 569 | Qmax: 156.8394
+LIVE {"episode": 570, "reward": -16.75781243604843, "max_angle": 0.6218081626327596}
+| Reward: -16 | Episode: 570 | Qmax: 156.4926
+LIVE {"episode": 571, "reward": -16.987811025822705, "max_angle": 0.6080449399629042}
+| Reward: -19 | Episode: 571 | Qmax: 156.2149
+LIVE {"episode": 572, "reward": -19.295538966912286, "max_angle": 0.6784123195791998}
+| Reward: -15 | Episode: 572 | Qmax: 155.9614
+LIVE {"episode": 573, "reward": -15.432952910518686, "max_angle": 0.3149557906617304}
+| Reward: -15 | Episode: 573 | Qmax: 155.6939
+LIVE {"episode": 574, "reward": -15.660213803666826, "max_angle": 0.3068785824031406}
+| Reward: -199 | Episode: 574 | Qmax: 155.3884
+LIVE {"episode": 575, "reward": -199.37667759085343, "max_angle": 1.0334158172491938}
+| Reward: -16 | Episode: 575 | Qmax: 155.0670
+LIVE {"episode": 576, "reward": -16.435670047564543, "max_angle": 0.32173754370418944}
+| Reward: -15 | Episode: 576 | Qmax: 154.8091
+LIVE {"episode": 577, "reward": -15.83364224748338, "max_angle": 0.3223119146443179}
+| Reward: -18 | Episode: 577 | Qmax: 154.5550
+LIVE {"episode": 578, "reward": -18.658805036045138, "max_angle": 0.6756365850381201}
+| Reward: -19 | Episode: 578 | Qmax: 154.3141
+LIVE {"episode": 579, "reward": -19.864444108667655, "max_angle": 0.8786171952905779}
+| Reward: -117 | Episode: 579 | Qmax: 154.1114
+LIVE {"episode": 580, "reward": -117.14417464793293, "max_angle": 1.1250328456187966}
+| Reward: -15 | Episode: 580 | Qmax: 153.8072
+LIVE {"episode": 581, "reward": -15.152475367087087, "max_angle": 0.490179575525247}
+| Reward: -88 | Episode: 581 | Qmax: 153.5359
+LIVE {"episode": 582, "reward": -88.63298764643407, "max_angle": 1.1408490887955813}
+| Reward: -15 | Episode: 582 | Qmax: 153.2655
+LIVE {"episode": 583, "reward": -15.995521467054235, "max_angle": 0.6656007020790295}
+| Reward: -12 | Episode: 583 | Qmax: 152.9785
+LIVE {"episode": 584, "reward": -12.251837016753239, "max_angle": 0.2910258258273093}
+| Reward: -18 | Episode: 584 | Qmax: 152.7742
+LIVE {"episode": 585, "reward": -18.12693755876722, "max_angle": 0.7905712369429427}
+| Reward: -12 | Episode: 585 | Qmax: 152.4363
+LIVE {"episode": 586, "reward": -12.144929030951097, "max_angle": 0.3818323824266463}
+| Reward: -13 | Episode: 586 | Qmax: 152.2605
+LIVE {"episode": 587, "reward": -13.65178048095692, "max_angle": 0.6365524457842959}
+| Reward: -18 | Episode: 587 | Qmax: 152.0098
+LIVE {"episode": 588, "reward": -18.253146600403518, "max_angle": 0.9473096218452959}
+| Reward: -12 | Episode: 588 | Qmax: 151.8038
+LIVE {"episode": 589, "reward": -12.33897975175644, "max_angle": 0.27168654442315804}
+| Reward: -16 | Episode: 589 | Qmax: 151.6050
+LIVE {"episode": 590, "reward": -16.415339329076083, "max_angle": 0.7613064418883928}
+| Reward: -12 | Episode: 590 | Qmax: 151.2414
+LIVE {"episode": 591, "reward": -12.76391959446013, "max_angle": 0.5621586379130807}
+| Reward: -15 | Episode: 591 | Qmax: 151.0418
+LIVE {"episode": 592, "reward": -15.423779040722142, "max_angle": 0.7422083877527366}
+| Reward: -14 | Episode: 592 | Qmax: 150.8231
+LIVE {"episode": 593, "reward": -14.783823226557802, "max_angle": 0.7703741465466415}
+| Reward: -10 | Episode: 593 | Qmax: 150.5014
+LIVE {"episode": 594, "reward": -10.341374045883818, "max_angle": 0.4776508120136542}
+| Reward: -9 | Episode: 594 | Qmax: 150.2461
+LIVE {"episode": 595, "reward": -9.730127005309827, "max_angle": 0.3611761911650344}
+| Reward: -8 | Episode: 595 | Qmax: 149.9070
+LIVE {"episode": 596, "reward": -8.480655441554221, "max_angle": 0.2365795494111668}
+| Reward: -9 | Episode: 596 | Qmax: 149.6908
+LIVE {"episode": 597, "reward": -9.222018579686594, "max_angle": 0.3963945471859773}
+| Reward: -8 | Episode: 597 | Qmax: 149.4143
+LIVE {"episode": 598, "reward": -8.78569963512779, "max_angle": 0.3616603278246495}
+| Reward: -16 | Episode: 598 | Qmax: 149.2241
+LIVE {"episode": 599, "reward": -16.96347647133669, "max_angle": 0.9789647798956518}
+| Reward: -16 | Episode: 599 | Qmax: 149.0080
+LIVE {"episode": 600, "reward": -16.59782843168312, "max_angle": 0.9645397385883239}

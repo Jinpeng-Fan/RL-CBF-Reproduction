@@ -1,0 +1,18 @@
+{
+  "algorithm": "TRPO-CBF",
+  "seed": 2,
+  "argv": [
+    "E:\\OneDrive - 南方科技大学\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-Revised\\pendulum\\Results_original_code\\TRPO-CBF\\seed2\\source\\main.py"
+  ],
+  "original_source": "E:\\OneDrive - 南方科技大学\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-master\\pendulum\\TRPO-CBF",
+  "source_sha256": {
+    "barrier_comp.py": "b344e040d2a3d826a494bb490cbf8433be628f00689f8e3ac9428caff451f915",
+    "cbf.py": "138d05a8858829b2dd1ad7b3ec6f024dc0c04af4a6ba327e8903017726e4943a",
+    "dynamics_gp.py": "865f2fb986aca2b12dee01f437a57df7d450879c2d91970b0468aa31e34515c1",
+    "gae.py": "c867e79d3341b749209a92255ce09598742c7e4b1e0fe1f206710e75a490d31f",
+    "learn.py": "fa7f3d88949de60f7da61ee206c249091c09b2d12faa55115036f1a99ddab15c",
+    "main.py": "6122260f33665af8d5339bfd55552c7cbe99d0dcbcf4e68b133f5ab0e126d465",
+    "trpo.py": "240c4f769e966e667ef36a051e79e6ef4bb8a0138eb1c86609a07bf8d58b020b",
+    "utils.py": "5ed3a113165c6eba6c3154369473adbe67337823b9a7b87011c96ab0148eb4e0"
+  }
+}

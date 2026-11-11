@@ -1,0 +1,1 @@
+﻿TensorFlow 1.15 checkpoint of the last saved iteration (250) of this run, copied from the training output (Results_final_py37/seed2/TRPO). Restore with tf.train.Saver().restore(sess, 'model-250') after building the graph as in TRPO-CBF/sim.py (or DDPG-CBF/ddpg.py) with --random_seed 2.

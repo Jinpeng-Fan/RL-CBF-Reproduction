@@ -1,0 +1,869 @@
+Observation space Box(-8.0, 8.0, (3,), float32)
+Action space Box(-2.0, 2.0, (1,), float32)
+Initializing Policy network
+Policy/h1/Weight
+Policy/h1/Bias
+Policy/h2/Weight
+Policy/h2/Bias
+Policy/h3/Weight
+Policy/h3/Bias
+Policy/logstd
+Total variable size : 4482
+Initializing Value function network
+VF/h1/Weight
+VF/h1/Bias
+VF/h2/Weight
+VF/h2/Bias
+VF/h3/Weight
+VF/h3/Bias
+VF/FC/Weight
+VF/FC/Bias
+Total variable size : 6751
+Initializing Barrier Compensation network
+Compensator/h1/Weight
+Compensator/h1/Bias
+Compensator/h2/Weight
+Compensator/h2/Bias
+Compensator/h3/Weight
+Compensator/h3/Bias
+Total variable size : 2281
+Break
+Break
+Break
+Accumulated Reward: [-1.97478855]
+5
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.94885681]
+10
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-3.93795311]
+15
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-12.68376887]
+20
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-3.30735398]
+25
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-13.67734603]
+30
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.52067679]
+35
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-3.84134542]
+40
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.51257619]
+45
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-3.18532519]
+50
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-16.63161721]
+55
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-2.39621408]
+60
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-4.66640862]
+65
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-16.31958127]
+70
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-4.19581358]
+75
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-3.57050741]
+80
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-3.87846982]
+85
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-14.46049567]
+90
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-7.512023]
+95
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.8559403]
+100
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-4.07163401]
+105
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.9722524]
+110
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-8.33789129]
+115
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-9.53412662]
+120
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-3.24521824]
+125
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-9.85987966]
+130
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-2.79953267]
+135
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-15.22262333]
+140
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-4.66239212]
+145
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-3.37533352]
+150
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.81960725]
+155
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-3.56417539]
+160
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-4.02863392]
+165
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-9.52566492]
+170
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-8.91066323]
+175
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-15.58601439]
+180
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-3.47368884]
+185
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.54190387]
+190
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-3.90153776]
+195
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-8.75058087]
+200
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-7.57495677]
+205
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-4.6440674]
+210
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-4.11858478]
+215
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-8.675786]
+220
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-4.91151702]
+225
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-4.45984921]
+230
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-4.1654915]
+235
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-11.59335641]
+240
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.22608014]
+245
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-4.4884892]
+250
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.95632339]
+255
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-8.11389735]
+260
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-4.1989602]
+265
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-4.45953201]
+270
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-7.04178225]
+275
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-4.5001557]
+280
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-8.51750385]
+285
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.07996043]
+290
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.58246586]
+295
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.66162008]
+300
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-4.6535061]
+305
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-11.38479512]
+310
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-9.1455497]
+315
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.30616956]
+320
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-16.11762169]
+325
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-11.67939297]
+330
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.61838226]
+335
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.98403805]
+340
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-7.05341412]
+345
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-7.21469943]
+350
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-9.6816643]
+355
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.37718461]
+360
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-12.08090319]
+365
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-12.3116263]
+370
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.78183006]
+375
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.08688057]
+380
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-7.66006626]
+385
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.94367685]
+390
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.70128268]
+395
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-8.3723305]
+400
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.09166237]
+405
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-7.37025552]
+410
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.50540228]
+415
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.74713947]
+420
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.18029868]
+425
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.26585018]
+430
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-16.50849175]
+435
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.69793289]
+440
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-12.63669934]
+445
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-13.37463297]
+450
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.66772889]
+455
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.36392008]
+460
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-15.42519089]
+465
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.33221431]
+470
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-19.78169632]
+475
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-7.67475109]
+480
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-20.71052957]
+485
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-11.97604509]
+490
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-7.26512733]
+495
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.93242286]
+500
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.29513574]
+505
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.33581386]
+510
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.6985712]
+515
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-20.25773768]
+520
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.63209543]
+525
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.94672858]
+530
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.03557728]
+535
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-12.16215491]
+540
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.2860148]
+545
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-7.74463059]
+550
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-6.28079667]
+555
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-11.5950362]
+560
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-10.84510671]
+565
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-7.89084905]
+570
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-8.71850447]
+575
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-8.13546689]
+580
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-8.16207872]
+585
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-11.19216743]
+590
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-5.10132811]
+595
+Break
+Break
+Break
+Break
+Break
+Accumulated Reward: [-9.97881098]
+600
+Break
+Learning Process Finished

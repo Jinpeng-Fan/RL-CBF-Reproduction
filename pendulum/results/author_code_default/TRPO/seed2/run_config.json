@@ -1,0 +1,15 @@
+{
+  "algorithm": "TRPO",
+  "seed": 2,
+  "argv": [
+    "E:\\OneDrive - 南方科技大学\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-Revised\\pendulum\\Results_original_code\\TRPO\\seed2\\source\\main.py"
+  ],
+  "original_source": "E:\\OneDrive - 南方科技大学\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-master\\pendulum\\TRPO",
+  "source_sha256": {
+    "gae.py": "c867e79d3341b749209a92255ce09598742c7e4b1e0fe1f206710e75a490d31f",
+    "learn.py": "623b998be258af04d9d0ce1737689eafddf8e8017e46bb3895515068e9325a98",
+    "main.py": "11350d2850d3b15d85dda1761fc534ac278958b6c9cdd67a65114a893a0e7a0d",
+    "trpo.py": "584dd378dfd1944181564b65c4e9ab38043e3490411a206f8a7301342f67cc3f",
+    "utils.py": "9ff9fbf229b777bb8777ca8084888337abe099e081ac759b54dab37a172d89fa"
+  }
+}

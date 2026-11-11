@@ -1,0 +1,42 @@
+{
+  "algorithm": "TRPO-CBF",
+  "seed": 1,
+  "episodes": 2000,
+  "argv": [
+    "E:\\OneDrive - \u5357\u65b9\u79d1\u6280\u5927\u5b66\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-Revised\\pendulum\\runs_v2\\full_20261106_2023\\TRPO-CBF-fixed-e5\\seed1\\source\\main.py",
+    "--total_train_step",
+    "400000",
+    "--random-seed",
+    "1",
+    "--timesteps_per_batch",
+    "1000",
+    "--max_path_length",
+    "200",
+    "--gamma",
+    "0.99",
+    "--lamda",
+    "0.95",
+    "--kl_constraint",
+    "0.005",
+    "--num_backtracking",
+    "20",
+    "--init_logstd",
+    "1.0986",
+    "--bar_constraint_max",
+    "10",
+    "--comp_num_backtracking",
+    "30"
+  ],
+  "source_sha256": {
+    "barrier_comp.py": "aec284f5d804c8ce0c66d29805c6a10614e60b21c6133c30623b9a5a35cad424",
+    "cbf.py": "c05a35c59f03dde76790eb3336301a9e7b085f408e963cab7db7581fedde28da",
+    "dynamics_gp.py": "7f9ad294eea9296e11b1bc1477fcb82d3fd864e4e7cd3b95270b6d9034cf2f66",
+    "fair_environment.py": "bcc9ee7d0b8afeab46a20484381e7df50dc4b36c3942a5d0e1f607ac5834908d",
+    "gae.py": "348a863d7c122fba5a2c1b6194313ab2d3b5e6e792f0328a33cbb651f536a295",
+    "learn.py": "c6353ab8743553f0a94aa7a8f2e09a63c1f58ec28c5de1430da40148df59857e",
+    "main.py": "c8ccbee868ecb425e1115d530308055cab60dff4ac1087a0b19ac327bce61b05",
+    "obs_norm.py": "cf045f159158e3c9d49c70fc411401998cf535959b304344c98812f77a2050ab",
+    "trpo.py": "6b683c9310383b20dcdae5c76eaf86a31c38e26c7720ef971a2c9e7f70295e96",
+    "utils.py": "2b87b4e6cdcf566f0d36711844fad487b82b5d1bddaaada4ec0b8d8daa77e346"
+  }
+}

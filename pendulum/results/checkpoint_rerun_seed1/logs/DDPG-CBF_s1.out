@@ -1,0 +1,1231 @@
+curses is not supported on this machine (please install/reinstall curses for an optimal experience)
+{'actor_lr': '0.0001',
+ 'bar_constraint_max': 10.0,
+ 'buffer_size': '100000',
+ 'comp_num_backtracking': 30,
+ 'critic_lr': '0.0005',
+ 'enforce_speed_limit': False,
+ 'env': 'Pendulum-v0',
+ 'episodes_per_iteration': 5,
+ 'gamma': '0.99',
+ 'max_episode_len': '200',
+ 'max_episodes': '600',
+ 'minibatch_size': '256',
+ 'monitor_dir': './results2/gym_ddpg',
+ 'noise_sigma': 1.0,
+ 'random_seed': '1',
+ 'render_env': False,
+ 'summary_dir': 'E:\\OneDrive - '
+                '南方科技大学\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-Revised\\pendulum\\runs_ckpt\\DDPG-CBF\\seed1\\tf_summary',
+ 'tau': 0.001,
+ 'use_gym_monitor': False}
+Observation space Box(-60.0, 60.0, (3,), float32)
+Action space Box(-15.0, 15.0, (1,), float32)
+Initializing Barrier Compensation network
+Compensator/h1/Weight
+Compensator/h1/Bias
+Compensator/h2/Weight
+Compensator/h2/Bias
+Compensator/h3/Weight
+Compensator/h3/Bias
+Total variable size : 2281
+Episode 0 | Reward -178.232 | GP samples 200 | Max slack 0.0482
+LIVE {"episode": 1, "reward": -178.2321657951724, "max_angle": 0.9513601525323956, "slack": 0.048174340438683884, "correction_rms": 7.625721203700379}
+Episode 1 | Reward -194.933 | GP samples 200 | Max slack 0
+LIVE {"episode": 2, "reward": -194.93261150737388, "max_angle": 0.9997399080656125, "slack": 0.0, "correction_rms": 3.780443407129533}
+Episode 2 | Reward -201.718 | GP samples 200 | Max slack 0
+LIVE {"episode": 3, "reward": -201.71774099281555, "max_angle": 0.9999652848272852, "slack": 0.0, "correction_rms": 4.393383472589473}
+Episode 3 | Reward -199.293 | GP samples 200 | Max slack 0
+LIVE {"episode": 4, "reward": -199.29308590085193, "max_angle": 0.99360893585516, "slack": 0.0, "correction_rms": 4.644922769525405}
+Episode 4 | Reward -197.559 | GP samples 200 | Max slack 0
+LIVE {"episode": 5, "reward": -197.5589981283316, "max_angle": 0.9999513532082887, "slack": 0.0, "correction_rms": 4.4594799364403634}
+Episode 5 | Reward -177.600 | GP samples 200 | Max slack 0
+LIVE {"episode": 6, "reward": -177.60029450750835, "max_angle": 0.9803206155550531, "slack": 0.0, "correction_rms": 0.16979583079740793}
+Episode 6 | Reward -112.434 | GP samples 200 | Max slack 0
+LIVE {"episode": 7, "reward": -112.43404136755991, "max_angle": 0.9093767560273163, "slack": 0.0, "correction_rms": 0.0}
+Episode 7 | Reward -133.286 | GP samples 200 | Max slack 0
+LIVE {"episode": 8, "reward": -133.28572580788764, "max_angle": 0.9148389995844581, "slack": 0.0, "correction_rms": 0.0}
+Episode 8 | Reward -112.774 | GP samples 200 | Max slack 0
+LIVE {"episode": 9, "reward": -112.77387423368077, "max_angle": 0.8410059530114062, "slack": 0.0, "correction_rms": 0.0}
+Episode 9 | Reward -120.388 | GP samples 200 | Max slack 0
+LIVE {"episode": 10, "reward": -120.38801019364611, "max_angle": 0.8361781594273784, "slack": 0.0, "correction_rms": 0.0}
+Episode 10 | Reward -110.881 | GP samples 200 | Max slack 0
+LIVE {"episode": 11, "reward": -110.88061185536971, "max_angle": 0.8482729833929549, "slack": 0.0, "correction_rms": 0.0}
+Episode 11 | Reward -106.065 | GP samples 200 | Max slack 0
+LIVE {"episode": 12, "reward": -106.06544323809354, "max_angle": 0.8537052998883357, "slack": 0.0, "correction_rms": 0.0}
+Episode 12 | Reward -100.907 | GP samples 200 | Max slack 0
+LIVE {"episode": 13, "reward": -100.90747712610602, "max_angle": 0.7437002708669569, "slack": 0.0, "correction_rms": 0.0}
+Episode 13 | Reward -98.201 | GP samples 200 | Max slack 0
+LIVE {"episode": 14, "reward": -98.20148200771598, "max_angle": 0.9234994365771778, "slack": 0.0, "correction_rms": 0.0}
+Episode 14 | Reward -69.390 | GP samples 200 | Max slack 0
+LIVE {"episode": 15, "reward": -69.39036134708351, "max_angle": 0.654998354764995, "slack": 0.0, "correction_rms": 0.0}
+Episode 15 | Reward -69.631 | GP samples 200 | Max slack 0
+LIVE {"episode": 16, "reward": -69.63062984957786, "max_angle": 0.6884978530189095, "slack": 0.0, "correction_rms": 0.0}
+Episode 16 | Reward -54.589 | GP samples 200 | Max slack 0
+LIVE {"episode": 17, "reward": -54.588532915667585, "max_angle": 0.6258285061828496, "slack": 0.0, "correction_rms": 0.0}
+Episode 17 | Reward -33.421 | GP samples 200 | Max slack 0
+LIVE {"episode": 18, "reward": -33.4210673493743, "max_angle": 0.6665489202188934, "slack": 0.0, "correction_rms": 0.0}
+Episode 18 | Reward -42.057 | GP samples 200 | Max slack 0
+LIVE {"episode": 19, "reward": -42.05683588307499, "max_angle": 0.5395924111828094, "slack": 0.0, "correction_rms": 0.0}
+Episode 19 | Reward -53.759 | GP samples 200 | Max slack 0
+LIVE {"episode": 20, "reward": -53.75850203350049, "max_angle": 0.5497132275159902, "slack": 0.0, "correction_rms": 0.0}
+Episode 20 | Reward -43.530 | GP samples 200 | Max slack 0
+LIVE {"episode": 21, "reward": -43.530142767032565, "max_angle": 0.5049674479337235, "slack": 0.0, "correction_rms": 0.0}
+Episode 21 | Reward -39.808 | GP samples 200 | Max slack 0
+LIVE {"episode": 22, "reward": -39.808371623695024, "max_angle": 0.4850373347759182, "slack": 0.0, "correction_rms": 0.0}
+Episode 22 | Reward -37.525 | GP samples 200 | Max slack 0
+LIVE {"episode": 23, "reward": -37.52480919592085, "max_angle": 0.4773640347550533, "slack": 0.0, "correction_rms": 0.0}
+Episode 23 | Reward -34.768 | GP samples 200 | Max slack 0
+LIVE {"episode": 24, "reward": -34.76771125032208, "max_angle": 0.6648176755195148, "slack": 0.0, "correction_rms": 0.0}
+Episode 24 | Reward -37.639 | GP samples 200 | Max slack 0
+LIVE {"episode": 25, "reward": -37.63941342338602, "max_angle": 0.9162676010481139, "slack": 0.0, "correction_rms": 0.0}
+Episode 25 | Reward -33.236 | GP samples 200 | Max slack 0
+LIVE {"episode": 26, "reward": -33.235669462700415, "max_angle": 0.9401077209772168, "slack": 0.0, "correction_rms": 0.0}
+Episode 26 | Reward -22.399 | GP samples 200 | Max slack 0
+LIVE {"episode": 27, "reward": -22.398594052032855, "max_angle": 0.3977328595515877, "slack": 0.0, "correction_rms": 0.0}
+Episode 27 | Reward -20.019 | GP samples 200 | Max slack 0
+LIVE {"episode": 28, "reward": -20.019377265435914, "max_angle": 0.43378784974879925, "slack": 0.0, "correction_rms": 0.0}
+Episode 28 | Reward -19.522 | GP samples 200 | Max slack 0
+LIVE {"episode": 29, "reward": -19.521956738788987, "max_angle": 0.6533144604254404, "slack": 0.0, "correction_rms": 0.0}
+Episode 29 | Reward -17.782 | GP samples 200 | Max slack 0
+LIVE {"episode": 30, "reward": -17.782250087875774, "max_angle": 0.7992638736590971, "slack": 0.0, "correction_rms": 0.14946038023916955}
+Episode 30 | Reward -16.700 | GP samples 200 | Max slack 0
+LIVE {"episode": 31, "reward": -16.69970985525873, "max_angle": 0.4975801507849795, "slack": 0.0, "correction_rms": 0.0}
+Episode 31 | Reward -15.420 | GP samples 200 | Max slack 0
+LIVE {"episode": 32, "reward": -15.420290928547697, "max_angle": 0.3002554656611681, "slack": 0.0, "correction_rms": 0.0}
+Episode 32 | Reward -14.197 | GP samples 200 | Max slack 0
+LIVE {"episode": 33, "reward": -14.197253164017969, "max_angle": 0.3403844634515069, "slack": 0.0, "correction_rms": 0.0}
+Episode 33 | Reward -15.923 | GP samples 200 | Max slack 0
+LIVE {"episode": 34, "reward": -15.923102844644507, "max_angle": 0.7089338219062975, "slack": 0.0, "correction_rms": 0.0}
+Episode 34 | Reward -11.156 | GP samples 200 | Max slack 0
+LIVE {"episode": 35, "reward": -11.156080570603512, "max_angle": 0.26817655627521, "slack": 0.0, "correction_rms": 0.0}
+Episode 35 | Reward -14.893 | GP samples 200 | Max slack 0
+LIVE {"episode": 36, "reward": -14.893228812220954, "max_angle": 0.7196304788043069, "slack": 0.0, "correction_rms": 0.09131418776187952}
+Episode 36 | Reward -11.161 | GP samples 200 | Max slack 0
+LIVE {"episode": 37, "reward": -11.161041915624825, "max_angle": 0.35380267311706737, "slack": 0.0, "correction_rms": 0.0}
+Episode 37 | Reward -15.457 | GP samples 200 | Max slack 0
+LIVE {"episode": 38, "reward": -15.457348662760552, "max_angle": 0.9311208417893075, "slack": 0.0, "correction_rms": 0.0}
+Episode 38 | Reward -10.438 | GP samples 200 | Max slack 0
+LIVE {"episode": 39, "reward": -10.438497720425243, "max_angle": 0.5469840857398259, "slack": 0.0, "correction_rms": 0.0}
+Episode 39 | Reward -8.338 | GP samples 200 | Max slack 0
+LIVE {"episode": 40, "reward": -8.337627293458638, "max_angle": 0.21793824531487901, "slack": 0.0, "correction_rms": 0.0}
+Episode 40 | Reward -10.884 | GP samples 200 | Max slack 0
+LIVE {"episode": 41, "reward": -10.88421534469937, "max_angle": 0.6122861395788943, "slack": 0.0, "correction_rms": 0.0}
+Episode 41 | Reward -13.068 | GP samples 200 | Max slack 0
+LIVE {"episode": 42, "reward": -13.06839877136249, "max_angle": 0.9314966649824894, "slack": 0.0, "correction_rms": 0.12990573854586343}
+Episode 42 | Reward -6.677 | GP samples 200 | Max slack 0
+LIVE {"episode": 43, "reward": -6.676994407181837, "max_angle": 0.19685778534888554, "slack": 0.0, "correction_rms": 0.0}
+Episode 43 | Reward -10.831 | GP samples 200 | Max slack 0
+LIVE {"episode": 44, "reward": -10.83098776996698, "max_angle": 0.7119293139465359, "slack": 0.0, "correction_rms": 0.09606807327741392}
+Episode 44 | Reward -12.185 | GP samples 200 | Max slack 0
+LIVE {"episode": 45, "reward": -12.184787652000649, "max_angle": 0.9539192785310764, "slack": 0.0, "correction_rms": 0.2454418014109245}
+Episode 45 | Reward -7.836 | GP samples 200 | Max slack 0
+LIVE {"episode": 46, "reward": -7.83619222525378, "max_angle": 0.5302251820173955, "slack": 0.0, "correction_rms": 0.0}
+Episode 46 | Reward -9.046 | GP samples 200 | Max slack 0
+LIVE {"episode": 47, "reward": -9.046037096872842, "max_angle": 0.7298265619239841, "slack": 0.0, "correction_rms": 0.0}
+Episode 47 | Reward -5.076 | GP samples 200 | Max slack 0
+LIVE {"episode": 48, "reward": -5.075797618356262, "max_angle": 0.2352432541179421, "slack": 0.0, "correction_rms": 0.0}
+Episode 48 | Reward -4.415 | GP samples 200 | Max slack 0
+LIVE {"episode": 49, "reward": -4.414794016527125, "max_angle": 0.23648776618208922, "slack": 0.0, "correction_rms": 0.0}
+Episode 49 | Reward -9.630 | GP samples 200 | Max slack 0
+LIVE {"episode": 50, "reward": -9.629704897140568, "max_angle": 0.8585721716439649, "slack": 0.0, "correction_rms": 0.0}
+Episode 50 | Reward -8.018 | GP samples 200 | Max slack 0
+LIVE {"episode": 51, "reward": -8.018260968389788, "max_angle": 0.7724430390091074, "slack": 0.0, "correction_rms": 0.015142244724807474}
+Episode 51 | Reward -8.354 | GP samples 200 | Max slack 0
+LIVE {"episode": 52, "reward": -8.354176116014989, "max_angle": 0.7949574593877178, "slack": 0.0, "correction_rms": 0.0}
+Episode 52 | Reward -6.433 | GP samples 200 | Max slack 0
+LIVE {"episode": 53, "reward": -6.4333044750270805, "max_angle": 0.6692371558694867, "slack": 0.0, "correction_rms": 0.0}
+Episode 53 | Reward -3.929 | GP samples 200 | Max slack 0
+LIVE {"episode": 54, "reward": -3.929014148997343, "max_angle": 0.3304588052527544, "slack": 0.0, "correction_rms": 0.0}
+Episode 54 | Reward -2.902 | GP samples 200 | Max slack 0
+LIVE {"episode": 55, "reward": -2.9024879803994663, "max_angle": 0.13310090479036818, "slack": 0.0, "correction_rms": 0.0}
+Episode 55 | Reward -7.169 | GP samples 200 | Max slack 0
+LIVE {"episode": 56, "reward": -7.168645939844013, "max_angle": 0.72355056412243, "slack": 0.0, "correction_rms": 0.15418135722474566}
+Episode 56 | Reward -7.255 | GP samples 200 | Max slack 0
+LIVE {"episode": 57, "reward": -7.255212273714409, "max_angle": 0.8181990029291004, "slack": 0.0, "correction_rms": 0.0}
+Episode 57 | Reward -3.869 | GP samples 200 | Max slack 0
+LIVE {"episode": 58, "reward": -3.869315309139478, "max_angle": 0.4494529767873625, "slack": 0.0, "correction_rms": 0.0}
+Episode 58 | Reward -7.966 | GP samples 200 | Max slack 0
+LIVE {"episode": 59, "reward": -7.966437745859068, "max_angle": 0.8555013449376225, "slack": 0.0, "correction_rms": 0.0}
+Episode 59 | Reward -5.682 | GP samples 200 | Max slack 0
+LIVE {"episode": 60, "reward": -5.68167242079664, "max_angle": 0.6646263978590123, "slack": 0.0, "correction_rms": 0.0}
+Episode 60 | Reward -7.936 | GP samples 200 | Max slack 0
+LIVE {"episode": 61, "reward": -7.935699035625038, "max_angle": 0.8851104696183401, "slack": 0.0, "correction_rms": 0.0}
+Episode 61 | Reward -6.674 | GP samples 200 | Max slack 0
+LIVE {"episode": 62, "reward": -6.673832339894257, "max_angle": 0.8134092897950893, "slack": 0.0, "correction_rms": 0.0015442444794583979}
+Episode 62 | Reward -5.867 | GP samples 200 | Max slack 0
+LIVE {"episode": 63, "reward": -5.8669187084568994, "max_angle": 0.7022199095513999, "slack": 0.0, "correction_rms": 0.0}
+Episode 63 | Reward -1.757 | GP samples 200 | Max slack 0
+LIVE {"episode": 64, "reward": -1.7569518963159865, "max_angle": 0.21324152572783106, "slack": 0.0, "correction_rms": 0.0}
+Episode 64 | Reward -2.161 | GP samples 200 | Max slack 0
+LIVE {"episode": 65, "reward": -2.1605961317491857, "max_angle": 0.3008426185208637, "slack": 0.0, "correction_rms": 0.0}
+Episode 65 | Reward -1.861 | GP samples 200 | Max slack 0
+LIVE {"episode": 66, "reward": -1.8610933890672854, "max_angle": 0.2339374313567295, "slack": 0.0, "correction_rms": 0.0}
+Episode 66 | Reward -3.493 | GP samples 200 | Max slack 0
+LIVE {"episode": 67, "reward": -3.4926655388052508, "max_angle": 0.49311567369585285, "slack": 0.0, "correction_rms": 0.0}
+Episode 67 | Reward -1.412 | GP samples 200 | Max slack 0
+LIVE {"episode": 68, "reward": -1.4121369679068125, "max_angle": 0.08015897303597823, "slack": 0.0, "correction_rms": 0.0}
+Episode 68 | Reward -4.793 | GP samples 200 | Max slack 0
+LIVE {"episode": 69, "reward": -4.7932869404541965, "max_angle": 0.6455074343489027, "slack": 0.0, "correction_rms": 0.0}
+Episode 69 | Reward -3.620 | GP samples 200 | Max slack 0
+LIVE {"episode": 70, "reward": -3.6201008679736937, "max_angle": 0.5188557940540233, "slack": 0.0, "correction_rms": 0.0}
+Episode 70 | Reward -6.421 | GP samples 200 | Max slack 0
+LIVE {"episode": 71, "reward": -6.421374767143674, "max_angle": 0.8063202376557936, "slack": 0.0, "correction_rms": 0.0}
+Episode 71 | Reward -8.433 | GP samples 200 | Max slack 0
+LIVE {"episode": 72, "reward": -8.433302069852909, "max_angle": 0.9393186374436884, "slack": 0.0, "correction_rms": 0.02263899725280788}
+Episode 72 | Reward -1.317 | GP samples 200 | Max slack 0
+LIVE {"episode": 73, "reward": -1.3172692144493108, "max_angle": 0.17390053614452866, "slack": 0.0, "correction_rms": 0.0}
+Episode 73 | Reward -2.312 | GP samples 200 | Max slack 0
+LIVE {"episode": 74, "reward": -2.3123100411453192, "max_angle": 0.4032165847807596, "slack": 0.0, "correction_rms": 0.0}
+Episode 74 | Reward -4.186 | GP samples 200 | Max slack 0
+LIVE {"episode": 75, "reward": -4.186179767691143, "max_angle": 0.6205730916454149, "slack": 0.0, "correction_rms": 0.0}
+Episode 75 | Reward -1.532 | GP samples 200 | Max slack 0
+LIVE {"episode": 76, "reward": -1.5323330997412463, "max_angle": 0.2474691366634838, "slack": 0.0, "correction_rms": 0.0}
+Episode 76 | Reward -1.172 | GP samples 200 | Max slack 0
+LIVE {"episode": 77, "reward": -1.1717462474668192, "max_angle": 0.1750460638526905, "slack": 0.0, "correction_rms": 0.0}
+Episode 77 | Reward -4.200 | GP samples 200 | Max slack 0
+LIVE {"episode": 78, "reward": -4.1997834012935495, "max_angle": 0.635485143443038, "slack": 0.0, "correction_rms": 0.0}
+Episode 78 | Reward -6.513 | GP samples 200 | Max slack 0
+LIVE {"episode": 79, "reward": -6.512678294253963, "max_angle": 0.850280668374872, "slack": 0.0, "correction_rms": 0.0}
+Episode 79 | Reward -8.342 | GP samples 200 | Max slack 0
+LIVE {"episode": 80, "reward": -8.341726918195482, "max_angle": 0.9554241645145312, "slack": 0.0, "correction_rms": 0.14067663828286142}
+Episode 80 | Reward -7.797 | GP samples 200 | Max slack 0
+LIVE {"episode": 81, "reward": -7.796889644823733, "max_angle": 0.9490421056506841, "slack": 0.0, "correction_rms": 0.0}
+Episode 81 | Reward -7.316 | GP samples 200 | Max slack 0
+LIVE {"episode": 82, "reward": -7.316433062892385, "max_angle": 0.94056910569959, "slack": 0.0, "correction_rms": 0.0}
+Episode 82 | Reward -1.244 | GP samples 200 | Max slack 0
+LIVE {"episode": 83, "reward": -1.2435861974910272, "max_angle": 0.09695548606424387, "slack": 0.0, "correction_rms": 0.0}
+Episode 83 | Reward -7.331 | GP samples 200 | Max slack 0
+LIVE {"episode": 84, "reward": -7.331341882346834, "max_angle": 0.934560178650681, "slack": 0.0, "correction_rms": 0.0}
+Episode 84 | Reward -7.478 | GP samples 200 | Max slack 0
+LIVE {"episode": 85, "reward": -7.4779758897757596, "max_angle": 0.93341729441954, "slack": 0.0, "correction_rms": 0.0}
+Episode 85 | Reward -5.887 | GP samples 200 | Max slack 0
+LIVE {"episode": 86, "reward": -5.886991569962099, "max_angle": 0.7844560490145542, "slack": 0.0, "correction_rms": 0.0}
+Episode 86 | Reward -4.377 | GP samples 200 | Max slack 0
+LIVE {"episode": 87, "reward": -4.376679824529382, "max_angle": 0.6743276175735671, "slack": 0.0, "correction_rms": 0.024662576292986103}
+Episode 87 | Reward -6.819 | GP samples 200 | Max slack 0
+LIVE {"episode": 88, "reward": -6.8188352661075164, "max_angle": 0.8834815716643034, "slack": 0.0, "correction_rms": 0.0}
+Episode 88 | Reward -3.258 | GP samples 200 | Max slack 0
+LIVE {"episode": 89, "reward": -3.258198847871857, "max_angle": 0.5451526176241019, "slack": 0.0, "correction_rms": 0.0}
+Episode 89 | Reward -5.836 | GP samples 200 | Max slack 0
+LIVE {"episode": 90, "reward": -5.835686429981939, "max_angle": 0.7750853055618532, "slack": 0.0, "correction_rms": 0.0}
+Episode 90 | Reward -9.415 | GP samples 200 | Max slack 0
+LIVE {"episode": 91, "reward": -9.415351550599086, "max_angle": 0.9903216780557658, "slack": 0.0, "correction_rms": 0.0}
+Episode 91 | Reward -3.578 | GP samples 200 | Max slack 0
+LIVE {"episode": 92, "reward": -3.5783782227480323, "max_angle": 0.5832811044627126, "slack": 0.0, "correction_rms": 0.0}
+Episode 92 | Reward -1.293 | GP samples 200 | Max slack 0
+LIVE {"episode": 93, "reward": -1.2927723096526171, "max_angle": 0.09524949700977049, "slack": 0.0, "correction_rms": 0.0}
+Episode 93 | Reward -6.558 | GP samples 200 | Max slack 0
+LIVE {"episode": 94, "reward": -6.557636822670985, "max_angle": 0.8580409083636822, "slack": 0.0, "correction_rms": 0.0}
+Episode 94 | Reward -3.585 | GP samples 200 | Max slack 0
+LIVE {"episode": 95, "reward": -3.5850391469268974, "max_angle": 0.5766424680126185, "slack": 0.0, "correction_rms": 0.0}
+Episode 95 | Reward -3.207 | GP samples 200 | Max slack 0
+LIVE {"episode": 96, "reward": -3.2071091406979733, "max_angle": 0.5039711274411365, "slack": 0.0, "correction_rms": 0.0}
+Episode 96 | Reward -2.328 | GP samples 200 | Max slack 0
+LIVE {"episode": 97, "reward": -2.328081484508319, "max_angle": 0.3913625487050745, "slack": 0.0, "correction_rms": 0.0}
+Episode 97 | Reward -1.377 | GP samples 200 | Max slack 0
+LIVE {"episode": 98, "reward": -1.3770588688035248, "max_angle": 0.1011150493707964, "slack": 0.0, "correction_rms": 0.0}
+Episode 98 | Reward -8.579 | GP samples 200 | Max slack 0
+LIVE {"episode": 99, "reward": -8.57863524131347, "max_angle": 0.9905366137216527, "slack": 0.0, "correction_rms": 0.0}
+Episode 99 | Reward -1.974 | GP samples 200 | Max slack 0
+LIVE {"episode": 100, "reward": -1.974405400975125, "max_angle": 0.3006307063771616, "slack": 0.0, "correction_rms": 0.0}
+Episode 100 | Reward -1.533 | GP samples 200 | Max slack 0
+LIVE {"episode": 101, "reward": -1.533398848923651, "max_angle": 0.07764153531536366, "slack": 0.0, "correction_rms": 0.0}
+Episode 101 | Reward -2.283 | GP samples 200 | Max slack 0
+LIVE {"episode": 102, "reward": -2.2826745617402118, "max_angle": 0.32568533440925024, "slack": 0.0, "correction_rms": 0.0}
+Episode 102 | Reward -1.424 | GP samples 200 | Max slack 0
+LIVE {"episode": 103, "reward": -1.4240725642817187, "max_angle": 0.1615384321033757, "slack": 0.0, "correction_rms": 0.0}
+Episode 103 | Reward -1.371 | GP samples 200 | Max slack 0
+LIVE {"episode": 104, "reward": -1.3705008709848754, "max_angle": 0.07552947829841188, "slack": 0.0, "correction_rms": 0.0}
+Episode 104 | Reward -2.289 | GP samples 200 | Max slack 0
+LIVE {"episode": 105, "reward": -2.289141454335737, "max_angle": 0.3168331618836875, "slack": 0.0, "correction_rms": 0.0}
+Episode 105 | Reward -4.793 | GP samples 200 | Max slack 0
+LIVE {"episode": 106, "reward": -4.793243840104, "max_angle": 0.6808344171065053, "slack": 0.0, "correction_rms": 0.0}
+Episode 106 | Reward -7.934 | GP samples 200 | Max slack 0
+LIVE {"episode": 107, "reward": -7.934079549603528, "max_angle": 0.9463523442665349, "slack": 0.0, "correction_rms": 0.0}
+Episode 107 | Reward -3.210 | GP samples 200 | Max slack 0
+LIVE {"episode": 108, "reward": -3.2099340739695834, "max_angle": 0.48352581996968325, "slack": 0.0, "correction_rms": 0.0}
+Episode 108 | Reward -6.921 | GP samples 200 | Max slack 0
+LIVE {"episode": 109, "reward": -6.921362759218641, "max_angle": 0.8635565646882344, "slack": 0.0, "correction_rms": 0.0}
+Episode 109 | Reward -1.646 | GP samples 200 | Max slack 0
+LIVE {"episode": 110, "reward": -1.6455881081573414, "max_angle": 0.2299598853003919, "slack": 0.0, "correction_rms": 0.0}
+Episode 110 | Reward -1.932 | GP samples 200 | Max slack 0
+LIVE {"episode": 111, "reward": -1.9315329676056563, "max_angle": 0.2620933567085868, "slack": 0.0, "correction_rms": 0.0}
+Episode 111 | Reward -5.825 | GP samples 200 | Max slack 0
+LIVE {"episode": 112, "reward": -5.8250167716416374, "max_angle": 0.766113206467206, "slack": 0.0, "correction_rms": 0.021602099571770693}
+Episode 112 | Reward -4.503 | GP samples 200 | Max slack 0
+LIVE {"episode": 113, "reward": -4.503461719732828, "max_angle": 0.6566939873907365, "slack": 0.0, "correction_rms": 0.0}
+Episode 113 | Reward -2.359 | GP samples 200 | Max slack 0
+LIVE {"episode": 114, "reward": -2.359293067952814, "max_angle": 0.34554298757892954, "slack": 0.0, "correction_rms": 0.0}
+Episode 114 | Reward -5.014 | GP samples 200 | Max slack 0
+LIVE {"episode": 115, "reward": -5.01356084708313, "max_angle": 0.7134896217669353, "slack": 0.0, "correction_rms": 0.0}
+Episode 115 | Reward -3.491 | GP samples 200 | Max slack 0
+LIVE {"episode": 116, "reward": -3.490903323297432, "max_angle": 0.5132886809575465, "slack": 0.0, "correction_rms": 0.0}
+Episode 116 | Reward -1.260 | GP samples 200 | Max slack 0
+LIVE {"episode": 117, "reward": -1.2603336215707233, "max_angle": 0.08632634411028571, "slack": 0.0, "correction_rms": 0.0}
+Episode 117 | Reward -1.518 | GP samples 200 | Max slack 0
+LIVE {"episode": 118, "reward": -1.5175661837665255, "max_angle": 0.15726163771301735, "slack": 0.0, "correction_rms": 0.0}
+Episode 118 | Reward -7.508 | GP samples 200 | Max slack 0
+LIVE {"episode": 119, "reward": -7.508163630579859, "max_angle": 0.8486439695220582, "slack": 0.0, "correction_rms": 0.0}
+Episode 119 | Reward -5.975 | GP samples 200 | Max slack 0
+LIVE {"episode": 120, "reward": -5.974598730522829, "max_angle": 0.821063801675618, "slack": 0.0, "correction_rms": 0.0}
+Episode 120 | Reward -2.755 | GP samples 200 | Max slack 0
+LIVE {"episode": 121, "reward": -2.7546139908519844, "max_angle": 0.4628548821682341, "slack": 0.0, "correction_rms": 0.0}
+Episode 121 | Reward -1.544 | GP samples 200 | Max slack 0
+LIVE {"episode": 122, "reward": -1.543686233320933, "max_angle": 0.13111025700464232, "slack": 0.0, "correction_rms": 0.0}
+Episode 122 | Reward -2.883 | GP samples 200 | Max slack 0
+LIVE {"episode": 123, "reward": -2.883068280819417, "max_angle": 0.460919322080636, "slack": 0.0, "correction_rms": 0.0}
+Episode 123 | Reward -7.193 | GP samples 200 | Max slack 0
+LIVE {"episode": 124, "reward": -7.192593113391685, "max_angle": 0.8932824781751434, "slack": 0.0, "correction_rms": 0.0}
+Episode 124 | Reward -6.732 | GP samples 200 | Max slack 0
+LIVE {"episode": 125, "reward": -6.732285885609379, "max_angle": 0.8635146988506939, "slack": 0.0, "correction_rms": 0.0}
+Episode 125 | Reward -5.307 | GP samples 200 | Max slack 0
+LIVE {"episode": 126, "reward": -5.307316339812091, "max_angle": 0.7415019573163955, "slack": 0.0, "correction_rms": 0.0}
+Episode 126 | Reward -1.244 | GP samples 200 | Max slack 0
+LIVE {"episode": 127, "reward": -1.2439196589878094, "max_angle": 0.08246197877182686, "slack": 0.0, "correction_rms": 0.0}
+Episode 127 | Reward -1.254 | GP samples 200 | Max slack 0
+LIVE {"episode": 128, "reward": -1.2540183123360156, "max_angle": 0.12971286422247008, "slack": 0.0, "correction_rms": 0.0}
+Episode 128 | Reward -2.578 | GP samples 200 | Max slack 0
+LIVE {"episode": 129, "reward": -2.5783890375767164, "max_angle": 0.4664524308868814, "slack": 0.0, "correction_rms": 0.0}
+Episode 129 | Reward -1.178 | GP samples 200 | Max slack 0
+LIVE {"episode": 130, "reward": -1.1778467523372753, "max_angle": 0.09297167906536911, "slack": 0.0, "correction_rms": 0.0}
+Episode 130 | Reward -3.303 | GP samples 200 | Max slack 0
+LIVE {"episode": 131, "reward": -3.302821606732177, "max_angle": 0.5575976169851362, "slack": 0.0, "correction_rms": 0.0}
+Episode 131 | Reward -2.491 | GP samples 200 | Max slack 0
+LIVE {"episode": 132, "reward": -2.4910184772316857, "max_angle": 0.3785944992133263, "slack": 0.0, "correction_rms": 0.0}
+Episode 132 | Reward -1.473 | GP samples 200 | Max slack 0
+LIVE {"episode": 133, "reward": -1.4725824342975953, "max_angle": 0.1458557798799236, "slack": 0.0, "correction_rms": 0.0}
+Episode 133 | Reward -1.881 | GP samples 200 | Max slack 0
+LIVE {"episode": 134, "reward": -1.8811022129796808, "max_angle": 0.28264365779707834, "slack": 0.0, "correction_rms": 0.0}
+Episode 134 | Reward -5.780 | GP samples 200 | Max slack 0
+LIVE {"episode": 135, "reward": -5.780234644358906, "max_angle": 0.771042809835188, "slack": 0.0, "correction_rms": 0.0}
+Episode 135 | Reward -2.203 | GP samples 200 | Max slack 0
+LIVE {"episode": 136, "reward": -2.20263189492689, "max_angle": 0.36198379627350336, "slack": 0.0, "correction_rms": 0.0}
+Episode 136 | Reward -1.163 | GP samples 200 | Max slack 0
+LIVE {"episode": 137, "reward": -1.1626522334296805, "max_angle": 0.1358299645228518, "slack": 0.0, "correction_rms": 0.0}
+Episode 137 | Reward -7.671 | GP samples 200 | Max slack 0
+LIVE {"episode": 138, "reward": -7.67133312118062, "max_angle": 0.925359964182352, "slack": 0.0, "correction_rms": 0.0}
+Episode 138 | Reward -3.107 | GP samples 200 | Max slack 0
+LIVE {"episode": 139, "reward": -3.1065931750888187, "max_angle": 0.5527076910509916, "slack": 0.0, "correction_rms": 0.0}
+Episode 139 | Reward -3.538 | GP samples 200 | Max slack 0
+LIVE {"episode": 140, "reward": -3.5375739895589424, "max_angle": 0.5451035700310147, "slack": 0.0, "correction_rms": 0.0}
+Episode 140 | Reward -1.356 | GP samples 200 | Max slack 0
+LIVE {"episode": 141, "reward": -1.3563102307350117, "max_angle": 0.23744204592181317, "slack": 0.0, "correction_rms": 0.0}
+Episode 141 | Reward -1.506 | GP samples 200 | Max slack 0
+LIVE {"episode": 142, "reward": -1.5061156435646454, "max_angle": 0.2756576683920928, "slack": 0.0, "correction_rms": 0.0}
+Episode 142 | Reward -4.149 | GP samples 200 | Max slack 0
+LIVE {"episode": 143, "reward": -4.148923463759044, "max_angle": 0.6546362249670077, "slack": 0.0, "correction_rms": 0.0}
+Episode 143 | Reward -1.136 | GP samples 200 | Max slack 0
+LIVE {"episode": 144, "reward": -1.136091891543297, "max_angle": 0.08047258246596883, "slack": 0.0, "correction_rms": 0.0}
+Episode 144 | Reward -1.160 | GP samples 200 | Max slack 0
+LIVE {"episode": 145, "reward": -1.1604348771001047, "max_angle": 0.09198785653188506, "slack": 0.0, "correction_rms": 0.0}
+Episode 145 | Reward -1.307 | GP samples 200 | Max slack 0
+LIVE {"episode": 146, "reward": -1.3069285080534108, "max_angle": 0.09448043724200007, "slack": 0.0, "correction_rms": 0.0}
+Episode 146 | Reward -1.107 | GP samples 200 | Max slack 0
+LIVE {"episode": 147, "reward": -1.107017355342947, "max_angle": 0.07187249692087802, "slack": 0.0, "correction_rms": 0.0}
+Episode 147 | Reward -7.142 | GP samples 200 | Max slack 0
+LIVE {"episode": 148, "reward": -7.142459664027735, "max_angle": 0.9188842421152599, "slack": 0.0, "correction_rms": 0.0}
+Episode 148 | Reward -2.397 | GP samples 200 | Max slack 0
+LIVE {"episode": 149, "reward": -2.3970298285297473, "max_angle": 0.4145076868550224, "slack": 0.0, "correction_rms": 0.0}
+Episode 149 | Reward -2.553 | GP samples 200 | Max slack 0
+LIVE {"episode": 150, "reward": -2.552970730319788, "max_angle": 0.43293161664236823, "slack": 0.0, "correction_rms": 0.0}
+Episode 150 | Reward -1.211 | GP samples 200 | Max slack 0
+LIVE {"episode": 151, "reward": -1.2113092367451623, "max_angle": 0.07352913055273386, "slack": 0.0, "correction_rms": 0.0}
+Episode 151 | Reward -0.948 | GP samples 200 | Max slack 0
+LIVE {"episode": 152, "reward": -0.9475216541031509, "max_angle": 0.06728093663461493, "slack": 0.0, "correction_rms": 0.0}
+Episode 152 | Reward -4.533 | GP samples 200 | Max slack 0
+LIVE {"episode": 153, "reward": -4.532782668251896, "max_angle": 0.68595468565896, "slack": 0.0, "correction_rms": 0.0}
+Episode 153 | Reward -2.792 | GP samples 200 | Max slack 0
+LIVE {"episode": 154, "reward": -2.7921052079696436, "max_angle": 0.4945989366295609, "slack": 0.0, "correction_rms": 0.0}
+Episode 154 | Reward -1.488 | GP samples 200 | Max slack 0
+LIVE {"episode": 155, "reward": -1.487656958002426, "max_angle": 0.2225056484837964, "slack": 0.0, "correction_rms": 0.0}
+Episode 155 | Reward -3.732 | GP samples 200 | Max slack 0
+LIVE {"episode": 156, "reward": -3.731695580042286, "max_angle": 0.6095711165161868, "slack": 0.0, "correction_rms": 0.0}
+Episode 156 | Reward -4.844 | GP samples 200 | Max slack 0
+LIVE {"episode": 157, "reward": -4.843974044186964, "max_angle": 0.7273569193568328, "slack": 0.0, "correction_rms": 0.0}
+Episode 157 | Reward -1.587 | GP samples 200 | Max slack 0
+LIVE {"episode": 158, "reward": -1.586914708644961, "max_angle": 0.29955397662541694, "slack": 0.0, "correction_rms": 0.0}
+Episode 158 | Reward -5.871 | GP samples 200 | Max slack 0
+LIVE {"episode": 159, "reward": -5.871007686632181, "max_angle": 0.8220807198756508, "slack": 0.0, "correction_rms": 0.0}
+Episode 159 | Reward -1.046 | GP samples 200 | Max slack 0
+LIVE {"episode": 160, "reward": -1.0455030413814945, "max_angle": 0.0844722822633065, "slack": 0.0, "correction_rms": 0.0}
+Episode 160 | Reward -6.294 | GP samples 200 | Max slack 0
+LIVE {"episode": 161, "reward": -6.294410274895003, "max_angle": 0.8378589735249318, "slack": 0.0, "correction_rms": 0.0}
+Episode 161 | Reward -1.522 | GP samples 200 | Max slack 0
+LIVE {"episode": 162, "reward": -1.52194150698234, "max_angle": 0.19273700341887778, "slack": 0.0, "correction_rms": 0.0}
+Episode 162 | Reward -5.745 | GP samples 200 | Max slack 0
+LIVE {"episode": 163, "reward": -5.744896566122435, "max_angle": 0.7694771917748435, "slack": 0.0, "correction_rms": 0.0}
+Episode 163 | Reward -1.253 | GP samples 200 | Max slack 0
+LIVE {"episode": 164, "reward": -1.2530951201322533, "max_angle": 0.16893102309969588, "slack": 0.0, "correction_rms": 0.0}
+Episode 164 | Reward -1.527 | GP samples 200 | Max slack 0
+LIVE {"episode": 165, "reward": -1.526923753852763, "max_angle": 0.16024715086334276, "slack": 0.0, "correction_rms": 0.0}
+Episode 165 | Reward -1.041 | GP samples 200 | Max slack 0
+LIVE {"episode": 166, "reward": -1.0411169489757828, "max_angle": 0.10119176563080301, "slack": 0.0, "correction_rms": 0.0}
+Episode 166 | Reward -5.836 | GP samples 200 | Max slack 0
+LIVE {"episode": 167, "reward": -5.835726471196211, "max_angle": 0.7878544356454191, "slack": 0.0, "correction_rms": 0.0}
+Episode 167 | Reward -5.279 | GP samples 200 | Max slack 0
+LIVE {"episode": 168, "reward": -5.279378674901813, "max_angle": 0.749082945961608, "slack": 0.0, "correction_rms": 0.0}
+Episode 168 | Reward -4.175 | GP samples 200 | Max slack 0
+LIVE {"episode": 169, "reward": -4.174875337115894, "max_angle": 0.6519184168678047, "slack": 0.0, "correction_rms": 0.0}
+Episode 169 | Reward -1.207 | GP samples 200 | Max slack 0
+LIVE {"episode": 170, "reward": -1.207076724946258, "max_angle": 0.07818958870503509, "slack": 0.0, "correction_rms": 0.0}
+Episode 170 | Reward -3.038 | GP samples 200 | Max slack 0
+LIVE {"episode": 171, "reward": -3.0375676012320527, "max_angle": 0.5177302117534834, "slack": 0.0, "correction_rms": 0.0}
+Episode 171 | Reward -1.004 | GP samples 200 | Max slack 0
+LIVE {"episode": 172, "reward": -1.004073155159879, "max_angle": 0.054997840996285394, "slack": 0.0, "correction_rms": 0.0}
+Episode 172 | Reward -1.148 | GP samples 200 | Max slack 0
+LIVE {"episode": 173, "reward": -1.1481281790668896, "max_angle": 0.12140940213775075, "slack": 0.0, "correction_rms": 0.0}
+Episode 173 | Reward -8.149 | GP samples 200 | Max slack 0
+LIVE {"episode": 174, "reward": -8.148703154696921, "max_angle": 0.9642322412498079, "slack": 0.0, "correction_rms": 0.0}
+Episode 174 | Reward -1.039 | GP samples 200 | Max slack 0
+LIVE {"episode": 175, "reward": -1.0386549445457978, "max_angle": 0.1236407999093665, "slack": 0.0, "correction_rms": 0.0}
+Episode 175 | Reward -3.565 | GP samples 200 | Max slack 0
+LIVE {"episode": 176, "reward": -3.5654096010155243, "max_angle": 0.585955269134568, "slack": 0.0, "correction_rms": 0.0}
+Episode 176 | Reward -8.020 | GP samples 200 | Max slack 0
+LIVE {"episode": 177, "reward": -8.019974481884242, "max_angle": 0.9409179865440007, "slack": 0.0, "correction_rms": 0.0211841082016639}
+Episode 177 | Reward -7.099 | GP samples 200 | Max slack 0
+LIVE {"episode": 178, "reward": -7.098737810319129, "max_angle": 0.896785683484433, "slack": 0.0, "correction_rms": 0.0}
+Episode 178 | Reward -6.895 | GP samples 200 | Max slack 0
+LIVE {"episode": 179, "reward": -6.89451598452453, "max_angle": 0.8864979699107307, "slack": 0.0, "correction_rms": 0.0}
+Episode 179 | Reward -1.331 | GP samples 200 | Max slack 0
+LIVE {"episode": 180, "reward": -1.3310590777778981, "max_angle": 0.16971244836211796, "slack": 0.0, "correction_rms": 0.0}
+Episode 180 | Reward -7.717 | GP samples 200 | Max slack 0
+LIVE {"episode": 181, "reward": -7.716963557592309, "max_angle": 0.9377187412877839, "slack": 0.0, "correction_rms": 0.0}
+Episode 181 | Reward -1.286 | GP samples 200 | Max slack 0
+LIVE {"episode": 182, "reward": -1.2859926560248516, "max_angle": 0.1774063582676868, "slack": 0.0, "correction_rms": 0.0}
+Episode 182 | Reward -2.426 | GP samples 200 | Max slack 0
+LIVE {"episode": 183, "reward": -2.4259680047098553, "max_angle": 0.387514943116259, "slack": 0.0, "correction_rms": 0.0}
+Episode 183 | Reward -2.105 | GP samples 200 | Max slack 0
+LIVE {"episode": 184, "reward": -2.104780959648957, "max_angle": 0.3658423530569539, "slack": 0.0, "correction_rms": 0.0}
+Episode 184 | Reward -1.232 | GP samples 200 | Max slack 0
+LIVE {"episode": 185, "reward": -1.2324451410741557, "max_angle": 0.07178359443073701, "slack": 0.0, "correction_rms": 0.0}
+Episode 185 | Reward -2.986 | GP samples 200 | Max slack 0
+LIVE {"episode": 186, "reward": -2.98642625925416, "max_angle": 0.5189568738705945, "slack": 0.0, "correction_rms": 0.0}
+Episode 186 | Reward -3.205 | GP samples 200 | Max slack 0
+LIVE {"episode": 187, "reward": -3.2045836597597623, "max_angle": 0.5574422263591665, "slack": 0.0, "correction_rms": 0.0}
+Episode 187 | Reward -6.912 | GP samples 200 | Max slack 0
+LIVE {"episode": 188, "reward": -6.912000163964718, "max_angle": 0.9034386792962461, "slack": 0.0, "correction_rms": 0.0}
+Episode 188 | Reward -3.525 | GP samples 200 | Max slack 0
+LIVE {"episode": 189, "reward": -3.525435694543946, "max_angle": 0.5670555391265246, "slack": 0.0, "correction_rms": 0.0}
+Episode 189 | Reward -1.646 | GP samples 200 | Max slack 0
+LIVE {"episode": 190, "reward": -1.6457537822055779, "max_angle": 0.245896629969518, "slack": 0.0, "correction_rms": 0.0}
+Episode 190 | Reward -2.553 | GP samples 200 | Max slack 0
+LIVE {"episode": 191, "reward": -2.552759698810494, "max_angle": 0.40108451686976676, "slack": 0.0, "correction_rms": 0.0}
+Episode 191 | Reward -3.140 | GP samples 200 | Max slack 0
+LIVE {"episode": 192, "reward": -3.139535352430756, "max_angle": 0.5327178732281868, "slack": 0.0, "correction_rms": 0.0}
+Episode 192 | Reward -2.308 | GP samples 200 | Max slack 0
+LIVE {"episode": 193, "reward": -2.308488877953649, "max_angle": 0.39546453657299185, "slack": 0.0, "correction_rms": 0.0}
+Episode 193 | Reward -4.195 | GP samples 200 | Max slack 0
+LIVE {"episode": 194, "reward": -4.194526775937053, "max_angle": 0.6363398719333198, "slack": 0.0, "correction_rms": 0.0}
+Episode 194 | Reward -4.029 | GP samples 200 | Max slack 0
+LIVE {"episode": 195, "reward": -4.029331019509369, "max_angle": 0.6452323671320994, "slack": 0.0, "correction_rms": 0.0}
+Episode 195 | Reward -5.130 | GP samples 200 | Max slack 0
+LIVE {"episode": 196, "reward": -5.130024671164195, "max_angle": 0.7598264075433325, "slack": 0.0, "correction_rms": 0.0}
+Episode 196 | Reward -4.924 | GP samples 200 | Max slack 0
+LIVE {"episode": 197, "reward": -4.923917865593689, "max_angle": 0.7011342489466643, "slack": 0.0, "correction_rms": 0.0015160561218334702}
+Episode 197 | Reward -1.075 | GP samples 200 | Max slack 0
+LIVE {"episode": 198, "reward": -1.0752783831015869, "max_angle": 0.0713655202076101, "slack": 0.0, "correction_rms": 0.0}
+Episode 198 | Reward -1.114 | GP samples 200 | Max slack 0
+LIVE {"episode": 199, "reward": -1.1141089247437326, "max_angle": 0.1328376069015558, "slack": 0.0, "correction_rms": 0.0}
+Episode 199 | Reward -3.041 | GP samples 200 | Max slack 0
+LIVE {"episode": 200, "reward": -3.040558103947659, "max_angle": 0.5069768300207751, "slack": 0.0, "correction_rms": 0.0}
+Episode 200 | Reward -6.177 | GP samples 200 | Max slack 0
+LIVE {"episode": 201, "reward": -6.1769265694104245, "max_angle": 0.7838039060502038, "slack": 0.0, "correction_rms": 0.0}
+Episode 201 | Reward -2.676 | GP samples 200 | Max slack 0
+LIVE {"episode": 202, "reward": -2.6756083569004323, "max_angle": 0.45588305874083246, "slack": 0.0, "correction_rms": 0.0}
+Episode 202 | Reward -1.200 | GP samples 200 | Max slack 0
+LIVE {"episode": 203, "reward": -1.2001393821842576, "max_angle": 0.12499308964906364, "slack": 0.0, "correction_rms": 0.0}
+Episode 203 | Reward -6.634 | GP samples 200 | Max slack 0
+LIVE {"episode": 204, "reward": -6.634415160833553, "max_angle": 0.8550166563273969, "slack": 0.0, "correction_rms": 0.0}
+Episode 204 | Reward -3.738 | GP samples 200 | Max slack 0
+LIVE {"episode": 205, "reward": -3.737712115022602, "max_angle": 0.5847548870588544, "slack": 0.0, "correction_rms": 0.0}
+Episode 205 | Reward -3.745 | GP samples 200 | Max slack 0
+LIVE {"episode": 206, "reward": -3.7454305671651276, "max_angle": 0.6077298882934017, "slack": 0.0, "correction_rms": 0.0}
+Episode 206 | Reward -2.059 | GP samples 200 | Max slack 0
+LIVE {"episode": 207, "reward": -2.0593946112474204, "max_angle": 0.3736176060317238, "slack": 0.0, "correction_rms": 0.0}
+Episode 207 | Reward -6.058 | GP samples 200 | Max slack 0
+LIVE {"episode": 208, "reward": -6.05750618439802, "max_angle": 0.8197009303084709, "slack": 0.0, "correction_rms": 0.0}
+Episode 208 | Reward -1.160 | GP samples 200 | Max slack 0
+LIVE {"episode": 209, "reward": -1.1596518777970213, "max_angle": 0.1079023859872479, "slack": 0.0, "correction_rms": 0.0}
+Episode 209 | Reward -3.188 | GP samples 200 | Max slack 0
+LIVE {"episode": 210, "reward": -3.187600137577947, "max_angle": 0.5398583699026345, "slack": 0.0, "correction_rms": 0.0}
+Episode 210 | Reward -4.189 | GP samples 200 | Max slack 0
+LIVE {"episode": 211, "reward": -4.189034226138647, "max_angle": 0.6617267563833982, "slack": 0.0, "correction_rms": 0.0}
+Episode 211 | Reward -4.628 | GP samples 200 | Max slack 0
+LIVE {"episode": 212, "reward": -4.627785735773044, "max_angle": 0.696296473362964, "slack": 0.0, "correction_rms": 0.0}
+Episode 212 | Reward -1.697 | GP samples 200 | Max slack 0
+LIVE {"episode": 213, "reward": -1.6970048418739458, "max_angle": 0.3088971887553155, "slack": 0.0, "correction_rms": 0.0}
+Episode 213 | Reward -1.449 | GP samples 200 | Max slack 0
+LIVE {"episode": 214, "reward": -1.4490992328620655, "max_angle": 0.19996638344790818, "slack": 0.0, "correction_rms": 0.0}
+Episode 214 | Reward -3.994 | GP samples 200 | Max slack 0
+LIVE {"episode": 215, "reward": -3.9941534007660935, "max_angle": 0.6330757035726491, "slack": 0.0, "correction_rms": 0.0}
+Episode 215 | Reward -2.739 | GP samples 200 | Max slack 0
+LIVE {"episode": 216, "reward": -2.7392082152546418, "max_angle": 0.45405115990520084, "slack": 0.0, "correction_rms": 0.0}
+Episode 216 | Reward -4.598 | GP samples 200 | Max slack 0
+LIVE {"episode": 217, "reward": -4.5978483512876895, "max_angle": 0.6981753986569441, "slack": 0.0, "correction_rms": 0.0}
+Episode 217 | Reward -1.109 | GP samples 200 | Max slack 0
+LIVE {"episode": 218, "reward": -1.1086307150559231, "max_angle": 0.11002773388276665, "slack": 0.0, "correction_rms": 0.0}
+Episode 218 | Reward -1.086 | GP samples 200 | Max slack 0
+LIVE {"episode": 219, "reward": -1.0858652207629202, "max_angle": 0.07631621990810597, "slack": 0.0, "correction_rms": 0.0}
+Episode 219 | Reward -2.137 | GP samples 200 | Max slack 0
+LIVE {"episode": 220, "reward": -2.136777567577394, "max_angle": 0.3939877838119228, "slack": 0.0, "correction_rms": 0.0}
+Episode 220 | Reward -2.290 | GP samples 200 | Max slack 0
+LIVE {"episode": 221, "reward": -2.2904200966282042, "max_angle": 0.4130993997171919, "slack": 0.0, "correction_rms": 0.0}
+Episode 221 | Reward -5.818 | GP samples 200 | Max slack 0
+LIVE {"episode": 222, "reward": -5.81833683317552, "max_angle": 0.7934681560335155, "slack": 0.0, "correction_rms": 0.0}
+Episode 222 | Reward -1.788 | GP samples 200 | Max slack 0
+LIVE {"episode": 223, "reward": -1.788275077973281, "max_angle": 0.24618741459128568, "slack": 0.0, "correction_rms": 0.0}
+Episode 223 | Reward -1.545 | GP samples 200 | Max slack 0
+LIVE {"episode": 224, "reward": -1.5451533850189196, "max_angle": 0.18815811336246124, "slack": 0.0, "correction_rms": 0.0}
+Episode 224 | Reward -3.935 | GP samples 200 | Max slack 0
+LIVE {"episode": 225, "reward": -3.934539451532978, "max_angle": 0.6338655503525867, "slack": 0.0, "correction_rms": 0.0}
+Episode 225 | Reward -6.544 | GP samples 200 | Max slack 0
+LIVE {"episode": 226, "reward": -6.544193934764598, "max_angle": 0.8653422741197803, "slack": 0.0, "correction_rms": 0.0}
+Episode 226 | Reward -1.121 | GP samples 200 | Max slack 0
+LIVE {"episode": 227, "reward": -1.121009778696688, "max_angle": 0.05529850674965574, "slack": 0.0, "correction_rms": 0.0}
+Episode 227 | Reward -2.519 | GP samples 200 | Max slack 0
+LIVE {"episode": 228, "reward": -2.518689949041478, "max_angle": 0.4593439054964743, "slack": 0.0, "correction_rms": 0.0}
+Episode 228 | Reward -1.431 | GP samples 200 | Max slack 0
+LIVE {"episode": 229, "reward": -1.4306819163762952, "max_angle": 0.1596483711250325, "slack": 0.0, "correction_rms": 0.0}
+Episode 229 | Reward -4.162 | GP samples 200 | Max slack 0
+LIVE {"episode": 230, "reward": -4.161759414810703, "max_angle": 0.6456595442748148, "slack": 0.0, "correction_rms": 0.0}
+Episode 230 | Reward -5.898 | GP samples 200 | Max slack 0
+LIVE {"episode": 231, "reward": -5.89752138735905, "max_angle": 0.8081454390920009, "slack": 0.0, "correction_rms": 0.0}
+Episode 231 | Reward -6.813 | GP samples 200 | Max slack 0
+LIVE {"episode": 232, "reward": -6.812791168465623, "max_angle": 0.8875440996744008, "slack": 0.0, "correction_rms": 0.0}
+Episode 232 | Reward -1.581 | GP samples 200 | Max slack 0
+LIVE {"episode": 233, "reward": -1.5813039090625467, "max_angle": 0.2504831150255027, "slack": 0.0, "correction_rms": 0.0}
+Episode 233 | Reward -2.358 | GP samples 200 | Max slack 0
+LIVE {"episode": 234, "reward": -2.357992103040149, "max_angle": 0.4403004768916978, "slack": 0.0, "correction_rms": 0.0}
+Episode 234 | Reward -3.397 | GP samples 200 | Max slack 0
+LIVE {"episode": 235, "reward": -3.397258498210139, "max_angle": 0.5287895817151302, "slack": 0.0, "correction_rms": 0.0}
+Episode 235 | Reward -2.679 | GP samples 200 | Max slack 0
+LIVE {"episode": 236, "reward": -2.679258976631545, "max_angle": 0.4470977970337635, "slack": 0.0, "correction_rms": 0.0}
+Episode 236 | Reward -5.409 | GP samples 200 | Max slack 0
+LIVE {"episode": 237, "reward": -5.408539126331839, "max_angle": 0.7540261799786787, "slack": 0.0, "correction_rms": 0.0}
+Episode 237 | Reward -1.879 | GP samples 200 | Max slack 0
+LIVE {"episode": 238, "reward": -1.8793553607605533, "max_angle": 0.2536199581407188, "slack": 0.0, "correction_rms": 0.0}
+Episode 238 | Reward -3.984 | GP samples 200 | Max slack 0
+LIVE {"episode": 239, "reward": -3.9837995994109874, "max_angle": 0.6204755334081686, "slack": 0.0, "correction_rms": 0.0}
+Episode 239 | Reward -3.106 | GP samples 200 | Max slack 0
+LIVE {"episode": 240, "reward": -3.1062934711517194, "max_angle": 0.5059350128935769, "slack": 0.0, "correction_rms": 0.0}
+Episode 240 | Reward -1.169 | GP samples 200 | Max slack 0
+LIVE {"episode": 241, "reward": -1.1694861062182969, "max_angle": 0.15143828778629412, "slack": 0.0, "correction_rms": 0.0}
+Episode 241 | Reward -1.169 | GP samples 200 | Max slack 0
+LIVE {"episode": 242, "reward": -1.169037696580627, "max_angle": 0.1264699946768557, "slack": 0.0, "correction_rms": 0.0}
+Episode 242 | Reward -6.591 | GP samples 200 | Max slack 0
+LIVE {"episode": 243, "reward": -6.591007404462541, "max_angle": 0.8445904211858444, "slack": 0.0, "correction_rms": 0.0}
+Episode 243 | Reward -1.552 | GP samples 200 | Max slack 0
+LIVE {"episode": 244, "reward": -1.5523792539852914, "max_angle": 0.1940184826133835, "slack": 0.0, "correction_rms": 0.0}
+Episode 244 | Reward -6.656 | GP samples 200 | Max slack 0
+LIVE {"episode": 245, "reward": -6.65601642079832, "max_angle": 0.8843204556537159, "slack": 0.0, "correction_rms": 0.0}
+Episode 245 | Reward -1.924 | GP samples 200 | Max slack 0
+LIVE {"episode": 246, "reward": -1.9235542681251383, "max_angle": 0.3060068467463808, "slack": 0.0, "correction_rms": 0.0}
+Episode 246 | Reward -1.118 | GP samples 200 | Max slack 0
+LIVE {"episode": 247, "reward": -1.1176538703291998, "max_angle": 0.1038903365899213, "slack": 0.0, "correction_rms": 0.0}
+Episode 247 | Reward -1.085 | GP samples 200 | Max slack 0
+LIVE {"episode": 248, "reward": -1.085184752499603, "max_angle": 0.05031335463067976, "slack": 0.0, "correction_rms": 0.0}
+Episode 248 | Reward -1.011 | GP samples 200 | Max slack 0
+LIVE {"episode": 249, "reward": -1.0107343066288494, "max_angle": 0.052697747200863364, "slack": 0.0, "correction_rms": 0.0}
+Episode 249 | Reward -0.985 | GP samples 200 | Max slack 0
+LIVE {"episode": 250, "reward": -0.984850520009942, "max_angle": 0.08241677948130266, "slack": 0.0, "correction_rms": 0.0}
+Episode 250 | Reward -1.338 | GP samples 200 | Max slack 0
+LIVE {"episode": 251, "reward": -1.3380111896857043, "max_angle": 0.14799660454592622, "slack": 0.0, "correction_rms": 0.0}
+Episode 251 | Reward -5.464 | GP samples 200 | Max slack 0
+LIVE {"episode": 252, "reward": -5.463508992902599, "max_angle": 0.7810097392173854, "slack": 0.0, "correction_rms": 0.0}
+Episode 252 | Reward -2.240 | GP samples 200 | Max slack 0
+LIVE {"episode": 253, "reward": -2.2398665140509286, "max_angle": 0.3830255225235406, "slack": 0.0, "correction_rms": 0.0}
+Episode 253 | Reward -3.265 | GP samples 200 | Max slack 0
+LIVE {"episode": 254, "reward": -3.2653478507688902, "max_angle": 0.5708050750756121, "slack": 0.0, "correction_rms": 0.0}
+Episode 254 | Reward -2.780 | GP samples 200 | Max slack 0
+LIVE {"episode": 255, "reward": -2.7799536410755397, "max_angle": 0.45279852300834084, "slack": 0.0, "correction_rms": 0.0}
+Episode 255 | Reward -3.879 | GP samples 200 | Max slack 0
+LIVE {"episode": 256, "reward": -3.879307594056113, "max_angle": 0.6198532135872588, "slack": 0.0, "correction_rms": 0.0}
+Episode 256 | Reward -1.718 | GP samples 200 | Max slack 0
+LIVE {"episode": 257, "reward": -1.7184937749203912, "max_angle": 0.25240810590777163, "slack": 0.0, "correction_rms": 0.0}
+Episode 257 | Reward -1.360 | GP samples 200 | Max slack 0
+LIVE {"episode": 258, "reward": -1.3598905533823884, "max_angle": 0.2064606463634253, "slack": 0.0, "correction_rms": 0.0}
+Episode 258 | Reward -7.148 | GP samples 200 | Max slack 0
+LIVE {"episode": 259, "reward": -7.147548686216557, "max_angle": 0.862918072848156, "slack": 0.0, "correction_rms": 0.0}
+Episode 259 | Reward -5.230 | GP samples 200 | Max slack 0
+LIVE {"episode": 260, "reward": -5.229807187278614, "max_angle": 0.745575100483348, "slack": 0.0, "correction_rms": 0.0}
+Episode 260 | Reward -7.776 | GP samples 200 | Max slack 0
+LIVE {"episode": 261, "reward": -7.7760647645532, "max_angle": 0.952351221866506, "slack": 0.0, "correction_rms": 0.0}
+Episode 261 | Reward -1.323 | GP samples 200 | Max slack 0
+LIVE {"episode": 262, "reward": -1.3225637708310631, "max_angle": 0.1448878820924247, "slack": 0.0, "correction_rms": 0.0}
+Episode 262 | Reward -2.895 | GP samples 200 | Max slack 0
+LIVE {"episode": 263, "reward": -2.8946729034209504, "max_angle": 0.4965597061977549, "slack": 0.0, "correction_rms": 0.0}
+Episode 263 | Reward -3.209 | GP samples 200 | Max slack 0
+LIVE {"episode": 264, "reward": -3.2085069258118715, "max_angle": 0.526860018374802, "slack": 0.0, "correction_rms": 0.0}
+Episode 264 | Reward -2.407 | GP samples 200 | Max slack 0
+LIVE {"episode": 265, "reward": -2.406804209476174, "max_angle": 0.39733921679765793, "slack": 0.0, "correction_rms": 0.0}
+Episode 265 | Reward -1.746 | GP samples 200 | Max slack 0
+LIVE {"episode": 266, "reward": -1.7456771143471583, "max_angle": 0.31285893737906223, "slack": 0.0, "correction_rms": 0.0}
+Episode 266 | Reward -1.198 | GP samples 200 | Max slack 0
+LIVE {"episode": 267, "reward": -1.1975422335021353, "max_angle": 0.08291112319500638, "slack": 0.0, "correction_rms": 0.0}
+Episode 267 | Reward -2.647 | GP samples 200 | Max slack 0
+LIVE {"episode": 268, "reward": -2.646829471954541, "max_angle": 0.46373223027375277, "slack": 0.0, "correction_rms": 0.0}
+Episode 268 | Reward -3.291 | GP samples 200 | Max slack 0
+LIVE {"episode": 269, "reward": -3.290753825536549, "max_angle": 0.562608109006425, "slack": 0.0, "correction_rms": 0.0}
+Episode 269 | Reward -4.344 | GP samples 200 | Max slack 0
+LIVE {"episode": 270, "reward": -4.34428218561465, "max_angle": 0.6417009685999513, "slack": 0.0, "correction_rms": 0.0}
+Episode 270 | Reward -1.141 | GP samples 200 | Max slack 0
+LIVE {"episode": 271, "reward": -1.140754821759504, "max_angle": 0.05076315999900768, "slack": 0.0, "correction_rms": 0.0}
+Episode 271 | Reward -5.648 | GP samples 200 | Max slack 0
+LIVE {"episode": 272, "reward": -5.648387089017247, "max_angle": 0.8031501772337284, "slack": 0.0, "correction_rms": 0.0}
+Episode 272 | Reward -1.628 | GP samples 200 | Max slack 0
+LIVE {"episode": 273, "reward": -1.6284372428468248, "max_angle": 0.2421471856353523, "slack": 0.0, "correction_rms": 0.0}
+Episode 273 | Reward -3.208 | GP samples 200 | Max slack 0
+LIVE {"episode": 274, "reward": -3.20775806415401, "max_angle": 0.5129352443038044, "slack": 0.0, "correction_rms": 0.0}
+Episode 274 | Reward -2.231 | GP samples 200 | Max slack 0
+LIVE {"episode": 275, "reward": -2.231344259341804, "max_angle": 0.343919938629462, "slack": 0.0, "correction_rms": 0.0}
+Episode 275 | Reward -1.340 | GP samples 200 | Max slack 0
+LIVE {"episode": 276, "reward": -1.3399160797114575, "max_angle": 0.1715705524617823, "slack": 0.0, "correction_rms": 0.0}
+Episode 276 | Reward -1.700 | GP samples 200 | Max slack 0
+LIVE {"episode": 277, "reward": -1.6995475218855471, "max_angle": 0.23493373102598178, "slack": 0.0, "correction_rms": 0.0}
+Episode 277 | Reward -7.041 | GP samples 200 | Max slack 0
+LIVE {"episode": 278, "reward": -7.040726560906069, "max_angle": 0.904800656020929, "slack": 0.0, "correction_rms": 0.0}
+Episode 278 | Reward -7.248 | GP samples 200 | Max slack 0
+LIVE {"episode": 279, "reward": -7.247978985934533, "max_angle": 0.9334013220601383, "slack": 0.0, "correction_rms": 0.0}
+Episode 279 | Reward -4.118 | GP samples 200 | Max slack 0
+LIVE {"episode": 280, "reward": -4.118100043028784, "max_angle": 0.610934603861031, "slack": 0.0, "correction_rms": 0.0}
+Episode 280 | Reward -4.998 | GP samples 200 | Max slack 0
+LIVE {"episode": 281, "reward": -4.9981619335299685, "max_angle": 0.7338461876766988, "slack": 0.0, "correction_rms": 0.0}
+Episode 281 | Reward -1.973 | GP samples 200 | Max slack 0
+LIVE {"episode": 282, "reward": -1.9726518464150868, "max_angle": 0.35422527959952466, "slack": 0.0, "correction_rms": 0.0}
+Episode 282 | Reward -2.935 | GP samples 200 | Max slack 0
+LIVE {"episode": 283, "reward": -2.934731390313804, "max_angle": 0.4911623949905699, "slack": 0.0, "correction_rms": 0.0}
+Episode 283 | Reward -2.401 | GP samples 200 | Max slack 0
+LIVE {"episode": 284, "reward": -2.401387905342573, "max_angle": 0.39741735401119915, "slack": 0.0, "correction_rms": 0.0}
+Episode 284 | Reward -6.164 | GP samples 200 | Max slack 0
+LIVE {"episode": 285, "reward": -6.164136881641041, "max_angle": 0.8244174242712272, "slack": 0.0, "correction_rms": 0.0}
+Episode 285 | Reward -1.700 | GP samples 200 | Max slack 0
+LIVE {"episode": 286, "reward": -1.7001402350715291, "max_angle": 0.26029954530555144, "slack": 0.0, "correction_rms": 0.0}
+Episode 286 | Reward -1.574 | GP samples 200 | Max slack 0
+LIVE {"episode": 287, "reward": -1.57373799674656, "max_angle": 0.22825288973812552, "slack": 0.0, "correction_rms": 0.0}
+Episode 287 | Reward -5.256 | GP samples 200 | Max slack 0
+LIVE {"episode": 288, "reward": -5.256004136321724, "max_angle": 0.7461381682845977, "slack": 0.0, "correction_rms": 0.0}
+Episode 288 | Reward -1.461 | GP samples 200 | Max slack 0
+LIVE {"episode": 289, "reward": -1.4614161142775228, "max_angle": 0.20692315305250372, "slack": 0.0, "correction_rms": 0.0}
+Episode 289 | Reward -1.988 | GP samples 200 | Max slack 0
+LIVE {"episode": 290, "reward": -1.9875825339197672, "max_angle": 0.35413408411890046, "slack": 0.0, "correction_rms": 0.0}
+Episode 290 | Reward -1.208 | GP samples 200 | Max slack 0
+LIVE {"episode": 291, "reward": -1.2076916518917926, "max_angle": 0.16967372255653412, "slack": 0.0, "correction_rms": 0.0}
+Episode 291 | Reward -1.954 | GP samples 200 | Max slack 0
+LIVE {"episode": 292, "reward": -1.9544860418497723, "max_angle": 0.3402762190674797, "slack": 0.0, "correction_rms": 0.0}
+Episode 292 | Reward -2.685 | GP samples 200 | Max slack 0
+LIVE {"episode": 293, "reward": -2.6848255044938196, "max_angle": 0.4627981435733146, "slack": 0.0, "correction_rms": 0.0}
+Episode 293 | Reward -5.654 | GP samples 200 | Max slack 0
+LIVE {"episode": 294, "reward": -5.653669515516115, "max_angle": 0.8057003797191917, "slack": 0.0, "correction_rms": 0.0}
+Episode 294 | Reward -5.690 | GP samples 200 | Max slack 0
+LIVE {"episode": 295, "reward": -5.690163465564822, "max_angle": 0.7879516101345405, "slack": 0.0, "correction_rms": 0.0}
+Episode 295 | Reward -2.451 | GP samples 200 | Max slack 0
+LIVE {"episode": 296, "reward": -2.450875603898422, "max_angle": 0.40267593502876015, "slack": 0.0, "correction_rms": 0.010303334908929844}
+Episode 296 | Reward -1.227 | GP samples 200 | Max slack 0
+LIVE {"episode": 297, "reward": -1.2267413588368847, "max_angle": 0.09094822303751005, "slack": 0.0, "correction_rms": 0.0}
+Episode 297 | Reward -3.122 | GP samples 200 | Max slack 0
+LIVE {"episode": 298, "reward": -3.1221029758799115, "max_angle": 0.5097501094495553, "slack": 0.0, "correction_rms": 0.0}
+Episode 298 | Reward -2.753 | GP samples 200 | Max slack 0
+LIVE {"episode": 299, "reward": -2.7533437301786026, "max_angle": 0.4645699059857822, "slack": 0.0, "correction_rms": 0.0}
+Episode 299 | Reward -2.739 | GP samples 200 | Max slack 0
+LIVE {"episode": 300, "reward": -2.738709748646648, "max_angle": 0.4419619702598907, "slack": 0.0, "correction_rms": 0.0}
+Episode 300 | Reward -1.511 | GP samples 200 | Max slack 0
+LIVE {"episode": 301, "reward": -1.5106604117043338, "max_angle": 0.2172904925248196, "slack": 0.0, "correction_rms": 0.0}
+Episode 301 | Reward -7.154 | GP samples 200 | Max slack 0
+LIVE {"episode": 302, "reward": -7.153706029315904, "max_angle": 0.912173176617312, "slack": 0.0, "correction_rms": 0.0}
+Episode 302 | Reward -1.482 | GP samples 200 | Max slack 0
+LIVE {"episode": 303, "reward": -1.4822884750028797, "max_angle": 0.15912900303595146, "slack": 0.0, "correction_rms": 0.0}
+Episode 303 | Reward -3.866 | GP samples 200 | Max slack 0
+LIVE {"episode": 304, "reward": -3.8663344008712457, "max_angle": 0.6016792678882585, "slack": 0.0, "correction_rms": 0.0}
+Episode 304 | Reward -4.064 | GP samples 200 | Max slack 0
+LIVE {"episode": 305, "reward": -4.063934672365221, "max_angle": 0.6040745803291931, "slack": 0.0, "correction_rms": 0.0}
+Episode 305 | Reward -4.464 | GP samples 200 | Max slack 0
+LIVE {"episode": 306, "reward": -4.464257886636165, "max_angle": 0.6675926155872494, "slack": 0.0, "correction_rms": 0.0}
+Episode 306 | Reward -1.996 | GP samples 200 | Max slack 0
+LIVE {"episode": 307, "reward": -1.9963954428845099, "max_angle": 0.3194165039547008, "slack": 0.0, "correction_rms": 0.0}
+Episode 307 | Reward -3.086 | GP samples 200 | Max slack 0
+LIVE {"episode": 308, "reward": -3.0861590195429294, "max_angle": 0.4903897611850059, "slack": 0.0, "correction_rms": 0.0}
+Episode 308 | Reward -1.928 | GP samples 200 | Max slack 0
+LIVE {"episode": 309, "reward": -1.9282324203377583, "max_angle": 0.32922230795733753, "slack": 0.0, "correction_rms": 0.0}
+Episode 309 | Reward -2.093 | GP samples 200 | Max slack 0
+LIVE {"episode": 310, "reward": -2.092731791380036, "max_angle": 0.33688426470024324, "slack": 0.0, "correction_rms": 0.0}
+Episode 310 | Reward -2.029 | GP samples 200 | Max slack 0
+LIVE {"episode": 311, "reward": -2.028590210404303, "max_angle": 0.3362309673132304, "slack": 0.0, "correction_rms": 0.0}
+Episode 311 | Reward -1.799 | GP samples 200 | Max slack 0
+LIVE {"episode": 312, "reward": -1.7986943468118242, "max_angle": 0.2553930118287755, "slack": 0.0, "correction_rms": 0.0}
+Episode 312 | Reward -1.864 | GP samples 200 | Max slack 0
+LIVE {"episode": 313, "reward": -1.8639919444090796, "max_angle": 0.32559795688494675, "slack": 0.0, "correction_rms": 0.0}
+Episode 313 | Reward -5.313 | GP samples 200 | Max slack 0
+LIVE {"episode": 314, "reward": -5.312866021679776, "max_angle": 0.746715105030612, "slack": 0.0, "correction_rms": 0.0}
+Episode 314 | Reward -6.833 | GP samples 200 | Max slack 0
+LIVE {"episode": 315, "reward": -6.83316622443671, "max_angle": 0.8608551096200974, "slack": 0.0, "correction_rms": 0.0}
+Episode 315 | Reward -1.071 | GP samples 200 | Max slack 0
+LIVE {"episode": 316, "reward": -1.0713456586379828, "max_angle": 0.0699519001981291, "slack": 0.0, "correction_rms": 0.0}
+Episode 316 | Reward -2.642 | GP samples 200 | Max slack 0
+LIVE {"episode": 317, "reward": -2.6419100426469946, "max_angle": 0.4307751710846675, "slack": 0.0, "correction_rms": 0.0}
+Episode 317 | Reward -1.426 | GP samples 200 | Max slack 0
+LIVE {"episode": 318, "reward": -1.4257382620743155, "max_angle": 0.2368368427854701, "slack": 0.0, "correction_rms": 0.0}
+Episode 318 | Reward -7.895 | GP samples 200 | Max slack 0
+LIVE {"episode": 319, "reward": -7.894782507497565, "max_angle": 0.9406464828641192, "slack": 0.0, "correction_rms": 0.0}
+Episode 319 | Reward -1.202 | GP samples 200 | Max slack 0
+LIVE {"episode": 320, "reward": -1.2017881498437037, "max_angle": 0.07703191252035173, "slack": 0.0, "correction_rms": 0.0}
+Episode 320 | Reward -4.521 | GP samples 200 | Max slack 0
+LIVE {"episode": 321, "reward": -4.520515601133021, "max_angle": 0.6767159786767694, "slack": 0.0, "correction_rms": 0.0}
+Episode 321 | Reward -2.656 | GP samples 200 | Max slack 0
+LIVE {"episode": 322, "reward": -2.6562465391451178, "max_angle": 0.44392156703324015, "slack": 0.0, "correction_rms": 0.0}
+Episode 322 | Reward -5.095 | GP samples 200 | Max slack 0
+LIVE {"episode": 323, "reward": -5.095383976709261, "max_angle": 0.7373438664515761, "slack": 0.0, "correction_rms": 0.0}
+Episode 323 | Reward -1.193 | GP samples 200 | Max slack 0
+LIVE {"episode": 324, "reward": -1.1933575837050139, "max_angle": 0.18143642146300265, "slack": 0.0, "correction_rms": 0.0}
+Episode 324 | Reward -1.983 | GP samples 200 | Max slack 0
+LIVE {"episode": 325, "reward": -1.983147097515994, "max_angle": 0.3273566804643686, "slack": 0.0, "correction_rms": 0.0}
+Episode 325 | Reward -3.328 | GP samples 200 | Max slack 0
+LIVE {"episode": 326, "reward": -3.32785047474059, "max_angle": 0.5036057630590001, "slack": 0.0, "correction_rms": 0.0}
+Episode 326 | Reward -3.480 | GP samples 200 | Max slack 0
+LIVE {"episode": 327, "reward": -3.48011239298084, "max_angle": 0.5201287565077823, "slack": 0.0, "correction_rms": 0.0}
+Episode 327 | Reward -4.409 | GP samples 200 | Max slack 0
+LIVE {"episode": 328, "reward": -4.409220859813924, "max_angle": 0.6841547790032749, "slack": 0.0, "correction_rms": 0.0}
+Episode 328 | Reward -2.030 | GP samples 200 | Max slack 0
+LIVE {"episode": 329, "reward": -2.0303318169800466, "max_angle": 0.32429984888997554, "slack": 0.0, "correction_rms": 0.0}
+Episode 329 | Reward -2.571 | GP samples 200 | Max slack 0
+LIVE {"episode": 330, "reward": -2.5708728854719674, "max_angle": 0.4558208581785772, "slack": 0.0, "correction_rms": 0.0}
+Episode 330 | Reward -5.899 | GP samples 200 | Max slack 0
+LIVE {"episode": 331, "reward": -5.899245657835861, "max_angle": 0.8133051450282707, "slack": 0.0, "correction_rms": 0.0}
+Episode 331 | Reward -1.181 | GP samples 200 | Max slack 0
+LIVE {"episode": 332, "reward": -1.1814769733655397, "max_angle": 0.06685738675528796, "slack": 0.0, "correction_rms": 0.0}
+Episode 332 | Reward -1.436 | GP samples 200 | Max slack 0
+LIVE {"episode": 333, "reward": -1.4357405539816104, "max_angle": 0.22626924426042214, "slack": 0.0, "correction_rms": 0.0}
+Episode 333 | Reward -1.587 | GP samples 200 | Max slack 0
+LIVE {"episode": 334, "reward": -1.5870251934878736, "max_angle": 0.14280543781255495, "slack": 0.0, "correction_rms": 0.0}
+Episode 334 | Reward -4.628 | GP samples 200 | Max slack 0
+LIVE {"episode": 335, "reward": -4.628349286086101, "max_angle": 0.678344266176383, "slack": 0.0, "correction_rms": 0.0}
+Episode 335 | Reward -3.811 | GP samples 200 | Max slack 0
+LIVE {"episode": 336, "reward": -3.8107257357735045, "max_angle": 0.5979538090908282, "slack": 0.0, "correction_rms": 0.0}
+Episode 336 | Reward -3.331 | GP samples 200 | Max slack 0
+LIVE {"episode": 337, "reward": -3.331355904702339, "max_angle": 0.5402345614408766, "slack": 0.0, "correction_rms": 0.0}
+Episode 337 | Reward -1.378 | GP samples 200 | Max slack 0
+LIVE {"episode": 338, "reward": -1.3776595797870135, "max_angle": 0.08929651741958494, "slack": 0.0, "correction_rms": 0.0}
+Episode 338 | Reward -2.007 | GP samples 200 | Max slack 0
+LIVE {"episode": 339, "reward": -2.00669252059824, "max_angle": 0.36048721176931076, "slack": 0.0, "correction_rms": 0.0}
+Episode 339 | Reward -2.301 | GP samples 200 | Max slack 0
+LIVE {"episode": 340, "reward": -2.300898603844269, "max_angle": 0.3889634130263855, "slack": 0.0, "correction_rms": 0.0}
+Episode 340 | Reward -7.067 | GP samples 200 | Max slack 0
+LIVE {"episode": 341, "reward": -7.067407453037317, "max_angle": 0.8908661685884642, "slack": 0.0, "correction_rms": 0.0}
+Episode 341 | Reward -2.897 | GP samples 200 | Max slack 0
+LIVE {"episode": 342, "reward": -2.896893755019381, "max_angle": 0.47849462592021424, "slack": 0.0, "correction_rms": 0.0}
+Episode 342 | Reward -2.122 | GP samples 200 | Max slack 0
+LIVE {"episode": 343, "reward": -2.121504815328329, "max_angle": 0.3688970056084955, "slack": 0.0, "correction_rms": 0.0}
+Episode 343 | Reward -1.368 | GP samples 200 | Max slack 0
+LIVE {"episode": 344, "reward": -1.368276025667201, "max_angle": 0.16571669265368683, "slack": 0.0, "correction_rms": 0.0}
+Episode 344 | Reward -3.218 | GP samples 200 | Max slack 0
+LIVE {"episode": 345, "reward": -3.218340855527124, "max_angle": 0.5043774686876845, "slack": 0.0, "correction_rms": 0.0}
+Episode 345 | Reward -2.933 | GP samples 200 | Max slack 0
+LIVE {"episode": 346, "reward": -2.9330409043906163, "max_angle": 0.4734865212717523, "slack": 0.0, "correction_rms": 0.0}
+Episode 346 | Reward -5.715 | GP samples 200 | Max slack 0
+LIVE {"episode": 347, "reward": -5.715074272570273, "max_angle": 0.785308188398854, "slack": 0.0, "correction_rms": 0.0}
+Episode 347 | Reward -3.235 | GP samples 200 | Max slack 0
+LIVE {"episode": 348, "reward": -3.2354335721740672, "max_angle": 0.5334615447231403, "slack": 0.0, "correction_rms": 0.0}
+Episode 348 | Reward -4.203 | GP samples 200 | Max slack 0
+LIVE {"episode": 349, "reward": -4.202911521841602, "max_angle": 0.635596304410212, "slack": 0.0, "correction_rms": 0.0}
+Episode 349 | Reward -1.930 | GP samples 200 | Max slack 0
+LIVE {"episode": 350, "reward": -1.9296448606962504, "max_angle": 0.31560310337637887, "slack": 0.0, "correction_rms": 0.0}
+Episode 350 | Reward -5.090 | GP samples 200 | Max slack 0
+LIVE {"episode": 351, "reward": -5.0903199699336685, "max_angle": 0.7459435901562426, "slack": 0.0, "correction_rms": 0.0}
+Episode 351 | Reward -5.398 | GP samples 200 | Max slack 0
+LIVE {"episode": 352, "reward": -5.39757308626858, "max_angle": 0.7814226146042887, "slack": 0.0, "correction_rms": 0.0}
+Episode 352 | Reward -6.206 | GP samples 200 | Max slack 0
+LIVE {"episode": 353, "reward": -6.205982414222494, "max_angle": 0.8398435337464529, "slack": 0.0, "correction_rms": 0.0}
+Episode 353 | Reward -4.549 | GP samples 200 | Max slack 0
+LIVE {"episode": 354, "reward": -4.549280388211471, "max_angle": 0.6763755558630171, "slack": 0.0, "correction_rms": 0.0}
+Episode 354 | Reward -1.147 | GP samples 200 | Max slack 0
+LIVE {"episode": 355, "reward": -1.146561350874852, "max_angle": 0.06266513495324175, "slack": 0.0, "correction_rms": 0.0}
+Episode 355 | Reward -5.335 | GP samples 200 | Max slack 0
+LIVE {"episode": 356, "reward": -5.334503976127212, "max_angle": 0.7715912154510628, "slack": 0.0, "correction_rms": 0.0}
+Episode 356 | Reward -5.196 | GP samples 200 | Max slack 0
+LIVE {"episode": 357, "reward": -5.196058040148885, "max_angle": 0.7424459928218143, "slack": 0.0, "correction_rms": 0.0}
+Episode 357 | Reward -1.904 | GP samples 200 | Max slack 0
+LIVE {"episode": 358, "reward": -1.9039022018702754, "max_angle": 0.3455430957473609, "slack": 0.0, "correction_rms": 0.0}
+Episode 358 | Reward -6.492 | GP samples 200 | Max slack 0
+LIVE {"episode": 359, "reward": -6.492299931660968, "max_angle": 0.8413424999453085, "slack": 0.0, "correction_rms": 0.0}
+Episode 359 | Reward -5.496 | GP samples 200 | Max slack 0
+LIVE {"episode": 360, "reward": -5.496106609084689, "max_angle": 0.7897019097977296, "slack": 0.0, "correction_rms": 0.0}
+Episode 360 | Reward -3.294 | GP samples 200 | Max slack 0
+LIVE {"episode": 361, "reward": -3.2935075013530195, "max_angle": 0.5695129803451668, "slack": 0.0, "correction_rms": 0.0}
+Episode 361 | Reward -1.176 | GP samples 200 | Max slack 0
+LIVE {"episode": 362, "reward": -1.175873702662888, "max_angle": 0.06443279999792652, "slack": 0.0, "correction_rms": 0.0}
+Episode 362 | Reward -1.255 | GP samples 200 | Max slack 0
+LIVE {"episode": 363, "reward": -1.2551823121086851, "max_angle": 0.24643336280294872, "slack": 0.0, "correction_rms": 0.0}
+Episode 363 | Reward -0.948 | GP samples 200 | Max slack 0
+LIVE {"episode": 364, "reward": -0.9479494073138662, "max_angle": 0.05627664581772576, "slack": 0.0, "correction_rms": 0.0}
+Episode 364 | Reward -3.904 | GP samples 200 | Max slack 0
+LIVE {"episode": 365, "reward": -3.9041854815155874, "max_angle": 0.6346666703635608, "slack": 0.0, "correction_rms": 0.0}
+Episode 365 | Reward -8.139 | GP samples 200 | Max slack 0
+LIVE {"episode": 366, "reward": -8.138616501142744, "max_angle": 0.9772223540317801, "slack": 0.0, "correction_rms": 0.0}
+Episode 366 | Reward -7.485 | GP samples 200 | Max slack 0
+LIVE {"episode": 367, "reward": -7.4853773202105005, "max_angle": 0.9369672367473658, "slack": 0.0, "correction_rms": 0.0}
+Episode 367 | Reward -5.089 | GP samples 200 | Max slack 0
+LIVE {"episode": 368, "reward": -5.0887319297189695, "max_angle": 0.7581696706779846, "slack": 0.0, "correction_rms": 0.0}
+Episode 368 | Reward -4.569 | GP samples 200 | Max slack 0
+LIVE {"episode": 369, "reward": -4.56911987750501, "max_angle": 0.6668348502461727, "slack": 0.0, "correction_rms": 0.0}
+Episode 369 | Reward -1.942 | GP samples 200 | Max slack 0
+LIVE {"episode": 370, "reward": -1.9424474310611135, "max_angle": 0.3093099606047971, "slack": 0.0, "correction_rms": 0.0}
+Episode 370 | Reward -4.555 | GP samples 200 | Max slack 0
+LIVE {"episode": 371, "reward": -4.555047507448288, "max_angle": 0.7072010061877223, "slack": 0.0, "correction_rms": 0.0}
+Episode 371 | Reward -1.133 | GP samples 200 | Max slack 0
+LIVE {"episode": 372, "reward": -1.1332445472369583, "max_angle": 0.12621284434863392, "slack": 0.0, "correction_rms": 0.0}
+Episode 372 | Reward -0.931 | GP samples 200 | Max slack 0
+LIVE {"episode": 373, "reward": -0.9311607163087992, "max_angle": 0.068871353200461, "slack": 0.0, "correction_rms": 0.0}
+Episode 373 | Reward -2.475 | GP samples 200 | Max slack 0
+LIVE {"episode": 374, "reward": -2.475207927093347, "max_angle": 0.4497907679034503, "slack": 0.0, "correction_rms": 0.0}
+Episode 374 | Reward -1.461 | GP samples 200 | Max slack 0
+LIVE {"episode": 375, "reward": -1.4614822663889768, "max_angle": 0.19636497530728048, "slack": 0.0, "correction_rms": 0.0}
+Episode 375 | Reward -2.762 | GP samples 200 | Max slack 0
+LIVE {"episode": 376, "reward": -2.7624187721347715, "max_angle": 0.4470996006491996, "slack": 0.0, "correction_rms": 0.0}
+Episode 376 | Reward -7.598 | GP samples 200 | Max slack 0
+LIVE {"episode": 377, "reward": -7.598331846431345, "max_angle": 0.9076711285838455, "slack": 0.0, "correction_rms": 0.0}
+Episode 377 | Reward -3.438 | GP samples 200 | Max slack 0
+LIVE {"episode": 378, "reward": -3.437613716153371, "max_angle": 0.5769263149538426, "slack": 0.0, "correction_rms": 0.0}
+Episode 378 | Reward -1.582 | GP samples 200 | Max slack 0
+LIVE {"episode": 379, "reward": -1.5818155866752335, "max_angle": 0.2631993376638287, "slack": 0.0, "correction_rms": 0.0}
+Episode 379 | Reward -7.459 | GP samples 200 | Max slack 0
+LIVE {"episode": 380, "reward": -7.4591407354386305, "max_angle": 0.9157806529976913, "slack": 0.0, "correction_rms": 0.0}
+Episode 380 | Reward -4.956 | GP samples 200 | Max slack 0
+LIVE {"episode": 381, "reward": -4.955591056763135, "max_angle": 0.738886979741753, "slack": 0.0, "correction_rms": 0.0}
+Episode 381 | Reward -8.160 | GP samples 200 | Max slack 0
+LIVE {"episode": 382, "reward": -8.16011424592876, "max_angle": 0.9998493861387976, "slack": 0.0, "correction_rms": 0.0}
+Episode 382 | Reward -6.520 | GP samples 200 | Max slack 0
+LIVE {"episode": 383, "reward": -6.520041926868569, "max_angle": 0.8411785833545719, "slack": 0.0, "correction_rms": 0.0010402383536074209}
+Episode 383 | Reward -8.240 | GP samples 200 | Max slack 0
+LIVE {"episode": 384, "reward": -8.240138577204252, "max_angle": 0.9981407413516405, "slack": 0.0, "correction_rms": 0.0}
+Episode 384 | Reward -1.111 | GP samples 200 | Max slack 0
+LIVE {"episode": 385, "reward": -1.1114443563477687, "max_angle": 0.1458549985969193, "slack": 0.0, "correction_rms": 0.0}
+Episode 385 | Reward -3.924 | GP samples 200 | Max slack 0
+LIVE {"episode": 386, "reward": -3.9243185372461773, "max_angle": 0.6346504537698261, "slack": 0.0, "correction_rms": 0.0}
+Episode 386 | Reward -4.326 | GP samples 200 | Max slack 0
+LIVE {"episode": 387, "reward": -4.325683553448817, "max_angle": 0.6798451729324366, "slack": 0.0, "correction_rms": 0.0}
+Episode 387 | Reward -4.576 | GP samples 200 | Max slack 0
+LIVE {"episode": 388, "reward": -4.575992862211913, "max_angle": 0.6899452970798923, "slack": 0.0, "correction_rms": 0.0}
+Episode 388 | Reward -8.742 | GP samples 200 | Max slack 0
+LIVE {"episode": 389, "reward": -8.742467611319126, "max_angle": 0.978721394263061, "slack": 0.0, "correction_rms": 0.026105222702671675}
+Episode 389 | Reward -7.394 | GP samples 200 | Max slack 0
+LIVE {"episode": 390, "reward": -7.3940716238891, "max_angle": 0.9368744683698895, "slack": 0.0, "correction_rms": 0.0}
+Episode 390 | Reward -2.245 | GP samples 200 | Max slack 0
+LIVE {"episode": 391, "reward": -2.24515413801489, "max_angle": 0.4215147648221704, "slack": 0.0, "correction_rms": 0.0}
+Episode 391 | Reward -2.918 | GP samples 200 | Max slack 0
+LIVE {"episode": 392, "reward": -2.9179704310982246, "max_angle": 0.5301784878072493, "slack": 0.0, "correction_rms": 0.0}
+Episode 392 | Reward -4.644 | GP samples 200 | Max slack 0
+LIVE {"episode": 393, "reward": -4.643873518534051, "max_angle": 0.7320311403896227, "slack": 0.0, "correction_rms": 0.0}
+Episode 393 | Reward -5.557 | GP samples 200 | Max slack 0
+LIVE {"episode": 394, "reward": -5.557312557975047, "max_angle": 0.7912156053876578, "slack": 0.0, "correction_rms": 0.0}
+Episode 394 | Reward -3.223 | GP samples 200 | Max slack 0
+LIVE {"episode": 395, "reward": -3.223428412445478, "max_angle": 0.5675122887569333, "slack": 0.0, "correction_rms": 0.0}
+Episode 395 | Reward -1.680 | GP samples 200 | Max slack 0
+LIVE {"episode": 396, "reward": -1.67986179474608, "max_angle": 0.2821330449170223, "slack": 0.0, "correction_rms": 0.0}
+Episode 396 | Reward -2.624 | GP samples 200 | Max slack 0
+LIVE {"episode": 397, "reward": -2.6238017407027105, "max_angle": 0.4709923469534527, "slack": 0.0, "correction_rms": 0.0}
+Episode 397 | Reward -7.164 | GP samples 200 | Max slack 0
+LIVE {"episode": 398, "reward": -7.164053488377496, "max_angle": 0.912252234076502, "slack": 0.0, "correction_rms": 0.0}
+Episode 398 | Reward -4.019 | GP samples 200 | Max slack 0
+LIVE {"episode": 399, "reward": -4.019025362376608, "max_angle": 0.6407122216611065, "slack": 0.0, "correction_rms": 0.0}
+Episode 399 | Reward -5.902 | GP samples 200 | Max slack 0
+LIVE {"episode": 400, "reward": -5.9018144134747, "max_angle": 0.8303967232893326, "slack": 0.0, "correction_rms": 0.0}
+Episode 400 | Reward -4.174 | GP samples 200 | Max slack 0
+LIVE {"episode": 401, "reward": -4.174474034275947, "max_angle": 0.6452503837417782, "slack": 0.0, "correction_rms": 0.0}
+Episode 401 | Reward -3.744 | GP samples 200 | Max slack 0
+LIVE {"episode": 402, "reward": -3.7444164955672945, "max_angle": 0.5977210703153375, "slack": 0.0, "correction_rms": 0.0}
+Episode 402 | Reward -1.235 | GP samples 200 | Max slack 0
+LIVE {"episode": 403, "reward": -1.2346632858794246, "max_angle": 0.18588938200653393, "slack": 0.0, "correction_rms": 0.0}
+Episode 403 | Reward -6.865 | GP samples 200 | Max slack 0
+LIVE {"episode": 404, "reward": -6.865010220791552, "max_angle": 0.886120333662024, "slack": 0.0, "correction_rms": 0.0}
+Episode 404 | Reward -7.783 | GP samples 200 | Max slack 0
+LIVE {"episode": 405, "reward": -7.782733221428669, "max_angle": 0.9393896300417321, "slack": 0.0, "correction_rms": 0.0}
+Episode 405 | Reward -4.228 | GP samples 200 | Max slack 0
+LIVE {"episode": 406, "reward": -4.227750560303284, "max_angle": 0.6765539941285903, "slack": 0.0, "correction_rms": 0.0}
+Episode 406 | Reward -4.629 | GP samples 200 | Max slack 0
+LIVE {"episode": 407, "reward": -4.629170658519846, "max_angle": 0.7283913311402894, "slack": 0.0, "correction_rms": 0.0}
+Episode 407 | Reward -1.117 | GP samples 200 | Max slack 0
+LIVE {"episode": 408, "reward": -1.1171727073528244, "max_angle": 0.049226745664759965, "slack": 0.0, "correction_rms": 0.0}
+Episode 408 | Reward -1.824 | GP samples 200 | Max slack 0
+LIVE {"episode": 409, "reward": -1.8240712227139975, "max_angle": 0.29899981199935577, "slack": 0.0, "correction_rms": 0.0}
+Episode 409 | Reward -1.051 | GP samples 200 | Max slack 0
+LIVE {"episode": 410, "reward": -1.050507175999765, "max_angle": 0.05691885196688503, "slack": 0.0, "correction_rms": 0.0}
+Episode 410 | Reward -2.006 | GP samples 200 | Max slack 0
+LIVE {"episode": 411, "reward": -2.005887734385079, "max_angle": 0.33300380533999796, "slack": 0.0, "correction_rms": 0.0}
+Episode 411 | Reward -1.926 | GP samples 200 | Max slack 0
+LIVE {"episode": 412, "reward": -1.9255348645412136, "max_angle": 0.35426186796886144, "slack": 0.0, "correction_rms": 0.0}
+Episode 412 | Reward -1.583 | GP samples 200 | Max slack 0
+LIVE {"episode": 413, "reward": -1.583141448792826, "max_angle": 0.28644834861762236, "slack": 0.0, "correction_rms": 0.0}
+Episode 413 | Reward -2.716 | GP samples 200 | Max slack 0
+LIVE {"episode": 414, "reward": -2.7162606064855357, "max_angle": 0.49245398398273244, "slack": 0.0, "correction_rms": 0.0}
+Episode 414 | Reward -7.446 | GP samples 200 | Max slack 0
+LIVE {"episode": 415, "reward": -7.4464101941615635, "max_angle": 0.935198985852044, "slack": 0.0, "correction_rms": 0.0}
+Episode 415 | Reward -1.128 | GP samples 200 | Max slack 0
+LIVE {"episode": 416, "reward": -1.128117157350271, "max_angle": 0.09364338588766556, "slack": 0.0, "correction_rms": 0.0}
+Episode 416 | Reward -4.862 | GP samples 200 | Max slack 0
+LIVE {"episode": 417, "reward": -4.861831406246996, "max_angle": 0.7186252668961033, "slack": 0.0, "correction_rms": 0.0}
+Episode 417 | Reward -5.557 | GP samples 200 | Max slack 0
+LIVE {"episode": 418, "reward": -5.5568707685015335, "max_angle": 0.7893871433164197, "slack": 0.0, "correction_rms": 0.0}
+Episode 418 | Reward -0.861 | GP samples 200 | Max slack 0
+LIVE {"episode": 419, "reward": -0.8611498060064764, "max_angle": 0.04630688420466195, "slack": 0.0, "correction_rms": 0.0}
+Episode 419 | Reward -3.074 | GP samples 200 | Max slack 0
+LIVE {"episode": 420, "reward": -3.0738191693128187, "max_angle": 0.5320281971686889, "slack": 0.0, "correction_rms": 0.0}
+Episode 420 | Reward -1.931 | GP samples 200 | Max slack 0
+LIVE {"episode": 421, "reward": -1.9311074054829735, "max_angle": 0.3367277845754595, "slack": 0.0, "correction_rms": 0.0}
+Episode 421 | Reward -4.568 | GP samples 200 | Max slack 0
+LIVE {"episode": 422, "reward": -4.568145678555176, "max_angle": 0.6840009095449677, "slack": 0.0, "correction_rms": 0.0}
+Episode 422 | Reward -2.075 | GP samples 200 | Max slack 0
+LIVE {"episode": 423, "reward": -2.0746402318312795, "max_angle": 0.3794003875226539, "slack": 0.0, "correction_rms": 0.0}
+Episode 423 | Reward -3.303 | GP samples 200 | Max slack 0
+LIVE {"episode": 424, "reward": -3.3028959786216494, "max_angle": 0.5471181655148805, "slack": 0.0, "correction_rms": 0.0}
+Episode 424 | Reward -6.301 | GP samples 200 | Max slack 0
+LIVE {"episode": 425, "reward": -6.301246202557076, "max_angle": 0.850667788112244, "slack": 0.0, "correction_rms": 0.0}
+Episode 425 | Reward -2.137 | GP samples 200 | Max slack 0
+LIVE {"episode": 426, "reward": -2.13668022723002, "max_angle": 0.4184360533724554, "slack": 0.0, "correction_rms": 0.0}
+Episode 426 | Reward -3.311 | GP samples 200 | Max slack 0
+LIVE {"episode": 427, "reward": -3.310580982665231, "max_angle": 0.5721797394683752, "slack": 0.0, "correction_rms": 0.0}
+Episode 427 | Reward -6.920 | GP samples 200 | Max slack 0
+LIVE {"episode": 428, "reward": -6.920063673125421, "max_angle": 0.9154093991080436, "slack": 0.0, "correction_rms": 0.0}
+Episode 428 | Reward -2.072 | GP samples 200 | Max slack 0
+LIVE {"episode": 429, "reward": -2.0724536963074813, "max_angle": 0.39111287147389984, "slack": 0.0, "correction_rms": 0.0}
+Episode 429 | Reward -5.823 | GP samples 200 | Max slack 0
+LIVE {"episode": 430, "reward": -5.822691797691178, "max_angle": 0.8293289903867007, "slack": 0.0, "correction_rms": 0.0}
+Episode 430 | Reward -1.318 | GP samples 200 | Max slack 0
+LIVE {"episode": 431, "reward": -1.3184018933571546, "max_angle": 0.21837458755028005, "slack": 0.0, "correction_rms": 0.0}
+Episode 431 | Reward -2.018 | GP samples 200 | Max slack 0
+LIVE {"episode": 432, "reward": -2.017872506505351, "max_angle": 0.3787863127863942, "slack": 0.0, "correction_rms": 0.0}
+Episode 432 | Reward -5.173 | GP samples 200 | Max slack 0
+LIVE {"episode": 433, "reward": -5.173107024876201, "max_angle": 0.7251986882363224, "slack": 0.0, "correction_rms": 0.0}
+Episode 433 | Reward -5.342 | GP samples 200 | Max slack 0
+LIVE {"episode": 434, "reward": -5.341768013428736, "max_angle": 0.7709438761287688, "slack": 0.0, "correction_rms": 0.0}
+Episode 434 | Reward -2.236 | GP samples 200 | Max slack 0
+LIVE {"episode": 435, "reward": -2.236036863159987, "max_angle": 0.44696809939033444, "slack": 0.0, "correction_rms": 0.0}
+Episode 435 | Reward -1.348 | GP samples 200 | Max slack 0
+LIVE {"episode": 436, "reward": -1.3483909771148515, "max_angle": 0.23248657300163855, "slack": 0.0, "correction_rms": 0.0}
+Episode 436 | Reward -3.544 | GP samples 200 | Max slack 0
+LIVE {"episode": 437, "reward": -3.5439978370135403, "max_angle": 0.5834830047022335, "slack": 0.0, "correction_rms": 0.0}
+Episode 437 | Reward -4.869 | GP samples 200 | Max slack 0
+LIVE {"episode": 438, "reward": -4.8688542805344595, "max_angle": 0.740345581377766, "slack": 0.0, "correction_rms": 0.0}
+Episode 438 | Reward -3.933 | GP samples 200 | Max slack 0
+LIVE {"episode": 439, "reward": -3.932640701258461, "max_angle": 0.6354498344127335, "slack": 0.0, "correction_rms": 0.0}
+Episode 439 | Reward -2.813 | GP samples 200 | Max slack 0
+LIVE {"episode": 440, "reward": -2.8133631184140295, "max_angle": 0.4971891442490588, "slack": 0.0, "correction_rms": 0.0}
+Episode 440 | Reward -6.337 | GP samples 200 | Max slack 0
+LIVE {"episode": 441, "reward": -6.337424107364647, "max_angle": 0.8504433896682153, "slack": 0.0, "correction_rms": 0.0}
+Episode 441 | Reward -1.727 | GP samples 200 | Max slack 0
+LIVE {"episode": 442, "reward": -1.7265520781321442, "max_angle": 0.3102805887363651, "slack": 0.0, "correction_rms": 0.0}
+Episode 442 | Reward -6.204 | GP samples 200 | Max slack 0
+LIVE {"episode": 443, "reward": -6.203971040274003, "max_angle": 0.848705432081324, "slack": 0.0, "correction_rms": 0.0}
+Episode 443 | Reward -7.577 | GP samples 200 | Max slack 0
+LIVE {"episode": 444, "reward": -7.576857168405537, "max_angle": 0.9560290263231641, "slack": 0.0, "correction_rms": 0.0}
+Episode 444 | Reward -5.571 | GP samples 200 | Max slack 0
+LIVE {"episode": 445, "reward": -5.5714955584667525, "max_angle": 0.793995603966458, "slack": 0.0, "correction_rms": 0.0}
+Episode 445 | Reward -1.192 | GP samples 200 | Max slack 0
+LIVE {"episode": 446, "reward": -1.1921107183787414, "max_angle": 0.18624082096323377, "slack": 0.0, "correction_rms": 0.0}
+Episode 446 | Reward -6.563 | GP samples 200 | Max slack 0
+LIVE {"episode": 447, "reward": -6.562934078109799, "max_angle": 0.8524407212426863, "slack": 0.0, "correction_rms": 0.0}
+Episode 447 | Reward -3.999 | GP samples 200 | Max slack 0
+LIVE {"episode": 448, "reward": -3.9993656597660934, "max_angle": 0.623532195844632, "slack": 0.0, "correction_rms": 0.0}
+Episode 448 | Reward -8.412 | GP samples 200 | Max slack 0
+LIVE {"episode": 449, "reward": -8.411605032201624, "max_angle": 0.9974511338906127, "slack": 0.0, "correction_rms": 0.0}
+Episode 449 | Reward -1.342 | GP samples 200 | Max slack 0
+LIVE {"episode": 450, "reward": -1.3420311943293215, "max_angle": 0.17370064220504886, "slack": 0.0, "correction_rms": 0.0}
+Episode 450 | Reward -1.650 | GP samples 200 | Max slack 0
+LIVE {"episode": 451, "reward": -1.6498435092416224, "max_angle": 0.3024513910134299, "slack": 0.0, "correction_rms": 0.0}
+Episode 451 | Reward -5.480 | GP samples 200 | Max slack 0
+LIVE {"episode": 452, "reward": -5.480241933273489, "max_angle": 0.7666168557475443, "slack": 0.0, "correction_rms": 0.0}
+Episode 452 | Reward -1.823 | GP samples 200 | Max slack 0
+LIVE {"episode": 453, "reward": -1.8225425594973026, "max_angle": 0.3618969431843058, "slack": 0.0, "correction_rms": 0.0}
+Episode 453 | Reward -5.220 | GP samples 200 | Max slack 0
+LIVE {"episode": 454, "reward": -5.220122522652874, "max_angle": 0.7359928805054279, "slack": 0.0, "correction_rms": 0.0}
+Episode 454 | Reward -0.918 | GP samples 200 | Max slack 0
+LIVE {"episode": 455, "reward": -0.9184274782507312, "max_angle": 0.03774393643996812, "slack": 0.0, "correction_rms": 0.0}
+Episode 455 | Reward -3.990 | GP samples 200 | Max slack 0
+LIVE {"episode": 456, "reward": -3.990050403734091, "max_angle": 0.652559468079718, "slack": 0.0, "correction_rms": 0.0}
+Episode 456 | Reward -3.723 | GP samples 200 | Max slack 0
+LIVE {"episode": 457, "reward": -3.7234156992485143, "max_angle": 0.6036137247517119, "slack": 0.0, "correction_rms": 0.0}
+Episode 457 | Reward -1.118 | GP samples 200 | Max slack 0
+LIVE {"episode": 458, "reward": -1.117850828306381, "max_angle": 0.16435218480487057, "slack": 0.0, "correction_rms": 0.0}
+Episode 458 | Reward -2.860 | GP samples 200 | Max slack 0
+LIVE {"episode": 459, "reward": -2.859858428408243, "max_angle": 0.4861048712732199, "slack": 0.0, "correction_rms": 0.0}
+Episode 459 | Reward -2.229 | GP samples 200 | Max slack 0
+LIVE {"episode": 460, "reward": -2.229362928557801, "max_angle": 0.37878719982882986, "slack": 0.0, "correction_rms": 0.0}
+Episode 460 | Reward -2.082 | GP samples 200 | Max slack 0
+LIVE {"episode": 461, "reward": -2.0823365351769, "max_angle": 0.3934779515252147, "slack": 0.0, "correction_rms": 0.0}
+Episode 461 | Reward -2.980 | GP samples 200 | Max slack 0
+LIVE {"episode": 462, "reward": -2.9801786030180475, "max_angle": 0.5266160561920505, "slack": 0.0, "correction_rms": 0.0}
+Episode 462 | Reward -4.628 | GP samples 200 | Max slack 0
+LIVE {"episode": 463, "reward": -4.627523191302074, "max_angle": 0.6904571461449729, "slack": 0.0, "correction_rms": 0.0}
+Episode 463 | Reward -4.659 | GP samples 200 | Max slack 0
+LIVE {"episode": 464, "reward": -4.65857865135119, "max_angle": 0.6691399262118489, "slack": 0.0, "correction_rms": 0.0}
+Episode 464 | Reward -3.614 | GP samples 200 | Max slack 0
+LIVE {"episode": 465, "reward": -3.6142854406646765, "max_angle": 0.5796587606491024, "slack": 0.0, "correction_rms": 0.0}
+Episode 465 | Reward -2.725 | GP samples 200 | Max slack 0
+LIVE {"episode": 466, "reward": -2.725137249303906, "max_angle": 0.4823310891537458, "slack": 0.0, "correction_rms": 0.0}
+Episode 466 | Reward -2.038 | GP samples 200 | Max slack 0
+LIVE {"episode": 467, "reward": -2.037534360795971, "max_angle": 0.30697966300778945, "slack": 0.0, "correction_rms": 0.0}
+Episode 467 | Reward -4.347 | GP samples 200 | Max slack 0
+LIVE {"episode": 468, "reward": -4.346978727754067, "max_angle": 0.6374200667331769, "slack": 0.0, "correction_rms": 0.0}
+Episode 468 | Reward -2.186 | GP samples 200 | Max slack 0
+LIVE {"episode": 469, "reward": -2.185879344109583, "max_angle": 0.3892314431702315, "slack": 0.0, "correction_rms": 0.0}
+Episode 469 | Reward -0.957 | GP samples 200 | Max slack 0
+LIVE {"episode": 470, "reward": -0.9570589626040491, "max_angle": 0.10458643111678788, "slack": 0.0, "correction_rms": 0.0}
+Episode 470 | Reward -1.321 | GP samples 200 | Max slack 0
+LIVE {"episode": 471, "reward": -1.3209886983641845, "max_angle": 0.23699469507989931, "slack": 0.0, "correction_rms": 0.0}
+Episode 471 | Reward -6.269 | GP samples 200 | Max slack 0
+LIVE {"episode": 472, "reward": -6.268565964175969, "max_angle": 0.8262758835311872, "slack": 0.0, "correction_rms": 0.0}
+Episode 472 | Reward -1.145 | GP samples 200 | Max slack 0
+LIVE {"episode": 473, "reward": -1.1447223839538407, "max_angle": 0.10233835871476092, "slack": 0.0, "correction_rms": 0.0}
+Episode 473 | Reward -2.739 | GP samples 200 | Max slack 0
+LIVE {"episode": 474, "reward": -2.7388657226090345, "max_angle": 0.492809546515633, "slack": 0.0, "correction_rms": 0.0}
+Episode 474 | Reward -1.937 | GP samples 200 | Max slack 0
+LIVE {"episode": 475, "reward": -1.9371593518403107, "max_angle": 0.3509234774940351, "slack": 0.0, "correction_rms": 0.0}
+Episode 475 | Reward -2.423 | GP samples 200 | Max slack 0
+LIVE {"episode": 476, "reward": -2.422905328963239, "max_angle": 0.45129140317825556, "slack": 0.0, "correction_rms": 0.0}
+Episode 476 | Reward -6.742 | GP samples 200 | Max slack 0
+LIVE {"episode": 477, "reward": -6.7420344388592035, "max_angle": 0.8599692446445208, "slack": 0.0, "correction_rms": 0.0}
+Episode 477 | Reward -4.467 | GP samples 200 | Max slack 0
+LIVE {"episode": 478, "reward": -4.466864243683238, "max_angle": 0.6796530125046869, "slack": 0.0, "correction_rms": 0.0}
+Episode 478 | Reward -1.568 | GP samples 200 | Max slack 0
+LIVE {"episode": 479, "reward": -1.5677895191746216, "max_angle": 0.273197870384706, "slack": 0.0, "correction_rms": 0.0}
+Episode 479 | Reward -2.735 | GP samples 200 | Max slack 0
+LIVE {"episode": 480, "reward": -2.7345783195120625, "max_angle": 0.4782283558446101, "slack": 0.0, "correction_rms": 0.0}
+Episode 480 | Reward -6.551 | GP samples 200 | Max slack 0
+LIVE {"episode": 481, "reward": -6.550820245699846, "max_angle": 0.8800564204420691, "slack": 0.0, "correction_rms": 0.0}
+Episode 481 | Reward -6.071 | GP samples 200 | Max slack 0
+LIVE {"episode": 482, "reward": -6.070896622632208, "max_angle": 0.8362239101728459, "slack": 0.0, "correction_rms": 0.0}
+Episode 482 | Reward -2.806 | GP samples 200 | Max slack 0
+LIVE {"episode": 483, "reward": -2.806499157060544, "max_angle": 0.5061254811809472, "slack": 0.0, "correction_rms": 0.0}
+Episode 483 | Reward -5.006 | GP samples 200 | Max slack 0
+LIVE {"episode": 484, "reward": -5.006187552332389, "max_angle": 0.7249549865002041, "slack": 0.0, "correction_rms": 0.0}
+Episode 484 | Reward -8.670 | GP samples 200 | Max slack 0
+LIVE {"episode": 485, "reward": -8.669596262685813, "max_angle": 0.9873163087765646, "slack": 0.0, "correction_rms": 0.0}
+Episode 485 | Reward -1.608 | GP samples 200 | Max slack 0
+LIVE {"episode": 486, "reward": -1.6080891132311805, "max_angle": 0.26504103439303806, "slack": 0.0, "correction_rms": 0.0}
+Episode 486 | Reward -2.844 | GP samples 200 | Max slack 0
+LIVE {"episode": 487, "reward": -2.844054363879014, "max_angle": 0.5016316457229937, "slack": 0.0, "correction_rms": 0.0}
+Episode 487 | Reward -2.677 | GP samples 200 | Max slack 0
+LIVE {"episode": 488, "reward": -2.676784607669595, "max_angle": 0.49407653853810274, "slack": 0.0, "correction_rms": 0.0}
+Episode 488 | Reward -6.610 | GP samples 200 | Max slack 0
+LIVE {"episode": 489, "reward": -6.610100124621095, "max_angle": 0.8772313252672637, "slack": 0.0, "correction_rms": 0.0}
+Episode 489 | Reward -7.342 | GP samples 200 | Max slack 0
+LIVE {"episode": 490, "reward": -7.342314650131233, "max_angle": 0.9039241115251031, "slack": 0.0, "correction_rms": 0.0}
+Episode 490 | Reward -2.430 | GP samples 200 | Max slack 0
+LIVE {"episode": 491, "reward": -2.430438865407881, "max_angle": 0.4523786878940077, "slack": 0.0, "correction_rms": 0.0}
+Episode 491 | Reward -1.508 | GP samples 200 | Max slack 0
+LIVE {"episode": 492, "reward": -1.5079279064867404, "max_angle": 0.25374146095746, "slack": 0.0, "correction_rms": 0.0}
+Episode 492 | Reward -1.263 | GP samples 200 | Max slack 0
+LIVE {"episode": 493, "reward": -1.2627158829162768, "max_angle": 0.19661265174914133, "slack": 0.0, "correction_rms": 0.0}
+Episode 493 | Reward -3.333 | GP samples 200 | Max slack 0
+LIVE {"episode": 494, "reward": -3.3330895396231925, "max_angle": 0.54373392267562, "slack": 0.0, "correction_rms": 0.0}
+Episode 494 | Reward -4.984 | GP samples 200 | Max slack 0
+LIVE {"episode": 495, "reward": -4.984380114532588, "max_angle": 0.739346824326065, "slack": 0.0, "correction_rms": 0.0}
+Episode 495 | Reward -0.973 | GP samples 200 | Max slack 0
+LIVE {"episode": 496, "reward": -0.973077582514684, "max_angle": 0.04967034771435641, "slack": 0.0, "correction_rms": 0.0}
+Episode 496 | Reward -7.494 | GP samples 200 | Max slack 0
+LIVE {"episode": 497, "reward": -7.494063082642164, "max_angle": 0.9443616997774511, "slack": 0.0, "correction_rms": 0.0}
+Episode 497 | Reward -6.502 | GP samples 200 | Max slack 0
+LIVE {"episode": 498, "reward": -6.501708348893659, "max_angle": 0.8403896356506393, "slack": 0.0, "correction_rms": 0.0}
+Episode 498 | Reward -3.100 | GP samples 200 | Max slack 0
+LIVE {"episode": 499, "reward": -3.0995575277821734, "max_angle": 0.49997936357899997, "slack": 0.0, "correction_rms": 0.0}
+Episode 499 | Reward -4.217 | GP samples 200 | Max slack 0
+LIVE {"episode": 500, "reward": -4.21686286885048, "max_angle": 0.6733337100059331, "slack": 0.0, "correction_rms": 0.0}
+Episode 500 | Reward -3.524 | GP samples 200 | Max slack 0
+LIVE {"episode": 501, "reward": -3.5237768274622225, "max_angle": 0.6187752675443877, "slack": 0.0, "correction_rms": 0.0}
+Episode 501 | Reward -4.805 | GP samples 200 | Max slack 0
+LIVE {"episode": 502, "reward": -4.804685893289894, "max_angle": 0.7207098722163552, "slack": 0.0, "correction_rms": 0.0}
+Episode 502 | Reward -7.289 | GP samples 200 | Max slack 0
+LIVE {"episode": 503, "reward": -7.28919892455494, "max_angle": 0.9373594831232726, "slack": 0.0, "correction_rms": 0.0}
+Episode 503 | Reward -6.147 | GP samples 200 | Max slack 0
+LIVE {"episode": 504, "reward": -6.146658232041359, "max_angle": 0.8528884936162604, "slack": 0.0, "correction_rms": 0.0}
+Episode 504 | Reward -4.648 | GP samples 200 | Max slack 0
+LIVE {"episode": 505, "reward": -4.647852778984429, "max_angle": 0.6965323106726011, "slack": 0.0, "correction_rms": 0.0}
+Episode 505 | Reward -1.725 | GP samples 200 | Max slack 0
+LIVE {"episode": 506, "reward": -1.7246140599422748, "max_angle": 0.25454487571433293, "slack": 0.0, "correction_rms": 0.0}
+Episode 506 | Reward -3.355 | GP samples 200 | Max slack 0
+LIVE {"episode": 507, "reward": -3.354727264802861, "max_angle": 0.5466992281090419, "slack": 0.0, "correction_rms": 0.0}
+Episode 507 | Reward -7.966 | GP samples 200 | Max slack 0
+LIVE {"episode": 508, "reward": -7.965734697870334, "max_angle": 0.9590179957217013, "slack": 0.0, "correction_rms": 0.0}
+Episode 508 | Reward -2.913 | GP samples 200 | Max slack 0
+LIVE {"episode": 509, "reward": -2.9128822949184916, "max_angle": 0.5114324852076753, "slack": 0.0, "correction_rms": 0.0}
+Episode 509 | Reward -8.047 | GP samples 200 | Max slack 0
+LIVE {"episode": 510, "reward": -8.0468088031054, "max_angle": 0.9764673524416252, "slack": 0.0, "correction_rms": 0.0}
+Episode 510 | Reward -2.186 | GP samples 200 | Max slack 0
+LIVE {"episode": 511, "reward": -2.1859661430049258, "max_angle": 0.40187234107126485, "slack": 0.0, "correction_rms": 0.0}
+Episode 511 | Reward -1.337 | GP samples 200 | Max slack 0
+LIVE {"episode": 512, "reward": -1.3370593172884064, "max_angle": 0.20887103012773608, "slack": 0.0, "correction_rms": 0.0}
+Episode 512 | Reward -1.280 | GP samples 200 | Max slack 0
+LIVE {"episode": 513, "reward": -1.2796456963164404, "max_angle": 0.18659806068426987, "slack": 0.0, "correction_rms": 0.0}
+Episode 513 | Reward -1.435 | GP samples 200 | Max slack 0
+LIVE {"episode": 514, "reward": -1.4351727624293515, "max_angle": 0.2118247059980718, "slack": 0.0, "correction_rms": 0.0}
+Episode 514 | Reward -3.849 | GP samples 200 | Max slack 0
+LIVE {"episode": 515, "reward": -3.8492828107797994, "max_angle": 0.6087260705220334, "slack": 0.0, "correction_rms": 0.0}
+Episode 515 | Reward -2.839 | GP samples 200 | Max slack 0
+LIVE {"episode": 516, "reward": -2.8386278298119136, "max_angle": 0.49820721284074665, "slack": 0.0, "correction_rms": 0.0}
+Episode 516 | Reward -1.518 | GP samples 200 | Max slack 0
+LIVE {"episode": 517, "reward": -1.5180403679198098, "max_angle": 0.27863468597991803, "slack": 0.0, "correction_rms": 0.0}
+Episode 517 | Reward -7.147 | GP samples 200 | Max slack 0
+LIVE {"episode": 518, "reward": -7.147212141129814, "max_angle": 0.9294390815580009, "slack": 0.0, "correction_rms": 0.0}
+Episode 518 | Reward -2.052 | GP samples 200 | Max slack 0
+LIVE {"episode": 519, "reward": -2.0516037945500156, "max_angle": 0.4013998031499842, "slack": 0.0, "correction_rms": 0.0}
+Episode 519 | Reward -1.397 | GP samples 200 | Max slack 0
+LIVE {"episode": 520, "reward": -1.3968076009505266, "max_angle": 0.160943423883106, "slack": 0.0, "correction_rms": 0.0}
+Episode 520 | Reward -7.429 | GP samples 200 | Max slack 0
+LIVE {"episode": 521, "reward": -7.429247817621887, "max_angle": 0.9368098850095692, "slack": 0.0, "correction_rms": 0.0}
+Episode 521 | Reward -4.986 | GP samples 200 | Max slack 0
+LIVE {"episode": 522, "reward": -4.986127432828633, "max_angle": 0.7238290104615259, "slack": 0.0, "correction_rms": 0.0}
+Episode 522 | Reward -2.386 | GP samples 200 | Max slack 0
+LIVE {"episode": 523, "reward": -2.3859090555232116, "max_angle": 0.4380219036248443, "slack": 0.0, "correction_rms": 0.0}
+Episode 523 | Reward -1.431 | GP samples 200 | Max slack 0
+LIVE {"episode": 524, "reward": -1.431092521239803, "max_angle": 0.2799747779989689, "slack": 0.0, "correction_rms": 0.0}
+Episode 524 | Reward -1.138 | GP samples 200 | Max slack 0
+LIVE {"episode": 525, "reward": -1.1381097558777784, "max_angle": 0.15544236797161903, "slack": 0.0, "correction_rms": 0.0}
+Episode 525 | Reward -1.644 | GP samples 200 | Max slack 0
+LIVE {"episode": 526, "reward": -1.644069887260186, "max_angle": 0.3063846284686049, "slack": 0.0, "correction_rms": 0.0}
+Episode 526 | Reward -4.161 | GP samples 200 | Max slack 0
+LIVE {"episode": 527, "reward": -4.160763948737287, "max_angle": 0.652410222905667, "slack": 0.0, "correction_rms": 0.0}
+Episode 527 | Reward -8.558 | GP samples 200 | Max slack 0
+LIVE {"episode": 528, "reward": -8.557673033654964, "max_angle": 0.9610320705916986, "slack": 0.0, "correction_rms": 0.0}
+Episode 528 | Reward -6.449 | GP samples 200 | Max slack 0
+LIVE {"episode": 529, "reward": -6.449016923950139, "max_angle": 0.8711799754869223, "slack": 0.0, "correction_rms": 0.0}
+Episode 529 | Reward -3.905 | GP samples 200 | Max slack 0
+LIVE {"episode": 530, "reward": -3.904722071900414, "max_angle": 0.6338392098019401, "slack": 0.0, "correction_rms": 0.0}
+Episode 530 | Reward -5.995 | GP samples 200 | Max slack 0
+LIVE {"episode": 531, "reward": -5.99524016971247, "max_angle": 0.8204753543232006, "slack": 0.0, "correction_rms": 0.0}
+Episode 531 | Reward -1.218 | GP samples 200 | Max slack 0
+LIVE {"episode": 532, "reward": -1.2178932486168408, "max_angle": 0.07417492145664561, "slack": 0.0, "correction_rms": 0.0}
+Episode 532 | Reward -3.623 | GP samples 200 | Max slack 0
+LIVE {"episode": 533, "reward": -3.6227450396794536, "max_angle": 0.6135099178611003, "slack": 0.0, "correction_rms": 0.0}
+Episode 533 | Reward -5.533 | GP samples 200 | Max slack 0
+LIVE {"episode": 534, "reward": -5.533100398149462, "max_angle": 0.7820943012226698, "slack": 0.0, "correction_rms": 0.0}
+Episode 534 | Reward -3.894 | GP samples 200 | Max slack 0
+LIVE {"episode": 535, "reward": -3.893907849757247, "max_angle": 0.6330598579842341, "slack": 0.0, "correction_rms": 0.0}
+Episode 535 | Reward -0.904 | GP samples 200 | Max slack 0
+LIVE {"episode": 536, "reward": -0.9042269129723445, "max_angle": 0.053050384534584584, "slack": 0.0, "correction_rms": 0.0}
+Episode 536 | Reward -1.851 | GP samples 200 | Max slack 0
+LIVE {"episode": 537, "reward": -1.8512553204724052, "max_angle": 0.32281961033737794, "slack": 0.0, "correction_rms": 0.0}
+Episode 537 | Reward -3.361 | GP samples 200 | Max slack 0
+LIVE {"episode": 538, "reward": -3.360940043927918, "max_angle": 0.5540752324157807, "slack": 0.0, "correction_rms": 0.0}
+Episode 538 | Reward -1.263 | GP samples 200 | Max slack 0
+LIVE {"episode": 539, "reward": -1.262504907118107, "max_angle": 0.19009193081494716, "slack": 0.0, "correction_rms": 0.0}
+Episode 539 | Reward -0.960 | GP samples 200 | Max slack 0
+LIVE {"episode": 540, "reward": -0.9601808320610802, "max_angle": 0.060764587602452916, "slack": 0.0, "correction_rms": 0.0}
+Episode 540 | Reward -2.446 | GP samples 200 | Max slack 0
+LIVE {"episode": 541, "reward": -2.4463212099108986, "max_angle": 0.4602278036868275, "slack": 0.0, "correction_rms": 0.0}
+Episode 541 | Reward -2.263 | GP samples 200 | Max slack 0
+LIVE {"episode": 542, "reward": -2.262875435165399, "max_angle": 0.4085632198882803, "slack": 0.0, "correction_rms": 0.0}
+Episode 542 | Reward -2.030 | GP samples 200 | Max slack 0
+LIVE {"episode": 543, "reward": -2.029854907635208, "max_angle": 0.3701096956447345, "slack": 0.0, "correction_rms": 0.0}
+Episode 543 | Reward -1.580 | GP samples 200 | Max slack 0
+LIVE {"episode": 544, "reward": -1.5798740909472704, "max_angle": 0.26491527411654436, "slack": 0.0, "correction_rms": 0.0}
+Episode 544 | Reward -1.866 | GP samples 200 | Max slack 0
+LIVE {"episode": 545, "reward": -1.8658839271224124, "max_angle": 0.3708567053039314, "slack": 0.0, "correction_rms": 0.0}
+Episode 545 | Reward -3.308 | GP samples 200 | Max slack 0
+LIVE {"episode": 546, "reward": -3.307679211174427, "max_angle": 0.584357320871586, "slack": 0.0, "correction_rms": 0.0}
+Episode 546 | Reward -2.853 | GP samples 200 | Max slack 0
+LIVE {"episode": 547, "reward": -2.853497970839207, "max_angle": 0.4969101228892798, "slack": 0.0, "correction_rms": 0.0}
+Episode 547 | Reward -2.853 | GP samples 200 | Max slack 0
+LIVE {"episode": 548, "reward": -2.8533905415864242, "max_angle": 0.5042747871637101, "slack": 0.0, "correction_rms": 0.0}
+Episode 548 | Reward -1.774 | GP samples 200 | Max slack 0
+LIVE {"episode": 549, "reward": -1.7735729493614674, "max_angle": 0.30198264904793465, "slack": 0.0, "correction_rms": 0.0}
+Episode 549 | Reward -1.069 | GP samples 200 | Max slack 0
+LIVE {"episode": 550, "reward": -1.0690639644131126, "max_angle": 0.07208459889513313, "slack": 0.0, "correction_rms": 0.0}
+Episode 550 | Reward -1.779 | GP samples 200 | Max slack 0
+LIVE {"episode": 551, "reward": -1.7791289522467928, "max_angle": 0.26367629415298954, "slack": 0.0, "correction_rms": 0.0}
+Episode 551 | Reward -8.086 | GP samples 200 | Max slack 0
+LIVE {"episode": 552, "reward": -8.085801266230156, "max_angle": 0.9813596558743145, "slack": 0.0, "correction_rms": 0.0}
+Episode 552 | Reward -1.402 | GP samples 200 | Max slack 0
+LIVE {"episode": 553, "reward": -1.402222198573106, "max_angle": 0.22223205157478598, "slack": 0.0, "correction_rms": 0.0}
+Episode 553 | Reward -2.903 | GP samples 200 | Max slack 0
+LIVE {"episode": 554, "reward": -2.9031871305687114, "max_angle": 0.46283351022223984, "slack": 0.0, "correction_rms": 0.0}
+Episode 554 | Reward -1.108 | GP samples 200 | Max slack 0
+LIVE {"episode": 555, "reward": -1.107858764030484, "max_angle": 0.0901404405864669, "slack": 0.0, "correction_rms": 0.0}
+Episode 555 | Reward -4.524 | GP samples 200 | Max slack 0
+LIVE {"episode": 556, "reward": -4.52396390492654, "max_angle": 0.6682165013906263, "slack": 0.0, "correction_rms": 0.0}
+Episode 556 | Reward -1.075 | GP samples 200 | Max slack 0
+LIVE {"episode": 557, "reward": -1.0747451243189245, "max_angle": 0.1593712914552201, "slack": 0.0, "correction_rms": 0.0}
+Episode 557 | Reward -6.338 | GP samples 200 | Max slack 0
+LIVE {"episode": 558, "reward": -6.338098876569319, "max_angle": 0.8347807818612933, "slack": 0.0, "correction_rms": 0.0}
+Episode 558 | Reward -3.812 | GP samples 200 | Max slack 0
+LIVE {"episode": 559, "reward": -3.811603159590635, "max_angle": 0.5974645229278097, "slack": 0.0, "correction_rms": 0.0}
+Episode 559 | Reward -7.184 | GP samples 200 | Max slack 0
+LIVE {"episode": 560, "reward": -7.184037722486038, "max_angle": 0.9111020111029946, "slack": 0.0, "correction_rms": 0.0}
+Episode 560 | Reward -1.978 | GP samples 200 | Max slack 0
+LIVE {"episode": 561, "reward": -1.9781691860739279, "max_angle": 0.35810628238827436, "slack": 0.0, "correction_rms": 0.0}
+Episode 561 | Reward -1.789 | GP samples 200 | Max slack 0
+LIVE {"episode": 562, "reward": -1.7886301554855715, "max_angle": 0.20867465618577283, "slack": 0.0, "correction_rms": 0.0}
+Episode 562 | Reward -1.670 | GP samples 200 | Max slack 0
+LIVE {"episode": 563, "reward": -1.6698275828584017, "max_angle": 0.3184027816218171, "slack": 0.0, "correction_rms": 0.0}
+Episode 563 | Reward -1.982 | GP samples 200 | Max slack 0
+LIVE {"episode": 564, "reward": -1.9820302680790653, "max_angle": 0.3379050331626714, "slack": 0.0, "correction_rms": 0.0}
+Episode 564 | Reward -3.685 | GP samples 200 | Max slack 0
+LIVE {"episode": 565, "reward": -3.685472941342673, "max_angle": 0.594617345017252, "slack": 0.0, "correction_rms": 0.0}
+Episode 565 | Reward -2.142 | GP samples 200 | Max slack 0
+LIVE {"episode": 566, "reward": -2.1422582471199765, "max_angle": 0.37817941533746774, "slack": 0.0, "correction_rms": 0.0}
+Episode 566 | Reward -5.678 | GP samples 200 | Max slack 0
+LIVE {"episode": 567, "reward": -5.678093225856527, "max_angle": 0.78709222547152, "slack": 0.0, "correction_rms": 0.0}
+Episode 567 | Reward -1.137 | GP samples 200 | Max slack 0
+LIVE {"episode": 568, "reward": -1.1372660950284934, "max_angle": 0.06379227640389695, "slack": 0.0, "correction_rms": 0.0}
+Episode 568 | Reward -2.007 | GP samples 200 | Max slack 0
+LIVE {"episode": 569, "reward": -2.0071926479370323, "max_angle": 0.30318928854873217, "slack": 0.0, "correction_rms": 0.0}
+Episode 569 | Reward -3.972 | GP samples 200 | Max slack 0
+LIVE {"episode": 570, "reward": -3.9717979300741306, "max_angle": 0.6218081626327596, "slack": 0.0, "correction_rms": 0.0}
+Episode 570 | Reward -3.872 | GP samples 200 | Max slack 0
+LIVE {"episode": 571, "reward": -3.871557791312264, "max_angle": 0.6080449399629042, "slack": 0.0, "correction_rms": 0.0}
+Episode 571 | Reward -4.347 | GP samples 200 | Max slack 0
+LIVE {"episode": 572, "reward": -4.347089533080728, "max_angle": 0.6784123195791998, "slack": 0.0, "correction_rms": 0.0}
+Episode 572 | Reward -1.636 | GP samples 200 | Max slack 0
+LIVE {"episode": 573, "reward": -1.6358986834249953, "max_angle": 0.3149557906617304, "slack": 0.0, "correction_rms": 0.0}
+Episode 573 | Reward -0.821 | GP samples 200 | Max slack 0
+LIVE {"episode": 574, "reward": -0.8211997303782823, "max_angle": 0.03879484289053512, "slack": 0.0, "correction_rms": 0.0}
+Episode 574 | Reward -7.966 | GP samples 200 | Max slack 0
+LIVE {"episode": 575, "reward": -7.96571297656788, "max_angle": 0.9550664914284019, "slack": 0.0, "correction_rms": 0.0}
+Episode 575 | Reward -1.077 | GP samples 200 | Max slack 0
+LIVE {"episode": 576, "reward": -1.077281263662562, "max_angle": 0.1614409044817926, "slack": 0.0, "correction_rms": 0.0}
+Episode 576 | Reward -1.615 | GP samples 200 | Max slack 0
+LIVE {"episode": 577, "reward": -1.6146550821042764, "max_angle": 0.2739429712883306, "slack": 0.0, "correction_rms": 0.0}
+Episode 577 | Reward -4.268 | GP samples 200 | Max slack 0
+LIVE {"episode": 578, "reward": -4.267598600345529, "max_angle": 0.6756365850381201, "slack": 0.0, "correction_rms": 0.0}
+Episode 578 | Reward -6.398 | GP samples 200 | Max slack 0
+LIVE {"episode": 579, "reward": -6.398260005191372, "max_angle": 0.8786171952905779, "slack": 0.0, "correction_rms": 0.0}
+Episode 579 | Reward -4.605 | GP samples 200 | Max slack 0
+LIVE {"episode": 580, "reward": -4.604989250049822, "max_angle": 0.7051524014742898, "slack": 0.0, "correction_rms": 0.0}
+Episode 580 | Reward -2.769 | GP samples 200 | Max slack 0
+LIVE {"episode": 581, "reward": -2.7692359283451475, "max_angle": 0.490179575525247, "slack": 0.0, "correction_rms": 0.0}
+Episode 581 | Reward -5.379 | GP samples 200 | Max slack 0
+LIVE {"episode": 582, "reward": -5.378699341508872, "max_angle": 0.7678231315009563, "slack": 0.0, "correction_rms": 0.0}
+Episode 582 | Reward -4.146 | GP samples 200 | Max slack 0
+LIVE {"episode": 583, "reward": -4.145756032897664, "max_angle": 0.6656007020790295, "slack": 0.0, "correction_rms": 0.0}
+Episode 583 | Reward -1.447 | GP samples 200 | Max slack 0
+LIVE {"episode": 584, "reward": -1.4471118564967087, "max_angle": 0.24552112890509561, "slack": 0.0, "correction_rms": 0.0}
+Episode 584 | Reward -5.431 | GP samples 200 | Max slack 0
+LIVE {"episode": 585, "reward": -5.430773082858856, "max_angle": 0.7905712369429427, "slack": 0.0, "correction_rms": 0.0}
+Episode 585 | Reward -2.042 | GP samples 200 | Max slack 0
+LIVE {"episode": 586, "reward": -2.04181367249171, "max_angle": 0.3818323824266463, "slack": 0.0, "correction_rms": 0.0}
+Episode 586 | Reward -4.073 | GP samples 200 | Max slack 0
+LIVE {"episode": 587, "reward": -4.072670010983757, "max_angle": 0.6365524457842959, "slack": 0.0, "correction_rms": 0.0}
+Episode 587 | Reward -7.694 | GP samples 200 | Max slack 0
+LIVE {"episode": 588, "reward": -7.693785551847409, "max_angle": 0.9473096218452959, "slack": 0.0, "correction_rms": 0.0}
+Episode 588 | Reward -1.387 | GP samples 200 | Max slack 0
+LIVE {"episode": 589, "reward": -1.38675090736499, "max_angle": 0.2173714697722453, "slack": 0.0, "correction_rms": 0.0}
+Episode 589 | Reward -5.043 | GP samples 200 | Max slack 0
+LIVE {"episode": 590, "reward": -5.04258165059145, "max_angle": 0.7556315181516673, "slack": 0.0, "correction_rms": 0.0}
+Episode 590 | Reward -3.274 | GP samples 200 | Max slack 0
+LIVE {"episode": 591, "reward": -3.2740056610395256, "max_angle": 0.5621586379130807, "slack": 0.0, "correction_rms": 0.0}
+Episode 591 | Reward -5.041 | GP samples 200 | Max slack 0
+LIVE {"episode": 592, "reward": -5.040659132371087, "max_angle": 0.7422083877527366, "slack": 0.0, "correction_rms": 0.0}
+Episode 592 | Reward -5.438 | GP samples 200 | Max slack 0
+LIVE {"episode": 593, "reward": -5.438408629758666, "max_angle": 0.7703741465466415, "slack": 0.0, "correction_rms": 0.0}
+Episode 593 | Reward -2.805 | GP samples 200 | Max slack 0
+LIVE {"episode": 594, "reward": -2.805270431461393, "max_angle": 0.4776508120136542, "slack": 0.0, "correction_rms": 0.0}
+Episode 594 | Reward -1.978 | GP samples 200 | Max slack 0
+LIVE {"episode": 595, "reward": -1.9775862190607998, "max_angle": 0.3611761911650344, "slack": 0.0, "correction_rms": 0.0}
+Episode 595 | Reward -0.910 | GP samples 200 | Max slack 0
+LIVE {"episode": 596, "reward": -0.9099481130111993, "max_angle": 0.0689947543419213, "slack": 0.0, "correction_rms": 0.0}
+Episode 596 | Reward -2.210 | GP samples 200 | Max slack 0
+LIVE {"episode": 597, "reward": -2.209738685805431, "max_angle": 0.3963945471859773, "slack": 0.0, "correction_rms": 0.0}
+Episode 597 | Reward -1.694 | GP samples 200 | Max slack 0
+LIVE {"episode": 598, "reward": -1.6938691352388249, "max_angle": 0.3616603278246495, "slack": 0.0, "correction_rms": 0.0}
+Episode 598 | Reward -8.453 | GP samples 200 | Max slack 0
+LIVE {"episode": 599, "reward": -8.452913007256448, "max_angle": 0.9789647798956518, "slack": 0.0, "correction_rms": 0.0}
+Episode 599 | Reward -8.284 | GP samples 200 | Max slack 0
+LIVE {"episode": 600, "reward": -8.283829937187885, "max_angle": 0.9645397385883239, "slack": 0.0, "correction_rms": 0.0}

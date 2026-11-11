@@ -1,0 +1,606 @@
+Total variable size (Policy): 4930
+Initializing Value function network
+Initializing Barrier Compensation network
+Total variable size (Compensator): 2631
+GP calibration: 400 steps in 2 episodes, 200 samples
+[TRPO-CBF] iter 1  steps 1000  ep 5  avg_return -23244.2  collisions(batch) 0  min_headway(last) 2.95  3s
+      CBF: |u_bar| 1.30  |u_BAR| 0.00  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.97 rms 0.045 | comp loss 3.84->1.61 | KL 0.0013 acc 1
+[TRPO-CBF] iter 2  steps 2000  ep 10  avg_return -7627.8  collisions(batch) 0  min_headway(last) 2.81  5s
+      CBF: |u_bar| 0.26  |u_BAR| 1.29  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.040 | comp loss 0.64->0.59 | KL 0.0024 acc 1
+[TRPO-CBF] iter 3  steps 3000  ep 15  avg_return -12763.9  collisions(batch) 0  min_headway(last) 2.47  8s
+      CBF: |u_bar| 0.25  |u_BAR| 1.35  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.45->0.39 | KL 0.0000 acc 1
+[TRPO-CBF] iter 4  steps 4000  ep 20  avg_return -9399.0  collisions(batch) 0  min_headway(last) 2.65  10s
+      CBF: |u_bar| 0.21  |u_BAR| 1.18  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.041 | comp loss 0.44->0.42 | KL 0.0029 acc 1
+[TRPO-CBF] iter 5  steps 5000  ep 25  avg_return -9121.9  collisions(batch) 0  min_headway(last) 2.66  13s
+      CBF: |u_bar| 0.30  |u_BAR| 1.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.042 | comp loss 0.68->0.58 | KL 0.0011 acc 1
+[TRPO-CBF] iter 6  steps 6000  ep 30  avg_return -7710.3  collisions(batch) 0  min_headway(last) 2.88  15s
+      CBF: |u_bar| 0.22  |u_BAR| 1.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.051 | comp loss 0.47->0.38 | KL 0.0023 acc 1
+[TRPO-CBF] iter 7  steps 7000  ep 35  avg_return -7052.3  collisions(batch) 0  min_headway(last) 2.66  18s
+      CBF: |u_bar| 0.20  |u_BAR| 1.18  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.047 | comp loss 0.36->0.27 | KL 0.0037 acc 1
+[TRPO-CBF] iter 8  steps 8000  ep 40  avg_return -7548.0  collisions(batch) 0  min_headway(last) 2.66  21s
+      CBF: |u_bar| 0.23  |u_BAR| 1.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.043 | comp loss 0.55->0.40 | KL 0.0002 acc 1
+[TRPO-CBF] iter 9  steps 9000  ep 45  avg_return -2261.3  collisions(batch) 0  min_headway(last) 3.08  24s
+      CBF: |u_bar| 0.01  |u_BAR| 1.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.01->0.01 | KL 0.0011 acc 1
+[TRPO-CBF] iter 10  steps 10000  ep 50  avg_return -5378.6  collisions(batch) 0  min_headway(last) 2.66  26s
+      CBF: |u_bar| 0.06  |u_BAR| 1.32  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.041 | comp loss 0.10->0.09 | KL 0.0000 acc 1
+[TRPO-CBF] iter 11  steps 11000  ep 55  avg_return -2548.3  collisions(batch) 0  min_headway(last) 3.41  29s
+      CBF: |u_bar| 0.02  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.046 | comp loss 0.04->0.04 | KL 0.0020 acc 1
+[TRPO-CBF] iter 12  steps 12000  ep 60  avg_return -2239.8  collisions(batch) 0  min_headway(last) 3.27  32s
+      CBF: |u_bar| 0.03  |u_BAR| 1.29  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.044 | comp loss 0.04->0.04 | KL 0.0020 acc 1
+[TRPO-CBF] iter 13  steps 13000  ep 65  avg_return -2333.6  collisions(batch) 0  min_headway(last) 3.10  34s
+      CBF: |u_bar| 0.01  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.02->0.02 | KL 0.0022 acc 1
+[TRPO-CBF] iter 14  steps 14000  ep 70  avg_return -1363.7  collisions(batch) 0  min_headway(last) 2.96  37s
+      CBF: |u_bar| 0.00  |u_BAR| 1.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.042 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 15  steps 15000  ep 75  avg_return -2020.9  collisions(batch) 0  min_headway(last) 3.12  40s
+      CBF: |u_bar| 0.01  |u_BAR| 1.30  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.047 | comp loss 0.01->0.01 | KL 0.0001 acc 1
+[TRPO-CBF] iter 16  steps 16000  ep 80  avg_return -2272.3  collisions(batch) 0  min_headway(last) 2.79  42s
+      CBF: |u_bar| 0.01  |u_BAR| 1.39  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.01->0.01 | KL 0.0000 acc 1
+[TRPO-CBF] iter 17  steps 17000  ep 85  avg_return -2203.0  collisions(batch) 0  min_headway(last) 3.58  45s
+      CBF: |u_bar| 0.01  |u_BAR| 1.36  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.040 | comp loss 0.01->0.01 | KL 0.0008 acc 1
+[TRPO-CBF] iter 18  steps 18000  ep 90  avg_return -1124.8  collisions(batch) 0  min_headway(last) 3.22  47s
+      CBF: |u_bar| 0.00  |u_BAR| 1.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.038 | comp loss 0.00->0.00 | KL 0.0000 acc 1
+[TRPO-CBF] iter 19  steps 19000  ep 95  avg_return -1910.0  collisions(batch) 0  min_headway(last) 3.76  49s
+      CBF: |u_bar| 0.00  |u_BAR| 1.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.00->0.00 | KL 0.0044 acc 1
+[TRPO-CBF] iter 20  steps 20000  ep 100  avg_return -1328.2  collisions(batch) 0  min_headway(last) 3.69  51s
+      CBF: |u_bar| 0.00  |u_BAR| 1.35  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.042 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 21  steps 21000  ep 105  avg_return -1287.3  collisions(batch) 0  min_headway(last) 3.55  54s
+      CBF: |u_bar| 0.01  |u_BAR| 1.38  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.01->0.01 | KL 0.0021 acc 1
+[TRPO-CBF] iter 22  steps 22000  ep 110  avg_return -1782.3  collisions(batch) 0  min_headway(last) 3.44  56s
+      CBF: |u_bar| 0.00  |u_BAR| 1.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.042 | comp loss 0.00->0.00 | KL 0.0002 acc 1
+[TRPO-CBF] iter 23  steps 23000  ep 115  avg_return -1155.7  collisions(batch) 0  min_headway(last) 3.17  58s
+      CBF: |u_bar| 0.00  |u_BAR| 1.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.044 | comp loss 0.00->0.00 | KL 0.0026 acc 1
+[TRPO-CBF] iter 24  steps 24000  ep 120  avg_return -1106.9  collisions(batch) 0  min_headway(last) 3.46  59s
+      CBF: |u_bar| 0.00  |u_BAR| 1.22  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 25  steps 25000  ep 125  avg_return -1822.3  collisions(batch) 0  min_headway(last) 3.30  62s
+      CBF: |u_bar| 0.00  |u_BAR| 1.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.040 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 26  steps 26000  ep 130  avg_return -998.8  collisions(batch) 0  min_headway(last) 3.02  64s
+      CBF: |u_bar| 0.00  |u_BAR| 1.38  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.039 | comp loss 0.00->0.00 | KL 0.0039 acc 1
+[TRPO-CBF] iter 27  steps 27000  ep 135  avg_return -1622.4  collisions(batch) 0  min_headway(last) 3.47  66s
+      CBF: |u_bar| 0.00  |u_BAR| 1.22  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.042 | comp loss 0.00->0.00 | KL 0.0000 acc 1
+[TRPO-CBF] iter 28  steps 28000  ep 140  avg_return -1078.5  collisions(batch) 0  min_headway(last) 3.28  69s
+      CBF: |u_bar| 0.01  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.044 | comp loss 0.02->0.02 | KL 0.0021 acc 1
+[TRPO-CBF] iter 29  steps 29000  ep 145  avg_return -1067.9  collisions(batch) 0  min_headway(last) 3.77  71s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.042 | comp loss 0.00->0.00 | KL 0.0029 acc 1
+[TRPO-CBF] iter 30  steps 30000  ep 150  avg_return -996.3  collisions(batch) 0  min_headway(last) 3.71  73s
+      CBF: |u_bar| 0.01  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.042 | comp loss 0.01->0.01 | KL 0.0018 acc 1
+[TRPO-CBF] iter 31  steps 31000  ep 155  avg_return -1031.5  collisions(batch) 0  min_headway(last) 3.30  75s
+      CBF: |u_bar| 0.00  |u_BAR| 1.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 32  steps 32000  ep 160  avg_return -1818.8  collisions(batch) 0  min_headway(last) 3.59  78s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0043 acc 1
+[TRPO-CBF] iter 33  steps 33000  ep 165  avg_return -1359.1  collisions(batch) 0  min_headway(last) 3.36  79s
+      CBF: |u_bar| 0.00  |u_BAR| 1.33  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.00->0.00 | KL 0.0010 acc 1
+[TRPO-CBF] iter 34  steps 34000  ep 170  avg_return -1062.5  collisions(batch) 0  min_headway(last) 3.40  81s
+      CBF: |u_bar| 0.00  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0011 acc 1
+[TRPO-CBF] iter 35  steps 35000  ep 175  avg_return -1073.8  collisions(batch) 0  min_headway(last) 3.59  83s
+      CBF: |u_bar| 0.01  |u_BAR| 1.30  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.02->0.02 | KL 0.0011 acc 1
+[TRPO-CBF] iter 36  steps 36000  ep 180  avg_return -941.4  collisions(batch) 0  min_headway(last) 3.49  86s
+      CBF: |u_bar| 0.00  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.045 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 37  steps 37000  ep 185  avg_return -1117.1  collisions(batch) 0  min_headway(last) 3.50  88s
+      CBF: |u_bar| 0.00  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.043 | comp loss 0.00->0.00 | KL 0.0044 acc 1
+[TRPO-CBF] iter 38  steps 38000  ep 190  avg_return -978.9  collisions(batch) 0  min_headway(last) 3.47  90s
+      CBF: |u_bar| 0.01  |u_BAR| 1.30  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.042 | comp loss 0.02->0.02 | KL 0.0017 acc 1
+[TRPO-CBF] iter 39  steps 39000  ep 195  avg_return -1022.6  collisions(batch) 0  min_headway(last) 3.20  92s
+      CBF: |u_bar| 0.00  |u_BAR| 1.30  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0019 acc 1
+[TRPO-CBF] iter 40  steps 40000  ep 200  avg_return -890.6  collisions(batch) 0  min_headway(last) 3.19  95s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0001 acc 1
+[TRPO-CBF] iter 41  steps 41000  ep 205  avg_return -935.4  collisions(batch) 0  min_headway(last) 3.63  96s
+      CBF: |u_bar| 0.00  |u_BAR| 1.31  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0037 acc 1
+[TRPO-CBF] iter 42  steps 42000  ep 210  avg_return -1328.2  collisions(batch) 0  min_headway(last) 3.39  99s
+      CBF: |u_bar| 0.00  |u_BAR| 1.33  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 43  steps 43000  ep 215  avg_return -857.2  collisions(batch) 0  min_headway(last) 3.22  101s
+      CBF: |u_bar| 0.00  |u_BAR| 1.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 44  steps 44000  ep 220  avg_return -924.9  collisions(batch) 0  min_headway(last) 3.35  103s
+      CBF: |u_bar| 0.00  |u_BAR| 1.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 45  steps 45000  ep 225  avg_return -1062.9  collisions(batch) 0  min_headway(last) 3.45  105s
+      CBF: |u_bar| 0.00  |u_BAR| 1.36  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0042 acc 1
+[TRPO-CBF] iter 46  steps 46000  ep 230  avg_return -1206.4  collisions(batch) 0  min_headway(last) 2.92  106s
+      CBF: |u_bar| 0.00  |u_BAR| 1.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 47  steps 47000  ep 235  avg_return -1354.9  collisions(batch) 0  min_headway(last) 3.45  109s
+      CBF: |u_bar| 0.00  |u_BAR| 1.33  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.045 | comp loss 0.00->0.00 | KL 0.0045 acc 1
+[TRPO-CBF] iter 48  steps 48000  ep 240  avg_return -830.0  collisions(batch) 0  min_headway(last) 3.64  112s
+      CBF: |u_bar| 0.02  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.03->0.02 | KL 0.0026 acc 1
+[TRPO-CBF] iter 49  steps 49000  ep 245  avg_return -844.6  collisions(batch) 0  min_headway(last) 3.45  113s
+      CBF: |u_bar| 0.00  |u_BAR| 1.36  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0015 acc 1
+[TRPO-CBF] iter 50  steps 50000  ep 250  avg_return -962.3  collisions(batch) 0  min_headway(last) 3.55  115s
+      CBF: |u_bar| 0.00  |u_BAR| 1.36  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0022 acc 1
+[TRPO-CBF] iter 51  steps 51000  ep 255  avg_return -1582.1  collisions(batch) 0  min_headway(last) 3.02  116s
+      CBF: |u_bar| 0.00  |u_BAR| 1.23  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.040 | comp loss 0.00->0.00 | KL 0.0046 acc 1
+[TRPO-CBF] iter 52  steps 52000  ep 260  avg_return -1171.7  collisions(batch) 0  min_headway(last) 3.58  118s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0016 acc 1
+[TRPO-CBF] iter 53  steps 53000  ep 265  avg_return -833.2  collisions(batch) 0  min_headway(last) 3.50  120s
+      CBF: |u_bar| 0.00  |u_BAR| 1.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 54  steps 54000  ep 270  avg_return -938.6  collisions(batch) 0  min_headway(last) 3.14  122s
+      CBF: |u_bar| 0.00  |u_BAR| 1.32  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0040 acc 1
+[TRPO-CBF] iter 55  steps 55000  ep 275  avg_return -840.0  collisions(batch) 0  min_headway(last) 3.31  124s
+      CBF: |u_bar| 0.00  |u_BAR| 1.22  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.037 | comp loss 0.00->0.00 | KL 0.0031 acc 1
+[TRPO-CBF] iter 56  steps 56000  ep 280  avg_return -928.2  collisions(batch) 0  min_headway(last) 3.18  126s
+      CBF: |u_bar| 0.00  |u_BAR| 1.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 57  steps 57000  ep 285  avg_return -792.6  collisions(batch) 0  min_headway(last) 3.62  127s
+      CBF: |u_bar| 0.00  |u_BAR| 1.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0043 acc 1
+[TRPO-CBF] iter 58  steps 58000  ep 290  avg_return -890.3  collisions(batch) 0  min_headway(last) 3.46  129s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.042 | comp loss 0.00->0.00 | KL 0.0045 acc 1
+[TRPO-CBF] iter 59  steps 59000  ep 295  avg_return -1657.2  collisions(batch) 0  min_headway(last) 3.25  130s
+      CBF: |u_bar| 0.00  |u_BAR| 1.11  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.044 | comp loss 0.00->0.00 | KL 0.0015 acc 1
+[TRPO-CBF] iter 60  steps 60000  ep 300  avg_return -797.8  collisions(batch) 0  min_headway(last) 3.39  132s
+      CBF: |u_bar| 0.00  |u_BAR| 1.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.042 | comp loss 0.00->0.00 | KL 0.0011 acc 1
+[TRPO-CBF] iter 61  steps 61000  ep 305  avg_return -748.8  collisions(batch) 0  min_headway(last) 3.22  133s
+      CBF: |u_bar| 0.00  |u_BAR| 1.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0021 acc 1
+[TRPO-CBF] iter 62  steps 62000  ep 310  avg_return -711.6  collisions(batch) 0  min_headway(last) 3.24  135s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0020 acc 1
+[TRPO-CBF] iter 63  steps 63000  ep 315  avg_return -757.0  collisions(batch) 0  min_headway(last) 3.33  137s
+      CBF: |u_bar| 0.00  |u_BAR| 1.09  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.00->0.00 | KL 0.0021 acc 1
+[TRPO-CBF] iter 64  steps 64000  ep 320  avg_return -876.6  collisions(batch) 0  min_headway(last) 3.22  138s
+      CBF: |u_bar| 0.00  |u_BAR| 1.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.042 | comp loss 0.00->0.00 | KL 0.0018 acc 1
+[TRPO-CBF] iter 65  steps 65000  ep 325  avg_return -753.6  collisions(batch) 0  min_headway(last) 3.21  141s
+      CBF: |u_bar| 0.00  |u_BAR| 1.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 66  steps 66000  ep 330  avg_return -1512.8  collisions(batch) 0  min_headway(last) 2.81  144s
+      CBF: |u_bar| 0.00  |u_BAR| 1.13  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 67  steps 67000  ep 335  avg_return -815.1  collisions(batch) 0  min_headway(last) 3.40  145s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.043 | comp loss 0.00->0.00 | KL 0.0040 acc 1
+[TRPO-CBF] iter 68  steps 68000  ep 340  avg_return -782.5  collisions(batch) 0  min_headway(last) 3.30  147s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0015 acc 1
+[TRPO-CBF] iter 69  steps 69000  ep 345  avg_return -774.5  collisions(batch) 0  min_headway(last) 3.42  149s
+      CBF: |u_bar| 0.00  |u_BAR| 1.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0020 acc 1
+[TRPO-CBF] iter 70  steps 70000  ep 350  avg_return -742.8  collisions(batch) 0  min_headway(last) 3.44  150s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 71  steps 71000  ep 355  avg_return -709.6  collisions(batch) 0  min_headway(last) 3.35  152s
+      CBF: |u_bar| 0.00  |u_BAR| 1.13  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0018 acc 1
+[TRPO-CBF] iter 72  steps 72000  ep 360  avg_return -735.5  collisions(batch) 0  min_headway(last) 3.43  153s
+      CBF: |u_bar| 0.00  |u_BAR| 1.18  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0039 acc 1
+[TRPO-CBF] iter 73  steps 73000  ep 365  avg_return -661.4  collisions(batch) 0  min_headway(last) 3.49  155s
+      CBF: |u_bar| 0.00  |u_BAR| 1.10  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0015 acc 1
+[TRPO-CBF] iter 74  steps 74000  ep 370  avg_return -1388.1  collisions(batch) 0  min_headway(last) 3.75  158s
+      CBF: |u_bar| 0.00  |u_BAR| 1.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0018 acc 1
+[TRPO-CBF] iter 75  steps 75000  ep 375  avg_return -764.7  collisions(batch) 0  min_headway(last) 3.45  159s
+      CBF: |u_bar| 0.00  |u_BAR| 1.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.042 | comp loss 0.00->0.00 | KL 0.0046 acc 1
+[TRPO-CBF] iter 76  steps 76000  ep 380  avg_return -697.5  collisions(batch) 0  min_headway(last) 3.59  161s
+      CBF: |u_bar| 0.00  |u_BAR| 1.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 77  steps 77000  ep 385  avg_return -683.7  collisions(batch) 0  min_headway(last) 3.54  162s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.037 | comp loss 0.00->0.00 | KL 0.0048 acc 1
+[TRPO-CBF] iter 78  steps 78000  ep 390  avg_return -705.4  collisions(batch) 0  min_headway(last) 3.23  164s
+      CBF: |u_bar| 0.00  |u_BAR| 1.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0045 acc 1
+[TRPO-CBF] iter 79  steps 79000  ep 395  avg_return -779.2  collisions(batch) 0  min_headway(last) 3.47  165s
+      CBF: |u_bar| 0.00  |u_BAR| 1.33  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0017 acc 1
+[TRPO-CBF] iter 80  steps 80000  ep 400  avg_return -640.2  collisions(batch) 0  min_headway(last) 3.24  167s
+      CBF: |u_bar| 0.00  |u_BAR| 1.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0040 acc 1
+[TRPO-CBF] iter 81  steps 81000  ep 405  avg_return -715.1  collisions(batch) 0  min_headway(last) 3.15  169s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 82  steps 82000  ep 410  avg_return -1037.7  collisions(batch) 0  min_headway(last) 2.99  171s
+      CBF: |u_bar| 0.01  |u_BAR| 1.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.040 | comp loss 0.02->0.02 | KL 0.0038 acc 1
+[TRPO-CBF] iter 83  steps 83000  ep 415  avg_return -787.6  collisions(batch) 0  min_headway(last) 3.20  174s
+      CBF: |u_bar| 0.01  |u_BAR| 1.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.02->0.02 | KL 0.0016 acc 1
+[TRPO-CBF] iter 84  steps 84000  ep 420  avg_return -846.8  collisions(batch) 0  min_headway(last) 3.48  177s
+      CBF: |u_bar| 0.02  |u_BAR| 1.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.045 | comp loss 0.05->0.05 | KL 0.0047 acc 1
+[TRPO-CBF] iter 85  steps 85000  ep 425  avg_return -780.3  collisions(batch) 0  min_headway(last) 3.55  178s
+      CBF: |u_bar| 0.00  |u_BAR| 1.23  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0018 acc 1
+[TRPO-CBF] iter 86  steps 86000  ep 430  avg_return -754.2  collisions(batch) 0  min_headway(last) 3.13  180s
+      CBF: |u_bar| 0.00  |u_BAR| 1.15  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 87  steps 87000  ep 435  avg_return -1363.9  collisions(batch) 0  min_headway(last) 3.33  183s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 88  steps 88000  ep 440  avg_return -750.1  collisions(batch) 0  min_headway(last) 3.38  184s
+      CBF: |u_bar| 0.00  |u_BAR| 1.22  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.037 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 89  steps 89000  ep 445  avg_return -694.1  collisions(batch) 0  min_headway(last) 3.56  186s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 90  steps 90000  ep 450  avg_return -760.3  collisions(batch) 0  min_headway(last) 3.25  187s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 91  steps 91000  ep 455  avg_return -734.0  collisions(batch) 0  min_headway(last) 3.44  189s
+      CBF: |u_bar| 0.00  |u_BAR| 1.23  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 92  steps 92000  ep 460  avg_return -627.4  collisions(batch) 0  min_headway(last) 3.55  191s
+      CBF: |u_bar| 0.00  |u_BAR| 1.18  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.037 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 93  steps 93000  ep 465  avg_return -735.3  collisions(batch) 0  min_headway(last) 3.33  192s
+      CBF: |u_bar| 0.00  |u_BAR| 1.22  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.042 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 94  steps 94000  ep 470  avg_return -1893.1  collisions(batch) 0  min_headway(last) 3.39  195s
+      CBF: |u_bar| 0.00  |u_BAR| 1.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0015 acc 1
+[TRPO-CBF] iter 95  steps 95000  ep 475  avg_return -815.4  collisions(batch) 0  min_headway(last) 3.48  197s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 96  steps 96000  ep 480  avg_return -703.8  collisions(batch) 0  min_headway(last) 3.24  199s
+      CBF: |u_bar| 0.00  |u_BAR| 1.15  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0031 acc 1
+[TRPO-CBF] iter 97  steps 97000  ep 485  avg_return -1260.6  collisions(batch) 0  min_headway(last) 3.45  201s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0048 acc 1
+[TRPO-CBF] iter 98  steps 98000  ep 490  avg_return -677.1  collisions(batch) 0  min_headway(last) 3.44  203s
+      CBF: |u_bar| 0.00  |u_BAR| 1.18  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0044 acc 1
+[TRPO-CBF] iter 99  steps 99000  ep 495  avg_return -648.6  collisions(batch) 0  min_headway(last) 3.12  205s
+      CBF: |u_bar| 0.00  |u_BAR| 1.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0040 acc 1
+[TRPO-CBF] iter 100  steps 100000  ep 500  avg_return -1962.2  collisions(batch) 0  min_headway(last) 3.19  207s
+      CBF: |u_bar| 0.03  |u_BAR| 1.24  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.042 | comp loss 0.05->0.05 | KL 0.0011 acc 1
+[TRPO-CBF] iter 101  steps 101000  ep 505  avg_return -723.6  collisions(batch) 0  min_headway(last) 3.38  209s
+      CBF: |u_bar| 0.00  |u_BAR| 1.24  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0042 acc 1
+[TRPO-CBF] iter 102  steps 102000  ep 510  avg_return -779.1  collisions(batch) 0  min_headway(last) 3.36  211s
+      CBF: |u_bar| 0.00  |u_BAR| 1.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0010 acc 1
+[TRPO-CBF] iter 103  steps 103000  ep 515  avg_return -738.7  collisions(batch) 0  min_headway(last) 3.13  212s
+      CBF: |u_bar| 0.00  |u_BAR| 1.09  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0046 acc 1
+[TRPO-CBF] iter 104  steps 104000  ep 520  avg_return -1348.1  collisions(batch) 0  min_headway(last) 3.36  214s
+      CBF: |u_bar| 0.00  |u_BAR| 1.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.037 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 105  steps 105000  ep 525  avg_return -649.7  collisions(batch) 0  min_headway(last) 3.34  216s
+      CBF: |u_bar| 0.00  |u_BAR| 1.23  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0020 acc 1
+[TRPO-CBF] iter 106  steps 106000  ep 530  avg_return -2296.5  collisions(batch) 0  min_headway(last) 3.31  217s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0044 acc 1
+[TRPO-CBF] iter 107  steps 107000  ep 535  avg_return -690.1  collisions(batch) 0  min_headway(last) 3.22  219s
+      CBF: |u_bar| 0.00  |u_BAR| 1.24  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0049 acc 1
+[TRPO-CBF] iter 108  steps 108000  ep 540  avg_return -1728.2  collisions(batch) 0  min_headway(last) 2.84  220s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0042 acc 1
+[TRPO-CBF] iter 109  steps 109000  ep 545  avg_return -959.5  collisions(batch) 0  min_headway(last) 3.20  222s
+      CBF: |u_bar| 0.00  |u_BAR| 1.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0043 acc 1
+[TRPO-CBF] iter 110  steps 110000  ep 550  avg_return -713.2  collisions(batch) 0  min_headway(last) 3.38  224s
+      CBF: |u_bar| 0.00  |u_BAR| 1.23  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0037 acc 1
+[TRPO-CBF] iter 111  steps 111000  ep 555  avg_return -692.0  collisions(batch) 0  min_headway(last) 3.18  226s
+      CBF: |u_bar| 0.01  |u_BAR| 1.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.039 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 112  steps 112000  ep 560  avg_return -1183.9  collisions(batch) 0  min_headway(last) 2.96  228s
+      CBF: |u_bar| 0.00  |u_BAR| 1.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 113  steps 113000  ep 565  avg_return -1150.5  collisions(batch) 0  min_headway(last) 3.29  230s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.037 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 114  steps 114000  ep 570  avg_return -2773.5  collisions(batch) 0  min_headway(last) 3.19  232s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.039 | comp loss 0.00->0.00 | KL 0.0043 acc 1
+[TRPO-CBF] iter 115  steps 115000  ep 575  avg_return -2099.4  collisions(batch) 0  min_headway(last) 3.21  234s
+      CBF: |u_bar| 0.00  |u_BAR| 1.22  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 116  steps 116000  ep 580  avg_return -1794.1  collisions(batch) 0  min_headway(last) 3.40  237s
+      CBF: |u_bar| 0.01  |u_BAR| 1.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.01->0.01 | KL 0.0012 acc 1
+[TRPO-CBF] iter 117  steps 117000  ep 585  avg_return -677.6  collisions(batch) 0  min_headway(last) 3.28  238s
+      CBF: |u_bar| 0.00  |u_BAR| 1.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0041 acc 1
+[TRPO-CBF] iter 118  steps 118000  ep 590  avg_return -747.8  collisions(batch) 0  min_headway(last) 3.08  240s
+      CBF: |u_bar| 0.00  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0041 acc 1
+[TRPO-CBF] iter 119  steps 119000  ep 595  avg_return -944.7  collisions(batch) 0  min_headway(last) 2.98  243s
+      CBF: |u_bar| 0.00  |u_BAR| 1.18  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0046 acc 1
+[TRPO-CBF] iter 120  steps 120000  ep 600  avg_return -1519.2  collisions(batch) 0  min_headway(last) 2.83  246s
+      CBF: |u_bar| 0.00  |u_BAR| 1.22  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.037 | comp loss 0.00->0.00 | KL 0.0050 acc 1
+[TRPO-CBF] iter 121  steps 121000  ep 605  avg_return -731.6  collisions(batch) 0  min_headway(last) 3.21  247s
+      CBF: |u_bar| 0.00  |u_BAR| 1.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.038 | comp loss 0.00->0.00 | KL 0.0032 acc 1
+[TRPO-CBF] iter 122  steps 122000  ep 610  avg_return -1528.1  collisions(batch) 0  min_headway(last) 3.43  249s
+      CBF: |u_bar| 0.00  |u_BAR| 1.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0044 acc 1
+[TRPO-CBF] iter 123  steps 123000  ep 615  avg_return -720.9  collisions(batch) 0  min_headway(last) 3.32  250s
+      CBF: |u_bar| 0.00  |u_BAR| 1.31  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0049 acc 1
+[TRPO-CBF] iter 124  steps 124000  ep 620  avg_return -688.9  collisions(batch) 0  min_headway(last) 3.07  252s
+      CBF: |u_bar| 0.00  |u_BAR| 1.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0032 acc 1
+[TRPO-CBF] iter 125  steps 125000  ep 625  avg_return -653.1  collisions(batch) 0  min_headway(last) 3.36  253s
+      CBF: |u_bar| 0.00  |u_BAR| 1.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 126  steps 126000  ep 630  avg_return -688.6  collisions(batch) 0  min_headway(last) 3.20  255s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.037 | comp loss 0.00->0.00 | KL 0.0043 acc 1
+[TRPO-CBF] iter 127  steps 127000  ep 635  avg_return -718.9  collisions(batch) 0  min_headway(last) 3.45  257s
+      CBF: |u_bar| 0.00  |u_BAR| 1.29  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 128  steps 128000  ep 640  avg_return -599.8  collisions(batch) 0  min_headway(last) 3.17  258s
+      CBF: |u_bar| 0.00  |u_BAR| 1.23  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0033 acc 1
+[TRPO-CBF] iter 129  steps 129000  ep 645  avg_return -513.5  collisions(batch) 0  min_headway(last) 3.65  260s
+      CBF: |u_bar| 0.00  |u_BAR| 1.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0041 acc 1
+[TRPO-CBF] iter 130  steps 130000  ep 650  avg_return -1411.6  collisions(batch) 0  min_headway(last) 3.01  263s
+      CBF: |u_bar| 0.01  |u_BAR| 1.30  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.041 | comp loss 0.01->0.01 | KL 0.0014 acc 1
+[TRPO-CBF] iter 131  steps 131000  ep 655  avg_return -677.3  collisions(batch) 0  min_headway(last) 3.02  264s
+      CBF: |u_bar| 0.00  |u_BAR| 1.18  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 132  steps 132000  ep 660  avg_return -683.9  collisions(batch) 0  min_headway(last) 3.10  267s
+      CBF: |u_bar| 0.00  |u_BAR| 1.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0043 acc 1
+[TRPO-CBF] iter 133  steps 133000  ep 665  avg_return -699.5  collisions(batch) 0  min_headway(last) 3.36  270s
+      CBF: |u_bar| 0.02  |u_BAR| 1.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.040 | comp loss 0.05->0.04 | KL 0.0049 acc 1
+[TRPO-CBF] iter 134  steps 134000  ep 670  avg_return -611.8  collisions(batch) 0  min_headway(last) 3.19  271s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.043 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 135  steps 135000  ep 675  avg_return -740.2  collisions(batch) 0  min_headway(last) 3.33  273s
+      CBF: |u_bar| 0.00  |u_BAR| 1.36  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 136  steps 136000  ep 680  avg_return -876.8  collisions(batch) 0  min_headway(last) 2.98  276s
+      CBF: |u_bar| 0.00  |u_BAR| 1.29  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0044 acc 1
+[TRPO-CBF] iter 137  steps 137000  ep 685  avg_return -889.4  collisions(batch) 0  min_headway(last) 3.32  277s
+      CBF: |u_bar| 0.00  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 138  steps 138000  ep 690  avg_return -686.9  collisions(batch) 0  min_headway(last) 3.45  279s
+      CBF: |u_bar| 0.00  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0035 acc 1
+[TRPO-CBF] iter 139  steps 139000  ep 695  avg_return -917.7  collisions(batch) 0  min_headway(last) 3.61  282s
+      CBF: |u_bar| 0.00  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.038 | comp loss 0.00->0.00 | KL 0.0040 acc 1
+[TRPO-CBF] iter 140  steps 140000  ep 700  avg_return -718.4  collisions(batch) 0  min_headway(last) 3.31  283s
+      CBF: |u_bar| 0.00  |u_BAR| 1.24  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0048 acc 1
+[TRPO-CBF] iter 141  steps 141000  ep 705  avg_return -646.7  collisions(batch) 0  min_headway(last) 3.48  285s
+      CBF: |u_bar| 0.00  |u_BAR| 1.30  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0037 acc 1
+[TRPO-CBF] iter 142  steps 142000  ep 710  avg_return -641.4  collisions(batch) 0  min_headway(last) 3.14  286s
+      CBF: |u_bar| 0.00  |u_BAR| 1.23  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0016 acc 1
+[TRPO-CBF] iter 143  steps 143000  ep 715  avg_return -670.8  collisions(batch) 0  min_headway(last) 2.99  289s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0028 acc 1
+[TRPO-CBF] iter 144  steps 144000  ep 720  avg_return -640.9  collisions(batch) 0  min_headway(last) 3.50  292s
+      CBF: |u_bar| 0.01  |u_BAR| 1.18  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.02->0.02 | KL 0.0044 acc 1
+[TRPO-CBF] iter 145  steps 145000  ep 725  avg_return -1105.0  collisions(batch) 0  min_headway(last) 3.03  294s
+      CBF: |u_bar| 0.00  |u_BAR| 1.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0016 acc 1
+[TRPO-CBF] iter 146  steps 146000  ep 730  avg_return -1566.7  collisions(batch) 0  min_headway(last) 3.18  296s
+      CBF: |u_bar| 0.00  |u_BAR| 1.35  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.042 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 147  steps 147000  ep 735  avg_return -1140.8  collisions(batch) 0  min_headway(last) 3.37  298s
+      CBF: |u_bar| 0.00  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0042 acc 1
+[TRPO-CBF] iter 148  steps 148000  ep 740  avg_return -646.3  collisions(batch) 0  min_headway(last) 3.27  299s
+      CBF: |u_bar| 0.00  |u_BAR| 1.30  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.038 | comp loss 0.00->0.00 | KL 0.0049 acc 1
+[TRPO-CBF] iter 149  steps 149000  ep 745  avg_return -656.6  collisions(batch) 0  min_headway(last) 3.45  302s
+      CBF: |u_bar| 0.00  |u_BAR| 1.35  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 150  steps 150000  ep 750  avg_return -564.5  collisions(batch) 0  min_headway(last) 3.31  304s
+      CBF: |u_bar| 0.00  |u_BAR| 1.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.039 | comp loss 0.00->0.00 | KL 0.0021 acc 1
+[TRPO-CBF] iter 151  steps 151000  ep 755  avg_return -650.5  collisions(batch) 0  min_headway(last) 3.29  307s
+      CBF: |u_bar| 0.00  |u_BAR| 1.36  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.042 | comp loss 0.00->0.00 | KL 0.0048 acc 1
+[TRPO-CBF] iter 152  steps 152000  ep 760  avg_return -983.2  collisions(batch) 0  min_headway(last) 3.65  308s
+      CBF: |u_bar| 0.00  |u_BAR| 1.35  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0049 acc 1
+[TRPO-CBF] iter 153  steps 153000  ep 765  avg_return -702.8  collisions(batch) 0  min_headway(last) 3.37  311s
+      CBF: |u_bar| 0.00  |u_BAR| 1.32  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.047 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 154  steps 154000  ep 770  avg_return -602.6  collisions(batch) 0  min_headway(last) 3.46  314s
+      CBF: |u_bar| 0.00  |u_BAR| 1.30  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.045 | comp loss 0.00->0.00 | KL 0.0011 acc 1
+[TRPO-CBF] iter 155  steps 155000  ep 775  avg_return -1336.8  collisions(batch) 0  min_headway(last) 2.94  317s
+      CBF: |u_bar| 0.00  |u_BAR| 1.32  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 156  steps 156000  ep 780  avg_return -590.8  collisions(batch) 0  min_headway(last) 3.31  319s
+      CBF: |u_bar| 0.00  |u_BAR| 1.36  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0045 acc 1
+[TRPO-CBF] iter 157  steps 157000  ep 785  avg_return -635.6  collisions(batch) 0  min_headway(last) 3.26  320s
+      CBF: |u_bar| 0.00  |u_BAR| 1.23  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 158  steps 158000  ep 790  avg_return -905.5  collisions(batch) 0  min_headway(last) 3.36  322s
+      CBF: |u_bar| 0.00  |u_BAR| 1.29  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 159  steps 159000  ep 795  avg_return -596.3  collisions(batch) 0  min_headway(last) 3.48  323s
+      CBF: |u_bar| 0.00  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.042 | comp loss 0.00->0.00 | KL 0.0015 acc 1
+[TRPO-CBF] iter 160  steps 160000  ep 800  avg_return -619.7  collisions(batch) 0  min_headway(last) 3.30  326s
+      CBF: |u_bar| 0.00  |u_BAR| 1.31  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 161  steps 161000  ep 805  avg_return -666.2  collisions(batch) 0  min_headway(last) 3.40  327s
+      CBF: |u_bar| 0.00  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 162  steps 162000  ep 810  avg_return -645.6  collisions(batch) 0  min_headway(last) 3.33  329s
+      CBF: |u_bar| 0.00  |u_BAR| 1.24  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.039 | comp loss 0.00->0.00 | KL 0.0046 acc 1
+[TRPO-CBF] iter 163  steps 163000  ep 815  avg_return -677.8  collisions(batch) 0  min_headway(last) 3.44  331s
+      CBF: |u_bar| 0.00  |u_BAR| 1.35  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.040 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 164  steps 164000  ep 820  avg_return -718.6  collisions(batch) 0  min_headway(last) 3.46  332s
+      CBF: |u_bar| 0.00  |u_BAR| 1.34  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.048 | comp loss 0.00->0.00 | KL 0.0042 acc 1
+[TRPO-CBF] iter 165  steps 165000  ep 825  avg_return -670.1  collisions(batch) 0  min_headway(last) 3.26  334s
+      CBF: |u_bar| 0.00  |u_BAR| 1.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.040 | comp loss 0.00->0.00 | KL 0.0045 acc 1
+[TRPO-CBF] iter 166  steps 166000  ep 830  avg_return -541.2  collisions(batch) 0  min_headway(last) 3.41  335s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0028 acc 1
+[TRPO-CBF] iter 167  steps 167000  ep 835  avg_return -614.5  collisions(batch) 0  min_headway(last) 3.35  337s
+      CBF: |u_bar| 0.00  |u_BAR| 1.41  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 168  steps 168000  ep 840  avg_return -567.6  collisions(batch) 0  min_headway(last) 3.22  338s
+      CBF: |u_bar| 0.00  |u_BAR| 1.22  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 169  steps 169000  ep 845  avg_return -582.1  collisions(batch) 0  min_headway(last) 3.72  340s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0048 acc 1
+[TRPO-CBF] iter 170  steps 170000  ep 850  avg_return -577.1  collisions(batch) 0  min_headway(last) 3.11  341s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0043 acc 1
+[TRPO-CBF] iter 171  steps 171000  ep 855  avg_return -599.4  collisions(batch) 0  min_headway(last) 3.25  344s
+      CBF: |u_bar| 0.00  |u_BAR| 1.32  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.00->0.00 | KL 0.0046 acc 1
+[TRPO-CBF] iter 172  steps 172000  ep 860  avg_return -837.8  collisions(batch) 0  min_headway(last) 3.38  346s
+      CBF: |u_bar| 0.00  |u_BAR| 1.23  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 173  steps 173000  ep 865  avg_return -593.3  collisions(batch) 0  min_headway(last) 3.79  348s
+      CBF: |u_bar| 0.00  |u_BAR| 1.30  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 174  steps 174000  ep 870  avg_return -1302.8  collisions(batch) 0  min_headway(last) 3.19  350s
+      CBF: |u_bar| 0.02  |u_BAR| 1.18  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.043 | comp loss 0.04->0.04 | KL 0.0015 acc 1
+[TRPO-CBF] iter 175  steps 175000  ep 875  avg_return -626.9  collisions(batch) 0  min_headway(last) 3.28  352s
+      CBF: |u_bar| 0.00  |u_BAR| 1.34  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.041 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 176  steps 176000  ep 880  avg_return -798.9  collisions(batch) 0  min_headway(last) 3.38  355s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.048 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 177  steps 177000  ep 885  avg_return -1825.0  collisions(batch) 0  min_headway(last) 3.46  358s
+      CBF: |u_bar| 0.01  |u_BAR| 1.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.044 | comp loss 0.02->0.02 | KL 0.0033 acc 1
+[TRPO-CBF] iter 178  steps 178000  ep 890  avg_return -925.5  collisions(batch) 0  min_headway(last) 2.96  361s
+      CBF: |u_bar| 0.00  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 179  steps 179000  ep 895  avg_return -1875.8  collisions(batch) 0  min_headway(last) 2.88  362s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 180  steps 180000  ep 900  avg_return -459.3  collisions(batch) 0  min_headway(last) 3.53  364s
+      CBF: |u_bar| 0.00  |u_BAR| 1.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 181  steps 181000  ep 905  avg_return -549.2  collisions(batch) 0  min_headway(last) 3.83  365s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 182  steps 182000  ep 910  avg_return -937.4  collisions(batch) 0  min_headway(last) 3.37  367s
+      CBF: |u_bar| 0.00  |u_BAR| 1.15  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0042 acc 1
+[TRPO-CBF] iter 183  steps 183000  ep 915  avg_return -536.8  collisions(batch) 0  min_headway(last) 3.19  369s
+      CBF: |u_bar| 0.00  |u_BAR| 1.06  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 184  steps 184000  ep 920  avg_return -1821.6  collisions(batch) 0  min_headway(last) 2.84  371s
+      CBF: |u_bar| 0.01  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.044 | comp loss 0.00->0.00 | KL 0.0042 acc 1
+[TRPO-CBF] iter 185  steps 185000  ep 925  avg_return -1420.3  collisions(batch) 0  min_headway(last) 3.48  374s
+      CBF: |u_bar| 0.00  |u_BAR| 1.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 186  steps 186000  ep 930  avg_return -573.4  collisions(batch) 0  min_headway(last) 3.63  376s
+      CBF: |u_bar| 0.00  |u_BAR| 1.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0040 acc 1
+[TRPO-CBF] iter 187  steps 187000  ep 935  avg_return -624.0  collisions(batch) 0  min_headway(last) 3.56  377s
+      CBF: |u_bar| 0.00  |u_BAR| 1.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0044 acc 1
+[TRPO-CBF] iter 188  steps 188000  ep 940  avg_return -570.1  collisions(batch) 0  min_headway(last) 3.32  379s
+      CBF: |u_bar| 0.00  |u_BAR| 1.13  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0026 acc 1
+[TRPO-CBF] iter 189  steps 189000  ep 945  avg_return -622.8  collisions(batch) 0  min_headway(last) 3.45  380s
+      CBF: |u_bar| 0.00  |u_BAR| 1.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.038 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 190  steps 190000  ep 950  avg_return -534.1  collisions(batch) 0  min_headway(last) 3.09  382s
+      CBF: |u_bar| 0.00  |u_BAR| 1.15  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.041 | comp loss 0.00->0.00 | KL 0.0049 acc 1
+[TRPO-CBF] iter 191  steps 191000  ep 955  avg_return -574.7  collisions(batch) 0  min_headway(last) 3.26  384s
+      CBF: |u_bar| 0.00  |u_BAR| 1.11  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 192  steps 192000  ep 960  avg_return -584.6  collisions(batch) 0  min_headway(last) 3.48  385s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.041 | comp loss 0.00->0.00 | KL 0.0047 acc 1
+[TRPO-CBF] iter 193  steps 193000  ep 965  avg_return -2486.5  collisions(batch) 0  min_headway(last) 3.47  387s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.00->0.00 | KL 0.0042 acc 1
+[TRPO-CBF] iter 194  steps 194000  ep 970  avg_return -525.4  collisions(batch) 0  min_headway(last) 3.66  388s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.038 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 195  steps 195000  ep 975  avg_return -631.1  collisions(batch) 0  min_headway(last) 3.65  390s
+      CBF: |u_bar| 0.00  |u_BAR| 1.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.040 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 196  steps 196000  ep 980  avg_return -642.3  collisions(batch) 0  min_headway(last) 3.34  391s
+      CBF: |u_bar| 0.00  |u_BAR| 1.15  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 197  steps 197000  ep 985  avg_return -594.4  collisions(batch) 0  min_headway(last) 3.46  393s
+      CBF: |u_bar| 0.00  |u_BAR| 1.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 198  steps 198000  ep 990  avg_return -620.8  collisions(batch) 0  min_headway(last) 3.58  395s
+      CBF: |u_bar| 0.00  |u_BAR| 1.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0017 acc 1
+[TRPO-CBF] iter 199  steps 199000  ep 995  avg_return -595.1  collisions(batch) 0  min_headway(last) 3.08  396s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0046 acc 1
+[TRPO-CBF] iter 200  steps 200000  ep 1000  avg_return -636.8  collisions(batch) 0  min_headway(last) 3.00  398s
+      CBF: |u_bar| 0.00  |u_BAR| 1.05  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0041 acc 1
+[TRPO-CBF] iter 201  steps 201000  ep 1005  avg_return -2613.6  collisions(batch) 0  min_headway(last) 2.97  401s
+      CBF: |u_bar| 0.01  |u_BAR| 1.11  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.046 | comp loss 0.01->0.01 | KL 0.0048 acc 1
+[TRPO-CBF] iter 202  steps 202000  ep 1010  avg_return -885.3  collisions(batch) 0  min_headway(last) 3.44  402s
+      CBF: |u_bar| 0.00  |u_BAR| 1.03  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.042 | comp loss 0.00->0.00 | KL 0.0050 acc 1
+[TRPO-CBF] iter 203  steps 203000  ep 1015  avg_return -1002.1  collisions(batch) 0  min_headway(last) 3.22  404s
+      CBF: |u_bar| 0.00  |u_BAR| 1.30  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.00->0.00 | KL 0.0037 acc 1
+[TRPO-CBF] iter 204  steps 204000  ep 1020  avg_return -553.7  collisions(batch) 0  min_headway(last) 3.69  407s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.00->0.00 | KL 0.0043 acc 1
+[TRPO-CBF] iter 205  steps 205000  ep 1025  avg_return -610.1  collisions(batch) 0  min_headway(last) 3.30  408s
+      CBF: |u_bar| 0.00  |u_BAR| 1.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.038 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 206  steps 206000  ep 1030  avg_return -2551.5  collisions(batch) 0  min_headway(last) 2.84  410s
+      CBF: |u_bar| 0.00  |u_BAR| 1.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.042 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 207  steps 207000  ep 1035  avg_return -574.6  collisions(batch) 0  min_headway(last) 3.25  412s
+      CBF: |u_bar| 0.00  |u_BAR| 1.18  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0043 acc 1
+[TRPO-CBF] iter 208  steps 208000  ep 1040  avg_return -1496.2  collisions(batch) 0  min_headway(last) 3.14  414s
+      CBF: |u_bar| 0.00  |u_BAR| 1.05  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0047 acc 1
+[TRPO-CBF] iter 209  steps 209000  ep 1045  avg_return -574.0  collisions(batch) 0  min_headway(last) 3.08  416s
+      CBF: |u_bar| 0.00  |u_BAR| 1.10  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0042 acc 1
+[TRPO-CBF] iter 210  steps 210000  ep 1050  avg_return -805.0  collisions(batch) 0  min_headway(last) 3.52  419s
+      CBF: |u_bar| 0.00  |u_BAR| 1.12  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.039 | comp loss 0.00->0.00 | KL 0.0042 acc 1
+[TRPO-CBF] iter 211  steps 211000  ep 1055  avg_return -619.5  collisions(batch) 0  min_headway(last) 3.46  420s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0043 acc 1
+[TRPO-CBF] iter 212  steps 212000  ep 1060  avg_return -809.5  collisions(batch) 0  min_headway(last) 3.00  423s
+      CBF: |u_bar| 0.01  |u_BAR| 1.18  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.01->0.01 | KL 0.0041 acc 1
+[TRPO-CBF] iter 213  steps 213000  ep 1065  avg_return -603.7  collisions(batch) 0  min_headway(last) 3.45  425s
+      CBF: |u_bar| 0.00  |u_BAR| 1.15  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0050 acc 1
+[TRPO-CBF] iter 214  steps 214000  ep 1070  avg_return -648.4  collisions(batch) 0  min_headway(last) 3.60  426s
+      CBF: |u_bar| 0.00  |u_BAR| 1.24  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.039 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 215  steps 215000  ep 1075  avg_return -1224.7  collisions(batch) 0  min_headway(last) 3.55  428s
+      CBF: |u_bar| 0.00  |u_BAR| 1.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.044 | comp loss 0.00->0.00 | KL 0.0034 acc 1
+[TRPO-CBF] iter 216  steps 216000  ep 1080  avg_return -636.1  collisions(batch) 0  min_headway(last) 3.72  430s
+      CBF: |u_bar| 0.00  |u_BAR| 1.22  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0045 acc 1
+[TRPO-CBF] iter 217  steps 217000  ep 1085  avg_return -660.6  collisions(batch) 0  min_headway(last) 3.26  431s
+      CBF: |u_bar| 0.00  |u_BAR| 1.18  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.041 | comp loss 0.00->0.00 | KL 0.0036 acc 1
+[TRPO-CBF] iter 218  steps 218000  ep 1090  avg_return -552.5  collisions(batch) 0  min_headway(last) 3.44  433s
+      CBF: |u_bar| 0.00  |u_BAR| 1.10  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.051 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 219  steps 219000  ep 1095  avg_return -690.6  collisions(batch) 0  min_headway(last) 3.27  434s
+      CBF: |u_bar| 0.00  |u_BAR| 1.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.00->0.00 | KL 0.0048 acc 1
+[TRPO-CBF] iter 220  steps 220000  ep 1100  avg_return -686.2  collisions(batch) 0  min_headway(last) 3.13  436s
+      CBF: |u_bar| 0.00  |u_BAR| 1.34  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0048 acc 1
+[TRPO-CBF] iter 221  steps 221000  ep 1105  avg_return -1423.8  collisions(batch) 0  min_headway(last) 3.35  437s
+      CBF: |u_bar| 0.00  |u_BAR| 1.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0034 acc 1
+[TRPO-CBF] iter 222  steps 222000  ep 1110  avg_return -1142.4  collisions(batch) 0  min_headway(last) 3.46  440s
+      CBF: |u_bar| 0.00  |u_BAR| 1.24  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.041 | comp loss 0.00->0.00 | KL 0.0016 acc 1
+[TRPO-CBF] iter 223  steps 223000  ep 1115  avg_return -584.0  collisions(batch) 0  min_headway(last) 3.26  443s
+      CBF: |u_bar| 0.01  |u_BAR| 1.13  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.046 | comp loss 0.01->0.01 | KL 0.0012 acc 1
+[TRPO-CBF] iter 224  steps 224000  ep 1120  avg_return -601.7  collisions(batch) 0  min_headway(last) 3.55  444s
+      CBF: |u_bar| 0.00  |u_BAR| 1.23  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.041 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 225  steps 225000  ep 1125  avg_return -545.0  collisions(batch) 0  min_headway(last) 3.21  446s
+      CBF: |u_bar| 0.00  |u_BAR| 1.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0043 acc 1
+[TRPO-CBF] iter 226  steps 226000  ep 1130  avg_return -633.6  collisions(batch) 0  min_headway(last) 3.47  448s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.041 | comp loss 0.00->0.00 | KL 0.0033 acc 1
+[TRPO-CBF] iter 227  steps 227000  ep 1135  avg_return -1436.9  collisions(batch) 0  min_headway(last) 3.19  450s
+      CBF: |u_bar| 0.01  |u_BAR| 1.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 228  steps 228000  ep 1140  avg_return -1265.3  collisions(batch) 0  min_headway(last) 2.94  453s
+      CBF: |u_bar| 0.01  |u_BAR| 1.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0006 acc 1
+[TRPO-CBF] iter 229  steps 229000  ep 1145  avg_return -647.3  collisions(batch) 0  min_headway(last) 3.25  455s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.00->0.00 | KL 0.0031 acc 1
+[TRPO-CBF] iter 230  steps 230000  ep 1150  avg_return -941.5  collisions(batch) 0  min_headway(last) 3.24  456s
+      CBF: |u_bar| 0.00  |u_BAR| 0.99  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0032 acc 1
+[TRPO-CBF] iter 231  steps 231000  ep 1155  avg_return -676.6  collisions(batch) 0  min_headway(last) 3.28  459s
+      CBF: |u_bar| 0.01  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.01->0.01 | KL 0.0041 acc 1
+[TRPO-CBF] iter 232  steps 232000  ep 1160  avg_return -659.1  collisions(batch) 0  min_headway(last) 3.77  461s
+      CBF: |u_bar| 0.00  |u_BAR| 1.29  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.040 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 233  steps 233000  ep 1165  avg_return -601.0  collisions(batch) 0  min_headway(last) 3.04  462s
+      CBF: |u_bar| 0.00  |u_BAR| 1.15  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 234  steps 234000  ep 1170  avg_return -557.2  collisions(batch) 0  min_headway(last) 3.09  464s
+      CBF: |u_bar| 0.00  |u_BAR| 1.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.041 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 235  steps 235000  ep 1175  avg_return -899.3  collisions(batch) 0  min_headway(last) 2.97  465s
+      CBF: |u_bar| 0.00  |u_BAR| 1.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 236  steps 236000  ep 1180  avg_return -665.2  collisions(batch) 0  min_headway(last) 3.61  467s
+      CBF: |u_bar| 0.00  |u_BAR| 1.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0034 acc 1
+[TRPO-CBF] iter 237  steps 237000  ep 1185  avg_return -1378.5  collisions(batch) 0  min_headway(last) 3.01  468s
+      CBF: |u_bar| 0.00  |u_BAR| 1.24  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.038 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 238  steps 238000  ep 1190  avg_return -598.7  collisions(batch) 0  min_headway(last) 3.20  471s
+      CBF: |u_bar| 0.00  |u_BAR| 1.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0043 acc 1
+[TRPO-CBF] iter 239  steps 239000  ep 1195  avg_return -854.2  collisions(batch) 0  min_headway(last) 3.38  473s
+      CBF: |u_bar| 0.00  |u_BAR| 1.09  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.042 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 240  steps 240000  ep 1200  avg_return -2306.4  collisions(batch) 0  min_headway(last) 2.78  476s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0046 acc 1
+[TRPO-CBF] iter 241  steps 241000  ep 1205  avg_return -860.3  collisions(batch) 0  min_headway(last) 3.45  479s
+      CBF: |u_bar| 0.00  |u_BAR| 1.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0000 acc 1
+[TRPO-CBF] iter 242  steps 242000  ep 1210  avg_return -575.4  collisions(batch) 0  min_headway(last) 3.29  480s
+      CBF: |u_bar| 0.00  |u_BAR| 1.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 243  steps 243000  ep 1215  avg_return -1442.0  collisions(batch) 0  min_headway(last) 3.35  481s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0043 acc 1
+[TRPO-CBF] iter 244  steps 244000  ep 1220  avg_return -638.7  collisions(batch) 0  min_headway(last) 3.21  483s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0035 acc 1
+[TRPO-CBF] iter 245  steps 245000  ep 1225  avg_return -535.0  collisions(batch) 0  min_headway(last) 3.06  485s
+      CBF: |u_bar| 0.00  |u_BAR| 1.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.041 | comp loss 0.00->0.00 | KL 0.0023 acc 1
+[TRPO-CBF] iter 246  steps 246000  ep 1230  avg_return -1041.3  collisions(batch) 0  min_headway(last) 2.95  488s
+      CBF: |u_bar| 0.00  |u_BAR| 1.18  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.044 | comp loss 0.00->0.00 | KL 0.0039 acc 1
+[TRPO-CBF] iter 247  steps 247000  ep 1235  avg_return -654.3  collisions(batch) 0  min_headway(last) 3.63  489s
+      CBF: |u_bar| 0.00  |u_BAR| 1.18  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 248  steps 248000  ep 1240  avg_return -938.0  collisions(batch) 0  min_headway(last) 3.64  491s
+      CBF: |u_bar| 0.00  |u_BAR| 1.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 249  steps 249000  ep 1245  avg_return -598.4  collisions(batch) 0  min_headway(last) 3.33  493s
+      CBF: |u_bar| 0.00  |u_BAR| 1.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.040 | comp loss 0.00->0.00 | KL 0.0036 acc 1
+[TRPO-CBF] iter 250  steps 250000  ep 1250  avg_return -628.4  collisions(batch) 0  min_headway(last) 3.34  494s
+      CBF: |u_bar| 0.00  |u_BAR| 1.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.042 | comp loss 0.00->0.00 | KL 0.0041 acc 1
+[TRPO-CBF] iter 251  steps 251000  ep 1255  avg_return -625.2  collisions(batch) 0  min_headway(last) 3.34  496s
+      CBF: |u_bar| 0.00  |u_BAR| 1.24  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.039 | comp loss 0.00->0.00 | KL 0.0041 acc 1
+[TRPO-CBF] iter 252  steps 252000  ep 1260  avg_return -641.0  collisions(batch) 0  min_headway(last) 3.01  498s
+      CBF: |u_bar| 0.00  |u_BAR| 1.23  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.039 | comp loss 0.00->0.00 | KL 0.0038 acc 1
+[TRPO-CBF] iter 253  steps 253000  ep 1265  avg_return -592.2  collisions(batch) 0  min_headway(last) 3.28  499s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0036 acc 1
+[TRPO-CBF] iter 254  steps 254000  ep 1270  avg_return -505.9  collisions(batch) 0  min_headway(last) 3.10  501s
+      CBF: |u_bar| 0.00  |u_BAR| 1.15  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0022 acc 1
+[TRPO-CBF] iter 255  steps 255000  ep 1275  avg_return -597.5  collisions(batch) 0  min_headway(last) 3.23  502s
+      CBF: |u_bar| 0.00  |u_BAR| 1.22  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.043 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 256  steps 256000  ep 1280  avg_return -1243.0  collisions(batch) 0  min_headway(last) 3.40  504s
+      CBF: |u_bar| 0.00  |u_BAR| 1.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 257  steps 257000  ep 1285  avg_return -994.5  collisions(batch) 0  min_headway(last) 3.33  507s
+      CBF: |u_bar| 0.00  |u_BAR| 1.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0048 acc 1
+[TRPO-CBF] iter 258  steps 258000  ep 1290  avg_return -1965.8  collisions(batch) 0  min_headway(last) 3.69  508s
+      CBF: |u_bar| 0.00  |u_BAR| 1.15  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0046 acc 1
+[TRPO-CBF] iter 259  steps 259000  ep 1295  avg_return -594.9  collisions(batch) 0  min_headway(last) 3.03  510s
+      CBF: |u_bar| 0.00  |u_BAR| 1.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.037 | comp loss 0.00->0.00 | KL 0.0049 acc 1
+[TRPO-CBF] iter 260  steps 260000  ep 1300  avg_return -1321.4  collisions(batch) 0  min_headway(last) 2.93  513s
+      CBF: |u_bar| 0.00  |u_BAR| 1.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.039 | comp loss 0.00->0.00 | KL 0.0031 acc 1
+[TRPO-CBF] iter 261  steps 261000  ep 1305  avg_return -615.8  collisions(batch) 0  min_headway(last) 3.17  514s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.037 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 262  steps 262000  ep 1310  avg_return -590.1  collisions(batch) 0  min_headway(last) 3.21  516s
+      CBF: |u_bar| 0.00  |u_BAR| 1.22  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 263  steps 263000  ep 1315  avg_return -564.7  collisions(batch) 0  min_headway(last) 3.40  518s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.038 | comp loss 0.00->0.00 | KL 0.0046 acc 1
+[TRPO-CBF] iter 264  steps 264000  ep 1320  avg_return -1250.7  collisions(batch) 0  min_headway(last) 3.44  519s
+      CBF: |u_bar| 0.00  |u_BAR| 1.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0006 acc 1
+[TRPO-CBF] iter 265  steps 265000  ep 1325  avg_return -517.2  collisions(batch) 0  min_headway(last) 3.34  521s
+      CBF: |u_bar| 0.00  |u_BAR| 1.08  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.038 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 266  steps 266000  ep 1330  avg_return -759.0  collisions(batch) 0  min_headway(last) 3.40  524s
+      CBF: |u_bar| 0.00  |u_BAR| 1.33  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.042 | comp loss 0.00->0.00 | KL 0.0049 acc 1
+[TRPO-CBF] iter 267  steps 267000  ep 1335  avg_return -672.8  collisions(batch) 0  min_headway(last) 3.16  525s
+      CBF: |u_bar| 0.00  |u_BAR| 1.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 268  steps 268000  ep 1340  avg_return -1731.1  collisions(batch) 0  min_headway(last) 2.76  527s
+      CBF: |u_bar| 0.00  |u_BAR| 1.31  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.040 | comp loss 0.00->0.00 | KL 0.0042 acc 1
+[TRPO-CBF] iter 269  steps 269000  ep 1345  avg_return -561.5  collisions(batch) 0  min_headway(last) 3.50  528s
+      CBF: |u_bar| 0.00  |u_BAR| 1.11  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0047 acc 1
+[TRPO-CBF] iter 270  steps 270000  ep 1350  avg_return -541.3  collisions(batch) 0  min_headway(last) 3.20  530s
+      CBF: |u_bar| 0.00  |u_BAR| 1.15  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 271  steps 271000  ep 1355  avg_return -968.8  collisions(batch) 0  min_headway(last) 3.31  532s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0035 acc 1
+[TRPO-CBF] iter 272  steps 272000  ep 1360  avg_return -862.1  collisions(batch) 0  min_headway(last) 3.12  535s
+      CBF: |u_bar| 0.00  |u_BAR| 1.31  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.040 | comp loss 0.00->0.00 | KL 0.0048 acc 1
+[TRPO-CBF] iter 273  steps 273000  ep 1365  avg_return -1271.1  collisions(batch) 0  min_headway(last) 3.35  537s
+      CBF: |u_bar| 0.00  |u_BAR| 1.22  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0016 acc 1
+[TRPO-CBF] iter 274  steps 274000  ep 1370  avg_return -622.3  collisions(batch) 0  min_headway(last) 3.34  539s
+      CBF: |u_bar| 0.00  |u_BAR| 1.13  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.040 | comp loss 0.00->0.00 | KL 0.0011 acc 1
+[TRPO-CBF] iter 275  steps 275000  ep 1375  avg_return -606.3  collisions(batch) 0  min_headway(last) 3.33  542s
+      CBF: |u_bar| 0.01  |u_BAR| 1.24  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.042 | comp loss 0.00->0.00 | KL 0.0044 acc 1
+[TRPO-CBF] iter 276  steps 276000  ep 1380  avg_return -707.8  collisions(batch) 0  min_headway(last) 3.48  544s
+      CBF: |u_bar| 0.00  |u_BAR| 1.23  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.044 | comp loss 0.00->0.00 | KL 0.0015 acc 1
+[TRPO-CBF] iter 277  steps 277000  ep 1385  avg_return -2245.5  collisions(batch) 0  min_headway(last) 3.50  546s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0015 acc 1
+[TRPO-CBF] iter 278  steps 278000  ep 1390  avg_return -601.6  collisions(batch) 0  min_headway(last) 3.53  548s
+      CBF: |u_bar| 0.00  |u_BAR| 1.24  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.043 | comp loss 0.00->0.00 | KL 0.0015 acc 1
+[TRPO-CBF] iter 279  steps 279000  ep 1395  avg_return -605.6  collisions(batch) 0  min_headway(last) 3.29  550s
+      CBF: |u_bar| 0.00  |u_BAR| 1.23  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.039 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 280  steps 280000  ep 1400  avg_return -660.6  collisions(batch) 0  min_headway(last) 2.99  551s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0015 acc 1
+[TRPO-CBF] iter 281  steps 281000  ep 1405  avg_return -579.7  collisions(batch) 0  min_headway(last) 3.38  553s
+      CBF: |u_bar| 0.00  |u_BAR| 1.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0020 acc 1
+[TRPO-CBF] iter 282  steps 282000  ep 1410  avg_return -614.2  collisions(batch) 0  min_headway(last) 3.72  554s
+      CBF: |u_bar| 0.00  |u_BAR| 1.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0015 acc 1
+[TRPO-CBF] iter 283  steps 283000  ep 1415  avg_return -843.9  collisions(batch) 0  min_headway(last) 3.63  556s
+      CBF: |u_bar| 0.00  |u_BAR| 1.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 284  steps 284000  ep 1420  avg_return -590.4  collisions(batch) 0  min_headway(last) 3.17  559s
+      CBF: |u_bar| 0.01  |u_BAR| 1.29  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.01->0.01 | KL 0.0013 acc 1
+[TRPO-CBF] iter 285  steps 285000  ep 1425  avg_return -988.2  collisions(batch) 0  min_headway(last) 3.33  560s
+      CBF: |u_bar| 0.00  |u_BAR| 1.29  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.042 | comp loss 0.00->0.00 | KL 0.0021 acc 1
+[TRPO-CBF] iter 286  steps 286000  ep 1430  avg_return -520.5  collisions(batch) 0  min_headway(last) 3.55  562s
+      CBF: |u_bar| 0.00  |u_BAR| 1.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0037 acc 1
+[TRPO-CBF] iter 287  steps 287000  ep 1435  avg_return -573.5  collisions(batch) 0  min_headway(last) 3.03  563s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.045 | comp loss 0.00->0.00 | KL 0.0014 acc 1
+[TRPO-CBF] iter 288  steps 288000  ep 1440  avg_return -1080.2  collisions(batch) 0  min_headway(last) 3.61  565s
+      CBF: |u_bar| 0.00  |u_BAR| 1.32  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.042 | comp loss 0.00->0.00 | KL 0.0038 acc 1
+[TRPO-CBF] iter 289  steps 289000  ep 1445  avg_return -875.1  collisions(batch) 0  min_headway(last) 3.74  567s
+      CBF: |u_bar| 0.00  |u_BAR| 1.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 290  steps 290000  ep 1450  avg_return -659.1  collisions(batch) 0  min_headway(last) 3.64  568s
+      CBF: |u_bar| 0.00  |u_BAR| 1.41  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 291  steps 291000  ep 1455  avg_return -621.8  collisions(batch) 0  min_headway(last) 3.54  570s
+      CBF: |u_bar| 0.00  |u_BAR| 1.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.041 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 292  steps 292000  ep 1460  avg_return -551.7  collisions(batch) 0  min_headway(last) 3.62  571s
+      CBF: |u_bar| 0.00  |u_BAR| 1.30  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 293  steps 293000  ep 1465  avg_return -510.8  collisions(batch) 0  min_headway(last) 3.20  573s
+      CBF: |u_bar| 0.00  |u_BAR| 1.29  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.038 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 294  steps 294000  ep 1470  avg_return -659.6  collisions(batch) 0  min_headway(last) 3.34  575s
+      CBF: |u_bar| 0.00  |u_BAR| 1.38  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0045 acc 1
+[TRPO-CBF] iter 295  steps 295000  ep 1475  avg_return -1046.7  collisions(batch) 0  min_headway(last) 2.91  576s
+      CBF: |u_bar| 0.00  |u_BAR| 1.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0015 acc 1
+[TRPO-CBF] iter 296  steps 296000  ep 1480  avg_return -1080.5  collisions(batch) 0  min_headway(last) 3.15  579s
+      CBF: |u_bar| 0.01  |u_BAR| 1.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.044 | comp loss 0.01->0.01 | KL 0.0037 acc 1
+[TRPO-CBF] iter 297  steps 297000  ep 1485  avg_return -593.3  collisions(batch) 0  min_headway(last) 3.58  581s
+      CBF: |u_bar| 0.00  |u_BAR| 1.23  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0035 acc 1
+[TRPO-CBF] iter 298  steps 298000  ep 1490  avg_return -777.3  collisions(batch) 0  min_headway(last) 3.59  584s
+      CBF: |u_bar| 0.00  |u_BAR| 1.36  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 rms 0.041 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+[TRPO-CBF] iter 299  steps 299000  ep 1495  avg_return -534.6  collisions(batch) 0  min_headway(last) 3.07  586s
+      CBF: |u_bar| 0.00  |u_BAR| 1.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.039 | comp loss 0.00->0.00 | KL 0.0012 acc 1
+[TRPO-CBF] iter 300  steps 300000  ep 1500  avg_return -600.6  collisions(batch) 0  min_headway(last) 3.65  588s
+      CBF: |u_bar| 0.00  |u_BAR| 1.29  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 rms 0.040 | comp loss 0.00->0.00 | KL 0.0013 acc 1
+Learning Process Finished

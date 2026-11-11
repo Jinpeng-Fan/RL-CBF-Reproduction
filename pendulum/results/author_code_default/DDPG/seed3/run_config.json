@@ -1,0 +1,14 @@
+{
+  "algorithm": "DDPG",
+  "seed": 3,
+  "argv": [
+    "E:\\OneDrive - 南方科技大学\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-Revised\\pendulum\\Results_original_code\\DDPG\\seed3\\source\\ddpg.py",
+    "--random-seed",
+    "3"
+  ],
+  "original_source": "E:\\OneDrive - 南方科技大学\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-master\\pendulum\\DDPG",
+  "source_sha256": {
+    "ddpg.py": "327d0a291fb40b4afde1d9f1ef4d6526a41dab9e234a35a0fee320017dcc96af",
+    "replay_buffer.py": "42497f4b003d4ba8f1cf4622977c899711a74bfd49b2f004d407f762abea9761"
+  }
+}

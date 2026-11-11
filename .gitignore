@@ -1,0 +1,36 @@
+__pycache__/
+*.pyc
+*.pid
+# new training runs (keep the curated results/ only)
+pendulum/runs*/
+car/runs*/
+# large author-code outputs (~515 MB); regenerate with scripts/launch_orig.py
+*.mat
+!pendulum/results/final_600ep/**/train_log.mat
+!pendulum/results/checkpoint_rerun_seed1/**/*.mat
+# LaTeX build files
+report/*.aux
+report/*.log
+report/*.bbl
+report/*.bcf
+report/*.blg
+report/*.out
+report/*.run.xml
+report/*.synctex.gz
+
+# Backups, temporary work and build caches (keep final PDFs and sources)
+**/backups/
+**/tmp/
+PPT/build/
+.DS_Store
+*.bak
+*.tmp
+.venv*/
+# TeX intermediates in the presentation directory
+PPT/*.aux
+PPT/*.log
+PPT/*.nav
+PPT/*.snm
+PPT/*.toc
+PPT/*.out
+PPT/*.vrb

@@ -1,0 +1,84 @@
+WARNING:tensorflow:From E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\RL-CBF-Revised\pendulum\launch_orig\run_orig.py:44: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\RL-CBF-Revised\pendulum\launch_orig\run_orig.py:58: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+WARNING:tensorflow:From E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\RL-CBF-Revised\pendulum\Results_original_code\TRPO-CBF\seed3\source\main.py:27: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2026-11-08 15:50:53.104201: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\.runtime\python37\lib\site-packages\gym\logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+WARNING:tensorflow:From E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\RL-CBF-Revised\pendulum\Results_original_code\TRPO-CBF\seed3\source\trpo.py:41: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\RL-CBF-Revised\pendulum\Results_original_code\TRPO-CBF\seed3\source\trpo.py:210: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\RL-CBF-Revised\pendulum\Results_original_code\TRPO-CBF\seed3\source\trpo.py:210: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+WARNING:tensorflow:From E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\RL-CBF-Revised\pendulum\Results_original_code\TRPO-CBF\seed3\source\utils.py:9: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\RL-CBF-Revised\pendulum\Results_original_code\TRPO-CBF\seed3\source\trpo.py:53: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\RL-CBF-Revised\pendulum\Results_original_code\TRPO-CBF\seed3\source\trpo.py:53: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\RL-CBF-Revised\pendulum\Results_original_code\TRPO-CBF\seed3\source\utils.py:21: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\RL-CBF-Revised\pendulum\Results_original_code\TRPO-CBF\seed3\source\utils.py:90: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\.runtime\python37\lib\site-packages\tensorflow_core\python\ops\math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\RL-CBF-Revised\pendulum\Results_original_code\TRPO-CBF\seed3\source\gae.py:50: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\.runtime\python37\lib\site-packages\sklearn\gaussian_process\_gpr.py:494: ConvergenceWarning: lbfgs failed to converge (status=2):
+ABNORMAL_TERMINATION_IN_LNSRCH.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  _check_optimize_result("lbfgs", opt_res)
+E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\.runtime\python37\lib\site-packages\sklearn\gaussian_process\_gpr.py:494: ConvergenceWarning: lbfgs failed to converge (status=2):
+ABNORMAL_TERMINATION_IN_LNSRCH.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  _check_optimize_result("lbfgs", opt_res)
+E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\.runtime\python37\lib\site-packages\sklearn\gaussian_process\_gpr.py:494: ConvergenceWarning: lbfgs failed to converge (status=2):
+ABNORMAL_TERMINATION_IN_LNSRCH.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  _check_optimize_result("lbfgs", opt_res)
+E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\.runtime\python37\lib\site-packages\sklearn\gaussian_process\_gpr.py:494: ConvergenceWarning: lbfgs failed to converge (status=2):
+ABNORMAL_TERMINATION_IN_LNSRCH.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  _check_optimize_result("lbfgs", opt_res)
+E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\.runtime\python37\lib\site-packages\sklearn\gaussian_process\_gpr.py:494: ConvergenceWarning: lbfgs failed to converge (status=2):
+ABNORMAL_TERMINATION_IN_LNSRCH.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  _check_optimize_result("lbfgs", opt_res)
+E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\.runtime\python37\lib\site-packages\sklearn\gaussian_process\_gpr.py:494: ConvergenceWarning: lbfgs failed to converge (status=2):
+ABNORMAL_TERMINATION_IN_LNSRCH.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  _check_optimize_result("lbfgs", opt_res)
+E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\.runtime\python37\lib\site-packages\sklearn\gaussian_process\_gpr.py:494: ConvergenceWarning: lbfgs failed to converge (status=2):
+ABNORMAL_TERMINATION_IN_LNSRCH.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  _check_optimize_result("lbfgs", opt_res)
+E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\.runtime\python37\lib\site-packages\sklearn\gaussian_process\_gpr.py:494: ConvergenceWarning: lbfgs failed to converge (status=2):
+ABNORMAL_TERMINATION_IN_LNSRCH.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  _check_optimize_result("lbfgs", opt_res)
+E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\.runtime\python37\lib\site-packages\sklearn\gaussian_process\_gpr.py:494: ConvergenceWarning: lbfgs failed to converge (status=2):
+ABNORMAL_TERMINATION_IN_LNSRCH.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  _check_optimize_result("lbfgs", opt_res)

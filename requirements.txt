@@ -1,0 +1,11 @@
+# Training environment (Python 3.7.9, CPU only), versions used for all reported runs
+tensorflow==1.15.0
+tflearn==0.3.2
+gym==0.17.3
+numpy==1.18.5
+scipy==1.4.1
+scikit-learn==0.22.2.post1
+cvxopt==1.2.7
+matplotlib==3.2.2
+# Viewing curves only (any Python 3 environment, no TensorFlow needed):
+#   pip install tensorboard

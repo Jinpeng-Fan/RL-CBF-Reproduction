@@ -1,0 +1,24 @@
+{
+  "storage_root": "E:/RL-CBF-Data",
+  "training": {
+    "python": "",
+    "algorithms": [
+      "TRPO-CBF",
+      "TRPO"
+    ],
+    "seeds": [
+      1
+    ],
+    "steps": 20000,
+    "workers": 2
+  },
+  "history_groups": [
+    "car_final",
+    "final_600ep"
+  ],
+  "ports": {
+    "train": 6008,
+    "pendulum": 6007,
+    "car": 6009
+  }
+}

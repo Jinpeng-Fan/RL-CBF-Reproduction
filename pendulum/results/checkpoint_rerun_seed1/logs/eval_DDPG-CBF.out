@@ -1,0 +1,44 @@
+curses is not supported on this machine (please install/reinstall curses for an optimal experience)
+Observation space Box(-60.0, 60.0, (3,), float32)
+Action space Box(-15.0, 15.0, (1,), float32)
+Initializing Barrier Compensation network
+Compensator/h1/Weight
+Compensator/h1/Bias
+Compensator/h2/Weight
+Compensator/h2/Bias
+Compensator/h3/Weight
+Compensator/h3/Bias
+Total variable size : 2281
+DDPG-CBF first init 1 done
+DDPG-CBF first init 2 done
+DDPG-CBF first init 3 done
+DDPG-CBF first init 4 done
+DDPG-CBF first init 5 done
+DDPG-CBF first init 6 done
+DDPG-CBF first init 7 done
+DDPG-CBF first init 8 done
+DDPG-CBF first init 9 done
+DDPG-CBF first init 10 done
+DDPG-CBF first max|theta| per init: [0.947 0.963 0.955 0.953 0.955 0.952 0.946 0.956 0.948 0.955]
+Observation space Box(-60.0, 60.0, (3,), float32)
+Action space Box(-15.0, 15.0, (1,), float32)
+Initializing Barrier Compensation network
+Compensator/h1/Weight
+Compensator/h1/Bias
+Compensator/h2/Weight
+Compensator/h2/Bias
+Compensator/h3/Weight
+Compensator/h3/Bias
+Total variable size : 2281
+DDPG-CBF last init 1 done
+DDPG-CBF last init 2 done
+DDPG-CBF last init 3 done
+DDPG-CBF last init 4 done
+DDPG-CBF last init 5 done
+DDPG-CBF last init 6 done
+DDPG-CBF last init 7 done
+DDPG-CBF last init 8 done
+DDPG-CBF last init 9 done
+DDPG-CBF last init 10 done
+DDPG-CBF last max|theta| per init: [0.561 0.953 0.041 0.604 0.117 0.395 0.408 0.904 0.124 0.389]
+saved E:\OneDrive - 南方科技大学\Academic\PhD_Application\RL_CBF\RL-CBF-Revised\pendulum\runs_ckpt\DDPG-CBF\seed1\eval_first_last.npz

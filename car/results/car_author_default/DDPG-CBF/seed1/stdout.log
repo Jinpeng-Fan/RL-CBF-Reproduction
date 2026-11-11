@@ -1,0 +1,1223 @@
+curses is not supported on this machine (please install/reinstall curses for an optimal experience)
+{'actor_lr': 1e-05,
+ 'buffer_size': 1000,
+ 'critic_lr': 0.0001,
+ 'env': 'Pendulum-v0',
+ 'gamma': 0.99,
+ 'max_episode_len': 80,
+ 'max_episodes': 200,
+ 'minibatch_size': 64,
+ 'monitor_dir': './results2/gym_ddpg',
+ 'random_seed': '1',
+ 'render_env': False,
+ 'summary_dir': './results2/tf_ddpg',
+ 'tau': 1e-05,
+ 'use_gym_monitor': False}
+Initializing Barrier Compensation network
+Compensator/h1/Weight
+Compensator/h1/Bias
+Compensator/h2/Weight
+Compensator/h2/Bias
+Compensator/h3/Weight
+Compensator/h3/Bias
+Total variable size : 1121
+| Reward: -85755 | Episode: 0 | Qmax: 0.0002
+| Reward: -4604 | Episode: 0 | Qmax: 0.1561
+| Reward: -4822 | Episode: 0 | Qmax: 0.9863
+| Reward: -7155 | Episode: 0 | Qmax: 4.5535
+| Reward: -4768 | Episode: 0 | Qmax: 9.5628
+Break
+| Reward: -8880 | Episode: 1 | Qmax: 16.6355
+| Reward: -14516 | Episode: 1 | Qmax: 25.0360
+| Reward: -13546 | Episode: 1 | Qmax: 35.7143
+| Reward: -18024 | Episode: 1 | Qmax: 48.1087
+| Reward: -18070 | Episode: 1 | Qmax: 58.9529
+Break
+| Reward: -19098 | Episode: 2 | Qmax: 77.3586
+| Reward: -21416 | Episode: 2 | Qmax: 81.8846
+| Reward: -22136 | Episode: 2 | Qmax: 82.9144
+| Reward: -21738 | Episode: 2 | Qmax: 25.4476
+| Reward: -23376 | Episode: 2 | Qmax: 12.6148
+Break
+| Reward: -25595 | Episode: 3 | Qmax: 18.5296
+| Reward: -26519 | Episode: 3 | Qmax: 24.8846
+| Reward: -29135 | Episode: 3 | Qmax: 32.6702
+| Reward: -31225 | Episode: 3 | Qmax: 38.6609
+| Reward: -29722 | Episode: 3 | Qmax: 46.8838
+Break
+| Reward: -30728 | Episode: 4 | Qmax: 55.6949
+| Reward: -31714 | Episode: 4 | Qmax: 62.8170
+| Reward: -31094 | Episode: 4 | Qmax: 76.9026
+| Reward: -32925 | Episode: 4 | Qmax: 81.9257
+| Reward: -36878 | Episode: 4 | Qmax: 97.7622
+Break
+| Reward: -35883 | Episode: 5 | Qmax: 110.8443
+| Reward: -36837 | Episode: 5 | Qmax: 128.4721
+| Reward: -37980 | Episode: 5 | Qmax: 129.7314
+| Reward: -39208 | Episode: 5 | Qmax: 138.5000
+| Reward: -38899 | Episode: 5 | Qmax: 144.2601
+Break
+| Reward: -40278 | Episode: 6 | Qmax: 157.5260
+| Reward: -39158 | Episode: 6 | Qmax: 151.2430
+| Reward: -41051 | Episode: 6 | Qmax: 142.5158
+| Reward: -42066 | Episode: 6 | Qmax: 135.5295
+| Reward: -44576 | Episode: 6 | Qmax: 132.1130
+Break
+| Reward: -43446 | Episode: 7 | Qmax: 132.9245
+| Reward: -47166 | Episode: 7 | Qmax: 125.2209
+| Reward: -48008 | Episode: 7 | Qmax: 102.0937
+| Reward: -48517 | Episode: 7 | Qmax: 102.3593
+| Reward: -47904 | Episode: 7 | Qmax: 98.5481
+Break
+| Reward: -45365 | Episode: 8 | Qmax: 112.3592
+| Reward: -47975 | Episode: 8 | Qmax: 120.3074
+| Reward: -47860 | Episode: 8 | Qmax: 121.4499
+| Reward: -46401 | Episode: 8 | Qmax: 129.9727
+| Reward: -42370 | Episode: 8 | Qmax: 139.6583
+Break
+| Reward: -52226 | Episode: 9 | Qmax: 153.4080
+| Reward: -50764 | Episode: 9 | Qmax: 178.3623
+| Reward: -49902 | Episode: 9 | Qmax: 167.7395
+| Reward: -51897 | Episode: 9 | Qmax: 175.6164
+| Reward: -54979 | Episode: 9 | Qmax: 210.6788
+Break
+| Reward: -55472 | Episode: 10 | Qmax: 196.1079
+| Reward: -56942 | Episode: 10 | Qmax: 205.4389
+| Reward: -56353 | Episode: 10 | Qmax: 196.6932
+| Reward: -55871 | Episode: 10 | Qmax: 204.4714
+| Reward: -56062 | Episode: 10 | Qmax: 223.1728
+Break
+| Reward: -54043 | Episode: 11 | Qmax: 194.9481
+| Reward: -55437 | Episode: 11 | Qmax: 243.9466
+| Reward: -52162 | Episode: 11 | Qmax: 219.6659
+| Reward: -55260 | Episode: 11 | Qmax: 206.9815
+| Reward: -51756 | Episode: 11 | Qmax: 234.1602
+Break
+| Reward: -58529 | Episode: 12 | Qmax: 232.3400
+| Reward: -59598 | Episode: 12 | Qmax: 229.3054
+| Reward: -55230 | Episode: 12 | Qmax: 265.4668
+| Reward: -57210 | Episode: 12 | Qmax: 257.9308
+| Reward: -55386 | Episode: 12 | Qmax: 222.1442
+Break
+| Reward: -58291 | Episode: 13 | Qmax: 222.8409
+| Reward: -55714 | Episode: 13 | Qmax: 228.7072
+| Reward: -57657 | Episode: 13 | Qmax: 234.2610
+| Reward: -64000 | Episode: 13 | Qmax: 232.5445
+| Reward: -57800 | Episode: 13 | Qmax: 229.2478
+Break
+| Reward: -58399 | Episode: 14 | Qmax: 246.4888
+| Reward: -58680 | Episode: 14 | Qmax: 267.3461
+| Reward: -62723 | Episode: 14 | Qmax: 275.3859
+| Reward: -63599 | Episode: 14 | Qmax: 227.5661
+| Reward: -64178 | Episode: 14 | Qmax: 235.4671
+Break
+| Reward: -60403 | Episode: 15 | Qmax: 237.6653
+| Reward: -56715 | Episode: 15 | Qmax: 269.0980
+| Reward: -62969 | Episode: 15 | Qmax: 259.8039
+| Reward: -62463 | Episode: 15 | Qmax: 251.0063
+| Reward: -60563 | Episode: 15 | Qmax: 244.2168
+Break
+| Reward: -65077 | Episode: 16 | Qmax: 223.7780
+| Reward: -59574 | Episode: 16 | Qmax: 219.9998
+| Reward: -65422 | Episode: 16 | Qmax: 239.4064
+| Reward: -61708 | Episode: 16 | Qmax: 222.0954
+| Reward: -63212 | Episode: 16 | Qmax: 229.9173
+Break
+| Reward: -59297 | Episode: 17 | Qmax: 217.7786
+| Reward: -69042 | Episode: 17 | Qmax: 232.2885
+| Reward: -71927 | Episode: 17 | Qmax: 214.9484
+| Reward: -68025 | Episode: 17 | Qmax: 237.6690
+| Reward: -65336 | Episode: 17 | Qmax: 235.7139
+Break
+| Reward: -59871 | Episode: 18 | Qmax: 217.5763
+| Reward: -72872 | Episode: 18 | Qmax: 249.7989
+| Reward: -63409 | Episode: 18 | Qmax: 242.3173
+| Reward: -64106 | Episode: 18 | Qmax: 233.7640
+| Reward: -68326 | Episode: 18 | Qmax: 218.6957
+Break
+| Reward: -66548 | Episode: 19 | Qmax: 234.1042
+| Reward: -69648 | Episode: 19 | Qmax: 213.2790
+| Reward: -74530 | Episode: 19 | Qmax: 224.2748
+| Reward: -64447 | Episode: 19 | Qmax: 226.6222
+| Reward: -71661 | Episode: 19 | Qmax: 253.8045
+Break
+| Reward: -62457 | Episode: 20 | Qmax: 225.8123
+| Reward: -67188 | Episode: 20 | Qmax: 230.1333
+| Reward: -66223 | Episode: 20 | Qmax: 249.7941
+| Reward: -74731 | Episode: 20 | Qmax: 233.8138
+| Reward: -71853 | Episode: 20 | Qmax: 235.6764
+Break
+| Reward: -73304 | Episode: 21 | Qmax: 223.9516
+| Reward: -65958 | Episode: 21 | Qmax: 220.2947
+| Reward: -67492 | Episode: 21 | Qmax: 186.9938
+| Reward: -73735 | Episode: 21 | Qmax: 188.3537
+| Reward: -74913 | Episode: 21 | Qmax: 179.3101
+Break
+| Reward: -75788 | Episode: 22 | Qmax: 193.3383
+| Reward: -67541 | Episode: 22 | Qmax: 180.3396
+| Reward: -67894 | Episode: 22 | Qmax: 195.9855
+| Reward: -74308 | Episode: 22 | Qmax: 187.9226
+| Reward: -76359 | Episode: 22 | Qmax: 172.9592
+Break
+| Reward: -77672 | Episode: 23 | Qmax: 195.6477
+| Reward: -75458 | Episode: 23 | Qmax: 163.3709
+| Reward: -71917 | Episode: 23 | Qmax: 171.4061
+| Reward: -75534 | Episode: 23 | Qmax: 176.8586
+| Reward: -73050 | Episode: 23 | Qmax: 175.1601
+Break
+| Reward: -68664 | Episode: 24 | Qmax: 147.5884
+| Reward: -74260 | Episode: 24 | Qmax: 171.7558
+| Reward: -69158 | Episode: 24 | Qmax: 143.9401
+| Reward: -77579 | Episode: 24 | Qmax: 138.2161
+| Reward: -80967 | Episode: 24 | Qmax: 134.1559
+Break
+| Reward: -73417 | Episode: 25 | Qmax: 122.1551
+| Reward: -79390 | Episode: 25 | Qmax: 112.1062
+| Reward: -75861 | Episode: 25 | Qmax: 127.5822
+| Reward: -80883 | Episode: 25 | Qmax: 138.4610
+| Reward: -70455 | Episode: 25 | Qmax: 125.5393
+Break
+| Reward: -80766 | Episode: 26 | Qmax: 120.4008
+| Reward: -77875 | Episode: 26 | Qmax: 123.6032
+| Reward: -78943 | Episode: 26 | Qmax: 133.9456
+| Reward: -76802 | Episode: 26 | Qmax: 148.9006
+| Reward: -73671 | Episode: 26 | Qmax: 140.8807
+Break
+| Reward: -78193 | Episode: 27 | Qmax: 155.5925
+| Reward: -75655 | Episode: 27 | Qmax: 142.7808
+| Reward: -77093 | Episode: 27 | Qmax: 162.2789
+| Reward: -71683 | Episode: 27 | Qmax: 163.3515
+| Reward: -74166 | Episode: 27 | Qmax: 156.2308
+Break
+| Reward: -73642 | Episode: 28 | Qmax: 159.2120
+| Reward: -76431 | Episode: 28 | Qmax: 168.5765
+| Reward: -80135 | Episode: 28 | Qmax: 161.4809
+| Reward: -76216 | Episode: 28 | Qmax: 140.6040
+| Reward: -78264 | Episode: 28 | Qmax: 130.3290
+Break
+| Reward: -75640 | Episode: 29 | Qmax: 154.4303
+| Reward: -78915 | Episode: 29 | Qmax: 161.2380
+| Reward: -73813 | Episode: 29 | Qmax: 142.8039
+| Reward: -79241 | Episode: 29 | Qmax: 151.0250
+| Reward: -74171 | Episode: 29 | Qmax: 140.1424
+Break
+| Reward: -77559 | Episode: 30 | Qmax: 157.4322
+| Reward: -78701 | Episode: 30 | Qmax: 162.5224
+| Reward: -74372 | Episode: 30 | Qmax: 159.0028
+| Reward: -77845 | Episode: 30 | Qmax: 145.0926
+| Reward: -79449 | Episode: 30 | Qmax: 149.1997
+Break
+| Reward: -76400 | Episode: 31 | Qmax: 145.2195
+| Reward: -78596 | Episode: 31 | Qmax: 134.2785
+| Reward: -81707 | Episode: 31 | Qmax: 135.9297
+| Reward: -77127 | Episode: 31 | Qmax: 140.3241
+| Reward: -79364 | Episode: 31 | Qmax: 144.9754
+Break
+| Reward: -81052 | Episode: 32 | Qmax: 148.8327
+| Reward: -81020 | Episode: 32 | Qmax: 131.3644
+| Reward: -84476 | Episode: 32 | Qmax: 126.9282
+| Reward: -77817 | Episode: 32 | Qmax: 139.1265
+| Reward: -77925 | Episode: 32 | Qmax: 113.6683
+Break
+| Reward: -81114 | Episode: 33 | Qmax: 136.4827
+| Reward: -82473 | Episode: 33 | Qmax: 135.7859
+| Reward: -78942 | Episode: 33 | Qmax: 148.8553
+| Reward: -77783 | Episode: 33 | Qmax: 132.3564
+| Reward: -75771 | Episode: 33 | Qmax: 156.8078
+Break
+| Reward: -75955 | Episode: 34 | Qmax: 127.4459
+| Reward: -78818 | Episode: 34 | Qmax: 138.6931
+| Reward: -82058 | Episode: 34 | Qmax: 127.1949
+| Reward: -77532 | Episode: 34 | Qmax: 113.9577
+| Reward: -79300 | Episode: 34 | Qmax: 115.6075
+Break
+| Reward: -77613 | Episode: 35 | Qmax: 114.5265
+| Reward: -76877 | Episode: 35 | Qmax: 120.9083
+| Reward: -77463 | Episode: 35 | Qmax: 108.6147
+| Reward: -76900 | Episode: 35 | Qmax: 109.7378
+| Reward: -76889 | Episode: 35 | Qmax: 131.2483
+Break
+| Reward: -80543 | Episode: 36 | Qmax: 106.0226
+| Reward: -77776 | Episode: 36 | Qmax: 127.7141
+| Reward: -79226 | Episode: 36 | Qmax: 109.4117
+| Reward: -83461 | Episode: 36 | Qmax: 112.1179
+| Reward: -74204 | Episode: 36 | Qmax: 103.3809
+Break
+| Reward: -80673 | Episode: 37 | Qmax: 109.2066
+| Reward: -80195 | Episode: 37 | Qmax: 111.0518
+| Reward: -80922 | Episode: 37 | Qmax: 101.0499
+| Reward: -74560 | Episode: 37 | Qmax: 97.2690
+| Reward: -74073 | Episode: 37 | Qmax: 93.1832
+Break
+| Reward: -79170 | Episode: 38 | Qmax: 103.2638
+| Reward: -79460 | Episode: 38 | Qmax: 98.7632
+| Reward: -82165 | Episode: 38 | Qmax: 95.0133
+| Reward: -76001 | Episode: 38 | Qmax: 91.9075
+| Reward: -76150 | Episode: 38 | Qmax: 101.0320
+Break
+| Reward: -75394 | Episode: 39 | Qmax: 99.0383
+| Reward: -77605 | Episode: 39 | Qmax: 105.8193
+| Reward: -77281 | Episode: 39 | Qmax: 115.7016
+| Reward: -77322 | Episode: 39 | Qmax: 101.4810
+| Reward: -81594 | Episode: 39 | Qmax: 106.7241
+Break
+| Reward: -75300 | Episode: 40 | Qmax: 110.4005
+| Reward: -71806 | Episode: 40 | Qmax: 93.0922
+| Reward: -69791 | Episode: 40 | Qmax: 98.4000
+| Reward: -79507 | Episode: 40 | Qmax: 97.8464
+| Reward: -77493 | Episode: 40 | Qmax: 94.3133
+Break
+| Reward: -78148 | Episode: 41 | Qmax: 101.2283
+| Reward: -76605 | Episode: 41 | Qmax: 92.6778
+| Reward: -77298 | Episode: 41 | Qmax: 82.0275
+| Reward: -78236 | Episode: 41 | Qmax: 73.7175
+| Reward: -77363 | Episode: 41 | Qmax: 84.5311
+Break
+| Reward: -73423 | Episode: 42 | Qmax: 71.9414
+| Reward: -75001 | Episode: 42 | Qmax: 75.5739
+| Reward: -75507 | Episode: 42 | Qmax: 75.7672
+| Reward: -73549 | Episode: 42 | Qmax: 74.6116
+| Reward: -76808 | Episode: 42 | Qmax: 79.8138
+Break
+| Reward: -72643 | Episode: 43 | Qmax: 65.9530
+| Reward: -73272 | Episode: 43 | Qmax: 59.8419
+| Reward: -77550 | Episode: 43 | Qmax: 70.8054
+| Reward: -76926 | Episode: 43 | Qmax: 52.5719
+| Reward: -76015 | Episode: 43 | Qmax: 50.2732
+Break
+| Reward: -77419 | Episode: 44 | Qmax: 56.7289
+| Reward: -67326 | Episode: 44 | Qmax: 52.7635
+| Reward: -72798 | Episode: 44 | Qmax: 53.8866
+| Reward: -74728 | Episode: 44 | Qmax: 45.6584
+| Reward: -71940 | Episode: 44 | Qmax: 63.6520
+Break
+| Reward: -74197 | Episode: 45 | Qmax: 57.3102
+| Reward: -74783 | Episode: 45 | Qmax: 57.7838
+| Reward: -75051 | Episode: 45 | Qmax: 55.8399
+| Reward: -78025 | Episode: 45 | Qmax: 58.3010
+| Reward: -78052 | Episode: 45 | Qmax: 60.4575
+Break
+| Reward: -79818 | Episode: 46 | Qmax: 52.2701
+| Reward: -76746 | Episode: 46 | Qmax: 53.4427
+| Reward: -78328 | Episode: 46 | Qmax: 49.4660
+| Reward: -77608 | Episode: 46 | Qmax: 51.2350
+| Reward: -73392 | Episode: 46 | Qmax: 51.2864
+Break
+| Reward: -69491 | Episode: 47 | Qmax: 45.3365
+| Reward: -75596 | Episode: 47 | Qmax: 63.9334
+| Reward: -75116 | Episode: 47 | Qmax: 66.4672
+| Reward: -79651 | Episode: 47 | Qmax: 80.2919
+| Reward: -76639 | Episode: 47 | Qmax: 67.6949
+Break
+| Reward: -78515 | Episode: 48 | Qmax: 79.2829
+| Reward: -72780 | Episode: 48 | Qmax: 72.1787
+| Reward: -79290 | Episode: 48 | Qmax: 61.7194
+| Reward: -74794 | Episode: 48 | Qmax: 63.4746
+| Reward: -78084 | Episode: 48 | Qmax: 56.9980
+Break
+| Reward: -77410 | Episode: 49 | Qmax: 62.8863
+| Reward: -80011 | Episode: 49 | Qmax: 53.1509
+| Reward: -78978 | Episode: 49 | Qmax: 48.3251
+| Reward: -72135 | Episode: 49 | Qmax: 49.7599
+| Reward: -76999 | Episode: 49 | Qmax: 54.1004
+Break
+| Reward: -79291 | Episode: 50 | Qmax: 47.2342
+| Reward: -81192 | Episode: 50 | Qmax: 47.4119
+| Reward: -75175 | Episode: 50 | Qmax: 51.2391
+| Reward: -79125 | Episode: 50 | Qmax: 51.8242
+| Reward: -76468 | Episode: 50 | Qmax: 52.9348
+Break
+| Reward: -76928 | Episode: 51 | Qmax: 56.3203
+| Reward: -78461 | Episode: 51 | Qmax: 54.5117
+| Reward: -69838 | Episode: 51 | Qmax: 51.2350
+| Reward: -77836 | Episode: 51 | Qmax: 54.0937
+| Reward: -77364 | Episode: 51 | Qmax: 49.8443
+Break
+| Reward: -77718 | Episode: 52 | Qmax: 51.4746
+| Reward: -76638 | Episode: 52 | Qmax: 46.8114
+| Reward: -79575 | Episode: 52 | Qmax: 45.8506
+| Reward: -77031 | Episode: 52 | Qmax: 46.7962
+| Reward: -76926 | Episode: 52 | Qmax: 42.8391
+Break
+| Reward: -74977 | Episode: 53 | Qmax: 48.6552
+| Reward: -78408 | Episode: 53 | Qmax: 45.1491
+| Reward: -74194 | Episode: 53 | Qmax: 45.1900
+| Reward: -78102 | Episode: 53 | Qmax: 46.1090
+| Reward: -75590 | Episode: 53 | Qmax: 45.3765
+Break
+| Reward: -78283 | Episode: 54 | Qmax: 51.4042
+| Reward: -76266 | Episode: 54 | Qmax: 43.7169
+| Reward: -71252 | Episode: 54 | Qmax: 48.2302
+| Reward: -76614 | Episode: 54 | Qmax: 42.9274
+| Reward: -71362 | Episode: 54 | Qmax: 51.4501
+Break
+| Reward: -69553 | Episode: 55 | Qmax: 45.2862
+| Reward: -73866 | Episode: 55 | Qmax: 48.8762
+| Reward: -71061 | Episode: 55 | Qmax: 49.2549
+| Reward: -75142 | Episode: 55 | Qmax: 46.5070
+| Reward: -69581 | Episode: 55 | Qmax: 47.0031
+Break
+| Reward: -65447 | Episode: 56 | Qmax: 46.9769
+| Reward: -69679 | Episode: 56 | Qmax: 49.0782
+| Reward: -67532 | Episode: 56 | Qmax: 56.6207
+| Reward: -69602 | Episode: 56 | Qmax: 47.1595
+| Reward: -68916 | Episode: 56 | Qmax: 56.9570
+Break
+| Reward: -66333 | Episode: 57 | Qmax: 51.9810
+| Reward: -70656 | Episode: 57 | Qmax: 56.1982
+| Reward: -66106 | Episode: 57 | Qmax: 49.2670
+| Reward: -70388 | Episode: 57 | Qmax: 49.0808
+| Reward: -68080 | Episode: 57 | Qmax: 51.6802
+Break
+| Reward: -68339 | Episode: 58 | Qmax: 47.7050
+| Reward: -64460 | Episode: 58 | Qmax: 52.9209
+| Reward: -66459 | Episode: 58 | Qmax: 53.0054
+| Reward: -69918 | Episode: 58 | Qmax: 57.5125
+| Reward: -70646 | Episode: 58 | Qmax: 56.9997
+Break
+| Reward: -68885 | Episode: 59 | Qmax: 57.5167
+| Reward: -65687 | Episode: 59 | Qmax: 52.7841
+| Reward: -64758 | Episode: 59 | Qmax: 56.4915
+| Reward: -68638 | Episode: 59 | Qmax: 51.2488
+| Reward: -67186 | Episode: 59 | Qmax: 56.5715
+Break
+| Reward: -61335 | Episode: 60 | Qmax: 55.8756
+| Reward: -64341 | Episode: 60 | Qmax: 65.4909
+| Reward: -64881 | Episode: 60 | Qmax: 59.5692
+| Reward: -63091 | Episode: 60 | Qmax: 59.9153
+| Reward: -59474 | Episode: 60 | Qmax: 54.0129
+Break
+| Reward: -61061 | Episode: 61 | Qmax: 57.6063
+| Reward: -61991 | Episode: 61 | Qmax: 62.9140
+| Reward: -59296 | Episode: 61 | Qmax: 58.0683
+| Reward: -59037 | Episode: 61 | Qmax: 58.3838
+| Reward: -57629 | Episode: 61 | Qmax: 59.1339
+Break
+| Reward: -59898 | Episode: 62 | Qmax: 57.8081
+| Reward: -51072 | Episode: 62 | Qmax: 58.0000
+| Reward: -57521 | Episode: 62 | Qmax: 57.7026
+| Reward: -61358 | Episode: 62 | Qmax: 58.2695
+| Reward: -58512 | Episode: 62 | Qmax: 65.0782
+Break
+| Reward: -49436 | Episode: 63 | Qmax: 57.2320
+| Reward: -52882 | Episode: 63 | Qmax: 57.4360
+| Reward: -54964 | Episode: 63 | Qmax: 63.4968
+| Reward: -52454 | Episode: 63 | Qmax: 59.8808
+| Reward: -51539 | Episode: 63 | Qmax: 66.0267
+Break
+| Reward: -51036 | Episode: 64 | Qmax: 60.2027
+| Reward: -55063 | Episode: 64 | Qmax: 65.9834
+| Reward: -52785 | Episode: 64 | Qmax: 63.2883
+| Reward: -44785 | Episode: 64 | Qmax: 65.5078
+| Reward: -51923 | Episode: 64 | Qmax: 59.5509
+Break
+| Reward: -49090 | Episode: 65 | Qmax: 61.5722
+| Reward: -48039 | Episode: 65 | Qmax: 56.0028
+| Reward: -46337 | Episode: 65 | Qmax: 63.2684
+| Reward: -46550 | Episode: 65 | Qmax: 60.3484
+| Reward: -46816 | Episode: 65 | Qmax: 62.4293
+Break
+| Reward: -46138 | Episode: 66 | Qmax: 63.7833
+| Reward: -47303 | Episode: 66 | Qmax: 67.1446
+| Reward: -46574 | Episode: 66 | Qmax: 65.2130
+| Reward: -44925 | Episode: 66 | Qmax: 59.5954
+| Reward: -47137 | Episode: 66 | Qmax: 62.2677
+Break
+| Reward: -44738 | Episode: 67 | Qmax: 56.2204
+| Reward: -45994 | Episode: 67 | Qmax: 54.9554
+| Reward: -48490 | Episode: 67 | Qmax: 63.8171
+| Reward: -47134 | Episode: 67 | Qmax: 58.8204
+| Reward: -46140 | Episode: 67 | Qmax: 54.2315
+Break
+| Reward: -48226 | Episode: 68 | Qmax: 55.2412
+| Reward: -43081 | Episode: 68 | Qmax: 55.4585
+| Reward: -43307 | Episode: 68 | Qmax: 51.6087
+| Reward: -43364 | Episode: 68 | Qmax: 54.5337
+| Reward: -45216 | Episode: 68 | Qmax: 50.9570
+Break
+| Reward: -43883 | Episode: 69 | Qmax: 52.2357
+| Reward: -45443 | Episode: 69 | Qmax: 54.4149
+| Reward: -44854 | Episode: 69 | Qmax: 54.8631
+| Reward: -44876 | Episode: 69 | Qmax: 53.6566
+| Reward: -44039 | Episode: 69 | Qmax: 54.4861
+Break
+| Reward: -40040 | Episode: 70 | Qmax: 52.5356
+| Reward: -41059 | Episode: 70 | Qmax: 51.2837
+| Reward: -44289 | Episode: 70 | Qmax: 54.0919
+| Reward: -42350 | Episode: 70 | Qmax: 51.4611
+| Reward: -41870 | Episode: 70 | Qmax: 52.3922
+Break
+| Reward: -43784 | Episode: 71 | Qmax: 55.9326
+| Reward: -39785 | Episode: 71 | Qmax: 60.5980
+| Reward: -42845 | Episode: 71 | Qmax: 57.4481
+| Reward: -41770 | Episode: 71 | Qmax: 57.3142
+| Reward: -42004 | Episode: 71 | Qmax: 53.4587
+Break
+| Reward: -45723 | Episode: 72 | Qmax: 54.5458
+| Reward: -41379 | Episode: 72 | Qmax: 52.9067
+| Reward: -40369 | Episode: 72 | Qmax: 53.2920
+| Reward: -40468 | Episode: 72 | Qmax: 55.7355
+| Reward: -41741 | Episode: 72 | Qmax: 52.4596
+Break
+| Reward: -44222 | Episode: 73 | Qmax: 54.3096
+| Reward: -41985 | Episode: 73 | Qmax: 52.8967
+| Reward: -41143 | Episode: 73 | Qmax: 52.3637
+| Reward: -42206 | Episode: 73 | Qmax: 49.4840
+| Reward: -38700 | Episode: 73 | Qmax: 48.5904
+Break
+| Reward: -37816 | Episode: 74 | Qmax: 52.2777
+| Reward: -40285 | Episode: 74 | Qmax: 52.4232
+| Reward: -38923 | Episode: 74 | Qmax: 57.6225
+| Reward: -37891 | Episode: 74 | Qmax: 53.1389
+| Reward: -37925 | Episode: 74 | Qmax: 55.8929
+Break
+| Reward: -36215 | Episode: 75 | Qmax: 54.2276
+| Reward: -37655 | Episode: 75 | Qmax: 58.7329
+| Reward: -39578 | Episode: 75 | Qmax: 56.1987
+| Reward: -39307 | Episode: 75 | Qmax: 58.5518
+| Reward: -36294 | Episode: 75 | Qmax: 57.6567
+Break
+| Reward: -33732 | Episode: 76 | Qmax: 57.9826
+| Reward: -36537 | Episode: 76 | Qmax: 58.9640
+| Reward: -33778 | Episode: 76 | Qmax: 56.9325
+| Reward: -35530 | Episode: 76 | Qmax: 58.8631
+| Reward: -33340 | Episode: 76 | Qmax: 54.3466
+Break
+| Reward: -34643 | Episode: 77 | Qmax: 53.8272
+| Reward: -34104 | Episode: 77 | Qmax: 50.1718
+| Reward: -33741 | Episode: 77 | Qmax: 51.3962
+| Reward: -37283 | Episode: 77 | Qmax: 52.4373
+| Reward: -33941 | Episode: 77 | Qmax: 55.6857
+Break
+| Reward: -32601 | Episode: 78 | Qmax: 53.8553
+| Reward: -36734 | Episode: 78 | Qmax: 51.4749
+| Reward: -35490 | Episode: 78 | Qmax: 55.4293
+| Reward: -33546 | Episode: 78 | Qmax: 53.8323
+| Reward: -34933 | Episode: 78 | Qmax: 52.3848
+Break
+| Reward: -33734 | Episode: 79 | Qmax: 55.5516
+| Reward: -33941 | Episode: 79 | Qmax: 47.6221
+| Reward: -34732 | Episode: 79 | Qmax: 47.9348
+| Reward: -35449 | Episode: 79 | Qmax: 48.6400
+| Reward: -33540 | Episode: 79 | Qmax: 54.9214
+Break
+| Reward: -32829 | Episode: 80 | Qmax: 54.8041
+| Reward: -33482 | Episode: 80 | Qmax: 47.6087
+| Reward: -31090 | Episode: 80 | Qmax: 47.9503
+| Reward: -33946 | Episode: 80 | Qmax: 44.3794
+| Reward: -36190 | Episode: 80 | Qmax: 39.2387
+Break
+| Reward: -34240 | Episode: 81 | Qmax: 45.8278
+| Reward: -32179 | Episode: 81 | Qmax: 51.1107
+| Reward: -32344 | Episode: 81 | Qmax: 49.7519
+| Reward: -32572 | Episode: 81 | Qmax: 50.6998
+| Reward: -32807 | Episode: 81 | Qmax: 49.9343
+Break
+| Reward: -33402 | Episode: 82 | Qmax: 49.2986
+| Reward: -31521 | Episode: 82 | Qmax: 48.2873
+| Reward: -32837 | Episode: 82 | Qmax: 43.1442
+| Reward: -33598 | Episode: 82 | Qmax: 43.2805
+| Reward: -32551 | Episode: 82 | Qmax: 48.3246
+Break
+| Reward: -34914 | Episode: 83 | Qmax: 45.2217
+| Reward: -32945 | Episode: 83 | Qmax: 49.2464
+| Reward: -33430 | Episode: 83 | Qmax: 48.2873
+| Reward: -32899 | Episode: 83 | Qmax: 52.4481
+| Reward: -33980 | Episode: 83 | Qmax: 56.9658
+Break
+| Reward: -29946 | Episode: 84 | Qmax: 52.2136
+| Reward: -33084 | Episode: 84 | Qmax: 56.0867
+| Reward: -32694 | Episode: 84 | Qmax: 54.6545
+| Reward: -31217 | Episode: 84 | Qmax: 54.2999
+| Reward: -30691 | Episode: 84 | Qmax: 54.1930
+Break
+| Reward: -31468 | Episode: 85 | Qmax: 55.1366
+| Reward: -33946 | Episode: 85 | Qmax: 52.8740
+| Reward: -30937 | Episode: 85 | Qmax: 60.2605
+| Reward: -33155 | Episode: 85 | Qmax: 52.3314
+| Reward: -30542 | Episode: 85 | Qmax: 48.4758
+Break
+| Reward: -34259 | Episode: 86 | Qmax: 43.6227
+| Reward: -31191 | Episode: 86 | Qmax: 44.5027
+| Reward: -31526 | Episode: 86 | Qmax: 44.9923
+| Reward: -30210 | Episode: 86 | Qmax: 41.9734
+| Reward: -30517 | Episode: 86 | Qmax: 42.5173
+Break
+| Reward: -31647 | Episode: 87 | Qmax: 47.9793
+| Reward: -31108 | Episode: 87 | Qmax: 47.2163
+| Reward: -31273 | Episode: 87 | Qmax: 41.9513
+| Reward: -32232 | Episode: 87 | Qmax: 41.9444
+| Reward: -32251 | Episode: 87 | Qmax: 38.2255
+Break
+| Reward: -31614 | Episode: 88 | Qmax: 37.8472
+| Reward: -33338 | Episode: 88 | Qmax: 43.3213
+| Reward: -30668 | Episode: 88 | Qmax: 41.3997
+| Reward: -29506 | Episode: 88 | Qmax: 39.7969
+| Reward: -30270 | Episode: 88 | Qmax: 41.8744
+Break
+| Reward: -30606 | Episode: 89 | Qmax: 45.4059
+| Reward: -32130 | Episode: 89 | Qmax: 47.5133
+| Reward: -32648 | Episode: 89 | Qmax: 48.9092
+| Reward: -32527 | Episode: 89 | Qmax: 43.7933
+| Reward: -35188 | Episode: 89 | Qmax: 44.9548
+Break
+| Reward: -34184 | Episode: 90 | Qmax: 48.7392
+| Reward: -33300 | Episode: 90 | Qmax: 52.6924
+| Reward: -32595 | Episode: 90 | Qmax: 50.4029
+| Reward: -32885 | Episode: 90 | Qmax: 44.5836
+| Reward: -31763 | Episode: 90 | Qmax: 48.6532
+Break
+| Reward: -30771 | Episode: 91 | Qmax: 54.6264
+| Reward: -33392 | Episode: 91 | Qmax: 51.6765
+| Reward: -31122 | Episode: 91 | Qmax: 52.5986
+| Reward: -32152 | Episode: 91 | Qmax: 49.3457
+| Reward: -31658 | Episode: 91 | Qmax: 49.1132
+Break
+| Reward: -34076 | Episode: 92 | Qmax: 45.4138
+| Reward: -33458 | Episode: 92 | Qmax: 56.1120
+| Reward: -31084 | Episode: 92 | Qmax: 50.9273
+| Reward: -29904 | Episode: 92 | Qmax: 50.2021
+| Reward: -31191 | Episode: 92 | Qmax: 49.5123
+Break
+| Reward: -30242 | Episode: 93 | Qmax: 51.9748
+| Reward: -30345 | Episode: 93 | Qmax: 54.1669
+| Reward: -31145 | Episode: 93 | Qmax: 47.7135
+| Reward: -32013 | Episode: 93 | Qmax: 48.7156
+| Reward: -31167 | Episode: 93 | Qmax: 55.7199
+Break
+| Reward: -33227 | Episode: 94 | Qmax: 55.5716
+| Reward: -33577 | Episode: 94 | Qmax: 56.2263
+| Reward: -32346 | Episode: 94 | Qmax: 52.8857
+| Reward: -29994 | Episode: 94 | Qmax: 55.3523
+| Reward: -33265 | Episode: 94 | Qmax: 55.4256
+Break
+| Reward: -32938 | Episode: 95 | Qmax: 52.4693
+| Reward: -33845 | Episode: 95 | Qmax: 49.3734
+| Reward: -31109 | Episode: 95 | Qmax: 58.2988
+| Reward: -33442 | Episode: 95 | Qmax: 49.8792
+| Reward: -31327 | Episode: 95 | Qmax: 49.1379
+Break
+| Reward: -31974 | Episode: 96 | Qmax: 51.9090
+| Reward: -32169 | Episode: 96 | Qmax: 46.4966
+| Reward: -34225 | Episode: 96 | Qmax: 42.6459
+| Reward: -31754 | Episode: 96 | Qmax: 47.8131
+| Reward: -31377 | Episode: 96 | Qmax: 50.3268
+Break
+| Reward: -33442 | Episode: 97 | Qmax: 50.9241
+| Reward: -31987 | Episode: 97 | Qmax: 54.9990
+| Reward: -31210 | Episode: 97 | Qmax: 58.9720
+| Reward: -31741 | Episode: 97 | Qmax: 58.0787
+| Reward: -34586 | Episode: 97 | Qmax: 49.7061
+Break
+| Reward: -35155 | Episode: 98 | Qmax: 56.6901
+| Reward: -31817 | Episode: 98 | Qmax: 59.8937
+| Reward: -29908 | Episode: 98 | Qmax: 62.4396
+| Reward: -34863 | Episode: 98 | Qmax: 62.4938
+| Reward: -32453 | Episode: 98 | Qmax: 67.6494
+Break
+| Reward: -33586 | Episode: 99 | Qmax: 60.0025
+| Reward: -31275 | Episode: 99 | Qmax: 60.3971
+| Reward: -32384 | Episode: 99 | Qmax: 61.1583
+| Reward: -32244 | Episode: 99 | Qmax: 54.4427
+| Reward: -31154 | Episode: 99 | Qmax: 53.0626
+Break
+| Reward: -32689 | Episode: 100 | Qmax: 58.2706
+| Reward: -33269 | Episode: 100 | Qmax: 61.7301
+| Reward: -31290 | Episode: 100 | Qmax: 54.3946
+| Reward: -31083 | Episode: 100 | Qmax: 50.9714
+| Reward: -31967 | Episode: 100 | Qmax: 50.7866
+Break
+| Reward: -31629 | Episode: 101 | Qmax: 53.7559
+| Reward: -31556 | Episode: 101 | Qmax: 50.6964
+| Reward: -32352 | Episode: 101 | Qmax: 49.4692
+| Reward: -32389 | Episode: 101 | Qmax: 46.1164
+| Reward: -32138 | Episode: 101 | Qmax: 46.7921
+Break
+| Reward: -31637 | Episode: 102 | Qmax: 47.9020
+| Reward: -32944 | Episode: 102 | Qmax: 45.3284
+| Reward: -32312 | Episode: 102 | Qmax: 48.1529
+| Reward: -34121 | Episode: 102 | Qmax: 45.7032
+| Reward: -33496 | Episode: 102 | Qmax: 48.0532
+Break
+| Reward: -33950 | Episode: 103 | Qmax: 48.5985
+| Reward: -31343 | Episode: 103 | Qmax: 52.7165
+| Reward: -32125 | Episode: 103 | Qmax: 50.9524
+| Reward: -31710 | Episode: 103 | Qmax: 52.6040
+| Reward: -32733 | Episode: 103 | Qmax: 52.8551
+Break
+| Reward: -32678 | Episode: 104 | Qmax: 51.8403
+| Reward: -32777 | Episode: 104 | Qmax: 52.0949
+| Reward: -30237 | Episode: 104 | Qmax: 50.6802
+| Reward: -31340 | Episode: 104 | Qmax: 49.9040
+| Reward: -30900 | Episode: 104 | Qmax: 48.9606
+Break
+| Reward: -31767 | Episode: 105 | Qmax: 43.4514
+| Reward: -31447 | Episode: 105 | Qmax: 43.9104
+| Reward: -34056 | Episode: 105 | Qmax: 47.6777
+| Reward: -31397 | Episode: 105 | Qmax: 46.0676
+| Reward: -32171 | Episode: 105 | Qmax: 43.8444
+Break
+| Reward: -33940 | Episode: 106 | Qmax: 49.3961
+| Reward: -31372 | Episode: 106 | Qmax: 53.0470
+| Reward: -32443 | Episode: 106 | Qmax: 49.3014
+| Reward: -30161 | Episode: 106 | Qmax: 49.4269
+| Reward: -32527 | Episode: 106 | Qmax: 47.0545
+Break
+| Reward: -31953 | Episode: 107 | Qmax: 49.6160
+| Reward: -31838 | Episode: 107 | Qmax: 50.8021
+| Reward: -33300 | Episode: 107 | Qmax: 48.2137
+| Reward: -33254 | Episode: 107 | Qmax: 54.5068
+| Reward: -30086 | Episode: 107 | Qmax: 47.5673
+Break
+| Reward: -31450 | Episode: 108 | Qmax: 45.4503
+| Reward: -29981 | Episode: 108 | Qmax: 44.2621
+| Reward: -31985 | Episode: 108 | Qmax: 43.0843
+| Reward: -30842 | Episode: 108 | Qmax: 47.0780
+| Reward: -32343 | Episode: 108 | Qmax: 51.2496
+Break
+| Reward: -29441 | Episode: 109 | Qmax: 44.4372
+| Reward: -29471 | Episode: 109 | Qmax: 43.9063
+| Reward: -29320 | Episode: 109 | Qmax: 44.8149
+| Reward: -29619 | Episode: 109 | Qmax: 38.9704
+| Reward: -29393 | Episode: 109 | Qmax: 43.0185
+Break
+| Reward: -30864 | Episode: 110 | Qmax: 42.4491
+| Reward: -31437 | Episode: 110 | Qmax: 42.8690
+| Reward: -30048 | Episode: 110 | Qmax: 46.1154
+| Reward: -30636 | Episode: 110 | Qmax: 37.2288
+| Reward: -31264 | Episode: 110 | Qmax: 41.5714
+Break
+| Reward: -32568 | Episode: 111 | Qmax: 41.5902
+| Reward: -31840 | Episode: 111 | Qmax: 41.9427
+| Reward: -31727 | Episode: 111 | Qmax: 41.6175
+| Reward: -32716 | Episode: 111 | Qmax: 39.8645
+| Reward: -31178 | Episode: 111 | Qmax: 40.4319
+Break
+| Reward: -32942 | Episode: 112 | Qmax: 39.2124
+| Reward: -33187 | Episode: 112 | Qmax: 47.5337
+| Reward: -33207 | Episode: 112 | Qmax: 47.8704
+| Reward: -30488 | Episode: 112 | Qmax: 44.8740
+| Reward: -33700 | Episode: 112 | Qmax: 42.9061
+Break
+| Reward: -32588 | Episode: 113 | Qmax: 47.8295
+| Reward: -31068 | Episode: 113 | Qmax: 47.0298
+| Reward: -30195 | Episode: 113 | Qmax: 47.1844
+| Reward: -32542 | Episode: 113 | Qmax: 42.4776
+| Reward: -31922 | Episode: 113 | Qmax: 43.7145
+Break
+| Reward: -36133 | Episode: 114 | Qmax: 46.3109
+| Reward: -32604 | Episode: 114 | Qmax: 55.8368
+| Reward: -30034 | Episode: 114 | Qmax: 61.0486
+| Reward: -30671 | Episode: 114 | Qmax: 47.5118
+| Reward: -31230 | Episode: 114 | Qmax: 47.1029
+Break
+| Reward: -30829 | Episode: 115 | Qmax: 47.6281
+| Reward: -32990 | Episode: 115 | Qmax: 47.9689
+| Reward: -34652 | Episode: 115 | Qmax: 54.3609
+| Reward: -32833 | Episode: 115 | Qmax: 54.7909
+| Reward: -30621 | Episode: 115 | Qmax: 53.5340
+Break
+| Reward: -29582 | Episode: 116 | Qmax: 54.7174
+| Reward: -32142 | Episode: 116 | Qmax: 57.6575
+| Reward: -30773 | Episode: 116 | Qmax: 55.8963
+| Reward: -30999 | Episode: 116 | Qmax: 51.1618
+| Reward: -30670 | Episode: 116 | Qmax: 58.1198
+Break
+| Reward: -31066 | Episode: 117 | Qmax: 53.0362
+| Reward: -30429 | Episode: 117 | Qmax: 54.6387
+| Reward: -34258 | Episode: 117 | Qmax: 58.4394
+| Reward: -33703 | Episode: 117 | Qmax: 58.7119
+| Reward: -30980 | Episode: 117 | Qmax: 56.1715
+Break
+| Reward: -30330 | Episode: 118 | Qmax: 55.4727
+| Reward: -33795 | Episode: 118 | Qmax: 55.6173
+| Reward: -30427 | Episode: 118 | Qmax: 63.8055
+| Reward: -30479 | Episode: 118 | Qmax: 62.7334
+| Reward: -31599 | Episode: 118 | Qmax: 61.0179
+Break
+| Reward: -31312 | Episode: 119 | Qmax: 61.6409
+| Reward: -29146 | Episode: 119 | Qmax: 58.3792
+| Reward: -30627 | Episode: 119 | Qmax: 59.6566
+| Reward: -29412 | Episode: 119 | Qmax: 56.2670
+| Reward: -30649 | Episode: 119 | Qmax: 58.7104
+Break
+| Reward: -30314 | Episode: 120 | Qmax: 46.6057
+| Reward: -29722 | Episode: 120 | Qmax: 48.3722
+| Reward: -29328 | Episode: 120 | Qmax: 46.4224
+| Reward: -33421 | Episode: 120 | Qmax: 47.7439
+| Reward: -31522 | Episode: 120 | Qmax: 48.1410
+Break
+| Reward: -31160 | Episode: 121 | Qmax: 48.7139
+| Reward: -31154 | Episode: 121 | Qmax: 48.6971
+| Reward: -32971 | Episode: 121 | Qmax: 51.8627
+| Reward: -33864 | Episode: 121 | Qmax: 49.8298
+| Reward: -31112 | Episode: 121 | Qmax: 58.1271
+Break
+| Reward: -31739 | Episode: 122 | Qmax: 60.9455
+| Reward: -30302 | Episode: 122 | Qmax: 53.3874
+| Reward: -32847 | Episode: 122 | Qmax: 54.6184
+| Reward: -32790 | Episode: 122 | Qmax: 56.6975
+| Reward: -32234 | Episode: 122 | Qmax: 58.9673
+Break
+| Reward: -32500 | Episode: 123 | Qmax: 60.1313
+| Reward: -32063 | Episode: 123 | Qmax: 54.5716
+| Reward: -35170 | Episode: 123 | Qmax: 47.3125
+| Reward: -33214 | Episode: 123 | Qmax: 60.1910
+| Reward: -32104 | Episode: 123 | Qmax: 58.0613
+Break
+| Reward: -32169 | Episode: 124 | Qmax: 56.1748
+| Reward: -31283 | Episode: 124 | Qmax: 52.9523
+| Reward: -31356 | Episode: 124 | Qmax: 50.4790
+| Reward: -32049 | Episode: 124 | Qmax: 50.5070
+| Reward: -31047 | Episode: 124 | Qmax: 51.0268
+Break
+| Reward: -33154 | Episode: 125 | Qmax: 53.4046
+| Reward: -32475 | Episode: 125 | Qmax: 54.5157
+| Reward: -32233 | Episode: 125 | Qmax: 57.2120
+| Reward: -31989 | Episode: 125 | Qmax: 55.0739
+| Reward: -30595 | Episode: 125 | Qmax: 54.1397
+Break
+| Reward: -30222 | Episode: 126 | Qmax: 57.3387
+| Reward: -30559 | Episode: 126 | Qmax: 54.8324
+| Reward: -32613 | Episode: 126 | Qmax: 54.6485
+| Reward: -31074 | Episode: 126 | Qmax: 50.3673
+| Reward: -30800 | Episode: 126 | Qmax: 51.7363
+Break
+| Reward: -32355 | Episode: 127 | Qmax: 53.3233
+| Reward: -34663 | Episode: 127 | Qmax: 50.7314
+| Reward: -32705 | Episode: 127 | Qmax: 51.9223
+| Reward: -30319 | Episode: 127 | Qmax: 52.4955
+| Reward: -29964 | Episode: 127 | Qmax: 50.1332
+Break
+| Reward: -29662 | Episode: 128 | Qmax: 49.9024
+| Reward: -30189 | Episode: 128 | Qmax: 51.9230
+| Reward: -31233 | Episode: 128 | Qmax: 49.3954
+| Reward: -31177 | Episode: 128 | Qmax: 43.6100
+| Reward: -30567 | Episode: 128 | Qmax: 49.9938
+Break
+| Reward: -31857 | Episode: 129 | Qmax: 48.7087
+| Reward: -31537 | Episode: 129 | Qmax: 52.1634
+| Reward: -32250 | Episode: 129 | Qmax: 48.7490
+| Reward: -30641 | Episode: 129 | Qmax: 50.6031
+| Reward: -31617 | Episode: 129 | Qmax: 46.2168
+Break
+| Reward: -33756 | Episode: 130 | Qmax: 43.1950
+| Reward: -32950 | Episode: 130 | Qmax: 40.4343
+| Reward: -33827 | Episode: 130 | Qmax: 45.7272
+| Reward: -32656 | Episode: 130 | Qmax: 43.7784
+| Reward: -32358 | Episode: 130 | Qmax: 41.2193
+Break
+| Reward: -33189 | Episode: 131 | Qmax: 45.7753
+| Reward: -33050 | Episode: 131 | Qmax: 44.8154
+| Reward: -31440 | Episode: 131 | Qmax: 44.6780
+| Reward: -31412 | Episode: 131 | Qmax: 47.7082
+| Reward: -30369 | Episode: 131 | Qmax: 48.5687
+Break
+| Reward: -31016 | Episode: 132 | Qmax: 47.2675
+| Reward: -30283 | Episode: 132 | Qmax: 49.4764
+| Reward: -33621 | Episode: 132 | Qmax: 50.3599
+| Reward: -31157 | Episode: 132 | Qmax: 50.9654
+| Reward: -34153 | Episode: 132 | Qmax: 49.2255
+Break
+| Reward: -32308 | Episode: 133 | Qmax: 51.7742
+| Reward: -32988 | Episode: 133 | Qmax: 52.7804
+| Reward: -31278 | Episode: 133 | Qmax: 59.0631
+| Reward: -29654 | Episode: 133 | Qmax: 52.6632
+| Reward: -32218 | Episode: 133 | Qmax: 57.9351
+Break
+| Reward: -31135 | Episode: 134 | Qmax: 56.5424
+| Reward: -32679 | Episode: 134 | Qmax: 57.1394
+| Reward: -30676 | Episode: 134 | Qmax: 53.9345
+| Reward: -31333 | Episode: 134 | Qmax: 58.3660
+| Reward: -32938 | Episode: 134 | Qmax: 62.7716
+Break
+| Reward: -30471 | Episode: 135 | Qmax: 51.5117
+| Reward: -30847 | Episode: 135 | Qmax: 54.7906
+| Reward: -30360 | Episode: 135 | Qmax: 53.3287
+| Reward: -30030 | Episode: 135 | Qmax: 53.4364
+| Reward: -30788 | Episode: 135 | Qmax: 51.6303
+Break
+| Reward: -30378 | Episode: 136 | Qmax: 52.1091
+| Reward: -31338 | Episode: 136 | Qmax: 51.8548
+| Reward: -28897 | Episode: 136 | Qmax: 50.3620
+| Reward: -31255 | Episode: 136 | Qmax: 51.6132
+| Reward: -31767 | Episode: 136 | Qmax: 47.9108
+Break
+| Reward: -30978 | Episode: 137 | Qmax: 48.8364
+| Reward: -31569 | Episode: 137 | Qmax: 50.4367
+| Reward: -33445 | Episode: 137 | Qmax: 51.3521
+| Reward: -31547 | Episode: 137 | Qmax: 56.3893
+| Reward: -31907 | Episode: 137 | Qmax: 58.7529
+Break
+| Reward: -29773 | Episode: 138 | Qmax: 56.2502
+| Reward: -31457 | Episode: 138 | Qmax: 49.7546
+| Reward: -31218 | Episode: 138 | Qmax: 51.9595
+| Reward: -30022 | Episode: 138 | Qmax: 49.6861
+| Reward: -31687 | Episode: 138 | Qmax: 52.1122
+Break
+| Reward: -31938 | Episode: 139 | Qmax: 62.3801
+| Reward: -30536 | Episode: 139 | Qmax: 64.1144
+| Reward: -32762 | Episode: 139 | Qmax: 64.5292
+| Reward: -30892 | Episode: 139 | Qmax: 69.6319
+| Reward: -31265 | Episode: 139 | Qmax: 68.0800
+Break
+| Reward: -31581 | Episode: 140 | Qmax: 59.0493
+| Reward: -31404 | Episode: 140 | Qmax: 60.5650
+| Reward: -29554 | Episode: 140 | Qmax: 74.1001
+| Reward: -29912 | Episode: 140 | Qmax: 70.3083
+| Reward: -31360 | Episode: 140 | Qmax: 70.4681
+Break
+| Reward: -30244 | Episode: 141 | Qmax: 69.2211
+| Reward: -30731 | Episode: 141 | Qmax: 69.9837
+| Reward: -32602 | Episode: 141 | Qmax: 61.0919
+| Reward: -31045 | Episode: 141 | Qmax: 59.1183
+| Reward: -34285 | Episode: 141 | Qmax: 60.4098
+Break
+| Reward: -32618 | Episode: 142 | Qmax: 56.5222
+| Reward: -33129 | Episode: 142 | Qmax: 53.7429
+| Reward: -30879 | Episode: 142 | Qmax: 55.1333
+| Reward: -30171 | Episode: 142 | Qmax: 53.0954
+| Reward: -33030 | Episode: 142 | Qmax: 51.6127
+Break
+| Reward: -31970 | Episode: 143 | Qmax: 57.6799
+| Reward: -32011 | Episode: 143 | Qmax: 53.2055
+| Reward: -31446 | Episode: 143 | Qmax: 53.3590
+| Reward: -34428 | Episode: 143 | Qmax: 53.8654
+| Reward: -34361 | Episode: 143 | Qmax: 56.4741
+Break
+| Reward: -32345 | Episode: 144 | Qmax: 54.7909
+| Reward: -31033 | Episode: 144 | Qmax: 57.5713
+| Reward: -33542 | Episode: 144 | Qmax: 50.1394
+| Reward: -33539 | Episode: 144 | Qmax: 53.0633
+| Reward: -31316 | Episode: 144 | Qmax: 63.7026
+Break
+| Reward: -33371 | Episode: 145 | Qmax: 69.8422
+| Reward: -31706 | Episode: 145 | Qmax: 69.4703
+| Reward: -33274 | Episode: 145 | Qmax: 72.4310
+| Reward: -33496 | Episode: 145 | Qmax: 67.9261
+| Reward: -31309 | Episode: 145 | Qmax: 75.5051
+Break
+| Reward: -31823 | Episode: 146 | Qmax: 68.6607
+| Reward: -30837 | Episode: 146 | Qmax: 70.2896
+| Reward: -32404 | Episode: 146 | Qmax: 71.3328
+| Reward: -30677 | Episode: 146 | Qmax: 69.4102
+| Reward: -31237 | Episode: 146 | Qmax: 70.7564
+Break
+| Reward: -30062 | Episode: 147 | Qmax: 72.6828
+| Reward: -31943 | Episode: 147 | Qmax: 68.1518
+| Reward: -31060 | Episode: 147 | Qmax: 51.9237
+| Reward: -30821 | Episode: 147 | Qmax: 55.3329
+| Reward: -30905 | Episode: 147 | Qmax: 57.1899
+Break
+| Reward: -31217 | Episode: 148 | Qmax: 54.1859
+| Reward: -32605 | Episode: 148 | Qmax: 42.5922
+| Reward: -31836 | Episode: 148 | Qmax: 39.6668
+| Reward: -31597 | Episode: 148 | Qmax: 43.7816
+| Reward: -30465 | Episode: 148 | Qmax: 38.6648
+Break
+| Reward: -31458 | Episode: 149 | Qmax: 39.0325
+| Reward: -31647 | Episode: 149 | Qmax: 40.7381
+| Reward: -29321 | Episode: 149 | Qmax: 46.2591
+| Reward: -32034 | Episode: 149 | Qmax: 42.5256
+| Reward: -29830 | Episode: 149 | Qmax: 42.6699
+Break
+| Reward: -30383 | Episode: 150 | Qmax: 43.3517
+| Reward: -32689 | Episode: 150 | Qmax: 44.6368
+| Reward: -32186 | Episode: 150 | Qmax: 44.6044
+| Reward: -31523 | Episode: 150 | Qmax: 50.1249
+| Reward: -32182 | Episode: 150 | Qmax: 50.5018
+Break
+| Reward: -31615 | Episode: 151 | Qmax: 44.8487
+| Reward: -29606 | Episode: 151 | Qmax: 50.3297
+| Reward: -31547 | Episode: 151 | Qmax: 45.8534
+| Reward: -31894 | Episode: 151 | Qmax: 52.0460
+| Reward: -31956 | Episode: 151 | Qmax: 55.4810
+Break
+| Reward: -30660 | Episode: 152 | Qmax: 50.6721
+| Reward: -31146 | Episode: 152 | Qmax: 58.5839
+| Reward: -29806 | Episode: 152 | Qmax: 52.0634
+| Reward: -31089 | Episode: 152 | Qmax: 57.4473
+| Reward: -30035 | Episode: 152 | Qmax: 56.0473
+Break
+| Reward: -31600 | Episode: 153 | Qmax: 52.5171
+| Reward: -32259 | Episode: 153 | Qmax: 46.8060
+| Reward: -30139 | Episode: 153 | Qmax: 39.9497
+| Reward: -32938 | Episode: 153 | Qmax: 42.7381
+| Reward: -32593 | Episode: 153 | Qmax: 54.3242
+Break
+| Reward: -32111 | Episode: 154 | Qmax: 55.9472
+| Reward: -28560 | Episode: 154 | Qmax: 52.8422
+| Reward: -30209 | Episode: 154 | Qmax: 60.9212
+| Reward: -30759 | Episode: 154 | Qmax: 55.5902
+| Reward: -31487 | Episode: 154 | Qmax: 58.4293
+Break
+| Reward: -31415 | Episode: 155 | Qmax: 55.5840
+| Reward: -31367 | Episode: 155 | Qmax: 53.8313
+| Reward: -30399 | Episode: 155 | Qmax: 54.1866
+| Reward: -32682 | Episode: 155 | Qmax: 67.6078
+| Reward: -31254 | Episode: 155 | Qmax: 64.7023
+Break
+| Reward: -29950 | Episode: 156 | Qmax: 66.9587
+| Reward: -32205 | Episode: 156 | Qmax: 62.7660
+| Reward: -28648 | Episode: 156 | Qmax: 59.4476
+| Reward: -31336 | Episode: 156 | Qmax: 57.7801
+| Reward: -30732 | Episode: 156 | Qmax: 57.6439
+Break
+| Reward: -30343 | Episode: 157 | Qmax: 59.7007
+| Reward: -30979 | Episode: 157 | Qmax: 59.0890
+| Reward: -28515 | Episode: 157 | Qmax: 62.3106
+| Reward: -30785 | Episode: 157 | Qmax: 60.5215
+| Reward: -26691 | Episode: 157 | Qmax: 62.0701
+Break
+| Reward: -32801 | Episode: 158 | Qmax: 52.1753
+| Reward: -33401 | Episode: 158 | Qmax: 45.0360
+| Reward: -35586 | Episode: 158 | Qmax: 39.5197
+| Reward: -32807 | Episode: 158 | Qmax: 55.5188
+| Reward: -30918 | Episode: 158 | Qmax: 55.8777
+Break
+| Reward: -30800 | Episode: 159 | Qmax: 58.2844
+| Reward: -30934 | Episode: 159 | Qmax: 55.4957
+| Reward: -29983 | Episode: 159 | Qmax: 55.8934
+| Reward: -29849 | Episode: 159 | Qmax: 58.0037
+| Reward: -29937 | Episode: 159 | Qmax: 55.7209
+Break
+| Reward: -32293 | Episode: 160 | Qmax: 56.2069
+| Reward: -32159 | Episode: 160 | Qmax: 64.4907
+| Reward: -30507 | Episode: 160 | Qmax: 62.3177
+| Reward: -31305 | Episode: 160 | Qmax: 62.0387
+| Reward: -30016 | Episode: 160 | Qmax: 60.3291
+Break
+| Reward: -34308 | Episode: 161 | Qmax: 58.6988
+| Reward: -32253 | Episode: 161 | Qmax: 63.5893
+| Reward: -31687 | Episode: 161 | Qmax: 64.7868
+| Reward: -30627 | Episode: 161 | Qmax: 66.9977
+| Reward: -31616 | Episode: 161 | Qmax: 67.9620
+Break
+| Reward: -30869 | Episode: 162 | Qmax: 68.0060
+| Reward: -30110 | Episode: 162 | Qmax: 66.8257
+| Reward: -30967 | Episode: 162 | Qmax: 65.0264
+| Reward: -28647 | Episode: 162 | Qmax: 57.1751
+| Reward: -29240 | Episode: 162 | Qmax: 57.0565
+Break
+| Reward: -29988 | Episode: 163 | Qmax: 60.3516
+| Reward: -29581 | Episode: 163 | Qmax: 57.7048
+| Reward: -30105 | Episode: 163 | Qmax: 56.8004
+| Reward: -30598 | Episode: 163 | Qmax: 47.4417
+| Reward: -31061 | Episode: 163 | Qmax: 50.1504
+Break
+| Reward: -30419 | Episode: 164 | Qmax: 53.2778
+| Reward: -33072 | Episode: 164 | Qmax: 49.2915
+| Reward: -31676 | Episode: 164 | Qmax: 48.3239
+| Reward: -31165 | Episode: 164 | Qmax: 52.4753
+| Reward: -29105 | Episode: 164 | Qmax: 48.1245
+Break
+| Reward: -31508 | Episode: 165 | Qmax: 47.5153
+| Reward: -29841 | Episode: 165 | Qmax: 50.0321
+| Reward: -32493 | Episode: 165 | Qmax: 55.6467
+| Reward: -29491 | Episode: 165 | Qmax: 40.7971
+| Reward: -29973 | Episode: 165 | Qmax: 48.8794
+Break
+| Reward: -29267 | Episode: 166 | Qmax: 45.6085
+| Reward: -30733 | Episode: 166 | Qmax: 48.7031
+| Reward: -32154 | Episode: 166 | Qmax: 44.0725
+| Reward: -30586 | Episode: 166 | Qmax: 63.4134
+| Reward: -31565 | Episode: 166 | Qmax: 55.7758
+Break
+| Reward: -29556 | Episode: 167 | Qmax: 65.2165
+| Reward: -30956 | Episode: 167 | Qmax: 57.2954
+| Reward: -30156 | Episode: 167 | Qmax: 59.1201
+| Reward: -31738 | Episode: 167 | Qmax: 60.4505
+| Reward: -30712 | Episode: 167 | Qmax: 67.1583
+Break
+| Reward: -30758 | Episode: 168 | Qmax: 63.7245
+| Reward: -31192 | Episode: 168 | Qmax: 62.8200
+| Reward: -32439 | Episode: 168 | Qmax: 62.0173
+| Reward: -31357 | Episode: 168 | Qmax: 62.0132
+| Reward: -34000 | Episode: 168 | Qmax: 62.3351
+Break
+| Reward: -32102 | Episode: 169 | Qmax: 64.4926
+| Reward: -32710 | Episode: 169 | Qmax: 57.9650
+| Reward: -31642 | Episode: 169 | Qmax: 57.6482
+| Reward: -30635 | Episode: 169 | Qmax: 61.2157
+| Reward: -32251 | Episode: 169 | Qmax: 60.6496
+Break
+| Reward: -29529 | Episode: 170 | Qmax: 60.3081
+| Reward: -30015 | Episode: 170 | Qmax: 40.9025
+| Reward: -30869 | Episode: 170 | Qmax: 42.9266
+| Reward: -33388 | Episode: 170 | Qmax: 44.1340
+| Reward: -32037 | Episode: 170 | Qmax: 56.5763
+Break
+| Reward: -30887 | Episode: 171 | Qmax: 56.8382
+| Reward: -29363 | Episode: 171 | Qmax: 61.5036
+| Reward: -29850 | Episode: 171 | Qmax: 57.3129
+| Reward: -32334 | Episode: 171 | Qmax: 59.0025
+| Reward: -31874 | Episode: 171 | Qmax: 60.9211
+Break
+| Reward: -31530 | Episode: 172 | Qmax: 61.1734
+| Reward: -32799 | Episode: 172 | Qmax: 57.6682
+| Reward: -32084 | Episode: 172 | Qmax: 54.3487
+| Reward: -29560 | Episode: 172 | Qmax: 58.6254
+| Reward: -33087 | Episode: 172 | Qmax: 58.2734
+Break
+| Reward: -32911 | Episode: 173 | Qmax: 55.2228
+| Reward: -35561 | Episode: 173 | Qmax: 46.7938
+| Reward: -30615 | Episode: 173 | Qmax: 61.6408
+| Reward: -29139 | Episode: 173 | Qmax: 62.2109
+| Reward: -29338 | Episode: 173 | Qmax: 62.6311
+Break
+| Reward: -29855 | Episode: 174 | Qmax: 62.5332
+| Reward: -28195 | Episode: 174 | Qmax: 62.6260
+| Reward: -30099 | Episode: 174 | Qmax: 64.9995
+| Reward: -31571 | Episode: 174 | Qmax: 61.3812
+| Reward: -30731 | Episode: 174 | Qmax: 63.5031
+Break
+| Reward: -29287 | Episode: 175 | Qmax: 64.7163
+| Reward: -30323 | Episode: 175 | Qmax: 62.9870
+| Reward: -31309 | Episode: 175 | Qmax: 62.8600
+| Reward: -30494 | Episode: 175 | Qmax: 75.0380
+| Reward: -29456 | Episode: 175 | Qmax: 70.6782
+Break
+| Reward: -31596 | Episode: 176 | Qmax: 61.5787
+| Reward: -31668 | Episode: 176 | Qmax: 63.7538
+| Reward: -31799 | Episode: 176 | Qmax: 64.8814
+| Reward: -29694 | Episode: 176 | Qmax: 63.4755
+| Reward: -30189 | Episode: 176 | Qmax: 63.3867
+Break
+| Reward: -35396 | Episode: 177 | Qmax: 66.5192
+| Reward: -33676 | Episode: 177 | Qmax: 71.6312
+| Reward: -32167 | Episode: 177 | Qmax: 78.7639
+| Reward: -30335 | Episode: 177 | Qmax: 76.3650
+| Reward: -28470 | Episode: 177 | Qmax: 77.4440
+Break
+| Reward: -29371 | Episode: 178 | Qmax: 72.9511
+| Reward: -31191 | Episode: 178 | Qmax: 70.6562
+| Reward: -29592 | Episode: 178 | Qmax: 67.1344
+| Reward: -30134 | Episode: 178 | Qmax: 64.3011
+| Reward: -29771 | Episode: 178 | Qmax: 66.9359
+Break
+| Reward: -29409 | Episode: 179 | Qmax: 70.4433
+| Reward: -30609 | Episode: 179 | Qmax: 65.9166
+| Reward: -29257 | Episode: 179 | Qmax: 67.9401
+| Reward: -30227 | Episode: 179 | Qmax: 61.5607
+| Reward: -29424 | Episode: 179 | Qmax: 59.6172
+Break
+| Reward: -30222 | Episode: 180 | Qmax: 46.0273
+| Reward: -29725 | Episode: 180 | Qmax: 43.2000
+| Reward: -29419 | Episode: 180 | Qmax: 43.2629
+| Reward: -29374 | Episode: 180 | Qmax: 41.3269
+| Reward: -30476 | Episode: 180 | Qmax: 45.0155
+Break
+| Reward: -30947 | Episode: 181 | Qmax: 46.5930
+| Reward: -31664 | Episode: 181 | Qmax: 48.2624
+| Reward: -32731 | Episode: 181 | Qmax: 42.6049
+| Reward: -31621 | Episode: 181 | Qmax: 41.8997
+| Reward: -32841 | Episode: 181 | Qmax: 43.3104
+Break
+| Reward: -31955 | Episode: 182 | Qmax: 43.8851
+| Reward: -30290 | Episode: 182 | Qmax: 43.1409
+| Reward: -28270 | Episode: 182 | Qmax: 40.6342
+| Reward: -30009 | Episode: 182 | Qmax: 44.0769
+| Reward: -30815 | Episode: 182 | Qmax: 40.0453
+Break
+| Reward: -29107 | Episode: 183 | Qmax: 43.8736
+| Reward: -32022 | Episode: 183 | Qmax: 41.1811
+| Reward: -30613 | Episode: 183 | Qmax: 63.0392
+| Reward: -28672 | Episode: 183 | Qmax: 64.3288
+| Reward: -29866 | Episode: 183 | Qmax: 62.4586
+Break
+| Reward: -29635 | Episode: 184 | Qmax: 60.9039
+| Reward: -30873 | Episode: 184 | Qmax: 61.2752
+| Reward: -31653 | Episode: 184 | Qmax: 59.9090
+| Reward: -32066 | Episode: 184 | Qmax: 62.5283
+| Reward: -31388 | Episode: 184 | Qmax: 74.2947
+Break
+| Reward: -32207 | Episode: 185 | Qmax: 80.6301
+| Reward: -30895 | Episode: 185 | Qmax: 82.0808
+| Reward: -30991 | Episode: 185 | Qmax: 80.7301
+| Reward: -30879 | Episode: 185 | Qmax: 83.6692
+| Reward: -29664 | Episode: 185 | Qmax: 73.2169
+Break
+| Reward: -31864 | Episode: 186 | Qmax: 71.8144
+| Reward: -29752 | Episode: 186 | Qmax: 78.8737
+| Reward: -30778 | Episode: 186 | Qmax: 84.0344
+| Reward: -29723 | Episode: 186 | Qmax: 81.9178
+| Reward: -29369 | Episode: 186 | Qmax: 84.2163
+Break
+| Reward: -30894 | Episode: 187 | Qmax: 85.6511
+| Reward: -29218 | Episode: 187 | Qmax: 79.0183
+| Reward: -29869 | Episode: 187 | Qmax: 73.4163
+| Reward: -29920 | Episode: 187 | Qmax: 72.2995
+| Reward: -29944 | Episode: 187 | Qmax: 77.7772
+Break
+| Reward: -28992 | Episode: 188 | Qmax: 80.2691
+| Reward: -28584 | Episode: 188 | Qmax: 78.1995
+| Reward: -29328 | Episode: 188 | Qmax: 82.3810
+| Reward: -29418 | Episode: 188 | Qmax: 74.8433
+| Reward: -28906 | Episode: 188 | Qmax: 71.4159
+Break
+| Reward: -30322 | Episode: 189 | Qmax: 70.5275
+| Reward: -30287 | Episode: 189 | Qmax: 72.9229
+| Reward: -29617 | Episode: 189 | Qmax: 71.1254
+| Reward: -30614 | Episode: 189 | Qmax: 68.5340
+| Reward: -29710 | Episode: 189 | Qmax: 62.6420
+Break
+| Reward: -31150 | Episode: 190 | Qmax: 60.6783
+| Reward: -32341 | Episode: 190 | Qmax: 50.4429
+| Reward: -30538 | Episode: 190 | Qmax: 48.7750
+| Reward: -30465 | Episode: 190 | Qmax: 50.9224
+| Reward: -29895 | Episode: 190 | Qmax: 46.4543
+Break
+| Reward: -30307 | Episode: 191 | Qmax: 48.2986
+| Reward: -30471 | Episode: 191 | Qmax: 51.3486
+| Reward: -31762 | Episode: 191 | Qmax: 50.3661
+| Reward: -31642 | Episode: 191 | Qmax: 45.4661
+| Reward: -31714 | Episode: 191 | Qmax: 50.2091
+Break
+| Reward: -29682 | Episode: 192 | Qmax: 42.1722
+| Reward: -30612 | Episode: 192 | Qmax: 47.6846
+| Reward: -29501 | Episode: 192 | Qmax: 47.3356
+| Reward: -32066 | Episode: 192 | Qmax: 45.4745
+| Reward: -31165 | Episode: 192 | Qmax: 46.9608
+Break
+| Reward: -32148 | Episode: 193 | Qmax: 46.4841
+| Reward: -29869 | Episode: 193 | Qmax: 43.4459
+| Reward: -32516 | Episode: 193 | Qmax: 61.0426
+| Reward: -31188 | Episode: 193 | Qmax: 62.7134
+| Reward: -31428 | Episode: 193 | Qmax: 71.3287
+Break
+| Reward: -32335 | Episode: 194 | Qmax: 62.6379
+| Reward: -34047 | Episode: 194 | Qmax: 63.2766
+| Reward: -30825 | Episode: 194 | Qmax: 66.2705
+| Reward: -32658 | Episode: 194 | Qmax: 62.7926
+| Reward: -34351 | Episode: 194 | Qmax: 63.3776
+Break
+| Reward: -34989 | Episode: 195 | Qmax: 70.6916
+| Reward: -30939 | Episode: 195 | Qmax: 71.2624
+| Reward: -28301 | Episode: 195 | Qmax: 72.6990
+| Reward: -29574 | Episode: 195 | Qmax: 70.3349
+| Reward: -31395 | Episode: 195 | Qmax: 65.2032
+Break
+| Reward: -34467 | Episode: 196 | Qmax: 66.7564
+| Reward: -29576 | Episode: 196 | Qmax: 84.9963
+| Reward: -30165 | Episode: 196 | Qmax: 80.8677
+| Reward: -29762 | Episode: 196 | Qmax: 83.7616
+| Reward: -29978 | Episode: 196 | Qmax: 80.7073
+Break
+| Reward: -30893 | Episode: 197 | Qmax: 83.5915
+| Reward: -30239 | Episode: 197 | Qmax: 86.9198
+| Reward: -30493 | Episode: 197 | Qmax: 75.4344
+| Reward: -29960 | Episode: 197 | Qmax: 67.7558
+| Reward: -31046 | Episode: 197 | Qmax: 68.5086
+Break
+| Reward: -29828 | Episode: 198 | Qmax: 68.0252
+| Reward: -29661 | Episode: 198 | Qmax: 67.2697
+| Reward: -30710 | Episode: 198 | Qmax: 69.0421
+| Reward: -30707 | Episode: 198 | Qmax: 64.6675
+| Reward: -31554 | Episode: 198 | Qmax: 50.7676
+Break
+| Reward: -32032 | Episode: 199 | Qmax: 46.8253
+| Reward: -33376 | Episode: 199 | Qmax: 44.1626
+| Reward: -28948 | Episode: 199 | Qmax: 62.6255
+| Reward: -32404 | Episode: 199 | Qmax: 57.6282
+| Reward: -30422 | Episode: 199 | Qmax: 63.3151
+Break

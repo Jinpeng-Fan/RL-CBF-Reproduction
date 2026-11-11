@@ -1,0 +1,26 @@
+{
+  "algorithm": "TRPO-CBF",
+  "seed": 1,
+  "argv": [
+    "E:\\OneDrive - 南方科技大学\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-Revised\\car\\Results_original_code\\TRPO-CBF\\seed1\\source\\sim.py"
+  ],
+  "passthrough": [],
+  "python": "E:\\OneDrive - 南方科技大学\\Academic\\PhD_Application\\RL_CBF\\.runtime\\python37\\python.exe",
+  "python_version": "3.7.9",
+  "tensorflow": "1.15.0",
+  "numpy": "1.18.5",
+  "started": "2026-11-09T02:25:20",
+  "original_source": "E:\\OneDrive - 南方科技大学\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-master\\car\\TRPO-CBF",
+  "source_sha256": {
+    "barrier_comp.py": "b344e040d2a3d826a494bb490cbf8433be628f00689f8e3ac9428caff451f915",
+    "car_simulator.py": "01e9e8b1993e163410102591cf532a22d3b9eaf90d7e7344975f440210c27f09",
+    "cbf.py": "f843cab1fc96b6fa5731fea84d9dc29bf8c795d320a47ada9ced3c3292648873",
+    "dynamics_gp.py": "ae5c54a8af3de7a984686c4e08da1e5c5b5fec888ab84faa844f1f03e44c3110",
+    "gae.py": "c867e79d3341b749209a92255ce09598742c7e4b1e0fe1f206710e75a490d31f",
+    "learn.py": "335ff1d5e104c0d94bb38accd89d10f40662d44968f67a04af157db9e3c12668",
+    "sim.py": "5de701868e7aa94476046940dd02356fdef6bc0a81e664dac9e47d8e4ba5480d",
+    "trpo.py": "ffc529dc6252e2c237799156df66304633f70fa1b7cda105426dff65545c698e",
+    "utils.py": "0d8090a3ca09007f5ab41fb23d88661af9e1ed3a2d4d80f291540491f8eacf50"
+  },
+  "sha256_matches_original": true
+}

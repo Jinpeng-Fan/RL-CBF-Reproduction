@@ -1,0 +1,59 @@
+{
+  "episodes": 600,
+  "runs": {
+    "DDPG": "DDPG-e5",
+    "DDPG-CBF": "DDPG-CBF-e5",
+    "TRPO": "TRPO-fixed-e5",
+    "TRPO-CBF": "TRPO-CBF-fixed-e5"
+  },
+  "results": {
+    "DDPG seed1": {
+      "last100_mean_return": -65.41729235247136,
+      "violations": 217
+    },
+    "DDPG seed2": {
+      "last100_mean_return": -173.62928266493228,
+      "violations": 209
+    },
+    "DDPG seed3": {
+      "last100_mean_return": -108.38628189560158,
+      "violations": 295
+    },
+    "DDPG-CBF seed1": {
+      "last100_mean_return": -3.5667759463493547,
+      "violations": 0
+    },
+    "DDPG-CBF seed2": {
+      "last100_mean_return": -3.3289483089464262,
+      "violations": 0
+    },
+    "DDPG-CBF seed3": {
+      "last100_mean_return": -5.598451293516575,
+      "violations": 1
+    },
+    "TRPO seed1": {
+      "last100_mean_return": -3.3943723607233722,
+      "violations": 174
+    },
+    "TRPO seed2": {
+      "last100_mean_return": -3.264546379864924,
+      "violations": 155
+    },
+    "TRPO seed3": {
+      "last100_mean_return": -3.3193965316141116,
+      "violations": 143
+    },
+    "TRPO-CBF seed1": {
+      "last100_mean_return": -3.1007913818348065,
+      "violations": 0
+    },
+    "TRPO-CBF seed2": {
+      "last100_mean_return": -4.271456057417496,
+      "violations": 0
+    },
+    "TRPO-CBF seed3": {
+      "last100_mean_return": -3.1943436333262203,
+      "violations": 0
+    }
+  }
+}

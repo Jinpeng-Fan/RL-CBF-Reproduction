@@ -1,0 +1,22 @@
+{
+  "algorithm": "DDPG",
+  "seed": 2,
+  "argv": [
+    "E:\\OneDrive - 南方科技大学\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-Revised\\car\\Results_original_code\\DDPG\\seed2\\source\\ddpg.py",
+    "--random-seed",
+    "2"
+  ],
+  "passthrough": [],
+  "python": "E:\\OneDrive - 南方科技大学\\Academic\\PhD_Application\\RL_CBF\\.runtime\\python37\\python.exe",
+  "python_version": "3.7.9",
+  "tensorflow": "1.15.0",
+  "numpy": "1.18.5",
+  "started": "2026-11-09T02:25:20",
+  "original_source": "E:\\OneDrive - 南方科技大学\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-master\\car\\DDPG",
+  "source_sha256": {
+    "car_simulator.py": "b9febae2189ba487fe1d41ceaf145949a66078085deb75e471087b0c0a812f33",
+    "ddpg.py": "f06ba97f652f7cf5d24920625570d79e6b71f4ec6e1fb4f519c33952d221eae7",
+    "replay_buffer.py": "42497f4b003d4ba8f1cf4622977c899711a74bfd49b2f004d407f762abea9761"
+  },
+  "sha256_matches_original": true
+}

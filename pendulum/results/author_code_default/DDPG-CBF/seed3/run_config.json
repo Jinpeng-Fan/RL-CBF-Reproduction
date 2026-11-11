@@ -1,0 +1,19 @@
+{
+  "algorithm": "DDPG-CBF",
+  "seed": 3,
+  "argv": [
+    "E:\\OneDrive - 南方科技大学\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-Revised\\pendulum\\Results_original_code\\DDPG-CBF\\seed3\\source\\ddpg.py",
+    "--random-seed",
+    "3"
+  ],
+  "original_source": "E:\\OneDrive - 南方科技大学\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-master\\pendulum\\DDPG-CBF",
+  "source_sha256": {
+    "barrier_comp.py": "523e31f8a4b02b0b2c603a5252cee8a3939735230609a64b3a5c6c01a702f111",
+    "cbf.py": "9b816452e303a850c3b05c0377c29bb6b5576c71b3664ed6ca637bd316f21449",
+    "ddpg.py": "9c04a896506ea3624303ad0ccb22287063beaaed8675176dca4f4cc8c6f11d12",
+    "dynamics_gp.py": "737a9573c011f7e7b86d8cdbd9b60c9778fa72d598eb32a1fc124199e60bd983",
+    "learner.py": "9a5f8361b9ca199dacfdd545f7009d8bc72ec0780a22bc8628056206849c9cbe",
+    "replay_buffer.py": "42497f4b003d4ba8f1cf4622977c899711a74bfd49b2f004d407f762abea9761",
+    "utils.py": "ea7fe248b13f400d1366770e16535219da120bd537a17b874647586a26df682f"
+  }
+}

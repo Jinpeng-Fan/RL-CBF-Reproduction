@@ -1,0 +1,35 @@
+{
+  "algorithm": "TRPO",
+  "seed": 1,
+  "episodes": 2000,
+  "argv": [
+    "E:\\OneDrive - \u5357\u65b9\u79d1\u6280\u5927\u5b66\\Academic\\PhD_Application\\RL_CBF\\RL-CBF-Revised\\pendulum\\runs_v2\\full_20261106_2023\\TRPO-fixed-e5\\seed1\\source\\main.py",
+    "--total_train_step",
+    "400000",
+    "--random-seed",
+    "1",
+    "--timesteps_per_batch",
+    "1000",
+    "--max_path_length",
+    "200",
+    "--gamma",
+    "0.99",
+    "--lamda",
+    "0.95",
+    "--kl_constraint",
+    "0.005",
+    "--num_backtracking",
+    "20",
+    "--init_logstd",
+    "1.0986"
+  ],
+  "source_sha256": {
+    "fair_environment.py": "bcc9ee7d0b8afeab46a20484381e7df50dc4b36c3942a5d0e1f607ac5834908d",
+    "gae.py": "01a5a6a13ffe534db268d31e695972abd56cdf85b5b0a52283e484812055da06",
+    "learn.py": "723b90d93bdc91cf85c6b2c44b3bd6346c2410f516923242688f4c2f6a06913c",
+    "main.py": "841a2580323dcd2ba9f79ee0f13b7d8422ac20f57b6bba4217294eb54209a547",
+    "obs_norm.py": "cf045f159158e3c9d49c70fc411401998cf535959b304344c98812f77a2050ab",
+    "trpo.py": "541db73a36c25c4cea9f95bfaca7c9efb733ec1312441a9376fca4b6d66a7228",
+    "utils.py": "2b87b4e6cdcf566f0d36711844fad487b82b5d1bddaaada4ec0b8d8daa77e346"
+  }
+}

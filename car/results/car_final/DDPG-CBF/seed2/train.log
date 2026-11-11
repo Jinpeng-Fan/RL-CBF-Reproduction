@@ -1,0 +1,604 @@
+Initializing Barrier Compensation network
+Total variable size (Compensator): 2631
+GP calibration: 400 steps in 2 episodes, 200 samples
+[DDPG-CBF] iter 1  steps 1000  ep 5  avg_return -17050.7  collisions(batch) 0  min_headway(last) 2.91  critic 2.0912  Q -0.03  3s
+      CBF: |u_bar| 1.86  |u_BAR| 0.00  infeasible 37  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 7.11->3.80
+[DDPG-CBF] iter 2  steps 2000  ep 10  avg_return -14311.6  collisions(batch) 0  min_headway(last) 2.69  critic 0.3322  Q -0.97  9s
+      CBF: |u_bar| 71.49  |u_BAR| 1.75  infeasible 8  cond.viol 0 | GP: n=200 coverage 1.00 | comp loss 6369.17->3874.01
+[DDPG-CBF] iter 3  steps 3000  ep 15  avg_return -32275.5  collisions(batch) 0  min_headway(last) 2.41  critic 0.1528  Q -2.56  15s
+      CBF: |u_bar| 27.41  |u_BAR| 65.18  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.97 | comp loss 863.52->63.03
+[DDPG-CBF] iter 4  steps 4000  ep 20  avg_return -34987.7  collisions(batch) 0  min_headway(last) 2.51  critic 0.1261  Q -3.93  21s
+      CBF: |u_bar| 5.33  |u_BAR| 94.83  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.97 | comp loss 91.09->8.50
+[DDPG-CBF] iter 5  steps 5000  ep 25  avg_return -33702.8  collisions(batch) 0  min_headway(last) 2.49  critic 0.2265  Q -5.40  27s
+      CBF: |u_bar| 2.56  |u_BAR| 96.51  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.97 | comp loss 31.19->10.91
+[DDPG-CBF] iter 6  steps 6000  ep 30  avg_return -34626.1  collisions(batch) 0  min_headway(last) 2.45  critic 0.4661  Q -6.74  32s
+      CBF: |u_bar| 2.36  |u_BAR| 97.71  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 22.23->18.86
+[DDPG-CBF] iter 7  steps 7000  ep 35  avg_return -34338.0  collisions(batch) 0  min_headway(last) 2.59  critic 0.2493  Q -8.32  38s
+      CBF: |u_bar| 1.81  |u_BAR| 98.83  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 | comp loss 9.93->6.43
+[DDPG-CBF] iter 8  steps 8000  ep 40  avg_return -34743.6  collisions(batch) 0  min_headway(last) 2.46  critic 0.1949  Q -9.83  44s
+      CBF: |u_bar| 1.74  |u_BAR| 98.89  infeasible 0  cond.viol 2 | GP: n=200 coverage 0.97 | comp loss 5.54->4.70
+[DDPG-CBF] iter 9  steps 9000  ep 45  avg_return -34198.9  collisions(batch) 0  min_headway(last) 2.50  critic 0.1514  Q -11.43  64s
+      CBF: |u_bar| 1.51  |u_BAR| 99.03  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 5.35->4.90
+[DDPG-CBF] iter 10  steps 10000  ep 50  avg_return -34971.9  collisions(batch) 0  min_headway(last) 2.45  critic 0.1448  Q -12.97  90s
+      CBF: |u_bar| 1.48  |u_BAR| 99.12  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.96 | comp loss 6.18->5.60
+[DDPG-CBF] iter 11  steps 11000  ep 55  avg_return -34443.9  collisions(batch) 0  min_headway(last) 2.47  critic 0.1382  Q -14.56  116s
+      CBF: |u_bar| 1.63  |u_BAR| 98.89  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.97 | comp loss 6.56->5.63
+[DDPG-CBF] iter 12  steps 12000  ep 60  avg_return -34496.4  collisions(batch) 0  min_headway(last) 2.51  critic 0.1391  Q -16.18  142s
+      CBF: |u_bar| 1.65  |u_BAR| 98.95  infeasible 0  cond.viol 2 | GP: n=200 coverage 0.96 | comp loss 4.79->4.42
+[DDPG-CBF] iter 13  steps 13000  ep 65  avg_return -34760.6  collisions(batch) 0  min_headway(last) 2.53  critic 0.1402  Q -17.82  168s
+      CBF: |u_bar| 1.44  |u_BAR| 98.94  infeasible 0  cond.viol 3 | GP: n=200 coverage 0.96 | comp loss 3.50->3.30
+[DDPG-CBF] iter 14  steps 14000  ep 70  avg_return -34397.9  collisions(batch) 0  min_headway(last) 2.55  critic 0.1528  Q -19.40  194s
+      CBF: |u_bar| 1.47  |u_BAR| 98.91  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 | comp loss 5.65->5.15
+[DDPG-CBF] iter 15  steps 15000  ep 75  avg_return -34162.7  collisions(batch) 0  min_headway(last) 2.51  critic 0.1496  Q -21.01  220s
+      CBF: |u_bar| 1.35  |u_BAR| 99.06  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 | comp loss 4.39->3.97
+[DDPG-CBF] iter 16  steps 16000  ep 80  avg_return -30841.5  collisions(batch) 0  min_headway(last) 2.68  critic 0.1559  Q -22.58  246s
+      CBF: |u_bar| 2.20  |u_BAR| 98.25  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 12.33->9.72
+[DDPG-CBF] iter 17  steps 17000  ep 85  avg_return -33874.6  collisions(batch) 0  min_headway(last) 2.55  critic 0.1614  Q -24.04  272s
+      CBF: |u_bar| 1.47  |u_BAR| 99.03  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.96 | comp loss 5.36->4.41
+[DDPG-CBF] iter 18  steps 18000  ep 90  avg_return -34350.8  collisions(batch) 0  min_headway(last) 2.44  critic 0.1681  Q -25.63  297s
+      CBF: |u_bar| 1.26  |u_BAR| 99.24  infeasible 0  cond.viol 5 | GP: n=200 coverage 0.96 | comp loss 2.51->2.20
+[DDPG-CBF] iter 19  steps 19000  ep 95  avg_return -33947.6  collisions(batch) 0  min_headway(last) 2.50  critic 0.1841  Q -27.18  324s
+      CBF: |u_bar| 1.47  |u_BAR| 99.00  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.97 | comp loss 3.68->3.46
+[DDPG-CBF] iter 20  steps 20000  ep 100  avg_return -34687.9  collisions(batch) 0  min_headway(last) 2.51  critic 0.1943  Q -28.71  350s
+      CBF: |u_bar| 1.46  |u_BAR| 99.00  infeasible 0  cond.viol 4 | GP: n=200 coverage 0.96 | comp loss 2.28->2.17
+[DDPG-CBF] iter 21  steps 21000  ep 105  avg_return -33872.4  collisions(batch) 0  min_headway(last) 2.49  critic 0.2052  Q -30.33  375s
+      CBF: |u_bar| 1.27  |u_BAR| 99.00  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 2.54->2.28
+[DDPG-CBF] iter 22  steps 22000  ep 110  avg_return -34687.1  collisions(batch) 0  min_headway(last) 2.49  critic 0.2213  Q -31.88  401s
+      CBF: |u_bar| 1.28  |u_BAR| 99.25  infeasible 0  cond.viol 2 | GP: n=200 coverage 0.96 | comp loss 2.38->2.08
+[DDPG-CBF] iter 23  steps 23000  ep 115  avg_return -34915.5  collisions(batch) 0  min_headway(last) 2.46  critic 0.2256  Q -33.47  426s
+      CBF: |u_bar| 1.52  |u_BAR| 98.87  infeasible 0  cond.viol 2 | GP: n=200 coverage 0.96 | comp loss 5.87->5.47
+[DDPG-CBF] iter 24  steps 24000  ep 120  avg_return -33880.3  collisions(batch) 0  min_headway(last) 2.49  critic 0.2453  Q -34.94  451s
+      CBF: |u_bar| 1.74  |u_BAR| 98.54  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 10.43->9.76
+[DDPG-CBF] iter 25  steps 25000  ep 125  avg_return -24725.6  collisions(batch) 0  min_headway(last) 2.85  critic 0.2703  Q -34.73  472s
+      CBF: |u_bar| 61.00  |u_BAR| 84.17  infeasible 32  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 9532.84->8749.59
+[DDPG-CBF] iter 26  steps 26000  ep 130  avg_return -33610.9  collisions(batch) 0  min_headway(last) 2.45  critic 0.3956  Q -32.17  494s
+      CBF: |u_bar| 106.49  |u_BAR| 24.89  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 12694.63->2676.53
+[DDPG-CBF] iter 27  steps 27000  ep 135  avg_return -29832.1  collisions(batch) 0  min_headway(last) 2.60  critic 1.0122  Q -29.93  514s
+      CBF: |u_bar| 36.90  |u_BAR| 74.38  infeasible 0  cond.viol 2 | GP: n=200 coverage 0.97 | comp loss 2703.74->2702.38
+[DDPG-CBF] iter 28  steps 28000  ep 140  avg_return -31239.4  collisions(batch) 0  min_headway(last) 2.41  critic 1.6036  Q -26.91  536s
+      CBF: |u_bar| 42.81  |u_BAR| 73.22  infeasible 0  cond.viol 7 | GP: n=200 coverage 0.96 | comp loss 3722.37->3672.53
+[DDPG-CBF] iter 29  steps 29000  ep 145  avg_return -30894.9  collisions(batch) 0  min_headway(last) 2.47  critic 2.4803  Q -22.80  557s
+      CBF: |u_bar| 46.51  |u_BAR| 66.16  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.97 | comp loss 3667.24->3639.52
+[DDPG-CBF] iter 30  steps 30000  ep 150  avg_return -30952.8  collisions(batch) 0  min_headway(last) 2.48  critic 3.1465  Q -18.66  577s
+      CBF: |u_bar| 41.23  |u_BAR| 71.43  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.97 | comp loss 3282.63->3270.27
+[DDPG-CBF] iter 31  steps 31000  ep 155  avg_return -31041.5  collisions(batch) 0  min_headway(last) 2.48  critic 3.0868  Q -15.10  595s
+      CBF: |u_bar| 39.01  |u_BAR| 74.94  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.97 | comp loss 3417.53->3417.34
+[DDPG-CBF] iter 32  steps 32000  ep 160  avg_return -32382.5  collisions(batch) 0  min_headway(last) 2.47  critic 2.4194  Q -12.74  615s
+      CBF: |u_bar| 36.89  |u_BAR| 75.36  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.96 | comp loss 3080.59->3075.68
+[DDPG-CBF] iter 33  steps 33000  ep 165  avg_return -32812.9  collisions(batch) 0  min_headway(last) 2.46  critic 1.8293  Q -10.86  636s
+      CBF: |u_bar| 33.68  |u_BAR| 77.57  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 2792.48->2785.55
+[DDPG-CBF] iter 34  steps 34000  ep 170  avg_return -32728.5  collisions(batch) 0  min_headway(last) 2.50  critic 1.2664  Q -9.83  653s
+      CBF: |u_bar| 31.25  |u_BAR| 80.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 2749.92->2749.80
+[DDPG-CBF] iter 35  steps 35000  ep 175  avg_return -33338.6  collisions(batch) 0  min_headway(last) 2.45  critic 0.9016  Q -9.40  673s
+      CBF: |u_bar| 27.58  |u_BAR| 80.54  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.97 | comp loss 2023.54->2009.06
+[DDPG-CBF] iter 36  steps 36000  ep 180  avg_return -32264.1  collisions(batch) 0  min_headway(last) 2.46  critic 0.6968  Q -8.89  693s
+      CBF: |u_bar| 22.87  |u_BAR| 84.35  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.97 | comp loss 1772.80->1771.63
+[DDPG-CBF] iter 37  steps 37000  ep 185  avg_return -30150.5  collisions(batch) 0  min_headway(last) 2.43  critic 0.5707  Q -9.01  713s
+      CBF: |u_bar| 20.62  |u_BAR| 85.43  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1440.47->1438.27
+[DDPG-CBF] iter 38  steps 38000  ep 190  avg_return -30463.8  collisions(batch) 0  min_headway(last) 2.41  critic 0.4988  Q -8.80  731s
+      CBF: |u_bar| 18.98  |u_BAR| 86.91  infeasible 0  cond.viol 3 | GP: n=200 coverage 0.97 | comp loss 1180.79->1180.10
+[DDPG-CBF] iter 39  steps 39000  ep 195  avg_return -28617.4  collisions(batch) 0  min_headway(last) 2.42  critic 0.4250  Q -8.80  750s
+      CBF: |u_bar| 17.73  |u_BAR| 87.74  infeasible 11  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 1136.03->1135.80
+[DDPG-CBF] iter 40  steps 40000  ep 200  avg_return -31723.3  collisions(batch) 0  min_headway(last) 2.46  critic 0.4037  Q -9.02  770s
+      CBF: |u_bar| 19.21  |u_BAR| 88.22  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 1415.11->1411.36
+[DDPG-CBF] iter 41  steps 41000  ep 205  avg_return -33353.2  collisions(batch) 0  min_headway(last) 2.46  critic 0.4076  Q -9.42  791s
+      CBF: |u_bar| 17.10  |u_BAR| 86.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.96 | comp loss 946.30->929.86
+[DDPG-CBF] iter 42  steps 42000  ep 210  avg_return -29897.1  collisions(batch) 0  min_headway(last) 2.45  critic 0.4141  Q -9.92  812s
+      CBF: |u_bar| 12.53  |u_BAR| 90.33  infeasible 0  cond.viol 2 | GP: n=200 coverage 0.97 | comp loss 835.77->831.98
+[DDPG-CBF] iter 43  steps 43000  ep 215  avg_return -21883.3  collisions(batch) 0  min_headway(last) 2.49  critic 0.4831  Q -10.32  833s
+      CBF: |u_bar| 8.88  |u_BAR| 92.28  infeasible 55  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 494.55->490.89
+[DDPG-CBF] iter 44  steps 44000  ep 220  avg_return -28391.4  collisions(batch) 0  min_headway(last) 2.46  critic 0.5055  Q -10.91  854s
+      CBF: |u_bar| 5.16  |u_BAR| 94.19  infeasible 0  cond.viol 3 | GP: n=200 coverage 0.97 | comp loss 250.17->246.58
+[DDPG-CBF] iter 45  steps 45000  ep 225  avg_return -26406.3  collisions(batch) 0  min_headway(last) 2.40  critic 0.5159  Q -11.60  876s
+      CBF: |u_bar| 1.64  |u_BAR| 96.09  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.97 | comp loss 5.52->2.82
+[DDPG-CBF] iter 46  steps 46000  ep 230  avg_return -7340.3  collisions(batch) 0  min_headway(last) 3.17  critic 0.5911  Q -12.07  895s
+      CBF: |u_bar| 1.36  |u_BAR| 97.71  infeasible 114  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 93.99->93.71
+[DDPG-CBF] iter 47  steps 47000  ep 235  avg_return -18156.1  collisions(batch) 0  min_headway(last) 3.41  critic 0.5804  Q -12.80  916s
+      CBF: |u_bar| 0.90  |u_BAR| 97.18  infeasible 79  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.90->1.22
+[DDPG-CBF] iter 48  steps 48000  ep 240  avg_return -7733.1  collisions(batch) 0  min_headway(last) 2.58  critic 0.5709  Q -13.38  935s
+      CBF: |u_bar| 0.63  |u_BAR| 98.00  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.78->1.78
+[DDPG-CBF] iter 49  steps 49000  ep 245  avg_return -12174.2  collisions(batch) 0  min_headway(last) 2.52  critic 0.6903  Q -14.30  955s
+      CBF: |u_bar| 0.63  |u_BAR| 97.93  infeasible 0  cond.viol 2 | GP: n=200 coverage 0.98 | comp loss 1.53->1.52
+[DDPG-CBF] iter 50  steps 50000  ep 250  avg_return -8521.6  collisions(batch) 0  min_headway(last) 3.40  critic 0.6976  Q -14.86  976s
+      CBF: |u_bar| 0.38  |u_BAR| 98.00  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 0.97->0.93
+[DDPG-CBF] iter 51  steps 51000  ep 255  avg_return -7857.7  collisions(batch) 0  min_headway(last) 2.58  critic 0.6695  Q -15.59  998s
+      CBF: |u_bar| 0.44  |u_BAR| 97.81  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.03->0.97
+[DDPG-CBF] iter 52  steps 52000  ep 260  avg_return -4996.7  collisions(batch) 0  min_headway(last) 2.92  critic 0.5815  Q -16.37  1019s
+      CBF: |u_bar| 0.45  |u_BAR| 98.06  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.21->1.18
+[DDPG-CBF] iter 53  steps 53000  ep 265  avg_return -5810.8  collisions(batch) 0  min_headway(last) 3.04  critic 0.6441  Q -17.06  1039s
+      CBF: |u_bar| 0.65  |u_BAR| 97.88  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.59->1.57
+[DDPG-CBF] iter 54  steps 54000  ep 270  avg_return -11374.1  collisions(batch) 0  min_headway(last) 2.63  critic 0.6576  Q -17.99  1060s
+      CBF: |u_bar| 0.38  |u_BAR| 98.01  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 0.83->0.79
+[DDPG-CBF] iter 55  steps 55000  ep 275  avg_return -9864.0  collisions(batch) 0  min_headway(last) 2.65  critic 0.6841  Q -18.60  1078s
+      CBF: |u_bar| 0.57  |u_BAR| 98.21  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.23->1.23
+[DDPG-CBF] iter 56  steps 56000  ep 280  avg_return -14128.6  collisions(batch) 0  min_headway(last) 2.55  critic 0.7287  Q -19.40  1100s
+      CBF: |u_bar| 0.58  |u_BAR| 98.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.49->1.38
+[DDPG-CBF] iter 57  steps 57000  ep 285  avg_return -7722.6  collisions(batch) 0  min_headway(last) 2.78  critic 0.8114  Q -20.15  1119s
+      CBF: |u_bar| 0.47  |u_BAR| 97.81  infeasible 1  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.30->1.30
+[DDPG-CBF] iter 58  steps 58000  ep 290  avg_return -9143.2  collisions(batch) 0  min_headway(last) 2.64  critic 0.9228  Q -20.92  1138s
+      CBF: |u_bar| 0.47  |u_BAR| 97.90  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.12->1.11
+[DDPG-CBF] iter 59  steps 59000  ep 295  avg_return -10200.7  collisions(batch) 0  min_headway(last) 2.72  critic 0.9930  Q -21.82  1156s
+      CBF: |u_bar| 0.46  |u_BAR| 98.00  infeasible 4  cond.viol 2 | GP: n=200 coverage 0.98 | comp loss 1.13->1.12
+[DDPG-CBF] iter 60  steps 60000  ep 300  avg_return -11306.9  collisions(batch) 0  min_headway(last) 2.51  critic 1.1286  Q -22.55  1175s
+      CBF: |u_bar| 0.44  |u_BAR| 98.05  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.06->1.06
+[DDPG-CBF] iter 61  steps 61000  ep 305  avg_return -4350.5  collisions(batch) 0  min_headway(last) 2.72  critic 1.2556  Q -23.45  1196s
+      CBF: |u_bar| 0.37  |u_BAR| 98.10  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 0.97->0.92
+[DDPG-CBF] iter 62  steps 62000  ep 310  avg_return -9705.3  collisions(batch) 0  min_headway(last) 2.54  critic 1.4660  Q -24.08  1216s
+      CBF: |u_bar| 0.58  |u_BAR| 97.90  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.47->1.43
+[DDPG-CBF] iter 63  steps 63000  ep 315  avg_return -9176.3  collisions(batch) 0  min_headway(last) 2.67  critic 1.4397  Q -24.76  1236s
+      CBF: |u_bar| 0.61  |u_BAR| 98.10  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.74->1.70
+[DDPG-CBF] iter 64  steps 64000  ep 320  avg_return -8872.0  collisions(batch) 0  min_headway(last) 2.80  critic 1.5695  Q -25.44  1252s
+      CBF: |u_bar| 0.61  |u_BAR| 97.92  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.57->1.57
+[DDPG-CBF] iter 65  steps 65000  ep 325  avg_return -6230.6  collisions(batch) 0  min_headway(last) 2.64  critic 1.7865  Q -26.16  1273s
+      CBF: |u_bar| 0.42  |u_BAR| 97.91  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 0.96->0.94
+[DDPG-CBF] iter 66  steps 66000  ep 330  avg_return -9478.5  collisions(batch) 0  min_headway(last) 2.74  critic 1.8538  Q -27.01  1293s
+      CBF: |u_bar| 0.72  |u_BAR| 98.07  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 2.39->2.27
+[DDPG-CBF] iter 67  steps 67000  ep 335  avg_return -15016.3  collisions(batch) 0  min_headway(last) 2.61  critic 2.0576  Q -27.78  1313s
+      CBF: |u_bar| 0.53  |u_BAR| 97.72  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.97 | comp loss 1.18->1.05
+[DDPG-CBF] iter 68  steps 68000  ep 340  avg_return -5954.6  collisions(batch) 0  min_headway(last) 2.84  critic 2.1614  Q -28.52  1331s
+      CBF: |u_bar| 0.26  |u_BAR| 98.08  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.54->0.53
+[DDPG-CBF] iter 69  steps 69000  ep 345  avg_return -7942.4  collisions(batch) 0  min_headway(last) 2.53  critic 2.3997  Q -28.97  1350s
+      CBF: |u_bar| 0.59  |u_BAR| 98.04  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.45->1.45
+[DDPG-CBF] iter 70  steps 70000  ep 350  avg_return -8377.1  collisions(batch) 0  min_headway(last) 2.89  critic 2.6525  Q -29.75  1369s
+      CBF: |u_bar| 0.48  |u_BAR| 98.00  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.32->1.31
+[DDPG-CBF] iter 71  steps 71000  ep 355  avg_return -7476.9  collisions(batch) 0  min_headway(last) 2.91  critic 2.8658  Q -30.25  1384s
+      CBF: |u_bar| 0.43  |u_BAR| 97.92  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.13->1.13
+[DDPG-CBF] iter 72  steps 72000  ep 360  avg_return -8095.5  collisions(batch) 0  min_headway(last) 2.54  critic 3.1017  Q -31.17  1400s
+      CBF: |u_bar| 0.28  |u_BAR| 97.92  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.61->0.61
+[DDPG-CBF] iter 73  steps 73000  ep 365  avg_return -10148.0  collisions(batch) 0  min_headway(last) 2.55  critic 3.3094  Q -31.57  1421s
+      CBF: |u_bar| 0.49  |u_BAR| 97.91  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.05->1.03
+[DDPG-CBF] iter 74  steps 74000  ep 370  avg_return -7913.4  collisions(batch) 0  min_headway(last) 2.64  critic 3.7045  Q -32.42  1436s
+      CBF: |u_bar| 0.41  |u_BAR| 98.02  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.86->0.86
+[DDPG-CBF] iter 75  steps 75000  ep 375  avg_return -7546.0  collisions(batch) 0  min_headway(last) 2.97  critic 3.9102  Q -32.98  1453s
+      CBF: |u_bar| 0.63  |u_BAR| 98.02  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.62->1.62
+[DDPG-CBF] iter 76  steps 76000  ep 380  avg_return -9293.6  collisions(batch) 0  min_headway(last) 2.93  critic 4.2860  Q -33.79  1473s
+      CBF: |u_bar| 0.58  |u_BAR| 98.04  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.63->1.62
+[DDPG-CBF] iter 77  steps 77000  ep 385  avg_return -10165.9  collisions(batch) 0  min_headway(last) 2.69  critic 4.6241  Q -34.33  1493s
+      CBF: |u_bar| 0.41  |u_BAR| 97.96  infeasible 0  cond.viol 2 | GP: n=200 coverage 0.99 | comp loss 0.92->0.90
+[DDPG-CBF] iter 78  steps 78000  ep 390  avg_return -11578.6  collisions(batch) 0  min_headway(last) 2.64  critic 4.8330  Q -35.11  1514s
+      CBF: |u_bar| 0.37  |u_BAR| 98.10  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.63->0.60
+[DDPG-CBF] iter 79  steps 79000  ep 395  avg_return -8794.8  collisions(batch) 0  min_headway(last) 2.92  critic 4.9448  Q -35.72  1533s
+      CBF: |u_bar| 0.56  |u_BAR| 98.27  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.82->1.71
+[DDPG-CBF] iter 80  steps 80000  ep 400  avg_return -6009.4  collisions(batch) 0  min_headway(last) 2.60  critic 5.1767  Q -36.42  1554s
+      CBF: |u_bar| 0.61  |u_BAR| 97.95  infeasible 9  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.74->1.70
+[DDPG-CBF] iter 81  steps 81000  ep 405  avg_return -9619.6  collisions(batch) 0  min_headway(last) 2.98  critic 5.8198  Q -37.06  1575s
+      CBF: |u_bar| 0.50  |u_BAR| 97.75  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.07->0.89
+[DDPG-CBF] iter 82  steps 82000  ep 410  avg_return -10040.3  collisions(batch) 0  min_headway(last) 2.63  critic 6.0384  Q -37.71  1595s
+      CBF: |u_bar| 0.62  |u_BAR| 98.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.51->1.47
+[DDPG-CBF] iter 83  steps 83000  ep 415  avg_return -12990.8  collisions(batch) 0  min_headway(last) 2.54  critic 6.1703  Q -38.54  1612s
+      CBF: |u_bar| 0.66  |u_BAR| 97.99  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.56->1.56
+[DDPG-CBF] iter 84  steps 84000  ep 420  avg_return -8173.8  collisions(batch) 0  min_headway(last) 2.69  critic 6.9912  Q -39.15  1632s
+      CBF: |u_bar| 0.54  |u_BAR| 98.01  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.67->1.65
+[DDPG-CBF] iter 85  steps 85000  ep 425  avg_return -11673.5  collisions(batch) 0  min_headway(last) 2.87  critic 7.2587  Q -39.98  1651s
+      CBF: |u_bar| 0.61  |u_BAR| 97.85  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.62->1.59
+[DDPG-CBF] iter 86  steps 86000  ep 430  avg_return -11144.7  collisions(batch) 0  min_headway(last) 2.61  critic 7.3574  Q -40.72  1670s
+      CBF: |u_bar| 0.68  |u_BAR| 98.04  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.68->1.67
+[DDPG-CBF] iter 87  steps 87000  ep 435  avg_return -12845.2  collisions(batch) 0  min_headway(last) 2.53  critic 8.1161  Q -41.42  1689s
+      CBF: |u_bar| 0.50  |u_BAR| 97.96  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.15->1.15
+[DDPG-CBF] iter 88  steps 88000  ep 440  avg_return -6262.6  collisions(batch) 0  min_headway(last) 2.77  critic 8.1656  Q -42.02  1709s
+      CBF: |u_bar| 0.38  |u_BAR| 98.01  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 0.95->0.91
+[DDPG-CBF] iter 89  steps 89000  ep 445  avg_return -8233.6  collisions(batch) 0  min_headway(last) 2.60  critic 8.4015  Q -42.72  1728s
+      CBF: |u_bar| 0.60  |u_BAR| 97.81  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.53->1.51
+[DDPG-CBF] iter 90  steps 90000  ep 450  avg_return -7974.3  collisions(batch) 0  min_headway(last) 2.87  critic 9.0218  Q -43.07  1743s
+      CBF: |u_bar| 0.72  |u_BAR| 97.93  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.99->1.99
+[DDPG-CBF] iter 91  steps 91000  ep 455  avg_return -9736.9  collisions(batch) 0  min_headway(last) 2.64  critic 9.2269  Q -43.87  1759s
+      CBF: |u_bar| 0.58  |u_BAR| 97.93  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.52->1.52
+[DDPG-CBF] iter 92  steps 92000  ep 460  avg_return -12184.3  collisions(batch) 0  min_headway(last) 2.58  critic 9.8669  Q -44.83  1778s
+      CBF: |u_bar| 0.64  |u_BAR| 97.94  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.64->1.62
+[DDPG-CBF] iter 93  steps 93000  ep 465  avg_return -7897.6  collisions(batch) 0  min_headway(last) 2.55  critic 10.1150  Q -45.41  1799s
+      CBF: |u_bar| 0.50  |u_BAR| 98.07  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.27->1.24
+[DDPG-CBF] iter 94  steps 94000  ep 470  avg_return -6131.2  collisions(batch) 0  min_headway(last) 2.94  critic 10.2333  Q -45.70  1818s
+      CBF: |u_bar| 0.60  |u_BAR| 97.89  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.45->1.44
+[DDPG-CBF] iter 95  steps 95000  ep 475  avg_return -7714.7  collisions(batch) 0  min_headway(last) 2.85  critic 10.6101  Q -46.37  1836s
+      CBF: |u_bar| 0.53  |u_BAR| 97.99  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.26->1.26
+[DDPG-CBF] iter 96  steps 96000  ep 480  avg_return -7300.7  collisions(batch) 0  min_headway(last) 2.73  critic 11.3931  Q -46.88  1856s
+      CBF: |u_bar| 0.46  |u_BAR| 98.03  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.04->1.01
+[DDPG-CBF] iter 97  steps 97000  ep 485  avg_return -12371.7  collisions(batch) 0  min_headway(last) 2.56  critic 10.9746  Q -47.52  1875s
+      CBF: |u_bar| 0.79  |u_BAR| 97.87  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 2.29->2.24
+[DDPG-CBF] iter 98  steps 98000  ep 490  avg_return -9536.5  collisions(batch) 0  min_headway(last) 2.81  critic 12.3270  Q -48.20  1893s
+      CBF: |u_bar| 0.57  |u_BAR| 98.10  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.37->1.37
+[DDPG-CBF] iter 99  steps 99000  ep 495  avg_return -7402.2  collisions(batch) 0  min_headway(last) 2.99  critic 12.3223  Q -48.69  1911s
+      CBF: |u_bar| 0.60  |u_BAR| 98.07  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.43->1.42
+[DDPG-CBF] iter 100  steps 100000  ep 500  avg_return -11008.0  collisions(batch) 0  min_headway(last) 2.39  critic 13.3066  Q -49.57  1930s
+      CBF: |u_bar| 0.43  |u_BAR| 98.13  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.96->0.96
+[DDPG-CBF] iter 101  steps 101000  ep 505  avg_return -5155.9  collisions(batch) 0  min_headway(last) 2.55  critic 13.0912  Q -50.01  1949s
+      CBF: |u_bar| 0.34  |u_BAR| 98.07  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 0.80->0.79
+[DDPG-CBF] iter 102  steps 102000  ep 510  avg_return -5501.1  collisions(batch) 0  min_headway(last) 2.74  critic 13.1995  Q -50.84  1967s
+      CBF: |u_bar| 0.34  |u_BAR| 98.02  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.00->1.00
+[DDPG-CBF] iter 103  steps 103000  ep 515  avg_return -6723.8  collisions(batch) 0  min_headway(last) 2.88  critic 13.8220  Q -51.43  1982s
+      CBF: |u_bar| 0.42  |u_BAR| 97.99  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 0.88->0.88
+[DDPG-CBF] iter 104  steps 104000  ep 520  avg_return -6397.4  collisions(batch) 0  min_headway(last) 2.91  critic 13.8195  Q -51.55  2001s
+      CBF: |u_bar| 0.33  |u_BAR| 97.99  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.76->0.76
+[DDPG-CBF] iter 105  steps 105000  ep 525  avg_return -9885.3  collisions(batch) 0  min_headway(last) 2.65  critic 14.3684  Q -51.86  2018s
+      CBF: |u_bar| 0.64  |u_BAR| 97.95  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.48->1.48
+[DDPG-CBF] iter 106  steps 106000  ep 530  avg_return -10616.9  collisions(batch) 0  min_headway(last) 2.71  critic 14.3494  Q -52.57  2037s
+      CBF: |u_bar| 0.36  |u_BAR| 97.95  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.76->0.75
+[DDPG-CBF] iter 107  steps 107000  ep 535  avg_return -7748.4  collisions(batch) 0  min_headway(last) 2.72  critic 15.1713  Q -52.79  2055s
+      CBF: |u_bar| 0.51  |u_BAR| 98.05  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.11->1.10
+[DDPG-CBF] iter 108  steps 108000  ep 540  avg_return -10726.1  collisions(batch) 0  min_headway(last) 2.69  critic 15.2564  Q -53.45  2073s
+      CBF: |u_bar| 0.40  |u_BAR| 98.01  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 0.85->0.85
+[DDPG-CBF] iter 109  steps 109000  ep 545  avg_return -11700.8  collisions(batch) 0  min_headway(last) 2.51  critic 15.0991  Q -53.99  2091s
+      CBF: |u_bar| 0.57  |u_BAR| 98.05  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 1.45->1.45
+[DDPG-CBF] iter 110  steps 110000  ep 550  avg_return -8376.8  collisions(batch) 0  min_headway(last) 2.93  critic 16.0241  Q -54.32  2109s
+      CBF: |u_bar| 0.37  |u_BAR| 98.03  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.90->0.89
+[DDPG-CBF] iter 111  steps 111000  ep 555  avg_return -11759.8  collisions(batch) 0  min_headway(last) 2.53  critic 15.7733  Q -54.97  2128s
+      CBF: |u_bar| 0.50  |u_BAR| 98.10  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.18->1.17
+[DDPG-CBF] iter 112  steps 112000  ep 560  avg_return -11357.6  collisions(batch) 0  min_headway(last) 3.39  critic 16.3289  Q -55.89  2148s
+      CBF: |u_bar| 0.50  |u_BAR| 98.18  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.40->1.32
+[DDPG-CBF] iter 113  steps 113000  ep 565  avg_return -6778.9  collisions(batch) 0  min_headway(last) 2.60  critic 16.6666  Q -56.11  2168s
+      CBF: |u_bar| 0.38  |u_BAR| 97.89  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.89->0.87
+[DDPG-CBF] iter 114  steps 114000  ep 570  avg_return -9229.5  collisions(batch) 0  min_headway(last) 2.59  critic 16.8933  Q -56.52  2186s
+      CBF: |u_bar| 0.52  |u_BAR| 98.03  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.33->1.32
+[DDPG-CBF] iter 115  steps 115000  ep 575  avg_return -8223.9  collisions(batch) 0  min_headway(last) 2.58  critic 17.5894  Q -57.08  2206s
+      CBF: |u_bar| 0.67  |u_BAR| 98.08  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 2.05->1.99
+[DDPG-CBF] iter 116  steps 116000  ep 580  avg_return -11147.5  collisions(batch) 0  min_headway(last) 2.58  critic 17.7097  Q -57.51  2227s
+      CBF: |u_bar| 0.42  |u_BAR| 97.84  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.78->0.71
+[DDPG-CBF] iter 117  steps 117000  ep 585  avg_return -8091.5  collisions(batch) 0  min_headway(last) 3.30  critic 18.0106  Q -58.30  2245s
+      CBF: |u_bar| 0.64  |u_BAR| 98.09  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.63->1.63
+[DDPG-CBF] iter 118  steps 118000  ep 590  avg_return -11124.9  collisions(batch) 0  min_headway(last) 2.71  critic 18.6797  Q -58.89  2264s
+      CBF: |u_bar| 0.78  |u_BAR| 98.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 2.31->2.28
+[DDPG-CBF] iter 119  steps 119000  ep 595  avg_return -10739.2  collisions(batch) 0  min_headway(last) 2.53  critic 18.4886  Q -59.66  2284s
+      CBF: |u_bar| 0.47  |u_BAR| 97.98  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.30->1.27
+[DDPG-CBF] iter 120  steps 120000  ep 600  avg_return -8355.7  collisions(batch) 0  min_headway(last) 2.74  critic 18.5203  Q -60.12  2300s
+      CBF: |u_bar| 0.52  |u_BAR| 98.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.36->1.36
+[DDPG-CBF] iter 121  steps 121000  ep 605  avg_return -6542.4  collisions(batch) 0  min_headway(last) 3.33  critic 19.3020  Q -60.64  2320s
+      CBF: |u_bar| 0.38  |u_BAR| 98.17  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 0.96->0.96
+[DDPG-CBF] iter 122  steps 122000  ep 610  avg_return -10156.1  collisions(batch) 0  min_headway(last) 2.60  critic 19.6802  Q -61.42  2339s
+      CBF: |u_bar| 0.62  |u_BAR| 98.10  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.53->1.52
+[DDPG-CBF] iter 123  steps 123000  ep 615  avg_return -12844.1  collisions(batch) 0  min_headway(last) 2.69  critic 19.1635  Q -61.61  2360s
+      CBF: |u_bar| 0.49  |u_BAR| 98.05  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 1.38->1.34
+[DDPG-CBF] iter 124  steps 124000  ep 620  avg_return -9892.8  collisions(batch) 0  min_headway(last) 2.79  critic 20.0735  Q -62.44  2379s
+      CBF: |u_bar| 0.66  |u_BAR| 97.84  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.87->1.86
+[DDPG-CBF] iter 125  steps 125000  ep 625  avg_return -10729.2  collisions(batch) 0  min_headway(last) 2.69  critic 20.2850  Q -63.01  2398s
+      CBF: |u_bar| 0.69  |u_BAR| 97.95  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.97->1.96
+[DDPG-CBF] iter 126  steps 126000  ep 630  avg_return -12475.4  collisions(batch) 0  min_headway(last) 2.62  critic 20.2066  Q -63.59  2418s
+      CBF: |u_bar| 0.72  |u_BAR| 97.84  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 2.08->2.05
+[DDPG-CBF] iter 127  steps 127000  ep 635  avg_return -10369.0  collisions(batch) 0  min_headway(last) 2.86  critic 20.9578  Q -63.73  2437s
+      CBF: |u_bar| 0.44  |u_BAR| 98.01  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.20->1.20
+[DDPG-CBF] iter 128  steps 128000  ep 640  avg_return -7733.2  collisions(batch) 0  min_headway(last) 2.54  critic 20.7152  Q -63.63  2458s
+      CBF: |u_bar| 0.64  |u_BAR| 98.07  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.59->1.54
+[DDPG-CBF] iter 129  steps 129000  ep 645  avg_return -11538.1  collisions(batch) 0  min_headway(last) 2.55  critic 21.5558  Q -63.94  2478s
+      CBF: |u_bar| 0.48  |u_BAR| 97.84  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.03->0.95
+[DDPG-CBF] iter 130  steps 130000  ep 650  avg_return -7581.0  collisions(batch) 0  min_headway(last) 2.97  critic 20.2128  Q -64.30  2497s
+      CBF: |u_bar| 0.46  |u_BAR| 98.13  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.12->1.12
+[DDPG-CBF] iter 131  steps 131000  ep 655  avg_return -9644.9  collisions(batch) 0  min_headway(last) 2.68  critic 20.1769  Q -64.51  2515s
+      CBF: |u_bar| 0.70  |u_BAR| 98.06  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 2.42->2.41
+[DDPG-CBF] iter 132  steps 132000  ep 660  avg_return -9771.3  collisions(batch) 0  min_headway(last) 2.62  critic 21.7814  Q -64.19  2533s
+      CBF: |u_bar| 0.57  |u_BAR| 98.00  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.72->1.71
+[DDPG-CBF] iter 133  steps 133000  ep 665  avg_return -8965.4  collisions(batch) 0  min_headway(last) 2.60  critic 20.8165  Q -64.68  2550s
+      CBF: |u_bar| 0.54  |u_BAR| 98.05  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.53->1.53
+[DDPG-CBF] iter 134  steps 134000  ep 670  avg_return -12785.1  collisions(batch) 0  min_headway(last) 2.52  critic 20.5768  Q -64.59  2570s
+      CBF: |u_bar| 0.53  |u_BAR| 98.02  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.25->1.22
+[DDPG-CBF] iter 135  steps 135000  ep 675  avg_return -10335.1  collisions(batch) 0  min_headway(last) 2.59  critic 20.9857  Q -64.84  2591s
+      CBF: |u_bar| 0.56  |u_BAR| 98.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.34->1.33
+[DDPG-CBF] iter 136  steps 136000  ep 680  avg_return -6709.0  collisions(batch) 0  min_headway(last) 2.94  critic 20.9347  Q -65.33  2610s
+      CBF: |u_bar| 0.34  |u_BAR| 98.10  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.01->1.01
+[DDPG-CBF] iter 137  steps 137000  ep 685  avg_return -8872.1  collisions(batch) 0  min_headway(last) 2.98  critic 21.5718  Q -65.39  2629s
+      CBF: |u_bar| 0.41  |u_BAR| 98.05  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 0.82->0.81
+[DDPG-CBF] iter 138  steps 138000  ep 690  avg_return -13876.8  collisions(batch) 0  min_headway(last) 3.08  critic 20.7703  Q -65.55  2649s
+      CBF: |u_bar| 0.42  |u_BAR| 97.98  infeasible 0  cond.viol 2 | GP: n=200 coverage 0.98 | comp loss 0.76->0.67
+[DDPG-CBF] iter 139  steps 139000  ep 695  avg_return -6383.9  collisions(batch) 0  min_headway(last) 2.76  critic 21.1606  Q -65.63  2670s
+      CBF: |u_bar| 0.43  |u_BAR| 98.28  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.30->1.24
+[DDPG-CBF] iter 140  steps 140000  ep 700  avg_return -9036.4  collisions(batch) 0  min_headway(last) 2.62  critic 21.6032  Q -65.86  2691s
+      CBF: |u_bar| 0.63  |u_BAR| 98.03  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.68->1.55
+[DDPG-CBF] iter 141  steps 141000  ep 705  avg_return -12086.9  collisions(batch) 0  min_headway(last) 2.74  critic 21.7397  Q -65.82  2711s
+      CBF: |u_bar| 0.66  |u_BAR| 97.68  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.82->1.70
+[DDPG-CBF] iter 142  steps 142000  ep 710  avg_return -10671.1  collisions(batch) 0  min_headway(last) 2.60  critic 22.4067  Q -66.18  2726s
+      CBF: |u_bar| 0.46  |u_BAR| 98.02  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.04->1.04
+[DDPG-CBF] iter 143  steps 143000  ep 715  avg_return -7977.3  collisions(batch) 0  min_headway(last) 2.50  critic 21.8347  Q -66.18  2746s
+      CBF: |u_bar| 0.43  |u_BAR| 98.02  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.03->1.02
+[DDPG-CBF] iter 144  steps 144000  ep 720  avg_return -8085.1  collisions(batch) 0  min_headway(last) 3.02  critic 22.0967  Q -66.28  2765s
+      CBF: |u_bar| 0.49  |u_BAR| 98.15  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.11->1.11
+[DDPG-CBF] iter 145  steps 145000  ep 725  avg_return -12502.6  collisions(batch) 0  min_headway(last) 2.38  critic 21.7904  Q -66.41  2784s
+      CBF: |u_bar| 0.57  |u_BAR| 98.09  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.24->1.23
+[DDPG-CBF] iter 146  steps 146000  ep 730  avg_return -7842.4  collisions(batch) 0  min_headway(last) 2.91  critic 20.7729  Q -67.01  2804s
+      CBF: |u_bar| 0.77  |u_BAR| 98.21  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 2.50->2.43
+[DDPG-CBF] iter 147  steps 147000  ep 735  avg_return -9596.7  collisions(batch) 0  min_headway(last) 2.64  critic 21.7505  Q -67.67  2822s
+      CBF: |u_bar| 0.44  |u_BAR| 97.94  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.17->1.17
+[DDPG-CBF] iter 148  steps 148000  ep 740  avg_return -8483.2  collisions(batch) 0  min_headway(last) 2.55  critic 20.9505  Q -68.25  2843s
+      CBF: |u_bar| 0.57  |u_BAR| 97.97  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.38->1.30
+[DDPG-CBF] iter 149  steps 149000  ep 745  avg_return -8678.7  collisions(batch) 0  min_headway(last) 2.62  critic 21.6402  Q -68.94  2864s
+      CBF: |u_bar| 0.69  |u_BAR| 98.24  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.92->1.76
+[DDPG-CBF] iter 150  steps 150000  ep 750  avg_return -11643.7  collisions(batch) 0  min_headway(last) 2.67  critic 21.3915  Q -69.74  2884s
+      CBF: |u_bar| 0.37  |u_BAR| 97.85  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.87->0.82
+[DDPG-CBF] iter 151  steps 151000  ep 755  avg_return -3939.5  collisions(batch) 0  min_headway(last) 3.06  critic 21.8483  Q -69.97  2900s
+      CBF: |u_bar| 0.40  |u_BAR| 98.07  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 0.93->0.93
+[DDPG-CBF] iter 152  steps 152000  ep 760  avg_return -10117.5  collisions(batch) 0  min_headway(last) 2.83  critic 21.6527  Q -71.39  2920s
+      CBF: |u_bar| 0.72  |u_BAR| 98.07  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 2.20->2.13
+[DDPG-CBF] iter 153  steps 153000  ep 765  avg_return -13266.1  collisions(batch) 0  min_headway(last) 2.45  critic 21.2947  Q -72.11  2941s
+      CBF: |u_bar| 0.51  |u_BAR| 97.81  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.03->0.93
+[DDPG-CBF] iter 154  steps 154000  ep 770  avg_return -6499.3  collisions(batch) 0  min_headway(last) 2.75  critic 20.9459  Q -72.37  2959s
+      CBF: |u_bar| 0.57  |u_BAR| 98.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.34->1.34
+[DDPG-CBF] iter 155  steps 155000  ep 775  avg_return -4937.6  collisions(batch) 0  min_headway(last) 2.72  critic 21.8234  Q -73.36  2980s
+      CBF: |u_bar| 0.58  |u_BAR| 98.09  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.60->1.53
+[DDPG-CBF] iter 156  steps 156000  ep 780  avg_return -10787.9  collisions(batch) 0  min_headway(last) 2.71  critic 20.9728  Q -73.91  2999s
+      CBF: |u_bar| 0.56  |u_BAR| 97.82  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.26->1.25
+[DDPG-CBF] iter 157  steps 157000  ep 785  avg_return -17513.5  collisions(batch) 0  min_headway(last) 2.53  critic 20.9396  Q -74.71  3019s
+      CBF: |u_bar| 0.58  |u_BAR| 97.91  infeasible 0  cond.viol 2 | GP: n=200 coverage 0.97 | comp loss 1.16->1.04
+[DDPG-CBF] iter 158  steps 158000  ep 790  avg_return -4838.6  collisions(batch) 0  min_headway(last) 2.71  critic 20.9972  Q -75.07  3040s
+      CBF: |u_bar| 0.58  |u_BAR| 98.24  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.76->1.65
+[DDPG-CBF] iter 159  steps 159000  ep 795  avg_return -9227.1  collisions(batch) 0  min_headway(last) 2.55  critic 20.6645  Q -75.54  3058s
+      CBF: |u_bar| 0.57  |u_BAR| 97.92  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.33->1.33
+[DDPG-CBF] iter 160  steps 160000  ep 800  avg_return -11895.6  collisions(batch) 0  min_headway(last) 2.76  critic 20.7893  Q -76.55  3079s
+      CBF: |u_bar| 0.28  |u_BAR| 97.97  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.50->0.48
+[DDPG-CBF] iter 161  steps 161000  ep 805  avg_return -11319.0  collisions(batch) 0  min_headway(last) 2.55  critic 20.2800  Q -77.42  3099s
+      CBF: |u_bar| 0.45  |u_BAR| 98.10  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.16->1.15
+[DDPG-CBF] iter 162  steps 162000  ep 810  avg_return -10414.3  collisions(batch) 0  min_headway(last) 2.65  critic 19.9311  Q -77.94  3118s
+      CBF: |u_bar| 0.51  |u_BAR| 98.17  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.26->1.24
+[DDPG-CBF] iter 163  steps 163000  ep 815  avg_return -11817.9  collisions(batch) 0  min_headway(last) 2.80  critic 20.4336  Q -78.75  3137s
+      CBF: |u_bar| 0.53  |u_BAR| 98.03  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.51->1.51
+[DDPG-CBF] iter 164  steps 164000  ep 820  avg_return -10034.7  collisions(batch) 0  min_headway(last) 2.55  critic 19.4795  Q -79.13  3157s
+      CBF: |u_bar| 0.56  |u_BAR| 97.97  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.25->1.23
+[DDPG-CBF] iter 165  steps 165000  ep 825  avg_return -10014.7  collisions(batch) 0  min_headway(last) 2.79  critic 19.8646  Q -79.85  3175s
+      CBF: |u_bar| 0.53  |u_BAR| 98.10  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.21->1.21
+[DDPG-CBF] iter 166  steps 166000  ep 830  avg_return -6939.4  collisions(batch) 0  min_headway(last) 2.66  critic 20.0782  Q -80.89  3195s
+      CBF: |u_bar| 0.62  |u_BAR| 98.12  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.81->1.75
+[DDPG-CBF] iter 167  steps 167000  ep 835  avg_return -11103.1  collisions(batch) 0  min_headway(last) 2.60  critic 19.4367  Q -81.28  3210s
+      CBF: |u_bar| 0.70  |u_BAR| 97.88  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.85->1.85
+[DDPG-CBF] iter 168  steps 168000  ep 840  avg_return -9694.1  collisions(batch) 0  min_headway(last) 2.87  critic 19.7232  Q -81.98  3230s
+      CBF: |u_bar| 0.48  |u_BAR| 97.87  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.01->0.95
+[DDPG-CBF] iter 169  steps 169000  ep 845  avg_return -6121.7  collisions(batch) 0  min_headway(last) 2.93  critic 18.6580  Q -82.49  3251s
+      CBF: |u_bar| 0.45  |u_BAR| 98.13  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.19->1.11
+[DDPG-CBF] iter 170  steps 170000  ep 850  avg_return -7811.6  collisions(batch) 0  min_headway(last) 2.66  critic 18.6181  Q -83.53  3270s
+      CBF: |u_bar| 0.64  |u_BAR| 97.83  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 2.11->2.10
+[DDPG-CBF] iter 171  steps 171000  ep 855  avg_return -15745.3  collisions(batch) 0  min_headway(last) 2.65  critic 18.8884  Q -83.95  3290s
+      CBF: |u_bar| 0.67  |u_BAR| 97.75  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.42->1.31
+[DDPG-CBF] iter 172  steps 172000  ep 860  avg_return -12681.4  collisions(batch) 0  min_headway(last) 2.50  critic 18.6588  Q -84.43  3311s
+      CBF: |u_bar| 0.45  |u_BAR| 98.08  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.06->1.04
+[DDPG-CBF] iter 173  steps 173000  ep 865  avg_return -6940.4  collisions(batch) 0  min_headway(last) 2.53  critic 19.5128  Q -85.61  3331s
+      CBF: |u_bar| 0.56  |u_BAR| 98.23  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.47->1.45
+[DDPG-CBF] iter 174  steps 174000  ep 870  avg_return -9745.7  collisions(batch) 0  min_headway(last) 2.59  critic 18.9960  Q -85.74  3348s
+      CBF: |u_bar| 0.55  |u_BAR| 98.06  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.56->1.56
+[DDPG-CBF] iter 175  steps 175000  ep 875  avg_return -8189.3  collisions(batch) 0  min_headway(last) 2.51  critic 18.4188  Q -86.66  3367s
+      CBF: |u_bar| 0.45  |u_BAR| 98.04  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.14->1.13
+[DDPG-CBF] iter 176  steps 176000  ep 880  avg_return -9465.4  collisions(batch) 0  min_headway(last) 2.70  critic 18.2127  Q -87.27  3388s
+      CBF: |u_bar| 0.61  |u_BAR| 98.13  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 2.04->1.96
+[DDPG-CBF] iter 177  steps 177000  ep 885  avg_return -11555.6  collisions(batch) 0  min_headway(last) 2.73  critic 18.8037  Q -87.69  3409s
+      CBF: |u_bar| 0.51  |u_BAR| 97.85  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.14->1.11
+[DDPG-CBF] iter 178  steps 178000  ep 890  avg_return -10068.4  collisions(batch) 0  min_headway(last) 2.70  critic 18.0756  Q -88.29  3424s
+      CBF: |u_bar| 0.59  |u_BAR| 98.04  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.45->1.45
+[DDPG-CBF] iter 179  steps 179000  ep 895  avg_return -8245.8  collisions(batch) 0  min_headway(last) 2.78  critic 17.3658  Q -88.77  3441s
+      CBF: |u_bar| 0.41  |u_BAR| 98.07  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 0.85->0.84
+[DDPG-CBF] iter 180  steps 180000  ep 900  avg_return -7662.3  collisions(batch) 0  min_headway(last) 2.66  critic 17.6529  Q -89.56  3459s
+      CBF: |u_bar| 0.55  |u_BAR| 98.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.38->1.35
+[DDPG-CBF] iter 181  steps 181000  ep 905  avg_return -6167.2  collisions(batch) 0  min_headway(last) 2.58  critic 17.8892  Q -89.62  3476s
+      CBF: |u_bar| 0.35  |u_BAR| 97.97  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.76->0.75
+[DDPG-CBF] iter 182  steps 182000  ep 910  avg_return -8295.5  collisions(batch) 0  min_headway(last) 2.65  critic 17.4288  Q -90.33  3488s
+      CBF: |u_bar| 0.63  |u_BAR| 98.03  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.79->1.79
+[DDPG-CBF] iter 183  steps 183000  ep 915  avg_return -4603.5  collisions(batch) 0  min_headway(last) 2.97  critic 17.5435  Q -90.57  3501s
+      CBF: |u_bar| 0.45  |u_BAR| 98.03  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.51->1.50
+[DDPG-CBF] iter 184  steps 184000  ep 920  avg_return -8245.9  collisions(batch) 0  min_headway(last) 2.50  critic 16.7114  Q -91.13  3516s
+      CBF: |u_bar| 0.51  |u_BAR| 97.92  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.15->1.14
+[DDPG-CBF] iter 185  steps 185000  ep 925  avg_return -8596.3  collisions(batch) 0  min_headway(last) 2.58  critic 17.1799  Q -91.53  3528s
+      CBF: |u_bar| 0.58  |u_BAR| 98.03  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.37->1.36
+[DDPG-CBF] iter 186  steps 186000  ep 930  avg_return -5493.7  collisions(batch) 0  min_headway(last) 2.94  critic 16.7962  Q -92.10  3540s
+      CBF: |u_bar| 0.39  |u_BAR| 98.00  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 0.84->0.84
+[DDPG-CBF] iter 187  steps 187000  ep 935  avg_return -10143.2  collisions(batch) 0  min_headway(last) 2.56  critic 16.6020  Q -92.58  3555s
+      CBF: |u_bar| 0.65  |u_BAR| 98.01  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.60->1.57
+[DDPG-CBF] iter 188  steps 188000  ep 940  avg_return -12042.8  collisions(batch) 0  min_headway(last) 3.03  critic 17.0366  Q -93.16  3569s
+      CBF: |u_bar| 0.54  |u_BAR| 97.84  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.21->1.17
+[DDPG-CBF] iter 189  steps 189000  ep 945  avg_return -7807.7  collisions(batch) 0  min_headway(last) 2.72  critic 15.9786  Q -93.60  3581s
+      CBF: |u_bar| 0.46  |u_BAR| 98.02  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.23->1.23
+[DDPG-CBF] iter 190  steps 190000  ep 950  avg_return -10109.3  collisions(batch) 0  min_headway(last) 2.56  critic 16.2201  Q -93.94  3595s
+      CBF: |u_bar| 0.48  |u_BAR| 98.00  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.97->0.97
+[DDPG-CBF] iter 191  steps 191000  ep 955  avg_return -13442.1  collisions(batch) 0  min_headway(last) 2.55  critic 16.0396  Q -94.24  3607s
+      CBF: |u_bar| 0.53  |u_BAR| 98.07  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.20->1.20
+[DDPG-CBF] iter 192  steps 192000  ep 960  avg_return -11266.4  collisions(batch) 0  min_headway(last) 2.55  critic 16.0160  Q -94.87  3622s
+      CBF: |u_bar| 0.47  |u_BAR| 98.06  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.01->0.96
+[DDPG-CBF] iter 193  steps 193000  ep 965  avg_return -9846.0  collisions(batch) 0  min_headway(last) 2.71  critic 15.9407  Q -95.60  3635s
+      CBF: |u_bar| 0.59  |u_BAR| 98.28  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.55->1.54
+[DDPG-CBF] iter 194  steps 194000  ep 970  avg_return -10374.2  collisions(batch) 0  min_headway(last) 2.56  critic 16.0362  Q -95.87  3650s
+      CBF: |u_bar| 0.49  |u_BAR| 98.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.14->1.13
+[DDPG-CBF] iter 195  steps 195000  ep 975  avg_return -7856.0  collisions(batch) 0  min_headway(last) 2.47  critic 16.0207  Q -96.22  3664s
+      CBF: |u_bar| 0.49  |u_BAR| 98.24  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.02->1.00
+[DDPG-CBF] iter 196  steps 196000  ep 980  avg_return -11741.1  collisions(batch) 0  min_headway(last) 2.55  critic 15.4070  Q -96.83  3677s
+      CBF: |u_bar| 0.60  |u_BAR| 98.08  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.61->1.60
+[DDPG-CBF] iter 197  steps 197000  ep 985  avg_return -11669.7  collisions(batch) 0  min_headway(last) 2.64  critic 15.4707  Q -97.18  3691s
+      CBF: |u_bar| 0.63  |u_BAR| 97.99  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 1.57->1.57
+[DDPG-CBF] iter 198  steps 198000  ep 990  avg_return -6627.5  collisions(batch) 0  min_headway(last) 2.70  critic 15.2103  Q -97.52  3706s
+      CBF: |u_bar| 0.59  |u_BAR| 98.06  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.68->1.58
+[DDPG-CBF] iter 199  steps 199000  ep 995  avg_return -18395.1  collisions(batch) 0  min_headway(last) 2.61  critic 14.9916  Q -97.60  3721s
+      CBF: |u_bar| 0.72  |u_BAR| 97.75  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.81->1.76
+[DDPG-CBF] iter 200  steps 200000  ep 1000  avg_return -5840.9  collisions(batch) 0  min_headway(last) 2.86  critic 15.2203  Q -98.30  3732s
+      CBF: |u_bar| 0.34  |u_BAR| 97.97  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 0.67->0.67
+[DDPG-CBF] iter 201  steps 201000  ep 1005  avg_return -12422.3  collisions(batch) 0  min_headway(last) 2.56  critic 14.5936  Q -98.91  3747s
+      CBF: |u_bar| 0.49  |u_BAR| 97.98  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.02->0.94
+[DDPG-CBF] iter 202  steps 202000  ep 1010  avg_return -10884.7  collisions(batch) 0  min_headway(last) 2.80  critic 14.4944  Q -99.04  3762s
+      CBF: |u_bar| 0.48  |u_BAR| 98.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.28->1.25
+[DDPG-CBF] iter 203  steps 203000  ep 1015  avg_return -5093.1  collisions(batch) 0  min_headway(last) 2.86  critic 14.8440  Q -99.40  3776s
+      CBF: |u_bar| 0.34  |u_BAR| 98.11  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.94->0.92
+[DDPG-CBF] iter 204  steps 204000  ep 1020  avg_return -8039.2  collisions(batch) 0  min_headway(last) 3.33  critic 14.5434  Q -100.06  3787s
+      CBF: |u_bar| 0.39  |u_BAR| 97.99  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.75->0.75
+[DDPG-CBF] iter 205  steps 205000  ep 1025  avg_return -9580.3  collisions(batch) 0  min_headway(last) 3.00  critic 14.1897  Q -100.18  3798s
+      CBF: |u_bar| 0.50  |u_BAR| 97.95  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.28->1.28
+[DDPG-CBF] iter 206  steps 206000  ep 1030  avg_return -9619.5  collisions(batch) 0  min_headway(last) 2.60  critic 14.4871  Q -100.76  3808s
+      CBF: |u_bar| 0.46  |u_BAR| 98.00  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.04->1.04
+[DDPG-CBF] iter 207  steps 207000  ep 1035  avg_return -9804.4  collisions(batch) 0  min_headway(last) 2.60  critic 14.4103  Q -100.95  3820s
+      CBF: |u_bar| 0.50  |u_BAR| 98.00  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.39->1.35
+[DDPG-CBF] iter 208  steps 208000  ep 1040  avg_return -9101.9  collisions(batch) 0  min_headway(last) 2.98  critic 14.8141  Q -101.29  3830s
+      CBF: |u_bar| 0.72  |u_BAR| 97.79  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.99->1.99
+[DDPG-CBF] iter 209  steps 209000  ep 1045  avg_return -12326.4  collisions(batch) 0  min_headway(last) 2.96  critic 13.5497  Q -101.53  3842s
+      CBF: |u_bar| 0.44  |u_BAR| 97.80  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.79->0.66
+[DDPG-CBF] iter 210  steps 210000  ep 1050  avg_return -8721.2  collisions(batch) 0  min_headway(last) 2.65  critic 14.5627  Q -101.84  3854s
+      CBF: |u_bar| 0.66  |u_BAR| 98.16  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.80->1.63
+[DDPG-CBF] iter 211  steps 211000  ep 1055  avg_return -9827.9  collisions(batch) 0  min_headway(last) 3.07  critic 14.1521  Q -102.08  3866s
+      CBF: |u_bar| 0.51  |u_BAR| 97.75  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.27->1.20
+[DDPG-CBF] iter 212  steps 212000  ep 1060  avg_return -11143.0  collisions(batch) 0  min_headway(last) 2.76  critic 13.8587  Q -102.14  3876s
+      CBF: |u_bar| 0.59  |u_BAR| 98.01  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.50->1.50
+[DDPG-CBF] iter 213  steps 213000  ep 1065  avg_return -6967.7  collisions(batch) 0  min_headway(last) 2.72  critic 13.7164  Q -102.85  3887s
+      CBF: |u_bar| 0.44  |u_BAR| 97.97  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.02->1.02
+[DDPG-CBF] iter 214  steps 214000  ep 1070  avg_return -7121.2  collisions(batch) 0  min_headway(last) 2.71  critic 13.5565  Q -102.91  3898s
+      CBF: |u_bar| 0.44  |u_BAR| 97.93  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.00->0.99
+[DDPG-CBF] iter 215  steps 215000  ep 1075  avg_return -8472.9  collisions(batch) 0  min_headway(last) 2.64  critic 13.9115  Q -103.03  3909s
+      CBF: |u_bar| 0.49  |u_BAR| 98.01  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.14->1.13
+[DDPG-CBF] iter 216  steps 216000  ep 1080  avg_return -10027.1  collisions(batch) 0  min_headway(last) 2.65  critic 13.3389  Q -103.49  3920s
+      CBF: |u_bar| 0.60  |u_BAR| 98.13  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.64->1.57
+[DDPG-CBF] iter 217  steps 217000  ep 1085  avg_return -6732.4  collisions(batch) 0  min_headway(last) 2.45  critic 13.3316  Q -103.75  3931s
+      CBF: |u_bar| 0.54  |u_BAR| 97.88  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.36->1.36
+[DDPG-CBF] iter 218  steps 218000  ep 1090  avg_return -12522.4  collisions(batch) 0  min_headway(last) 2.65  critic 13.6828  Q -103.97  3943s
+      CBF: |u_bar| 0.55  |u_BAR| 97.90  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 1.23->1.15
+[DDPG-CBF] iter 219  steps 219000  ep 1095  avg_return -7949.4  collisions(batch) 0  min_headway(last) 2.93  critic 13.0678  Q -103.82  3953s
+      CBF: |u_bar| 0.45  |u_BAR| 98.17  infeasible 0  cond.viol 3 | GP: n=200 coverage 0.98 | comp loss 1.24->1.23
+[DDPG-CBF] iter 220  steps 220000  ep 1100  avg_return -8902.3  collisions(batch) 0  min_headway(last) 2.67  critic 13.1594  Q -104.31  3965s
+      CBF: |u_bar| 0.66  |u_BAR| 98.12  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.68->1.64
+[DDPG-CBF] iter 221  steps 221000  ep 1105  avg_return -6160.0  collisions(batch) 0  min_headway(last) 2.95  critic 13.4942  Q -104.69  3975s
+      CBF: |u_bar| 0.53  |u_BAR| 97.91  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.62->1.61
+[DDPG-CBF] iter 222  steps 222000  ep 1110  avg_return -10670.2  collisions(batch) 0  min_headway(last) 2.56  critic 13.6943  Q -104.85  3987s
+      CBF: |u_bar| 0.47  |u_BAR| 97.83  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 0.95->0.86
+[DDPG-CBF] iter 223  steps 223000  ep 1115  avg_return -9042.7  collisions(batch) 0  min_headway(last) 2.62  critic 12.9579  Q -105.16  3999s
+      CBF: |u_bar| 0.68  |u_BAR| 98.12  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.97->1.81
+[DDPG-CBF] iter 224  steps 224000  ep 1120  avg_return -14422.7  collisions(batch) 0  min_headway(last) 2.53  critic 13.1945  Q -105.25  4011s
+      CBF: |u_bar| 0.86  |u_BAR| 97.71  infeasible 25  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 2.31->2.13
+[DDPG-CBF] iter 225  steps 225000  ep 1125  avg_return -9546.1  collisions(batch) 0  min_headway(last) 2.57  critic 12.7918  Q -105.32  4022s
+      CBF: |u_bar| 0.55  |u_BAR| 98.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.60->1.56
+[DDPG-CBF] iter 226  steps 226000  ep 1130  avg_return -11785.4  collisions(batch) 0  min_headway(last) 2.56  critic 13.1063  Q -105.78  4033s
+      CBF: |u_bar| 0.51  |u_BAR| 97.96  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.97 | comp loss 1.24->1.24
+[DDPG-CBF] iter 227  steps 227000  ep 1135  avg_return -10745.6  collisions(batch) 0  min_headway(last) 2.72  critic 12.6369  Q -105.85  4045s
+      CBF: |u_bar| 0.47  |u_BAR| 98.00  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.95->0.89
+[DDPG-CBF] iter 228  steps 228000  ep 1140  avg_return -12190.7  collisions(batch) 0  min_headway(last) 2.59  critic 12.5483  Q -106.23  4057s
+      CBF: |u_bar| 0.65  |u_BAR| 98.24  infeasible 0  cond.viol 2 | GP: n=200 coverage 0.98 | comp loss 1.92->1.79
+[DDPG-CBF] iter 229  steps 229000  ep 1145  avg_return -8290.1  collisions(batch) 0  min_headway(last) 3.20  critic 12.5820  Q -106.38  4068s
+      CBF: |u_bar| 0.63  |u_BAR| 97.88  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.61->1.60
+[DDPG-CBF] iter 230  steps 230000  ep 1150  avg_return -12797.3  collisions(batch) 0  min_headway(last) 2.73  critic 12.4487  Q -106.79  4080s
+      CBF: |u_bar| 0.53  |u_BAR| 97.79  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.20->1.14
+[DDPG-CBF] iter 231  steps 231000  ep 1155  avg_return -10627.7  collisions(batch) 0  min_headway(last) 2.85  critic 12.5728  Q -106.66  4092s
+      CBF: |u_bar| 0.43  |u_BAR| 98.03  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.96->0.93
+[DDPG-CBF] iter 232  steps 232000  ep 1160  avg_return -5893.2  collisions(batch) 0  min_headway(last) 2.65  critic 12.6015  Q -106.97  4103s
+      CBF: |u_bar| 0.56  |u_BAR| 98.20  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.99->1.95
+[DDPG-CBF] iter 233  steps 233000  ep 1165  avg_return -6598.0  collisions(batch) 0  min_headway(last) 2.79  critic 12.3124  Q -106.90  4114s
+      CBF: |u_bar| 0.58  |u_BAR| 98.02  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.61->1.61
+[DDPG-CBF] iter 234  steps 234000  ep 1170  avg_return -10196.3  collisions(batch) 0  min_headway(last) 3.00  critic 12.0538  Q -107.09  4125s
+      CBF: |u_bar| 0.60  |u_BAR| 98.00  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.55->1.55
+[DDPG-CBF] iter 235  steps 235000  ep 1175  avg_return -9849.7  collisions(batch) 0  min_headway(last) 2.79  critic 12.4360  Q -106.73  4137s
+      CBF: |u_bar| 0.66  |u_BAR| 98.08  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 2.15->1.98
+[DDPG-CBF] iter 236  steps 236000  ep 1180  avg_return -11558.7  collisions(batch) 0  min_headway(last) 2.56  critic 12.3062  Q -106.96  4149s
+      CBF: |u_bar| 0.62  |u_BAR| 97.66  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.32->1.21
+[DDPG-CBF] iter 237  steps 237000  ep 1185  avg_return -6451.5  collisions(batch) 0  min_headway(last) 2.95  critic 12.0635  Q -107.28  4160s
+      CBF: |u_bar| 0.49  |u_BAR| 97.98  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.27->1.26
+[DDPG-CBF] iter 238  steps 238000  ep 1190  avg_return -5571.2  collisions(batch) 0  min_headway(last) 2.86  critic 12.4141  Q -107.40  4171s
+      CBF: |u_bar| 0.32  |u_BAR| 97.90  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 0.88->0.87
+[DDPG-CBF] iter 239  steps 239000  ep 1195  avg_return -11151.2  collisions(batch) 0  min_headway(last) 2.50  critic 12.4744  Q -107.60  4182s
+      CBF: |u_bar| 0.70  |u_BAR| 97.81  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.85->1.84
+[DDPG-CBF] iter 240  steps 240000  ep 1200  avg_return -13780.5  collisions(batch) 0  min_headway(last) 3.58  critic 12.8739  Q -107.53  4194s
+      CBF: |u_bar| 0.48  |u_BAR| 97.71  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.87->0.73
+[DDPG-CBF] iter 241  steps 241000  ep 1205  avg_return -5857.4  collisions(batch) 0  min_headway(last) 3.18  critic 12.1062  Q -107.97  4205s
+      CBF: |u_bar| 0.50  |u_BAR| 98.09  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.53->1.51
+[DDPG-CBF] iter 242  steps 242000  ep 1210  avg_return -8845.0  collisions(batch) 0  min_headway(last) 2.82  critic 11.5343  Q -108.06  4217s
+      CBF: |u_bar| 0.62  |u_BAR| 97.94  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.47->1.45
+[DDPG-CBF] iter 243  steps 243000  ep 1215  avg_return -7395.7  collisions(batch) 0  min_headway(last) 3.07  critic 11.8121  Q -108.08  4228s
+      CBF: |u_bar| 0.48  |u_BAR| 98.08  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.64->1.62
+[DDPG-CBF] iter 244  steps 244000  ep 1220  avg_return -14371.3  collisions(batch) 0  min_headway(last) 2.57  critic 11.3512  Q -107.97  4239s
+      CBF: |u_bar| 0.77  |u_BAR| 97.91  infeasible 0  cond.viol 2 | GP: n=200 coverage 0.98 | comp loss 1.80->1.77
+[DDPG-CBF] iter 245  steps 245000  ep 1225  avg_return -11081.1  collisions(batch) 0  min_headway(last) 2.62  critic 11.4882  Q -108.37  4251s
+      CBF: |u_bar| 0.62  |u_BAR| 98.09  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.65->1.55
+[DDPG-CBF] iter 246  steps 246000  ep 1230  avg_return -7626.6  collisions(batch) 0  min_headway(last) 2.59  critic 11.5621  Q -108.44  4262s
+      CBF: |u_bar| 0.38  |u_BAR| 97.79  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.96->0.94
+[DDPG-CBF] iter 247  steps 247000  ep 1235  avg_return -7727.8  collisions(batch) 0  min_headway(last) 2.63  critic 11.8043  Q -108.44  4272s
+      CBF: |u_bar| 0.51  |u_BAR| 97.93  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.26->1.26
+[DDPG-CBF] iter 248  steps 248000  ep 1240  avg_return -7651.6  collisions(batch) 0  min_headway(last) 2.55  critic 11.4539  Q -108.81  4282s
+      CBF: |u_bar| 0.32  |u_BAR| 97.90  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.64->0.64
+[DDPG-CBF] iter 249  steps 249000  ep 1245  avg_return -13208.9  collisions(batch) 0  min_headway(last) 2.67  critic 11.4075  Q -108.52  4292s
+      CBF: |u_bar| 0.55  |u_BAR| 97.89  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.38->1.38
+[DDPG-CBF] iter 250  steps 250000  ep 1250  avg_return -11389.9  collisions(batch) 0  min_headway(last) 2.63  critic 12.0326  Q -108.72  4304s
+      CBF: |u_bar| 0.55  |u_BAR| 97.93  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.19->1.16
+[DDPG-CBF] iter 251  steps 251000  ep 1255  avg_return -10348.9  collisions(batch) 0  min_headway(last) 2.61  critic 11.7686  Q -109.09  4315s
+      CBF: |u_bar| 0.40  |u_BAR| 98.09  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.96->0.95
+[DDPG-CBF] iter 252  steps 252000  ep 1260  avg_return -6257.1  collisions(batch) 0  min_headway(last) 2.59  critic 11.6734  Q -109.10  4326s
+      CBF: |u_bar| 0.68  |u_BAR| 97.99  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.85->1.81
+[DDPG-CBF] iter 253  steps 253000  ep 1265  avg_return -9313.9  collisions(batch) 0  min_headway(last) 3.03  critic 11.6004  Q -109.32  4337s
+      CBF: |u_bar| 0.59  |u_BAR| 97.80  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.35->1.34
+[DDPG-CBF] iter 254  steps 254000  ep 1270  avg_return -14406.8  collisions(batch) 0  min_headway(last) 2.94  critic 11.3035  Q -109.23  4349s
+      CBF: |u_bar| 0.63  |u_BAR| 97.92  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.17->1.14
+[DDPG-CBF] iter 255  steps 255000  ep 1275  avg_return -8631.3  collisions(batch) 0  min_headway(last) 2.63  critic 11.9785  Q -109.35  4360s
+      CBF: |u_bar| 0.46  |u_BAR| 98.11  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.12->1.11
+[DDPG-CBF] iter 256  steps 256000  ep 1280  avg_return -7872.6  collisions(batch) 0  min_headway(last) 2.65  critic 11.4265  Q -109.47  4371s
+      CBF: |u_bar| 0.51  |u_BAR| 98.18  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.41->1.32
+[DDPG-CBF] iter 257  steps 257000  ep 1285  avg_return -8259.8  collisions(batch) 0  min_headway(last) 2.67  critic 11.5752  Q -109.64  4383s
+      CBF: |u_bar| 0.54  |u_BAR| 97.88  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.49->1.43
+[DDPG-CBF] iter 258  steps 258000  ep 1290  avg_return -8599.0  collisions(batch) 0  min_headway(last) 2.88  critic 11.5062  Q -109.73  4394s
+      CBF: |u_bar| 0.43  |u_BAR| 98.11  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.09->1.08
+[DDPG-CBF] iter 259  steps 259000  ep 1295  avg_return -7784.8  collisions(batch) 0  min_headway(last) 3.59  critic 11.4747  Q -109.48  4404s
+      CBF: |u_bar| 0.50  |u_BAR| 98.03  infeasible 2  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.36->1.36
+[DDPG-CBF] iter 260  steps 260000  ep 1300  avg_return -8603.0  collisions(batch) 0  min_headway(last) 2.75  critic 11.3545  Q -109.50  4415s
+      CBF: |u_bar| 0.51  |u_BAR| 98.01  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.09->1.08
+[DDPG-CBF] iter 261  steps 261000  ep 1305  avg_return -12378.3  collisions(batch) 0  min_headway(last) 2.75  critic 11.5417  Q -109.56  4427s
+      CBF: |u_bar| 0.52  |u_BAR| 97.92  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.15->1.03
+[DDPG-CBF] iter 262  steps 262000  ep 1310  avg_return -8117.6  collisions(batch) 0  min_headway(last) 2.71  critic 11.5604  Q -109.44  4439s
+      CBF: |u_bar| 0.59  |u_BAR| 98.26  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.63->1.50
+[DDPG-CBF] iter 263  steps 263000  ep 1315  avg_return -6271.0  collisions(batch) 0  min_headway(last) 2.62  critic 11.7575  Q -109.49  4450s
+      CBF: |u_bar| 0.48  |u_BAR| 97.89  infeasible 0  cond.viol 2 | GP: n=200 coverage 0.98 | comp loss 1.07->1.05
+[DDPG-CBF] iter 264  steps 264000  ep 1320  avg_return -10627.1  collisions(batch) 0  min_headway(last) 3.22  critic 11.7537  Q -109.53  4461s
+      CBF: |u_bar| 0.52  |u_BAR| 98.01  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.11->1.10
+[DDPG-CBF] iter 265  steps 265000  ep 1325  avg_return -8377.6  collisions(batch) 0  min_headway(last) 2.81  critic 11.6511  Q -109.34  4471s
+      CBF: |u_bar| 0.48  |u_BAR| 98.04  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.38->1.38
+[DDPG-CBF] iter 266  steps 266000  ep 1330  avg_return -8327.3  collisions(batch) 0  min_headway(last) 2.57  critic 11.5931  Q -109.26  4482s
+      CBF: |u_bar| 0.57  |u_BAR| 98.07  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.62->1.61
+[DDPG-CBF] iter 267  steps 267000  ep 1335  avg_return -8275.7  collisions(batch) 0  min_headway(last) 2.55  critic 11.7681  Q -109.52  4493s
+      CBF: |u_bar| 0.52  |u_BAR| 97.97  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.27->1.25
+[DDPG-CBF] iter 268  steps 268000  ep 1340  avg_return -13247.7  collisions(batch) 0  min_headway(last) 2.80  critic 11.6814  Q -109.37  4505s
+      CBF: |u_bar| 0.70  |u_BAR| 97.81  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.92->1.89
+[DDPG-CBF] iter 269  steps 269000  ep 1345  avg_return -16391.7  collisions(batch) 0  min_headway(last) 2.91  critic 11.7446  Q -109.23  4517s
+      CBF: |u_bar| 0.63  |u_BAR| 97.62  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.40->1.24
+[DDPG-CBF] iter 270  steps 270000  ep 1350  avg_return -10895.0  collisions(batch) 0  min_headway(last) 2.65  critic 11.7453  Q -109.58  4528s
+      CBF: |u_bar| 0.65  |u_BAR| 98.02  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.64->1.62
+[DDPG-CBF] iter 271  steps 271000  ep 1355  avg_return -13917.6  collisions(batch) 0  min_headway(last) 2.56  critic 11.5396  Q -109.61  4540s
+      CBF: |u_bar| 0.48  |u_BAR| 97.87  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.06->1.03
+[DDPG-CBF] iter 272  steps 272000  ep 1360  avg_return -10045.6  collisions(batch) 0  min_headway(last) 3.01  critic 12.1670  Q -109.71  4550s
+      CBF: |u_bar| 0.51  |u_BAR| 98.02  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.12->1.11
+[DDPG-CBF] iter 273  steps 273000  ep 1365  avg_return -5756.5  collisions(batch) 0  min_headway(last) 2.68  critic 12.0830  Q -109.46  4562s
+      CBF: |u_bar| 0.48  |u_BAR| 97.91  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.07->1.06
+[DDPG-CBF] iter 274  steps 274000  ep 1370  avg_return -6880.0  collisions(batch) 0  min_headway(last) 2.56  critic 12.4246  Q -109.48  4573s
+      CBF: |u_bar| 0.47  |u_BAR| 97.99  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.05->1.03
+[DDPG-CBF] iter 275  steps 275000  ep 1375  avg_return -7988.0  collisions(batch) 0  min_headway(last) 2.85  critic 12.2816  Q -109.29  4584s
+      CBF: |u_bar| 0.55  |u_BAR| 97.87  infeasible 0  cond.viol 2 | GP: n=200 coverage 0.98 | comp loss 1.46->1.46
+[DDPG-CBF] iter 276  steps 276000  ep 1380  avg_return -14079.5  collisions(batch) 0  min_headway(last) 2.99  critic 12.5819  Q -109.22  4596s
+      CBF: |u_bar| 0.61  |u_BAR| 97.80  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.32->1.23
+[DDPG-CBF] iter 277  steps 277000  ep 1385  avg_return -11855.5  collisions(batch) 0  min_headway(last) 2.76  critic 12.4955  Q -109.35  4608s
+      CBF: |u_bar| 0.45  |u_BAR| 98.10  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.94->0.87
+[DDPG-CBF] iter 278  steps 278000  ep 1390  avg_return -10341.6  collisions(batch) 0  min_headway(last) 2.56  critic 12.5107  Q -109.14  4620s
+      CBF: |u_bar| 0.55  |u_BAR| 98.36  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.49->1.26
+[DDPG-CBF] iter 279  steps 279000  ep 1395  avg_return -9664.8  collisions(batch) 0  min_headway(last) 2.65  critic 12.3508  Q -109.03  4630s
+      CBF: |u_bar| 0.62  |u_BAR| 97.89  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.42->1.42
+[DDPG-CBF] iter 280  steps 280000  ep 1400  avg_return -8246.8  collisions(batch) 0  min_headway(last) 2.65  critic 12.9772  Q -109.12  4640s
+      CBF: |u_bar| 0.69  |u_BAR| 97.91  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 2.11->2.11
+[DDPG-CBF] iter 281  steps 281000  ep 1405  avg_return -9851.8  collisions(batch) 0  min_headway(last) 2.58  critic 12.8268  Q -109.06  4651s
+      CBF: |u_bar| 0.68  |u_BAR| 97.86  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 2.16->2.15
+[DDPG-CBF] iter 282  steps 282000  ep 1410  avg_return -10765.3  collisions(batch) 0  min_headway(last) 2.74  critic 12.4822  Q -109.31  4662s
+      CBF: |u_bar| 0.66  |u_BAR| 97.73  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.78->1.75
+[DDPG-CBF] iter 283  steps 283000  ep 1415  avg_return -10833.1  collisions(batch) 0  min_headway(last) 2.54  critic 12.9661  Q -109.19  4674s
+      CBF: |u_bar| 0.64  |u_BAR| 97.92  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.41->1.39
+[DDPG-CBF] iter 284  steps 284000  ep 1420  avg_return -8871.0  collisions(batch) 0  min_headway(last) 2.85  critic 12.9772  Q -109.17  4686s
+      CBF: |u_bar| 0.56  |u_BAR| 98.08  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 1.55->1.42
+[DDPG-CBF] iter 285  steps 285000  ep 1425  avg_return -10208.1  collisions(batch) 0  min_headway(last) 2.93  critic 13.1019  Q -109.05  4697s
+      CBF: |u_bar| 0.44  |u_BAR| 97.72  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 0.98->0.95
+[DDPG-CBF] iter 286  steps 286000  ep 1430  avg_return -7988.5  collisions(batch) 0  min_headway(last) 2.71  critic 13.2031  Q -109.24  4708s
+      CBF: |u_bar| 0.37  |u_BAR| 97.90  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.78->0.76
+[DDPG-CBF] iter 287  steps 287000  ep 1435  avg_return -6813.0  collisions(batch) 0  min_headway(last) 2.68  critic 13.6790  Q -109.12  4720s
+      CBF: |u_bar| 0.34  |u_BAR| 98.04  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.99 | comp loss 0.79->0.76
+[DDPG-CBF] iter 288  steps 288000  ep 1440  avg_return -11538.3  collisions(batch) 0  min_headway(last) 2.64  critic 13.5603  Q -108.88  4731s
+      CBF: |u_bar| 0.52  |u_BAR| 97.86  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.30->1.28
+[DDPG-CBF] iter 289  steps 289000  ep 1445  avg_return -9665.3  collisions(batch) 0  min_headway(last) 2.66  critic 13.7168  Q -108.67  4743s
+      CBF: |u_bar| 0.38  |u_BAR| 97.98  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 0.78->0.73
+[DDPG-CBF] iter 290  steps 290000  ep 1450  avg_return -9040.2  collisions(batch) 0  min_headway(last) 3.11  critic 14.0549  Q -108.75  4754s
+      CBF: |u_bar| 0.50  |u_BAR| 98.18  infeasible 0  cond.viol 1 | GP: n=200 coverage 0.98 | comp loss 1.45->1.44
+[DDPG-CBF] iter 291  steps 291000  ep 1455  avg_return -16261.0  collisions(batch) 0  min_headway(last) 2.52  critic 13.3354  Q -108.67  4764s
+      CBF: |u_bar| 0.69  |u_BAR| 98.08  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.89->1.89
+[DDPG-CBF] iter 292  steps 292000  ep 1460  avg_return -6866.7  collisions(batch) 0  min_headway(last) 2.59  critic 13.9851  Q -108.86  4776s
+      CBF: |u_bar| 0.41  |u_BAR| 98.11  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 0.94->0.90
+[DDPG-CBF] iter 293  steps 293000  ep 1465  avg_return -11839.9  collisions(batch) 0  min_headway(last) 2.75  critic 13.7616  Q -108.60  4787s
+      CBF: |u_bar| 0.55  |u_BAR| 97.91  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.12->1.04
+[DDPG-CBF] iter 294  steps 294000  ep 1470  avg_return -10036.6  collisions(batch) 0  min_headway(last) 3.06  critic 14.2427  Q -108.60  4799s
+      CBF: |u_bar| 0.47  |u_BAR| 98.19  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.16->1.10
+[DDPG-CBF] iter 295  steps 295000  ep 1475  avg_return -7102.5  collisions(batch) 0  min_headway(last) 2.80  critic 13.3885  Q -108.57  4810s
+      CBF: |u_bar| 0.65  |u_BAR| 97.95  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.48->1.44
+[DDPG-CBF] iter 296  steps 296000  ep 1480  avg_return -8076.3  collisions(batch) 0  min_headway(last) 3.14  critic 13.4341  Q -108.80  4822s
+      CBF: |u_bar| 0.65  |u_BAR| 98.14  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.86->1.74
+[DDPG-CBF] iter 297  steps 297000  ep 1485  avg_return -10026.3  collisions(batch) 0  min_headway(last) 2.55  critic 13.9178  Q -108.09  4834s
+      CBF: |u_bar| 0.53  |u_BAR| 97.79  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.29->1.28
+[DDPG-CBF] iter 298  steps 298000  ep 1490  avg_return -10146.9  collisions(batch) 0  min_headway(last) 2.67  critic 14.2740  Q -108.53  4845s
+      CBF: |u_bar| 0.49  |u_BAR| 97.91  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.12->1.10
+[DDPG-CBF] iter 299  steps 299000  ep 1495  avg_return -11567.3  collisions(batch) 0  min_headway(last) 2.57  critic 14.4088  Q -108.49  4857s
+      CBF: |u_bar| 0.60  |u_BAR| 98.05  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.98 | comp loss 1.61->1.60
+[DDPG-CBF] iter 300  steps 300000  ep 1500  avg_return -11024.1  collisions(batch) 0  min_headway(last) 2.61  critic 14.5534  Q -108.28  4868s
+      CBF: |u_bar| 0.72  |u_BAR| 98.15  infeasible 0  cond.viol 0 | GP: n=200 coverage 0.99 | comp loss 1.66->1.61
+Learning Process Finished

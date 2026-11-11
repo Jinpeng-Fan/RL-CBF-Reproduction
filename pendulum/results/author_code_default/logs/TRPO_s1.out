@@ -1,0 +1,53 @@
+Observation space Box(-8.0, 8.0, (3,), float32)
+Action space Box(-2.0, 2.0, (1,), float32)
+Initializing Policy network
+Policy/h1/Weight
+Policy/h1/Bias
+Policy/h2/Weight
+Policy/h2/Bias
+Policy/h3/Weight
+Policy/h3/Bias
+Policy/logstd
+Total variable size : 4482
+Initializing Value function network
+VF/h1/Weight
+VF/h1/Bias
+VF/h2/Weight
+VF/h2/Bias
+VF/h3/Weight
+VF/h3/Bias
+VF/FC/Weight
+VF/FC/Bias
+Total variable size : 6751
+Accumulated Reward: [-1185.53524778]
+Accumulated Reward: [-834.39909781]
+Accumulated Reward: [-872.36476595]
+Accumulated Reward: [-241.77859393]
+Accumulated Reward: [-125.78105624]
+Accumulated Reward: [-128.60208035]
+Accumulated Reward: [-494.43041481]
+Objective not improved - reverting to previous theta
+Accumulated Reward: [-1.6996862]
+Accumulated Reward: [-368.8943635]
+Accumulated Reward: [-132.40474617]
+Accumulated Reward: [-861.38547679]
+Accumulated Reward: [-251.93027732]
+Accumulated Reward: [-117.40902601]
+Accumulated Reward: [-122.60361365]
+Accumulated Reward: [-469.02657812]
+Accumulated Reward: [-1491.91528913]
+Accumulated Reward: [-119.54341576]
+Accumulated Reward: [-1515.73807997]
+Accumulated Reward: [-122.72264387]
+Accumulated Reward: [-123.57227224]
+Accumulated Reward: [-4.87081193]
+Accumulated Reward: [-7.1368592]
+Accumulated Reward: [-127.31359492]
+Accumulated Reward: [-253.79703438]
+Accumulated Reward: [-261.58624413]
+Accumulated Reward: [-960.66051606]
+Accumulated Reward: [-271.94126313]
+Accumulated Reward: [-277.23626046]
+Accumulated Reward: [-1211.46422852]
+Accumulated Reward: [-1162.18582484]
+Learning Process Finished

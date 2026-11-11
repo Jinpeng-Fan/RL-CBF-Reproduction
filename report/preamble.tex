@@ -1,0 +1,64 @@
+% 共享排版设置。主文档与补充材料均使用 XeLaTeX。
+\usepackage[a4paper,left=23mm,right=23mm,top=22mm,bottom=24mm]{geometry}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{graphicx}
+\usepackage{booktabs,tabularx,array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{caption,subcaption}
+\usepackage{listings}
+\usepackage{longtable}
+\usepackage{makecell}
+\usepackage{fancyhdr}
+\usepackage[backend=biber,style=numeric,sorting=nyt]{biblatex}
+\addbibresource{references.bib}
+\usepackage[hidelinks,unicode]{hyperref}
+
+\definecolor{hintgray}{RGB}{115,115,115}
+\definecolor{rulegray}{RGB}{210,210,210}
+\linespread{1.18}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.15em}
+\setlength{\emergencystretch}{2em}
+\setlist{nosep,leftmargin=2em,topsep=0.3em}
+\renewcommand{\arraystretch}{1.25}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\captionsetup{font=small,labelfont=bf,labelsep=quad}
+\ctexset{
+  section={format=\large\bfseries,beforeskip=1.2em,afterskip=0.6em},
+  subsection={format=\normalsize\bfseries,beforeskip=0.9em,afterskip=0.4em},
+  subsubsection={format=\normalsize\bfseries,beforeskip=0.5em,afterskip=0.2em}
+}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small 安全强化学习方法复现报告}
+\fancyhead[R]{\small \DocumentType}
+\fancyfoot[C]{\small\thepage}
+\setlength{\headheight}{15pt}
+\renewcommand{\headrulewidth}{0.3pt}
+\lstset{language=Python,basicstyle=\small\ttfamily,
+  columns=fullflexible,keepspaces=true,breaklines=true,
+  showstringspaces=false,frame=single,rulecolor=\color{rulegray},
+  numbers=left,numberstyle=\tiny\color{hintgray},numbersep=8pt}
+
+% 填写后删除相应占位命令。false 仅隐藏提示，不代表内容已经完成。
+\newif\ifshowplaceholders
+\showplaceholderstrue
+\newcommand{\pending}{\ifshowplaceholders\textcolor{hintgray}{待补充}\fi}
+\newcommand{\blankcontent}[1][1.2cm]{%
+  \par\noindent\ifshowplaceholders{\color{hintgray}\small〔待补充〕}\par\fi
+  \vspace{#1}}
+\newcommand{\summaryitem}[1]{\par\noindent\textbf{#1}\quad\pending\par\vspace{0.5em}}
+% 已填写的概述段落：\summarypara{小标题}{正文}
+\newcommand{\summarypara}[2]{\par\noindent\textbf{#1}\quad #2\par\vspace{0.35em}}
+% 行内代码/路径：可在 . / _ 处断行
+\newcommand{\code}[1]{\nolinkurl{#1}}
+\AtBeginDocument{\def\UrlBreaks{\do\.\do\/\do\_\do\-\do\=}}
+% 含空格的命令行（\code 会吞掉空格）
+\newcommand{\cmd}[1]{\texttt{\detokenize{#1}}}
+\newcommand{\reporttitle}[1]{%
+  \begin{center}
+  {\LARGE\bfseries #1\par}\vspace{0.7em}
+  {\normalsize 作者：范金鹏\qquad 日期：2026 年 11 月 8 日\par}
+  \end{center}\vspace{0.5em}}
+
